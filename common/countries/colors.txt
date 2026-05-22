@@ -2,3 +2,12 @@ EQS = {
 	color = rgb { 107 250 174 }
 	color_ui = rgb { 107 250 174 }
 	}
+CHN = {
+	color = rgb { 74 74 74 }
+	color_ui = rgb { 74 74 74}
+}
+
+OLE = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255}
+}

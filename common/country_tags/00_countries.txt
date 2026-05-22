@@ -1,1 +1,3 @@
 EQS = "countries/Equestria.txt"
+CHN = "countriers/Changeling Lands.txt"
+OLE = Olenia
