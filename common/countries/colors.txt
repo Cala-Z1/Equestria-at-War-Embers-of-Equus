@@ -15,6 +15,22 @@ CRY = {
 	color = rgb { 213 166 240 }
 }
 STG = {
-	color = rgb {242 71 94}
-	color = rgb {242 71 94}
+	color = rgb { 242 71 94 }
+	color = rgb { 242 71 94 }
+}
+PLB = {
+	color = rgb { 148 146 164 }
+	color = rgb { 148 146 164 }
+}
+GRF = {
+	color = rgb { 226 163 79 }
+	color = rgb { 226 163 79 }
+}
+YAK = {
+	color = rgb {124 198 240}
+	color = rgb {124 198 240}
+}
+JAK = {
+	color = rgb { 100 150 193 }
+	color = rgb { 100 150 193 }
 }
