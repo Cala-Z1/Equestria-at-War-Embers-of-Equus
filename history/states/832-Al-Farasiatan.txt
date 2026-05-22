@@ -1,0 +1,27 @@
+
+state={
+	id=832
+	name="STATE_832"
+	resources={
+		crystals=100.000
+	}
+
+	history={
+		owner = SDL
+		add_core_of = SDL
+		buildings = {
+			
+
+		}
+
+	}
+
+	provinces={
+		15087 15100 15101 15103 15114 
+	}
+	manpower=26777
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+	local_supplies=0.000
+}

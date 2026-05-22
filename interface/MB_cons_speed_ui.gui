@@ -1,0 +1,551 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "cons_speed_opener_container"
+		position = { x = 100 y = 100 }
+		size = { width = 267 height = 962 }
+		
+		buttonType = {
+			name = "construction_speed_open"
+			quadTextureSprite = "GFX_quick_add_button"
+			position = { x = 380 y = -91 }
+			shortcut = "c"
+			pdx_tooltip = construction_speed_open_tt
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+	}
+	
+	containerWindowType = {
+		name = "cons_speed_container"
+		position = { x = 460 y = 121 }
+		size = { width = 267 height = 962 }
+		
+		iconType = {
+			position = { x = 4 y = -21 }
+			orientation = UPPER_LEFT
+			name = "MB_infrastructure_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "infrastructure_speed"
+			position = { x = 0 y = 0 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_infrastructure_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		
+		iconType = {
+			position = { x = 50 y = -21 }
+			orientation = UPPER_LEFT
+			name = "MB_arms_factory_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "arms_factory_speed"
+			position = { x = 46 y = 0 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_arms_factory_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 96 y = -21 }
+			orientation = UPPER_LEFT
+			name = "MB_industrial_complex_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "industrial_complex_speed"
+			position = { x = 92 y = 0 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_industrial_complex_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 142 y = -21 }
+			orientation = UPPER_LEFT
+			name = "MB_dockyard_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "dockyard_speed"
+			position = { x = 138 y = 0 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_dockyard_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 4 y = 23 }
+			orientation = UPPER_LEFT
+			name = "MB_air_base_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "air_base_speed"
+			position = { x = 0 y = 44 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_air_base_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 50 y = 23 }
+			orientation = UPPER_LEFT
+			name = "MB_anti_air_building_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "anti_air_building_speed"
+			position = { x = 46 y = 44 }
+			font = "cg_16b"
+			text =  "[?modifier@production_speed_anti_air_building_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 96 y = 23 }
+			orientation = UPPER_LEFT
+			name = "MB_stronghold_network_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "stronghold_network_speed"
+			position = { x = 92 y = 44 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_stronghold_network_factor|%0=+]" 
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 142 y = 23 }
+			orientation = UPPER_LEFT
+			name = "MB_radar_station_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "radar_station_speed"
+			position = { x = 138 y = 44 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_radar_station_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 4 y = 67 }
+			orientation = UPPER_LEFT
+			name = "MB_synthetic_refinery_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "synthetic_refinery_speed"
+			position = { x = 0 y = 88 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_synthetic_refinery_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 50 y = 67 }
+			orientation = UPPER_LEFT
+			name = "MB_fuel_silo_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "fuel_silo_speed"
+			position = { x = 46 y = 88 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_fuel_silo_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 96 y = 67 }
+			orientation = UPPER_LEFT
+			name = "MB_mega_gun_emplacement_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "mega_gun_emplacement_speed"
+			position = { x = 92 y = 88 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_mega_gun_emplacement_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 142 y = 67 }
+			orientation = UPPER_LEFT
+			name = "MB_rocket_site_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "rocket_site_speed"
+			position = { x = 138 y = 88 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_rocket_site_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 4 y = 111 }
+			orientation = UPPER_LEFT
+			name = "MB_nuclear_reactor_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "nuclear_reactor_speed"
+			position = { x = 0 y = 132 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_nuclear_reactor_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 50 y = 111 }
+			orientation = UPPER_LEFT
+			name = "MB_nuclear_reactor_heavy_water_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "nuclear_reactor_heavy_water_speed"
+			position = { x = 46 y = 132 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_nuclear_reactor_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 96 y = 111 }
+			orientation = UPPER_LEFT
+			name = "MB_commercial_nuclear_reactor_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "commercial_nuclear_reactor_speed"
+			position = { x = 92 y = 132 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_commercial_nuclear_reactor_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 142 y = 111 }
+			orientation = UPPER_LEFT
+			name = "MB_energy_infrastructure_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "MB_energy_infrastructure_bg_speed"
+			position = { x = 138 y = 132 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_energy_infrastructure_factor|%0=-]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 4 y = 155 }
+			orientation = UPPER_LEFT
+			name = "MB_industrial_infrastructure_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "industrial_infrastructure_speed"
+			position = { x = 0 y = 176 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_industrial_infrastructure_factor|%0=-]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "conversion_cost_civ_to_mil_speed"
+			position = { x = 80 y = 250 }
+			font = "cg_16b"
+			text = "C to M: [?modifier@conversion_cost_civ_to_mil_factor|%0=-]"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "conversion_cost_mil_to_civ_speed"
+			position = { x = 80 y = 270 }
+			font = "cg_16b"
+			text = "M to C: [?modifier@conversion_cost_mil_to_civ_factor|%0=-]"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 4 y = 343 }
+			orientation = UPPER_LEFT
+			name = "MB_supply_node_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "supply_node_speed"
+			position = { x = 0 y = 364 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_supply_node_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 50 y = 343 }
+			orientation = UPPER_LEFT
+			name = "MB_rail_way_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "rail_way_speed"
+			position = { x = 46 y = 364 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_rail_way_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 96 y = 343 }
+			orientation = UPPER_LEFT
+			name = "MB_naval_base_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "naval_base_speed"
+			position = { x = 92 y = 364 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_naval_base_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 142 y = 343 }
+			orientation = UPPER_LEFT
+			name = "MB_bunker_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "bunker_speed"
+			position = { x = 138 y = 364 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_bunker_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 4 y = 387 }
+			orientation = UPPER_LEFT
+			name = "MB_coastal_bunker_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "coastal_bunker_speed"
+			position = { x = 0 y = 408 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_coastal_bunker_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 50 y = 387 }
+			orientation = UPPER_LEFT
+			name = "MB_naval_supply_hub_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "naval_supply_hub_speed"
+			position = { x = 46 y = 408 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_naval_supply_hub_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 96 y = 387 }
+			orientation = UPPER_LEFT
+			name = "MB_naval_headquarters_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "naval_headquarters_speed"
+			position = { x = 92 y = 408 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_naval_headquarters_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 4 y = 481 }
+			orientation = UPPER_LEFT
+			name = "MB_naval_facility_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "naval_facility_speed"
+			position = { x = 0 y = 502 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_naval_facility_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 50 y = 481 }
+			orientation = UPPER_LEFT
+			name = "MB_nuclear_facility_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "nuclear_facility_speed"
+			position = { x = 46 y = 502 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_nuclear_facility_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 96 y = 481 }
+			orientation = UPPER_LEFT
+			name = "MB_air_facility_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "air_facility_speed"
+			position = { x = 92 y = 502 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_air_facility_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			position = { x = 142 y = 481 }
+			orientation = UPPER_LEFT
+			name = "MB_land_facility_speed_bg"
+			spriteType = "GFX_MB_building_icon_bg"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "land_facility_speed"
+			position = { x = 138 y = 502 }
+			font = "cg_16b"
+			text = "[?modifier@production_speed_land_facility_factor|%0=+]"
+			maxWidth = 50
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+	}
+}

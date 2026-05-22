@@ -1,0 +1,29 @@
+
+state={
+	id=808
+	name="STATE_808"
+	resources={
+		oil=80.000
+	}
+
+	history={
+		owner = SDL
+		add_core_of = SDL
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			15562 3 
+		}
+
+	}
+
+	provinces={
+		15553 15557 15560 15562 15571 15575 15581 15591 15603 15605 15613 15623 15625 15634 15640 15646 15651 15663 
+	}
+	manpower=338541
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

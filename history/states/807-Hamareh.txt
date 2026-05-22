@@ -1,0 +1,35 @@
+
+state={
+	id=807
+	name="STATE_807"
+
+	history={
+		owner = SDL
+		add_core_of = SDL
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 2
+			15661 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			15661 10 
+		}
+		victory_points = {
+			15663 2 
+		}
+
+	}
+
+	provinces={
+		15610 15611 15624 15626 15635 15641 15656 15661 15671 15677 
+	}
+	manpower=755154
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

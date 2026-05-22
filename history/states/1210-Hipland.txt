@@ -1,0 +1,26 @@
+state={
+	id=1210
+	name="STATE_1210"
+	provinces={
+		20309 20310 20311 20312 20313 20314 20315
+	}
+	manpower=61330
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	
+	state_category = small_island
+	history={
+		owner = HIP
+		add_core_of = HIP
+		
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			air_base = 3
+
+			20313 = {
+				naval_base = 1
+			}
+		}
+	}
+}

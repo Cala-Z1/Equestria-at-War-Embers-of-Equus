@@ -1,0 +1,1 @@
+EQS = "countries/Equestria.txt"

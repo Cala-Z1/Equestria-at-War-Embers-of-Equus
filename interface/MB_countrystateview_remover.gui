@@ -1,0 +1,221 @@
+guiTypes = {
+	containerWindowType = {
+		name = "cons_MB_remove_building_coastal_button"
+		position = { x = 145 y = 35 }
+		
+		buttonType = {
+			name = "MB_infrastructure_coastal_remove"
+			position = { x = 50 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_remove_arms_factory_coastal_remove"
+			position = { x = 110 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_industrial_complex_coastal_remove"
+			position = { x = 170 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_dockyard_coastal_remove"
+			position = { x = 230 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_air_base_coastal_remove"
+			position = { x = 290 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		
+		buttonType = {
+			name = "MB_anti_air_building_coastal_remove"
+			position = { x = 50 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_stronghold_network_coastal_remove"
+			position = { x = 110 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_radar_station_coastal_remove"
+			position = { x = 170 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_synthetic_refinery_coastal_remove"
+			position = { x = 230 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_fuel_silo_coastal_remove"
+			position = { x = 290 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		
+		buttonType = {
+			name = "MB_mega_gun_emplacement_coastal_remove"
+			position = { x = 50 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_rocket_site_coastal_remove"
+			position = { x = 110 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_nuclear_reactor_coastal_remove"
+			position = { x = 170 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_nuclear_reactor_heavy_water_coastal_remove"
+			position = { x = 230 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_commercial_nuclear_reactor_coastal_remove"
+			position = { x = 290 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		
+		buttonType = {
+			name = "MB_energy_infrastructure_coastal_remove"
+			position = { x = 50 y = 264 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_industrial_infrastructure_coastal_remove"
+			position = { x = 110 y = 264 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		#buttonType = {
+		#	name = "MB_coastal_bunker_remove"
+		#	position = { x = 102 y = 529 }
+		#	spriteType = "GFX_cancel_conversion_button"
+		#}
+	}
+	
+	containerWindowType = {
+		name = "cons_MB_remove_building_button"
+		position = { x = 145 y = 35 }
+		
+		buttonType = {
+			name = "MB_infrastructure_remove"
+			position = { x = 50 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_remove_arms_factory_remove"
+			position = { x = 110 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_industrial_complex_remove"
+			position = { x = 170 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_air_base_remove"
+			position = { x = 230 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_anti_air_building_remove"
+			position = { x = 290 y = 12 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		
+		buttonType = {
+			name = "MB_stronghold_network_remove"
+			position = { x = 50 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_radar_station_remove"
+			position = { x = 110 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_synthetic_refinery_remove"
+			position = { x = 170 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_fuel_silo_remove"
+			position = { x = 230 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_mega_gun_emplacement_remove"
+			position = { x = 290 y = 96 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		
+		buttonType = {
+			name = "MB_rocket_site_remove"
+			position = { x = 50 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_nuclear_reactor_remove"
+			position = { x = 110 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_nuclear_reactor_heavy_water_remove"
+			position = { x = 170 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_commercial_nuclear_reactor_remove"
+			position = { x = 230 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		buttonType = {
+			name = "MB_energy_infrastructure_remove"
+			position = { x = 290 y = 180 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+		
+		
+		buttonType = {
+			name = "MB_industrial_infrastructure_remove"
+			position = { x = 50 y = 264 }
+			spriteType = "GFX_cancel_conversion_button"
+		}
+	}
+}

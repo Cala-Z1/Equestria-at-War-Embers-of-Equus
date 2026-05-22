@@ -1,0 +1,4 @@
+EQS = {
+	color = rgb { 107 250 174 }
+	color_ui = rgb { 107 250 174 }
+	}
