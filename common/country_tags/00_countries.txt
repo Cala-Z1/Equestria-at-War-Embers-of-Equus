@@ -1,3 +1,5 @@
 EQS = "countries/Equestria.txt"
 CHN = "countriers/Changeling Lands.txt"
-OLE = Olenia
+OLE = "countriers/Olenia.txt"
+CRY = "countriers/CrystalEmpire.txt"
+STG = "countriers/Stalliongrad.txt"

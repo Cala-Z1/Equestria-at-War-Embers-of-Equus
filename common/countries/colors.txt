@@ -1,13 +1,20 @@
 EQS = {
-	color = rgb { 107 250 174 }
-	color_ui = rgb { 107 250 174 }
+	color = rgb { 158 242 117 }
+	color_ui = rgb { 158 242 117 }
 	}
 CHN = {
 	color = rgb { 74 74 74 }
 	color_ui = rgb { 74 74 74}
 }
-
 OLE = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255}
+}
+CRY = {
+	color = rgb { 213 166 240 }
+	color = rgb { 213 166 240 }
+}
+STG = {
+	color = rgb {242 71 94}
+	color = rgb {242 71 94}
 }
