@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_MB_building_icon_bg"
-		texturefile = "gfx/interface/MB_building_icon_bg.dds"
-	}
-}

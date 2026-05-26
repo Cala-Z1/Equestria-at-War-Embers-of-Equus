@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_CelestiaLuna"
+		texturefile = "gfx/leaders/EQS/CelestiaLuna.tga"
+	}
+}

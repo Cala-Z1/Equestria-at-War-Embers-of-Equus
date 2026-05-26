@@ -1,27 +1,44 @@
 ﻿Capital = 3
- #Starting Tech
+set_rule = {
+	can_generate_female_aces = yes
+	can_generate_female_unit_leaders  = yes
+	can_generate_female_country_leaders = yes
+}
 set_technology ={
 
 }
 
-set_research_slots = 5
+set_research_slots = 7
 
-set_convoys = 150
+set_convoys = 1000
 
 set_popularities = {
-	democratic = 6
-	fascism = 74
-	communism = 15
-	neutrality = 5
+	democratic = 80
+	fascism = 0 
+	communism = 10
+	neutrality = 10
 }
+set_stability = 0.4
+set_war_support = 0.2
 
 set_politics = {
 
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Celestia and Luna"
+	desc = " "
+	picture = "GFX_CelestiaLuna"
+	ideology = harmonic_theocracy
+	traits = {
+	alicorn_sisters
+
+	}
+}
 add_ideas = {
+
 }

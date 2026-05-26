@@ -1,0 +1,149 @@
+﻿focus_tree = {
+	id = EQS_focus_tree
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			original_tag = EQS
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 1 y = 1 }
+
+
+
+# Air Tree
+
+focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Air1
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+	# prerequisite = { } 
+	# bypass = { } 
+	# available = { } 
+	#mutuallly_exclusive = {} 
+	# relative_positiion_id = { }
+		x = 20
+		y = 1
+		completion_reward = {
+		}
+	}
+
+
+# Naval Tree
+
+focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_N1
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+	# prerequisite = { } 
+	# bypass = { } 
+	# available = { } 
+	#mutuallly_exclusive = {} 
+	# relative_positiion_id = { }
+		x = 10
+		y = 1
+		completion_reward = {
+		}
+	}
+
+#Path Trees 
+focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Equestria_Games
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+	# prerequisite = { } 
+	# bypass = { } 
+	# available = { } 
+	#mutuallly_exclusive = {} 
+	# relative_positiion_id = { }
+		x = 35
+		y = 1
+		completion_reward = {
+		}
+	}
+	focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Crystal_Fair
+		icon = GFX_goal_crystal_fair
+		cost = 10
+	# prerequisite = { } 
+	# bypass = { } 
+	# available = { } 
+	#mutuallly_exclusive = {} 
+	# relative_positiion_id = { }
+		x = 39
+		y = 1
+		completion_reward = {
+		}
+	}
+	focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Put_Trust_In_Celestia 
+		icon = GFX_goal_celestia_raising_the_sun
+		cost = 10
+	prerequisite = { focus = EQS_Equestria_Games } 
+	# bypass = { } 
+	# available = { } 
+	mutually_exclusive = { focus = EQS_Maintain_The_Status_Quo }
+	mutually_exclusive = { focus = EQS_Put_Trust_In_Luna } 
+	#relative_position_id = { focus = EQS_P2 }
+		x = 33
+		y = 3
+		completion_reward = {
+		}
+	}
+		focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Put_Trust_In_Luna
+		icon = GFX_goal_nlr
+		cost = 10
+	prerequisite = { focus = EQS_Crystal_Fair } 
+	# bypass = { } 
+	# available = { } 
+	mutually_exclusive = { focus = EEQS_Put_Trust_In_Celestia } 
+	mutually_exclusive = { focus = EQS_Maintain_The_Status_Quo }
+	#relative_position_id = { focus = EQS_P1 }
+		x = 41
+		y = 3
+		completion_reward = {
+		}
+	}
+		focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Maintain_The_Status_Quo
+		icon = GFX_goal_tree_of_harmony
+		cost = 10
+	prerequisite = { focus = EQS_Equestria_Games  } 
+	prerequisite = { focus = EQS_Crystal_Fair }
+	# bypass = { } 
+	# available = { } 
+	mutually_exclusive = {focus = EQS_Put_Trust_In_Celestia }
+	mutually_exclusive = { focus = EQS_Put_Trust_In_Luna } 
+	#relative_position_id = { focus = EQS_P1 }
+		x = 37
+		y = 3
+		completion_reward = {
+		}
+	}
+}
