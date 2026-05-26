@@ -17,7 +17,6 @@ state={
 			}
 			air_base = 3
 			14953 = {
-				air_facility = 1
 			}
 
 		}

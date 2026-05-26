@@ -19,7 +19,6 @@ state={
 			fuel_silo = 1
 			311 = {
 				naval_base = 6
-
 			}
 
 		}

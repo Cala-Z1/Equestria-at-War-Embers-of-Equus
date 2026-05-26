@@ -20,7 +20,6 @@ state={
 			arms_factory = 3
 			air_base = 9
 			20057 = {
-				air_facility = 1
 				landmark_storm_kings_palace = 1
 			}
 		}
