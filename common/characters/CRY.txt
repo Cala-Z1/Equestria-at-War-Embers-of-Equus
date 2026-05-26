@@ -1,3 +1,14 @@
 characters = {
-    CRY_Ca
+    CRY_Cadance = {
+    name = "Princess Cadance"
+    portraits = {
+		civilian = {
+			large = "GFX_Cadence"
+		}
+	}
+country_leader = {
+	ideology = harmonic_theocracy
+	expire = "1999.1.1.1"
+}
+	}
 }

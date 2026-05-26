@@ -15,8 +15,8 @@ CRY = {
 	color = rgb { 213 166 240 }
 }
 STG = {
-	color = rgb { 242 71 94 }
-	color = rgb { 242 71 94 }
+	color = rgb { 125 13 24 }
+	color = rgb { 125 13 24 }
 }
 PLB = {
 	color = rgb { 148 146 164 }

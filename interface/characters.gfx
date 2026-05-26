@@ -4,4 +4,9 @@ spriteTypes = {
 		name = "GFX_CelestiaLuna"
 		texturefile = "gfx/leaders/EQS/CelestiaLuna.tga"
 	}
+
+	spriteType = {
+		name = GFX_Cadence
+		texturefile = "gfx/leaders/CRY/Cadence.tga"
+	}
 }

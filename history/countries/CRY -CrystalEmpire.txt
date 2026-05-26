@@ -4,23 +4,30 @@ set_technology ={
 
 }
 
-set_research_slots = 5
+set_research_slots = 4
 
-set_convoys = 150
+set_convoys = 300
 
 set_popularities = {
-	democratic = 6
-	fascism = 74
-	communism = 15
+	democratic = 90
+	fascism = 0
+	communism = 5
 	neutrality = 5
 }
 
 set_politics = {
 
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Princess Cadence"
+	desc = " "
+	picture = "GFX_Cadence"
+	ideology = harmonic_theocracy
 }
 
 add_ideas = {
