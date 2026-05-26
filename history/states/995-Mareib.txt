@@ -19,7 +19,6 @@ state={
 			air_base = 1
 			14384 = { naval_base = 1 }
 			14466 = {
-				magical_facility = 1
 			}
 		}
 		victory_points={

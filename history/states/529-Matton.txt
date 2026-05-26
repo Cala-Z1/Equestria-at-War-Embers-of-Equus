@@ -29,7 +29,6 @@ state={
 				bunker = 2
 			}
 			7868 = {
-				land_facility = 1
 			}
 		}
 	}

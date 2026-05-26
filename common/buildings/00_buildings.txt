@@ -1,36 +1,4 @@
 buildings = {
-
-	# show_on_map:
-	#    if it is provincial building, then show_on_map = X is amount per each province
-	#    if it is state building, then show_on_map = X is amount per state
-	#
-	# province_max:
-	# if province_max is set, then building is provincial
-	#
-	## Modifiers:
-	## country_modifiers - accept only country modifiers
-	## state_modifiers - accept only state modifiers
-	## enable_for_controllers - Country modifiers will apply only if the controller of province/state is in the list, or if the list is empty
-	## Example:
-	#
-	# building = {
-	# 	country_modifiers = {
-	#      enable_for_controllers { GER ENG } # Here you can list countries which can accept the country modifiers of this building
-	# 		modifiers = {
-	#           #Here you can add country modifiers
-	#			political_power_factor = 2.0
-	#       }
-	#   }
-	#   
-	#   state_modifiers = {
-	#       #Here you can add state modifiers
-	#   	local_building_slots_factor = 2
-	#   }
-	# 
-	#   disable_grow_animation = yes # Disables the grow animation for the building, default = no
-	#   missing_tech_loc = <bindable localization> # See script concept bindable localization
-	#   repair_speed_factor = 0.5 # Optional. Factor for how fast the building is repaired (default = 1.0)
-
 	infrastructure = {
 		base_cost = 6000
 		icon_frame = 3
@@ -51,7 +19,6 @@ buildings = {
 			}
 		}
 	}
-
 	arms_factory = {
 		show_on_map = 6
 		base_cost = 7200
@@ -161,7 +128,7 @@ buildings = {
 			state_max = 1
 			group_by = special_project_facility
 		}
-		only_costal = yes
+		only_coastal = yes
 	}
 
 	naval_base = {
@@ -171,7 +138,7 @@ buildings = {
 		base_cost = 7500
 		per_level_extra_cost = -500
 		spawn_point = naval_base_spawn 
-		only_costal = yes
+		only_coastal = yes
 		is_port = yes
 		icon_frame = 6
 		value = 1
@@ -204,7 +171,7 @@ buildings = {
 		base_cost = 500
 		per_level_extra_cost = 500
 		disabled_in_dmz = yes
-		only_costal = yes
+		only_coastal = yes
 		icon_frame = 8
 		naval_fort = 1
 		value = 1
@@ -240,23 +207,27 @@ buildings = {
 			### EAW ADDED ###
 			#army_defence_factor = 0.1 # broken
 			#cas_damage_reduction = 0.1 # broken
-			dig_in_speed_factor = 0.25
-			max_dig_in_factor = 0.25
 			# pocket_penalty = -0.05 # broken
 			# enemy_army_bonus_air_superiority_factor = -0.1 # broken
 			land_bunker_effectiveness_factor = 0.25
             coastal_bunker_effectiveness_factor = 0.25
-		}		
+		}
+		country_modifiers = {
+			modifiers = {
+				# EAW ADDED - moved from state_modifiers (wrong scope)
+				dig_in_speed_factor = 0.25
+				max_dig_in_factor = 0.25
+			}
+		}
 	}
 
 	dockyard = {
 		show_on_map = 1
 		show_on_map_meshes = 3
 		base_cost = 6400
-		only_costal = yes
+		only_coastal = yes
 		naval_production = 1
 		icon_frame = 4
-		only_costal = yes
 		value = 5
 		tags = { naval_buildings_tag }
 		infrastructure_construction_effect = yes
@@ -307,7 +278,6 @@ buildings = {
 		local_resources_rubber = 3 # May use local_resources_ + any resource name #EAW modified from vanilla was 1
 		local_resources_steel = 0
 		local_resources_tungsten = 0
-		local_resources_rubber = 0
 		local_resources_aluminium = 0
 		local_resources_chromium = 0
 		local_resources_oil = 0
@@ -337,7 +307,6 @@ buildings = {
 		local_resources_rubber = 0
 		local_resources_steel = 0
 		local_resources_tungsten = 0
-		local_resources_rubber = 0
 		local_resources_aluminium = 0
 		local_resources_chromium = 0
 		local_resources_oil = 0
@@ -472,7 +441,7 @@ buildings = {
 		disabled_in_dmz = yes
 		naval_supply_hub = yes
 		infrastructure_construction_effect = yes
-		only_costal = yes
+		only_coastal = yes
 		tags = { naval_buildings_tag }
 		building_prerequisite = {
 			building_dependency = {
@@ -495,7 +464,7 @@ buildings = {
 		naval_headquarter = yes
 		disabled_in_dmz = yes
 		infrastructure_construction_effect = yes
-		only_costal = yes
+		only_coastal = yes
 		tags = { naval_buildings_tag }
 		building_prerequisite = {
 			building_dependency = {
@@ -821,7 +790,6 @@ buildings = {
 	dam = {
 		show_on_map = 1
 		base_cost = 20000
-		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 26
 		value = 5
 		tags = { dam_building }
@@ -849,7 +817,6 @@ buildings = {
 	dam_mountain = {
 		show_on_map = 1
 		base_cost = 20000
-		damage_factor = 0 # This building can't be damaged by regular strat bombing
 		icon_frame = 26
 		value = 5
 		tags = { dam_building }
@@ -985,7 +952,7 @@ spawn_points = {
 	naval_base_spawn = {
 		type = province
 		max = 1
-		only_costal = yes
+		only_coastal = yes
 	}
 
 	dam_spawn = {
