@@ -1,0 +1,29 @@
+capital = 425
+oob = "HLR_1007"
+set_research_slots = 0
+
+set_technology = {
+}
+actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
+
+set_convoys = 1000
+set_popularities = {
+	democratic = 55
+	fascism = 0
+	communism = 0
+	neutrality = 45
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_stability = 0.50
+set_war_support = 0.10
+set_rule = {
+	can_generate_female_aces = yes
+	can_generate_female_unit_leaders  = yes
+	can_generate_female_country_leaders = yes
+}

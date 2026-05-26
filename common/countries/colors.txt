@@ -34,3 +34,67 @@ JAK = {
 	color = rgb { 100 150 193 }
 	color = rgb { 100 150 193 }
 }
+HLR = {
+	color = rgb { 0 0 0 }
+	color = rgb { 0 0 0 }
+}
+KIR = {
+	color = rgb { 237 45 0 }
+	color = rgb { 237 45 0 }
+}
+MSW = {
+	color = rgb { 76 145 63 }
+	color = rgb { 76 145 63 }
+}
+WNG = {
+	color = rgb { 151 110 255 }
+	color = rgb { 151 110 255 }
+}
+JER = {
+	color = rgb { 141 67 94 }
+	color = rgb { 141 67 94 }
+}
+HIP = {
+	color = rgb { 151 110 255 }
+	color = rgb { 151 110 255 }
+}
+ABY = {
+	color = rgb {152  130  191}
+	color = rgb {152  130  191}
+}
+SDL = {
+	color = rgb { 171  190  15 }
+	color = rgb { 171  190  15 }
+}
+EQC = {
+	color = rgb { 142 232 153 }
+	color = rgb { 142 232 153 }
+}
+LCT = {
+	color = rgb { 161 81 63 }
+	color = rgb { 161 81 63 }
+}
+GRI = {
+	color = rgb { 229 221 120 }
+	color = rgb { 229 221 120 }
+}
+WNG = {
+	color = rgb { 151 110 255 }
+	color = rgb { 151 110 255 }
+}
+FAT = {
+	color = rgb { 50 141 131 }
+	color = rgb { 50 141 131 }
+}
+WIT = {
+	color = rgb { 102 0 255 }
+	color = rgb { 102 0 255 }
+}
+RCT = {
+	color = rgb { 63 161 111 }
+	color = rgb { 63 161 111 }
+}
+BAK = {
+	color = rgb { 56 67 139 }
+	color = rgb { 56 67 139 }
+}
