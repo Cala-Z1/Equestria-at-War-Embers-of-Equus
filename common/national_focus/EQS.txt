@@ -119,7 +119,7 @@ focus = {
 	prerequisite = { focus = EQS_Crystal_Fair } 
 	# bypass = { } 
 	# available = { } 
-	mutually_exclusive = { focus = EEQS_Put_Trust_In_Celestia } 
+	mutually_exclusive = { focus = EQS_Put_Trust_In_Celestia } 
 	mutually_exclusive = { focus = EQS_Maintain_The_Status_Quo }
 	#relative_position_id = { focus = EQS_P1 }
 		x = 41

@@ -42,7 +42,7 @@ KIR = {
 	color = rgb { 237 45 0 }
 	color = rgb { 237 45 0 }
 }
-MSW = {
+MCW = {
 	color = rgb { 76 145 63 }
 	color = rgb { 76 145 63 }
 }
