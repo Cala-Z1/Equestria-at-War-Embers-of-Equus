@@ -1,0 +1,3 @@
+# Stub file - replaces vanilla NSB_generic.txt which references vanilla country tags
+# Place in: gfx/train_gfx_database/NSB_generic.txt
+# Add replace_path="gfx/train_gfx_database" to descriptor.mod

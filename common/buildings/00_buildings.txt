@@ -1,11 +1,4 @@
 buildings = {
-
-	# show_on_map:
-	#    if provincial = yes, then show_on_map = X is amount per each province
-	#    if provincial = no, then show_on_map = X is amount per state
-	
-	
-	
 	supply_node = {
 		show_on_map = 1
 		base_cost = 15000
@@ -355,8 +348,6 @@ buildings = {
 		country_modifiers = {
 			modifiers = {
 				nuclear_production_factor = 6
-				sp_nuclear_bomb_speed_factor = 0.1
-				sp_thermo_nuclear_bomb_speed_factor = 0.1
 				thermonuclear_production_factor = 4
 			}
 		}
@@ -387,8 +378,6 @@ buildings = {
 		country_modifiers = {
 			modifiers = {
 				nuclear_production_factor = 6
-				sp_nuclear_bomb_speed_factor = 0.1
-				sp_thermo_nuclear_bomb_speed_factor = 0.1
 				thermonuclear_production_factor = 4
 			}
 		}
@@ -468,44 +457,6 @@ buildings = {
 		}
 		#Building utilizes equipment "explosive_ammo_equipment" as ammunition for the air mission barrage
 	}
-	commercial_nuclear_reactor = {
-		hide_if_missing_tech = yes
-		missing_tech_loc = { 
-			localization_key = SP_BUILDING_MISSING_PROJECT
-			PROJECT = sp_commercial_nuclear_reactor
-		}
-		spawn_point = nuclear_reactor_spawn
-		show_on_map = 1
-		base_cost = 30000
-		icon_frame = 28
-		#nuclear_reactor = yes
-		tags = { civilian_reactor_building }
-		value = 10
-		infrastructure_construction_effect = yes
-		
-		country_modifiers = {
-			modifiers = {
-				nuclear_production_factor = 3
-				thermonuclear_production_factor = 2
-				industrial_capacity_dockyard = 0.04
-				industrial_capacity_factory = 0.04
-				local_resources_factor = -0.02
-			}
-		}
-
-		state_modifiers = {
-			state_production_speed_buildings_factor = 0.15
-			local_building_slots_factor = 0.15
-			state_resources_factor = 0.1			
-		}
-
-		level_cap = {
-			state_max = 1
-			shares_slots = yes
-			group_by = reactors
-		}
-	}
-
 	nuclear_facility = {
 		show_on_map = 1
 		base_cost = 30000

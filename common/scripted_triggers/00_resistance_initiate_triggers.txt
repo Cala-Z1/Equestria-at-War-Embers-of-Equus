@@ -1,15 +1,9 @@
-
 should_activate_active_crypto_bonuses = {
 	always = no
 }
-
-
-
 should_not_activate_active_crypto_bonuses = {
 	always = no
 }
-
-
 should_initiate_resistance = {
 	impassable = no
 	OR = {
@@ -24,4 +18,3 @@ should_initiate_resistance = {
 	}
 	NOT = { is_core_of = FROM  } # never for our cores
 }
-

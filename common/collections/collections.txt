@@ -1,2 +1,0 @@
-# Stub file - prevents vanilla collections.txt from loading
-# Add your custom collections here
