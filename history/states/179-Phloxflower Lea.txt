@@ -9,11 +9,9 @@ state={
 	manpower=159280
 	state_category=rural
 	buildings_max_level_factor=1.00
-
 	history={
 		owner = EQS
 		add_core_of = EQS
-
 		victory_points = { 389 1 }
 
 		buildings = {

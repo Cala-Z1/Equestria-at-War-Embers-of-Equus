@@ -18,7 +18,7 @@ state={
 
 		buildings = {
 			infrastructure = 5
-			air_base = 10
+			air_base = 6
 			arms_factory = 2
 			industrial_complex = 4
 			anti_air_building = 5
@@ -27,7 +27,6 @@ state={
 				bunker = 3
 				magical_facility = 1
 				landmark_canterlot_castle = 1
-				canterlot_province = 1
 			}
 		}
 	}

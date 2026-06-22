@@ -18,7 +18,7 @@ state={
 			infrastructure = 4
 			industrial_complex = 3
 			arms_factory = 3
-			air_base = 9
+			air_base = 6
 			20057 = {
 				landmark_storm_kings_palace = 1
 			}
