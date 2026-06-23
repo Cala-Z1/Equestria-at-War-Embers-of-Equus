@@ -52,3 +52,5 @@ bookmarks = {
 			history = "PLB_GATHERING_STORM_DESC"
 			ideology = neutrality
 		}
+	}
+}

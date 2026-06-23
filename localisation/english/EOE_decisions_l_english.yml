@@ -1,0 +1,11 @@
+﻿l_english:
+ focus_on_land:0 "Production Priority for Land"
+ focus_on_navy:0 "Production Priority for Navy"
+ length_of_shifts:0 "Increased Factory Shifts"
+ decrease_length_of_shifts:0 "Decrease Factory Shifts"
+ prioritize_machine_tools_for_construction:0 "Prioritize Machine Tools for Construction"
+ prioritize_machine_tools_for_military:0 "Prioritize Machine Tools for Military"
+ convert_industrial_complexes:0 "Convert Industrial Complexes"
+ convert_military_complexes:0 "Convert Military Complexes"
+ Declaration_of_Neutrality:0 "Declaration of Neutrality"
+ Increased_luxuries:0 "Massive Propaganda Investments"

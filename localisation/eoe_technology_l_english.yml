@@ -1,0 +1,65 @@
+﻿l_english:
+ ## Infantry tech ##
+ 
+ ## Industry Tech ##
+  starting_industry:0 "Starting Industry"
+  starting_industry_desc:0 ""
+  basic_skills:0 "Basic Worker Skills"
+  basic_skills_desc:0 ""
+  specialized_skills:0 "Improved Worker Skills"
+  specialized_skills_desc:0 ""
+  streamlined_skills:0 "Streamlined Worker Skills"
+  streamlined_skills_desc:0 ""
+  expanded_workforce:0 "Expanded Workforce"
+  expanded_workforce_desc:0 ""
+  modern_tools:0 "Modern Machine Tools"
+  moder_tools_desc:0 ""
+ 
+ ## ELECTRONIC ENGINEERING ##
+  advanced_electronic_mechanical_engineering:0 "Advanced Electronic Mechanical Engineering"
+  night_fighters1:0 "Basic Aircraft Interception Radar"
+  night_fighters1_desc:0 ""
+  night_fighters2:0 "Miniaturized Aircraft Interception Radar"
+  night_fighters2_desc:0 ""
+  air_to_ground_radar:0 "Ground Scanning Radar"
+  air_to_ground_radar_desc:0 ""
+  mobile_link_stations:0 "Mobile Link Stations"
+  mobile_link_stations_desc:0 ""
+  improved_corps_command_network:0 "Imporved Corops Command Network"
+  improved_corps_command_network_desc:0 ""
+  anti_tank_missile:0 "SSM A-23 Dart"
+  anti_tank_missile_desc:0 ""
+  air_to_air_missile:0 "Air to Air Missiles"
+  air_to_air_missile_desc:0 ""
+  improved_division_command_network:0 "Improved Division Command Network"
+  improved_division_command_network_desc:0 ""
+  frequency_modulation:0 "Frequency Modulation"
+  frequency_modulation_desc:0 ""
+  platoon_level_radios:0 "Platoon Radios"
+  platoon_level_radios_desc:0 ""
+  mclos_control_link:0 "MCLOS Control Link"
+  mclos_control_link_desc:0 ""
+  centimetric_radarr:0 "Centimetric Radar"
+  centimetric_radarr_desc:0 ""
+  tank_radio2:0 "Advanced Tank-radios Tanks Radios"
+ 
+ ## Equipment ##
+ 
+ radio_equipment_0:0 "Raido Equipment"
+ radio_equipment_0_desc:0 ""
+ special_equipment_0:0 "Special Forces Equipment"
+ special_equipment_0_desc:0 ""
+
+ ## Modules ## 
+ high_octane_fuel_small:0 "High Octane Fuel"
+ high_octane_fuel_small_desc:0 ""
+ high_octane_fuel_medium:0 "High Octane Fuel"
+ high_octane_fuel_medium_desc:0 ""
+ high_octane_fuel_Large:0 "High Octane Fuel"
+ high_octane_fuel_Large_desc:0 ""
+ 
+ ## Unit names ##
+  volkssturm_infantry:0 "Light Infantry"
+  volkssturm_infantry_desc:0 "Fast-moving infantry suited to a wide range of terrain."
+  garrison:0 "Garrison"
+  garrison_desc:0 "Defensive infantry specialised in holding ground and suppressing resistance."

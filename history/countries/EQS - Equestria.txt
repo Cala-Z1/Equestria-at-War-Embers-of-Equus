@@ -35,8 +35,6 @@ create_country_leader = {
 	picture = "GFX_CelestiaLuna"
 	ideology = harmonic_theocracy
 	traits = {
-	alicorn_sisters
-
 	}
 }
 add_ideas = {

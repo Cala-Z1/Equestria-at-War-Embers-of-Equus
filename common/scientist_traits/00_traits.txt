@@ -1,0 +1,4 @@
+# Scientist traits stub
+# sp_tag_* modifiers removed until defined in common/modifiers/
+scientist_traits = {
+}

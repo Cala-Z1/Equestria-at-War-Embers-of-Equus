@@ -1,0 +1,105 @@
+spriteTypes = { 
+
+	## Units ##
+	
+	spriteType = {
+		name = "GFX_unit_volkssturm_infantry_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/MPU.small.volks.Infantry.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_volkssturm_infantry_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/MPU.small.volks.Infantry.dds"
+		noOfFrames = 2
+	}
+
+	## Equipment ##
+
+
+	## INDUSTRY ##
+	
+	SpriteType = {
+		name = "GFX_starting_industry_medium"
+		texturefile = "gfx/interface/technologies/industry/basic_industry.tga" 
+	}
+	SpriteType = {
+		name = "GFX_basic_skills_medium"
+		texturefile = "gfx/interface/technologies/industry/basic_worker_skills.tga" 
+	}
+	SpriteType = {
+		name = "GFX_specialized_skills_medium"
+		texturefile = "gfx/interface/technologies/industry/basic_worker_skills.tga" 
+	}
+	SpriteType = {
+		name = "GFX_streamlined_skills_medium"
+		texturefile = "gfx/interface/technologies/industry/basic_worker_skills.tga" 
+	}
+	SpriteType = {
+		name = "GFX_expanded_workforce_medium"
+		texturefile = "gfx/interface/technologies/industry/basic_worker_skills.tga" 
+	}
+	SpriteType = {
+		name = "GFX_modern_tools_medium"
+		texturefile = "gfx/interface/technologies/industry/modern_tools.tga" 
+	}
+
+
+	## ELECTRONIC ENGINEERING ##
+
+	SpriteType = {
+		name = "GFX_night_fighters1_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/airplane_air_air_radar_1_icon.dds" 
+	}
+	SpriteType = {
+		name = "GFX_night_fighters2_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/airplane_air_air_radar_2_icon.dds" 
+	}
+	SpriteType = {
+		name = "GFX_advanced_electronic_mechanical_engineering_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/advanced_electronic_mechanical_engineering.dds" 
+	}
+	SpriteType = {
+		name = "GFX_air_to_ground_radar_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/airplane_air_ground_radar_1_icon.dds" 
+	}
+	SpriteType = {
+		name = "GFX_improved_corps_command_network_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/corps_radio.dds" 
+	}
+	SpriteType = {
+		name = "GFX_anti_tank_missile_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/at_missile.dds" 
+	}
+	SpriteType = {
+		name = "GFX_air_to_air_missile_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/anti_air_missile.dds" 
+	}
+	SpriteType = {
+		name = "GFX_improved_division_command_network_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/div_command_network.dds" 
+	}
+	SpriteType = {
+		name = "GFX_frequency_modulation_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/fm.dds" 
+	}
+	SpriteType = {
+		name = "GFX_platoon_level_radios_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/platoon_radios.dds" 
+	}
+	SpriteType = {
+		name = "GFX_mclos_control_link_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/mclos.dds" 
+	}
+	SpriteType = {
+		name = "GFX_centimetric_radarr_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/cavity_magnetron.dds" 
+	}
+	SpriteType = {
+		name = "GFX_mobile_link_stations_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/link_stations.dds" 
+	}
+	SpriteType = {
+		name = "GFX_tank_radio2_medium"
+		texturefile = "gfx/interface/technologies/Electronic Engineering/radio.dds" 
+	}
+}

@@ -1,0 +1,648 @@
+economy_decisions = {
+    focus_on_land = {
+
+		icon = ger_military_buildup
+
+		available = {
+			has_stability > 0.2
+			num_of_naval_factories > 40
+			num_of_military_factories > 50
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			industrial_capacity_factory = 0.075
+			industrial_capacity_dockyard = -0.2
+			political_power_gain = -0.05
+		}
+
+		days_remove = 120
+		days_re_enable = 120
+
+		cost = 50
+
+		complete_effect = {
+
+		}
+	}
+
+	focus_on_navy = {
+
+		icon = generic_naval
+
+		available = {
+			has_stability > 0.2
+			num_of_naval_factories > 40
+			num_of_military_factories > 50
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			industrial_capacity_factory = -0.1
+			industrial_capacity_dockyard = 0.2
+		}
+
+		days_remove = 120
+		days_re_enable = 120
+
+		cost = 50
+
+		complete_effect = {
+
+		}
+
+	}
+
+	length_of_shifts = {
+
+		icon = oppression
+
+		available = {
+			has_stability > 0.2
+		}
+
+		visible = {
+			always = yes	
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.3
+			consumer_goods_expected_value = 0.02
+			political_power_gain = -0.1
+		}
+
+		days_remove = 120
+		days_re_enable = 120
+
+		cost = 50
+
+		complete_effect = {
+
+		}
+
+	}
+
+	decrease_length_of_shifts = {
+
+		icon = generic_independence
+
+		available = {
+			has_stability > 0.5
+		}
+
+		visible = {
+			always = yes
+
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			production_factory_efficiency_gain_factor = -0.5
+			consumer_goods_expected_value = -0.04
+			political_power_gain = 0.1
+		}
+
+		days_remove = 120
+		days_re_enable = 120
+
+		cost = 50
+
+		complete_effect = {
+
+		}
+	}
+
+	prioritize_machine_tools_for_construction = {
+
+		icon = generic_construction
+
+		available = {
+			has_stability > 0.2
+		}
+
+		visible = {
+			always = yes
+
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			production_speed_buildings_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.1
+			industrial_capacity_factory = -0.1
+			industrial_capacity_dockyard = -0.1
+		}
+
+		days_remove = 120
+		days_re_enable = 120
+
+		cost = 50
+
+		complete_effect = {
+
+		}
+
+	}
+
+	prioritize_machine_tools_for_military = {
+
+		icon = ger_military_buildup
+
+		available = {
+			has_stability > 0.2
+		}
+
+		visible = {
+			always = yes
+
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			production_speed_buildings_factor = -0.1
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.1
+		}
+
+		days_remove = 120
+		days_re_enable = 120
+
+		cost = 50
+
+		complete_effect = {
+
+		}
+
+	}
+
+	convert_industrial_complexes = {
+
+		icon = generic_construction
+
+		available = {
+			has_stability > 0.2
+			
+		}
+
+		visible = {
+			always = yes
+
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			conversion_cost_mil_to_civ_factor = -0.2
+			industrial_capacity_factory = -0.1
+
+		}
+
+		days_remove = 120
+
+		cost = 25
+
+		complete_effect = {
+
+		}
+
+	}
+
+	convert_military_complexes = {
+
+		icon = generic_construction
+
+		available = {
+			has_stability > 0.2
+			
+		}
+
+		visible = {
+			always = yes
+
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			conversion_cost_civ_to_mil_factor = -0.2
+			industrial_capacity_factory = -0.1
+		}
+
+		days_remove = 120
+
+		cost = 25
+
+		complete_effect = {
+
+		}
+	}
+}
+political_actions = {
+	
+	Increased_luxuries = { #Massive Propaganda Investment
+
+		icon = GFX_decision_generic_fundraising
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+			ROOT = {
+				NOT = {	
+					has_country_flag = first_propaganda_flag
+				}
+				
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			stability_weekly = 0.005
+			consumer_goods_expected_value = 0.02
+			political_power_gain = -0.25
+		}
+
+		days_remove = 180
+		
+
+		cost = 25
+
+		complete_effect = {
+			custom_effect_tooltip = "This decision’s effect weakens with each use"
+			ROOT = {
+				set_country_flag = first_propaganda_flag
+				set_country_flag = { flag = propaganda_cooldown_flag days = 300 value = 1 }
+			}
+			
+		}
+
+
+	}
+	Increased_luxuries2 = { #Massive Propaganda Investment
+
+		icon = GFX_decision_generic_fundraising
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+			ROOT = {
+				
+				has_country_flag = first_propaganda_flag
+				NOT = {
+					has_country_flag = second_propaganda_flag
+					has_country_flag = propaganda_cooldown_flag
+				}
+				
+				
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			stability_weekly = 0.004
+			consumer_goods_expected_value = 0.02
+			political_power_gain = -0.25
+		}
+
+		days_remove = 180
+		
+
+		cost = 25
+
+		complete_effect = {
+			custom_effect_tooltip = "This decision’s effect weakens with each use"
+			ROOT = {
+				set_country_flag = second_propaganda_flag
+				set_country_flag = { flag = propaganda_cooldown_flag days = 300 value = 1 }
+			}
+		}
+	}
+	Increased_luxuries3 = { #Massive Propaganda Investment
+
+		icon = GFX_decision_generic_fundraising
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+			ROOT = {
+				
+				has_country_flag = first_propaganda_flag
+				has_country_flag = second_propaganda_flag
+				NOT = {
+					has_country_flag = third_propaganda_flag
+					has_country_flag = propaganda_cooldown_flag
+				}
+				
+				
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			stability_weekly = 0.003
+			consumer_goods_expected_value = 0.02
+			political_power_gain = -0.25
+		}
+
+		days_remove = 180
+		
+
+		cost = 25
+
+		complete_effect = {
+			custom_effect_tooltip = "This decision’s effect weakens with each use"
+			ROOT = {
+				set_country_flag = third_propaganda_flag
+				set_country_flag = { flag = propaganda_cooldown_flag days = 300 value = 1 }
+			}
+		}
+
+	}
+	Increased_luxuries4 = { #Massive Propaganda Investment
+
+		icon = GFX_decision_generic_fundraising
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+			ROOT = {
+				
+				has_country_flag = first_propaganda_flag
+				has_country_flag = second_propaganda_flag
+				has_country_flag = third_propaganda_flag
+				NOT = {
+					has_country_flag = fourth_propaganda_flag
+					has_country_flag = propaganda_cooldown_flag
+				}
+				
+				
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			stability_weekly = 0.002
+			consumer_goods_expected_value = 0.02
+			political_power_gain = -0.25
+		}
+
+		days_remove = 180
+		
+
+		cost = 25
+
+		complete_effect = {
+			custom_effect_tooltip = "This decision’s effect weakens with each use"
+			ROOT = {
+				set_country_flag = fourth_propaganda_flag
+				set_country_flag = { flag = propaganda_cooldown_flag days = 300 value = 1 }
+			}
+		}
+	}
+	Increased_luxuries5 = { #Massive Propaganda Investment
+
+		icon = GFX_decision_generic_fundraising
+
+		available = {
+			
+		}
+
+		visible = {
+			always = yes
+			ROOT = {
+				
+				has_country_flag = first_propaganda_flag
+				has_country_flag = second_propaganda_flag
+				has_country_flag = third_propaganda_flag
+				has_country_flag = fourth_propaganda_flag
+				NOT = {
+					has_country_flag = propaganda_cooldown_flag
+				}
+				
+				
+			}
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.001
+			consumer_goods_expected_value = 0.02
+			political_power_gain = -0.25
+		}
+
+		days_remove = 180
+		days_re_enable = 300
+
+		cost = 25
+
+		complete_effect = {
+
+		}
+
+	}
+	
+	
+	Demilitarization = { #Butter not Guns
+
+		icon = GFX_decision_hol_attract_foreign_investors
+
+		available = {
+			has_war_support > 0.2
+		}
+
+		visible = {
+			always = yes	
+		}
+		remove_trigger = {
+			has_war_support < 0.05
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.005
+			industrial_capacity_factory = -0.10
+			war_support_weekly = -0.002
+			political_power_gain = -0.25
+		}
+
+		days_remove = 180
+		days_re_enable = 360
+
+		cost = 25
+
+		complete_effect = {
+
+		}
+
+	}
+
+	Declaration_of_Neutrality = {
+
+		icon = GFX_decision_SWI_isolate_switzerland
+
+		available = {
+			has_war = no
+			has_war_support > 0.2
+			has_war_support < 0.8
+		}
+
+		visible = {
+			always = yes
+		}
+
+		remove_trigger = {
+			has_war = yes
+			has_war_support < 0.05
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.008
+			war_support_weekly = -0.015
+		}
+
+		days_remove = 120
+		days_re_enable = 360
+
+		cost = 25
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
+propaganda_efforts = {
+	test_2 = {
+		
+		icon = generic_megaphone
+
+		available = {
+			is_debug = yes
+			
+		}
+
+		visible = {	
+			is_debug = yes		
+		}
+
+		fire_only_once = no
+
+		days_re_enable = 1
+
+		cost = 0
+
+
+		complete_effect = {
+			custom_effect_tooltip = printing_variable_tt
+			
+		}
+		
+
+		
+	}
+	decrease_stats = {
+		
+		icon = generic_megaphone
+
+		available = {
+			is_debug = yes
+			
+		}
+
+		visible = {
+			is_debug = yes		
+		}
+
+		fire_only_once = no
+
+		days_re_enable = 1
+
+		cost = 0
+
+
+		complete_effect = {
+			add_to_variable = { var = FRA_initial_war_euthasium_army_core_attack_factor_modifier value = -0.1 }
+		}
+		
+
+		
+	}
+	war_propaganda = {
+
+		icon = generic_megaphone
+
+		available = {
+			NOT = { has_country_flag = war_propaganda_campaign_running }
+			OR = {
+			threat > 0.35
+			has_war = yes
+			}		
+			has_war_support < 0.9
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+		days_re_enable = 180
+
+		cost = 50
+
+		modifier = {
+			war_support_weekly = 0.01
+			
+		}
+
+		complete_effect = {
+			set_country_flag = war_propaganda_campaign_running
+		}
+		remove_effect = {
+			clr_country_flag = war_propaganda_campaign_running
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 1
+				has_war = yes
+			}
+		}
+	}
+}

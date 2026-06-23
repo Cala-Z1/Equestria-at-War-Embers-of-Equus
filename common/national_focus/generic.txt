@@ -10,7 +10,7 @@ focus_tree = {
 
 	focus = {
 		id = Zugschienenverlegung
-		icon = GFX_goal_celestia_raising_the_sun
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 0
 		y = 0
 		cost = 1000
