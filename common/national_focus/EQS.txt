@@ -73,5 +73,99 @@ focus = {
 		y = 1
 		completion_reward = {
 		}
+<<<<<<< Updated upstream
 	}			
 }
+=======
+	}
+	focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Crystal_Fair
+		icon = GFX_goal_crystal_fair
+		cost = 10
+	# prerequisite = { } 
+	# bypass = { } 
+	# available = { } 
+	#mutuallly_exclusive = {} 
+	# relative_positiion_id = { }
+		x = 39
+		y = 1
+		completion_reward = {
+		}
+	}
+		focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Put_Trust_In_Luna
+		icon = GFX_goal_nlr
+		cost = 10
+	prerequisite = { focus = EQS_Crystal_Fair } 
+	# bypass = { } 
+	# available = { } 
+	mutually_exclusive = { focus = EEQS_Put_Trust_In_Celestia } 
+	mutually_exclusive = { focus = EQS_Maintain_The_Status_Quo }
+	#relative_position_id = { focus = EQS_P1 }
+		x = 41
+		y = 3
+		completion_reward = {
+		}
+	}
+		focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Maintain_The_Status_Quo
+		icon = GFX_goal_tree_of_harmony
+		cost = 10
+	prerequisite = { focus = EQS_Equestria_Games  } 
+	prerequisite = { focus = EQS_Crystal_Fair }
+	# bypass = { } 
+	# available = { } 
+	mutually_exclusive = {focus = EQS_Put_Trust_In_Celestia }
+	mutually_exclusive = { focus = EQS_Put_Trust_In_Luna } 
+	#relative_position_id = { focus = EQS_P1 }
+		x = 37
+		y = 3
+		completion_reward = {
+		}
+	}
+
+
+### CELESTIA 
+
+	focus = {
+		# cancel_if_invalid = no 
+		# continue_if_invalid = yes 
+		# available_if_capitulated = yes
+		id = EQS_Put_Trust_In_Celestia 
+		icon = GFX_goal_celestia_raising_the_sun
+		cost = 10
+	prerequisite = { focus = EQS_Equestria_Games } 
+	# bypass = { } 
+	# available = { } 
+	mutually_exclusive = { focus = EQS_Maintain_The_Status_Quo }
+	mutually_exclusive = { focus = EQS_Put_Trust_In_Luna } 
+	#relative_position_id = { focus = EQS_P2 }
+		x = 33
+		y = 3
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = EQS_Kickstart_the_harmonic_industry
+		icon = GFX_goal_rainbow_falls
+		cost = 5
+		prerequisite = { focus = EQS_Put_Trust_In_Celestia }
+		relative_position_id = { focus = EQS_Put_Trust_In_Celestia }
+		x = 33
+		y = 5
+		completion_reward = {
+			add_ideas = magic_of_friendship
+		}
+	}
+}	
+>>>>>>> Stashed changes
