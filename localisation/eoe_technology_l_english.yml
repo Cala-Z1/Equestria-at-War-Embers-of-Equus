@@ -1,4 +1,8 @@
 ﻿l_english:
+
+## Projects ## 
+  sp_alicorn_slayer_gun:0 "Project Dawnbreaker"
+  sp_alicorn_slayer_gun_desc:0 "For centuries, the alicorns have stood beyond the reach of conventional warfare. Project Dawnbreak seeks to change that reality through the development of specialized weapons capable of challenging even the most powerful magical entities"
  ## Infantry tech ##
  
  ## Industry Tech ##
@@ -55,8 +59,18 @@
  high_octane_fuel_small_desc:0 ""
  high_octane_fuel_medium:0 "High Octane Fuel"
  high_octane_fuel_medium_desc:0 ""
- high_octane_fuel_Large:0 "High Octane Fuel"
- high_octane_fuel_Large_desc:0 ""
+ high_octane_fuel_large:0 "High Octane Fuel"
+ high_octane_fuel_large_desc:0 ""
+ alicorn_slayer_cannon:0 "Alicorn Slayer Cannon"
+ alicorn_slayer_cannon_desc:0 ""
+ plane_crystal_projectile_module:0 "Sunstone Cannon"
+ plane_crystal_projectile_module_desc:0 "Forged from carefully attuned sunstones and empowered by ancient magical principles, this weapon unleashes brilliant lances of crystal energy upon its targets. Though originally derived from civilian crystal technologies, its military potential has transformed aerial warfare forever."
+ ammunition_1:0 "Ammunition 1"
+ ammunition_2:0 "Ammunition 2"
+ ammunition_3:0 "Ammunition 3"
+ ammunition_1_desc:0 ""
+ ammunition_2_desc:0 ""
+ ammunition_3_desc:0 ""
  
  ## Unit names ##
   volkssturm_infantry:0 "Light Infantry"

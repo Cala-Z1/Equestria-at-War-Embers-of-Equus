@@ -1047,6 +1047,7 @@ technologies = {
 		enable_equipment_modules = {
 			aircraft_cannon_1_1x
 			aircraft_cannon_1_2x
+			ammunition_1
 		}
 		
 		research_cost = 1
@@ -1075,6 +1076,7 @@ technologies = {
 			mio_cat_all_medium_aircraft_and_modules
 			mio_cat_all_heavy_aircraft_and_modules
 			mio_cat_all_light_aircraft_and_modules
+			
 		}
 		special_project_specialization = { specialization_air }
 	}
@@ -1086,6 +1088,7 @@ technologies = {
 			large_aircraft_cannon_2x
 			cannon_defense_turret
 			cannon_defense_turret_2x
+			ammunition_2
 		}
 		
 		research_cost = 1.5
@@ -1116,6 +1119,7 @@ technologies = {
 			aircraft_cannon_2_2x
 			cannon_defense_turret
 			cannon_defense_turret_2x
+			ammunition_3
 		}
 		
 		research_cost = 1
@@ -1135,6 +1139,7 @@ technologies = {
 			mio_cat_all_medium_aircraft_and_modules
 			mio_cat_all_heavy_aircraft_and_modules
 			mio_cat_all_light_aircraft_and_modules
+			
 		}
 		special_project_specialization = { specialization_air }
 	}

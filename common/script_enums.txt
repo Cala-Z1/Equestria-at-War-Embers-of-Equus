@@ -50,6 +50,7 @@ script_enum_equipment_bonus_type = {
 	small_plane_airframe_2
 	small_plane_airframe_3
 	small_plane_airframe_4
+	small_plane_airframe_5
 	cv_small_plane_airframe_0
 	cv_small_plane_airframe_1
 	cv_small_plane_airframe_2
@@ -475,7 +476,6 @@ script_enum_equipment_bonus_type = {
 	super_heavy_tank_aa_equipment_1
 	amphibious_tank_equipment_1
 	amphibious_tank_equipment_2
-	supersonic_fighter_equipment_1
 }
 
 script_enum_operative_mission_type = {

@@ -1,5 +1,6 @@
 spriteTypes = {
 
+	## EQS ## 
 	spriteType = {
 		name = "GFX_goal_crystal_fair"
 		texturefile = "gfx/interface/goals/EQS/goal_crystal_fair.dds"

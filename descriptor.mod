@@ -68,7 +68,6 @@ replace_path="music"
 replace_path="portraits"
 
 
-replace_path="common/countries/colors.txt"
 replace_path="common/country_leader"
 replace_path="common/country_tag_aliases"
 replace_path="common/continuous_focus"
