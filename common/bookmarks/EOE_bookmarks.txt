@@ -1,0 +1,75 @@
+bookmarks = {
+	bookmark = {
+		name = "EOE_EVERYTHING"
+		desc = "EOE_EVERYTHING_DESC"
+		date = 1007.1.1
+		picture = "GFX_bookmark_zebrica"
+		default_country = "GRI"
+		default = yes
+		
+		# Majors
+		"EQS" = { history = "EQS_1007_1_1" is_major = yes }
+		"CHN" = { history = "CHN_1007_1_1" is_major = yes }
+		"RCT" = { history = "RCT_1007_1_1" is_major = yes }
+		"HIP" = { history = "HIP_1007_1_1" is_major = yes }
+		"GRI" = { history = "GRI_1007_1_1" is_major = yes }
+ 		"WNG" = { history = "WNG_1007_1_1" is_major = yes}
+		"FAT" = { history = "FAT_1007_1_1" is_major = yes}
+		"JER" = { history = "JER_1007_1_1" is_major = yes}
+		
+		# Minors
+		"OLE" = { history = "OLE_1007_1_1" minor = yes}
+		"YAK" = { history = "YAK_1007_1_1" minor = yes}
+		"JAK" = { history = "JAK_1007_1_1" minor = yes}
+		"PLB" = { history = "PLB_1007_1_1" minor = yes}
+		"GRF" = { history = "GRF_1007_1_1" minor = yes}
+		"STG" = { history = "STG_1007_1_1" minor = yes}
+		"CRY" = { history = "CRY_1007_1_1" minor = yes}
+		"EQC" = { history = "EQC_1007_1_1" minor = yes}
+		"MCW" = { history = "MCW_1007_1_1" minor = yes}
+		"KIR" = { history = "KIR_1007_1_1" minor = yes}
+		"ABY" = { history = "ABY_1007_1_1" minor = yes}
+		"SDL" = { history = "SDL_1007_1_1" minor = yes}
+	}
+	bookmark = {
+		name = "EOE_EQUUS_ONLY"
+		desc = "EOE_EQUUS_ONLY_DESC"
+		date = 1007.1.2
+		picture = "GFX_bookmark_equus"
+		default_country = "EQS"
+		
+		# Majors
+		"EQS" = { history = "EQS_1007_1_1" is_major = yes }
+		"CHN" = { history = "CHN_1007_1_1" is_major = yes }
+		"CRY" = { history = "CRY_1007_1_1" is_major = yes }
+		"STG" = { history = "STG_1007_1_1" is_major = yes }
+ 		"OLE" = { history = "OLE_1007_1_1" is_major = yes}
+		"PLB" = { history = "PLB_1007_1_1" is_major = yes}
+		# Minors
+		"YAK" = { history = "YAK_1007_1_1" minor = yes}
+		"JAK" = { history = "JAK_1007_1_1" minor = yes}
+		"GRF" = { history = "GRF_1007_1_1" minor = yes}
+	}
+	bookmark = {
+		name = "EOE_GRIFFONIA_ONLY"
+		desc = "EOE_GRIFFONIA_ONLY_DESC"
+		date = 1007.1.3
+		picture = "GFX_bookmark_griffonia"
+		default_country = "GRI"
+		
+		# Majors
+		"FAT" = { history = "FAT_1007_1_1" is_major = yes }
+		"GRI" = { history = "GRI_1007_1_1" is_major = yes }
+		"WNG" = { history = "WNG_1007_1_1" is_major = yes }
+		"RCT" = { history = "RCT_1007_1_1" is_major = yes }
+		"HIP" = { history = "HIP_1007_1_1" is_major = yes }
+ 		"EQC" = { history = "EQC_1007_1_1" is_major = yes}
+		"JER" = { history = "JER_1007_1_1" is_major = yes }
+		"MCW" = { history = "MCW_1007_1_1" is_major = yes}		
+
+		# Minors
+		"KIR" = { history = "KIR_1007_1_1" minor = yes}
+		"ABY" = { history = "ABY_1007_1_1" minor = yes}
+		"SDL" = { history = "SDL_1007_1_1" minor = yes}
+	}
+}

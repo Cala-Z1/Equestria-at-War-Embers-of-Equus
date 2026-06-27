@@ -7,8 +7,8 @@ CHN = {
 	color_ui = rgb { 74 74 74}
 }
 OLE = {
-	color = rgb { 255 255 255 }
-	color_ui = rgb { 255 255 255}
+	color = rgb { 255 255 230 }
+	color_ui = rgb { 255 255 230}
 }
 CRY = {
 	color = rgb { 213 166 240 }
@@ -35,8 +35,8 @@ JAK = {
 	color = rgb { 100 150 193 }
 }
 HLR = {
-	color = rgb { 0 0 0 }
-	color = rgb { 0 0 0 }
+	color = rgb { 255 255 255 }
+	color = rgb { 255 255 255 }
 }
 KIR = {
 	color = rgb { 237 45 0 }

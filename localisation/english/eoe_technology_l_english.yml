@@ -77,3 +77,10 @@
   volkssturm_infantry_desc:0 "Fast-moving infantry suited to a wide range of terrain."
   garrison:0 "Garrison"
   garrison_desc:0 "Defensive infantry specialised in holding ground and suppressing resistance."
+
+ EOE_EVERYTHING:0 "Embers of Equus"
+ EOE_EVERYTHING_DESC:0 "The full world of Equus and Griffonia. Both continents are active and ready for conflict."
+ EOE_EQUUS_ONLY:0 "Equus Only"
+ EOE_EQUUS_ONLY_DESC:0 "A scenario focused on the continent of Equus. Griffonia lies silent and unclaimed beyond the horizon."
+ EOE_GRIFFONIA_ONLY:0 "Griffonia Only"
+ EOE_GRIFFONIA_ONLY_DESC:0 "A scenario focused on the Griffonian continent. Equus is empty, its nations dissolved into the void."

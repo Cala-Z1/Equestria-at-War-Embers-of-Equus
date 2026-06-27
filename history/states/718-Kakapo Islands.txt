@@ -12,6 +12,13 @@ state={
 			4436 = { naval_base = 1 }
 		}
 		victory_points = { 4421 1 }
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = MCW
+		}
+
 	}
 	provinces={
 		4352 4378 4387 4421 4436 4466 13398 

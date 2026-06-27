@@ -31,6 +31,10 @@ state={
 				naval_base = 5
 			}
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 
 	resources = {

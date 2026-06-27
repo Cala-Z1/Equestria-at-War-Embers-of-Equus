@@ -13,6 +13,10 @@ state={
 	history={
 		owner = PLB
 		add_core_of = PLB
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 
 	resources = {

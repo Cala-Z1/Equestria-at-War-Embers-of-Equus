@@ -20,6 +20,13 @@ state={
 		}
 		victory_points = { 20082 3 }
 		victory_points = { 20085 1 }
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = WNG
+		}
+
 	}
 	state_category = town
 	manpower = 920024

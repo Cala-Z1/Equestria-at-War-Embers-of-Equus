@@ -11,9 +11,6 @@ guiTypes = {
 			name = "player_lobby"
 			position = { x = 0 y = 0 }
 			quadTextureSprite ="GFX_lobby_button"
-#			buttonText = "LOBBY"
-#			buttonFont = "hoi_24header"
-			#clicksound = click_ok
 		}
 
 		instantTextboxType = {

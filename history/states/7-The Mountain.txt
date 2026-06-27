@@ -22,6 +22,10 @@ state={
 				landmark_dragon_throne = 1
 			}
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 
 	resources={

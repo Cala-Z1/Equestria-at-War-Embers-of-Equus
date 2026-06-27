@@ -26,6 +26,13 @@ state={
 		victory_points={
 			2498 5
 		}
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = JER
+		}
+
 	}
 	manpower=202440
 	buildings_max_level_factor=1.000

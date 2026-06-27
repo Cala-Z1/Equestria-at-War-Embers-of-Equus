@@ -11,8 +11,8 @@ state={
 	buildings_max_level_factor=1.00
 
 	history={
-		owner = HLR
-		add_core_of = HLR
+		owner = GRI
+		add_core_of = GRI
 
 		victory_points = { 4404 25 }
 		victory_points = { 7701 2 }
@@ -21,6 +21,12 @@ state={
 			infrastructure = 2
 			industrial_complex = 3
 			arms_factory = 2
+		}
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = GRI
 		}
 	}
 

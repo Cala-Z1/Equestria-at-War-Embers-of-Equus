@@ -16,6 +16,13 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 		}
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = HIP
+		}
+
 	}
 	provinces={
 		1379 7542 7742 8232 10175 10184 10214 10263 10464 19243 19921 19936 19948 19951 19952 

@@ -85,6 +85,7 @@ technology_categories = {
 	cat_battlefield_support
 	cat_operational_integrity
 	cat_naval_planes_doc
+	cat_artillery
 	night_vision
 	base_strike_main
 	mot_rockets

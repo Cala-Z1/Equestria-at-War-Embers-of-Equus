@@ -11,12 +11,11 @@ state={
 	buildings_max_level_factor=1.00
 
 	history = {
-		owner = OLE
-
+		owner = RCT
+		add_core_of = RCT
 		victory_points = { 10900 10 }
 		victory_points = { 12881 3 }
 		victory_points = { 5091 2 }
-
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -30,10 +29,16 @@ state={
 				naval_base = 1
 			}
 		}
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = RCT
+		}
 	}
-
 	resources={
 		steel=60
 		crystals=120
 	}
+
 }

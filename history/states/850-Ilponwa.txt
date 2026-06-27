@@ -11,6 +11,13 @@ state={
 		owner = SDL
 		add_core_of = SDL
 
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = SDL
+		}
+
 	}
 
 	provinces={

@@ -11,6 +11,10 @@ state={
 		add_core_of = EQS
 		add_core_of = EQS
 
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 
 	provinces={

@@ -6,6 +6,7 @@ spriteTypes = {
         name = "GFX_sp_alicorn_slayer_gun"
         texturefile = "gfx/interface/special_project/project_icons/sp_magical_what_is_friendship.dds"
     }
+	
 	## Units ##
 	
 	spriteType = {

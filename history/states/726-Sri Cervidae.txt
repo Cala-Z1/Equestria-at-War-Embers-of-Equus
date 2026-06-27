@@ -17,6 +17,13 @@ state={
 		}
 		victory_points = { 10993 25 }
 		victory_points = { 12118 3 }
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = MCW
+		}
+
 	}
 	provinces={
 		2189 8180 8220 10961 10993 12118 13034 13344 13347 13349 13399 

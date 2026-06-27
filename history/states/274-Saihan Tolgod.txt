@@ -26,5 +26,9 @@ state={
 			arms_factory = 1
 			air_base = 5
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 }

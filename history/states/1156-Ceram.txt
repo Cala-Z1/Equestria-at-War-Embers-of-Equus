@@ -16,6 +16,13 @@ state={
 			20257 = { naval_base = 1 }			
 		}
 		victory_points = { 20257 1 }
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = WNG
+		}
+
 	}
 	state_category = rural
 	manpower=585911

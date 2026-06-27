@@ -1,0 +1,14 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_bookmark_zebrica"
+        textureFile = "gfx/interface/bookmark_zebrica.tga"
+    }
+    spriteType = {
+        name = "GFX_bookmark_equus"
+        textureFile = "gfx/interface/bookmark_equus.tga"
+    }
+    spriteType = {
+        name = "GFX_bookmark_griffonia"
+        textureFile = "gfx/interface/bookmark_griffonia.tga"
+    }
+}

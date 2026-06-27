@@ -24,5 +24,9 @@ state={
 			industrial_complex = 4
 			arms_factory = 2
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 }

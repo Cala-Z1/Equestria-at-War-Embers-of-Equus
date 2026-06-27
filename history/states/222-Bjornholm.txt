@@ -20,5 +20,9 @@ state={
 			infrastructure = 1
 			dockyard = 1
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 }

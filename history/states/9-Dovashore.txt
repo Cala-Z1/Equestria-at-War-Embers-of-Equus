@@ -17,5 +17,9 @@ state={
 		buildings = {
 			arms_factory = 1
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 }

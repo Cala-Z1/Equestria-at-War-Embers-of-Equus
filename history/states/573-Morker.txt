@@ -13,5 +13,12 @@ state = {
 	history = {
 		owner = FAT
 		add_core_of = FAT
-	}
+	
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = FAT
+		}
+}
 }

@@ -10,8 +10,8 @@ state={
 	buildings_max_level_factor=1.00
 
 	history = {
-		owner = OLE
-
+		owner = RCT
+		add_core_of = RCT
 		victory_points = { 10910 2 }
 
 		buildings = {
@@ -19,6 +19,12 @@ state={
 			10910 = {
 				naval_base = 1
 			}
+		}
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = RCT
 		}
 	}
 

@@ -13,6 +13,10 @@ state={
 	history={
 		owner = OLE
 		add_core_of = OLE
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 
 	resources={

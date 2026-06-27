@@ -7,6 +7,10 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		## victory_points = { 6959 2 } ##
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 
 	provinces={

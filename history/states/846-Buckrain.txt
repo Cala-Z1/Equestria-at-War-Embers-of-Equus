@@ -12,6 +12,12 @@ state={
 			air_base = 1
 		}
 		victory_points = { 14901 5 }
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = SDL
+		}
 	}
 	resources = {
 		oil=160

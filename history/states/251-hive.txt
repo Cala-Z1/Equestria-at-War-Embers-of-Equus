@@ -24,5 +24,9 @@ state={
 			air_base = 5
 			synthetic_refinery = 1
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 }

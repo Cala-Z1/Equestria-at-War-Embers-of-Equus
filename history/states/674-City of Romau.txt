@@ -24,6 +24,13 @@ state={
 				landmark_grand_temple_eyr = 1
 			}
 		}
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = GRI
+		}
+
 	}
 
 	resources = {
