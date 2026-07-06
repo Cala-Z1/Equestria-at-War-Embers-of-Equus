@@ -1,171 +1,691 @@
 ﻿focus_tree = {
-	id = EQS_focus_tree
-
+	id = EQS
 	country = {
-		factor = 0
+		factor = 0 
 		modifier = {
 			add = 10
-			original_tag = EQS
+			tag = EQS
 		}
+		default = no
 	}
-
-	default = no
-
-	continuous_focus_position = { x = 1 y = 1 }
-
-
-
-# Air Tree
-
-focus = {
-		# cancel_if_invalid = no 
-		# continue_if_invalid = yes 
-		# available_if_capitulated = yes
-		id = EQS_Air1
-		icon = GFX_goal_generic_allies_build_infantry
-		cost = 10
-	# prerequisite = { } 
-	# bypass = { } 
-	# available = { } 
-	#mutuallly_exclusive = {} 
-	# relative_positiion_id = { }
-		x = 20
+	continuous_focus_position = {
+		x = 1
 		y = 1
-		completion_reward = {
-		}
-	}
-
-
-# Naval Tree
-
-focus = {
-		# cancel_if_invalid = no 
-		# continue_if_invalid = yes 
-		# available_if_capitulated = yes
-		id = EQS_N1
-		icon = GFX_goal_generic_allies_build_infantry
-		cost = 10
-	# prerequisite = { } 
-	# bypass = { } 
-	# available = { } 
-	#mutuallly_exclusive = {} 
-	# relative_positiion_id = { }
-		x = 10
-		y = 1
-		completion_reward = {
-		}
-	}
-
-#Path Trees 
-focus = {
-		# cancel_if_invalid = no 
-		# continue_if_invalid = yes 
-		# available_if_capitulated = yes
-		id = EQS_Equestria_Games
-		icon = GFX_goal_generic_allies_build_infantry
-		cost = 10
-	# prerequisite = { } 
-	# bypass = { } 
-	# available = { } 
-	#mutuallly_exclusive = {} 
-	# relative_positiion_id = { }
-		x = 35
-		y = 1
-		completion_reward = {
-		}
-<<<<<<< Updated upstream
-	}			
-}
-=======
 	}
 	focus = {
-		# cancel_if_invalid = no 
-		# continue_if_invalid = yes 
-		# available_if_capitulated = yes
-		id = EQS_Crystal_Fair
-		icon = GFX_goal_crystal_fair
-		cost = 10
-	# prerequisite = { } 
-	# bypass = { } 
-	# available = { } 
-	#mutuallly_exclusive = {} 
-	# relative_positiion_id = { }
-		x = 39
-		y = 1
-		completion_reward = {
-		}
-	}
-		focus = {
-		# cancel_if_invalid = no 
-		# continue_if_invalid = yes 
-		# available_if_capitulated = yes
-		id = EQS_Put_Trust_In_Luna
-		icon = GFX_goal_nlr
-		cost = 10
-	prerequisite = { focus = EQS_Crystal_Fair } 
-	# bypass = { } 
-	# available = { } 
-	mutually_exclusive = { focus = EEQS_Put_Trust_In_Celestia } 
-	mutually_exclusive = { focus = EQS_Maintain_The_Status_Quo }
-	#relative_position_id = { focus = EQS_P1 }
-		x = 41
-		y = 3
-		completion_reward = {
-		}
-	}
-		focus = {
-		# cancel_if_invalid = no 
-		# continue_if_invalid = yes 
-		# available_if_capitulated = yes
-		id = EQS_Maintain_The_Status_Quo
-		icon = GFX_goal_tree_of_harmony
-		cost = 10
-	prerequisite = { focus = EQS_Equestria_Games  } 
-	prerequisite = { focus = EQS_Crystal_Fair }
-	# bypass = { } 
-	# available = { } 
-	mutually_exclusive = {focus = EQS_Put_Trust_In_Celestia }
-	mutually_exclusive = { focus = EQS_Put_Trust_In_Luna } 
-	#relative_position_id = { focus = EQS_P1 }
-		x = 37
-		y = 3
-		completion_reward = {
-		}
-	}
-
-
-### CELESTIA 
-
-	focus = {
-		# cancel_if_invalid = no 
-		# continue_if_invalid = yes 
-		# available_if_capitulated = yes
-		id = EQS_Put_Trust_In_Celestia 
-		icon = GFX_goal_celestia_raising_the_sun
-		cost = 10
-	prerequisite = { focus = EQS_Equestria_Games } 
-	# bypass = { } 
-	# available = { } 
-	mutually_exclusive = { focus = EQS_Maintain_The_Status_Quo }
-	mutually_exclusive = { focus = EQS_Put_Trust_In_Luna } 
-	#relative_position_id = { focus = EQS_P2 }
-		x = 33
-		y = 3
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = EQS_Kickstart_the_harmonic_industry
-		icon = GFX_goal_rainbow_falls
+		id = The_crystal_games
+		icon = x
 		cost = 5
-		prerequisite = { focus = EQS_Put_Trust_In_Celestia }
-		relative_position_id = { focus = EQS_Put_Trust_In_Celestia }
+		x = 30
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Crystal_fair
+		icon = x
+		cost = 5
+		prerequisite = { focus = The_crystal_games }
+		x = 30
+		y = 1
+		completion_reward = {
+			x
+		}
+	}
+	focus = {
+		id = New_horizons_of_harmony
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Crystal_fair }		
+		mutually_exclusive = { focus = Follow_the_solar_winds }
+		mutually_exclusive = { focus = Lunar_goddess }
+		    allow_branch = {
+        NOT = { has_country_flag = MY_chose_lunar }
+		NOT = { has_country_flag = MY_chose_solar }
+    }
+
+    select_effect = {
+        set_country_flag = MY_chose_twilight
+    }
+		x = 30
+		y = 2
+		completion_reward = { 
+
+		}
+	}
+	focus = {
+		id = Follow_the_solar_winds
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Crystal_fair }
+		mutually_exclusive = { focus = Lunar_goddess }
+		mutually_exclusive = { focus = New_horizons_of_harmony }
+		allow_branch = {
+
+		NOT = { has_country_flag = MY_chose_lunar }
+		NOT = { has_country_flag = MY_chose_twilight }
+    }
+
+    select_effect = {
+        set_country_flag = MY_chose_solar
+    }
+		x = 38
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = Lunar_goddess
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Crystal_fair }
+		mutually_exclusive = { focus = Follow_the_solar_winds }
+		mutually_exclusive = { focus = New_horizons_of_harmony }
+		allow_branch = {
+			
+		NOT = { has_country_flag = MY_chose_twilight }
+		NOT = { has_country_flag = MY_chose_solar }
+    }
+
+    select_effect = {
+        set_country_flag = MY_chose_lunar
+    }
+		x = 22
+		y = 2
+		completion_reward = { }
+	}
+	### LUNAR PATH
+	focus = {
+		id = Lunar_rituals
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Lunar_goddess }
+		x = 22
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = Lunar_rituals_2
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Lunar_rituals }
+		mutually_exclusive = { focus = Lunar_rituals_3 }
+		x = 20
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = Lunar_rituals_3
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Lunar_rituals }
+		mutually_exclusive = { focus = Lunar_rituals_2 }
+		x = 24
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = Luna_5
+		text = x
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Lunar_rituals }
+		x = 22
+		y = 5
+		completion_reward = { 
+
+		}
+	}
+	focus = {
+		id = Lunar_Court_Reforms
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Lunar_rituals_2 }
+		prerequisite = { focus = Luna_5 }
+		mutually_exclusive = { focus = Dreamguard_Restoration }
+		x = 21
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = Dreamguard_Restoration
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Lunar_rituals_3 }
+		prerequisite = { focus = Luna_5 }
+		mutually_exclusive = { focus = Lunar_Court_Reforms }
+		x = 23
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = Night_Court_Assembled
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Lunar_Court_Reforms focus = Dreamguard_Restoration }
+		x = 22
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = Moonlit_Industry
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Night_Court_Assembled }
+		x = 19
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Rebuild_The_Observatories
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Night_Court_Assembled }
+		x = 22
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Royal_Night_Guard
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Night_Court_Assembled }
+		x = 25
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Workshops_By_Moonlight
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Moonlit_Industry }
+		mutually_exclusive = { focus = Astral_Research_Grants }
+		x = 18
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = Astral_Research_Grants
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Rebuild_The_Observatories }
+		mutually_exclusive = { focus = Workshops_By_Moonlight }
+		x = 20
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = Modernize_Lunar_Arsenals
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Royal_Night_Guard }
+		x = 26
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = Thestral_Command
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Royal_Night_Guard }
+		prerequisite = { focus = Rebuild_The_Observatories }
+		x = 24
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = Fund_The_New_Moon_Program
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Workshops_By_Moonlight focus = Astral_Research_Grants }
+		prerequisite = { focus = Rebuild_The_Observatories }
+		x = 19
+		y = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = Nocturnal_Defense_Line
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Modernize_Lunar_Arsenals }
+		prerequisite = { focus = Thestral_Command }
+		x = 25
+		y = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = The_Dream_Question
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Fund_The_New_Moon_Program }
+		prerequisite = { focus = Nocturnal_Defense_Line }
+		prerequisite = { focus = Rebuild_The_Observatories }
+		x = 22
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = Gentle_Night
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = The_Dream_Question }
+		mutually_exclusive = { focus = Eternal_Vigilance }
+		x = 20
+		y = 12
+		completion_reward = { }
+	}
+	focus = {
+		id = Eternal_Vigilance
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = The_Dream_Question }
+		mutually_exclusive = { focus = Gentle_Night }
+		x = 24
+		y = 12
+		completion_reward = { }
+	}
+	focus = {
+		id = Lunar_Harmony
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Gentle_Night focus = Eternal_Vigilance }
+		prerequisite = { focus = The_Dream_Question }
+		x = 22
+		y = 13
+		completion_reward = { }
+	}
+	focus = {
+		id = Princess_Of_The_Night
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Lunar_Harmony }
+		x = 22
+		y = 14
+		completion_reward = { }
+	}
+	### TWILIGHT PATH
+	focus = {
+		id = School_Of_Harmony
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = New_horizons_of_harmony }
+		x = 30
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = Friendship_Lessons
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = School_Of_Harmony }
+		x = 29
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = Royal_Advisory_Council
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = School_Of_Harmony }
+		x = 31
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = Lessons_From_Ponyville
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Friendship_Lessons }
+		mutually_exclusive = { focus = Rationalize_The_Crown }
+		x = 29
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = Rationalize_The_Crown
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Royal_Advisory_Council }
+		mutually_exclusive = { focus = Lessons_From_Ponyville }
 		x = 33
 		y = 5
-		completion_reward = {
-			add_ideas = magic_of_friendship
-		}
+		completion_reward = { }
 	}
-}	
->>>>>>> Stashed changes
+	focus = {
+		id = Castle_Library_Network
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Friendship_Lessons }
+		prerequisite = { focus = Royal_Advisory_Council }
+		x = 31
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = Regional_Harmony_Summits
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Lessons_From_Ponyville focus = Rationalize_The_Crown }
+		prerequisite = { focus = Castle_Library_Network }
+		x = 30
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = Bureau_Of_Magical_Standards
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Rationalize_The_Crown }
+		prerequisite = { focus = Castle_Library_Network }
+		x = 32
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = Map_Table_Initiatives
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Regional_Harmony_Summits }
+		x = 29
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Friendship_Ambassadors
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Regional_Harmony_Summits }
+		x = 31
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Arcane_Logistics_Board
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Bureau_Of_Magical_Standards }
+		x = 33
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Harmonized_Research_Grants
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Bureau_Of_Magical_Standards }
+		x = 35
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = The_Friendship_Doctrine
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Map_Table_Initiatives }
+		prerequisite = { focus = Friendship_Ambassadors }
+		mutually_exclusive = { focus = The_Scholars_Doctrine }
+		x = 30
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = The_Scholars_Doctrine
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Arcane_Logistics_Board }
+		prerequisite = { focus = Harmonized_Research_Grants }
+		mutually_exclusive = { focus = The_Friendship_Doctrine }
+		x = 34
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = National_Curriculum_Of_Harmony
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = The_Friendship_Doctrine focus = The_Scholars_Doctrine }
+		prerequisite = { focus = Castle_Library_Network }
+		x = 32
+		y = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = Open_The_School_Doors
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = National_Curriculum_Of_Harmony }
+		x = 30
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = Secure_The_Restricted_Stacks
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = National_Curriculum_Of_Harmony }
+		x = 34
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = Guided_By_The_Elements
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Open_The_School_Doors }
+		mutually_exclusive = { focus = Guided_By_The_Crown }
+		x = 30
+		y = 12
+		completion_reward = { }
+	}
+	focus = {
+		id = Guided_By_The_Crown
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Secure_The_Restricted_Stacks }
+		mutually_exclusive = { focus = Guided_By_The_Elements }
+		x = 34
+		y = 12
+		completion_reward = { }
+	}
+	focus = {
+		id = Twilight_Regency
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Guided_By_The_Elements focus = Guided_By_The_Crown }
+		prerequisite = { focus = National_Curriculum_Of_Harmony }
+		x = 32
+		y = 13
+		completion_reward = { }
+	}
+	focus = {
+		id = The_Princess_Of_Friendship
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Twilight_Regency }
+		x = 32
+		y = 14
+		completion_reward = { }
+	}
+	### CELESTIA PATH
+	focus = {
+		id = Solar_Court_Convenes
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Follow_the_solar_winds }
+		x = 38
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = Daybreak_Decrees
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Solar_Court_Convenes }
+		x = 40
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = Royal_Pageantry
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Solar_Court_Convenes }
+		x = 44
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = Empower_The_Nobility
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Daybreak_Decrees }
+		mutually_exclusive = { focus = Bureaucrats_Of_The_Sun }
+		x = 39
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = Bureaucrats_Of_The_Sun
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Daybreak_Decrees }
+		mutually_exclusive = { focus = Empower_The_Nobility }
+		x = 41
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = Festival_Of_The_Sun
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Royal_Pageantry }
+		x = 45
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = The_Golden_Ministries
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Empower_The_Nobility focus = Bureaucrats_Of_The_Sun }
+		prerequisite = { focus = Festival_Of_The_Sun }
+		x = 42
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = Sunlit_Workshops
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = The_Golden_Ministries }
+		x = 40
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = Royal_Guard_Expansion
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = The_Golden_Ministries }
+		x = 44
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = Canterlot_Arsenals
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Sunlit_Workshops }
+		x = 40
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Celestial_Officer_Corps
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Royal_Guard_Expansion }
+		x = 44
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Open_Court_Diplomacy
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Festival_Of_The_Sun }
+		mutually_exclusive = { focus = Radiant_Realpolitik }
+		x = 46
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Radiant_Realpolitik
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = The_Golden_Ministries }
+		mutually_exclusive = { focus = Open_Court_Diplomacy }
+		x = 48
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Solar_Modernization_Bill
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Canterlot_Arsenals }
+		prerequisite = { focus = Celestial_Officer_Corps }
+		x = 42
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = Equestrian_Golden_Age
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Open_Court_Diplomacy focus = Radiant_Realpolitik }
+		prerequisite = { focus = Solar_Modernization_Bill }
+		x = 42
+		y = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = Mercy_Of_The_Sun
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Equestrian_Golden_Age }
+		mutually_exclusive = { focus = The_Unsetting_Sun }
+		x = 40
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = The_Unsetting_Sun
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Equestrian_Golden_Age }
+		mutually_exclusive = { focus = Mercy_Of_The_Sun }
+		x = 44
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = Celestial_Consensus
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Mercy_Of_The_Sun focus = The_Unsetting_Sun }
+		prerequisite = { focus = Equestrian_Golden_Age }
+		x = 42
+		y = 12
+		completion_reward = { }
+	}
+	focus = {
+		id = Princess_Of_The_Sun
+		icon = GFX_technology_upgrade_folder_special_project_small_currently_researching_item_bg
+		cost = 5
+		prerequisite = { focus = Celestial_Consensus }
+		x = 42
+		y = 13
+		completion_reward = { }
+	}
+}
