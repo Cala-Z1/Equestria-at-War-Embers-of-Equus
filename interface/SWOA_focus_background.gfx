@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CRY_focus_background"
+		texturefile = "gfx/interface/Focus_Tree_BG/Crystal_Empire.dds"
+		noOfFrames = 1
+	}
+}

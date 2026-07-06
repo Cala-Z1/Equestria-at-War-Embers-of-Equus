@@ -94,7 +94,7 @@ technologies = {
 				factor = 2
 			}
 			modifier = {
-				tag = POR
+				
 				factor = 2000
 			}
 		}
@@ -131,7 +131,7 @@ technologies = {
 				factor = 1.5
 			}
 			modifier = {
-				tag = POR
+				
 				factor = 2000
 			}
 		}
@@ -1581,7 +1581,7 @@ technologies = {
 			}
 
 			modifier = {
-				tag = GER
+				
 				factor = 40
 			}
 		}
@@ -1650,7 +1650,7 @@ technologies = {
 				factor = 20
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 25
 			}
 			modifier = {

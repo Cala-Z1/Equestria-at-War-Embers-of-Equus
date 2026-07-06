@@ -9,4 +9,34 @@ spriteTypes = {
 		name = GFX_Cadence
 		texturefile = "gfx/leaders/CRY/Cadence.tga"
 	}
+
+	spriteType = {
+		name = GFX_Governor_Teafeather
+		texturefile = ""
+	}
+	
+	spriteType = {
+		name = GFX_altidiya 
+		texturefile = ""
+	}
+
+	spriteType = {
+		name = GFX_Prince_Rutherford
+		texturefile = ""
+	}
+
+	spriteType = {
+		name = GFX_Prince_Bradford
+		texturefile = ""
+	}
+
+	spriteType = {
+		name = GFX_Paw_Wellington
+		texturefile = ""
+	}
+
+	spriteType = {
+		name = GFX_King_Djavulen
+		texturefile = ""
+	}
 }

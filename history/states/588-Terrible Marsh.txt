@@ -13,8 +13,9 @@ state={
 	history={
 		owner = HLR
 		add_core_of = HLR
-	resources={
+	}
+		resources={
 		oil=200
 	}
-}
+
 }

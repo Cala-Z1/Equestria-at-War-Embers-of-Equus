@@ -8,14 +8,14 @@ bookmarks = {
 		default = yes
 		
 		# Majors
-		"EQS" = { history = "EQS_1007_1_1" is_major = yes }
-		"CHN" = { history = "CHN_1007_1_1" is_major = yes }
-		"RCT" = { history = "RCT_1007_1_1" is_major = yes }
-		"HIP" = { history = "HIP_1007_1_1" is_major = yes }
-		"GRI" = { history = "GRI_1007_1_1" is_major = yes }
- 		"WNG" = { history = "WNG_1007_1_1" is_major = yes}
-		"FAT" = { history = "FAT_1007_1_1" is_major = yes}
-		"JER" = { history = "JER_1007_1_1" is_major = yes}
+		"EQS" = { history = "EQS_1007_1_1" }
+		"CHN" = { history = "CHN_1007_1_1" }
+		"RCT" = { history = "RCT_1007_1_1" }
+		"HIP" = { history = "HIP_1007_1_1" }
+		"GRI" = { history = "GRI_1007_1_1" }
+ 		"WNG" = { history = "WNG_1007_1_1" }
+		"FAT" = { history = "FAT_1007_1_1" }
+		"JER" = { history = "JER_1007_1_1" }
 		
 		# Minors
 		"OLE" = { history = "OLE_1007_1_1" minor = yes}
@@ -39,12 +39,12 @@ bookmarks = {
 		default_country = "EQS"
 		
 		# Majors
-		"EQS" = { history = "EQS_1007_1_1" is_major = yes }
-		"CHN" = { history = "CHN_1007_1_1" is_major = yes }
-		"CRY" = { history = "CRY_1007_1_1" is_major = yes }
-		"STG" = { history = "STG_1007_1_1" is_major = yes }
- 		"OLE" = { history = "OLE_1007_1_1" is_major = yes}
-		"PLB" = { history = "PLB_1007_1_1" is_major = yes}
+		"EQS" = { history = "EQS_1007_1_1" }
+		"CHN" = { history = "CHN_1007_1_1" }
+		"CRY" = { history = "CRY_1007_1_1" }
+		"STG" = { history = "STG_1007_1_1" }
+ 		"OLE" = { history = "OLE_1007_1_1" }
+		"PLB" = { history = "PLB_1007_1_1" }
 		# Minors
 		"YAK" = { history = "YAK_1007_1_1" minor = yes}
 		"JAK" = { history = "JAK_1007_1_1" minor = yes}
@@ -58,14 +58,14 @@ bookmarks = {
 		default_country = "GRI"
 		
 		# Majors
-		"FAT" = { history = "FAT_1007_1_1" is_major = yes }
-		"GRI" = { history = "GRI_1007_1_1" is_major = yes }
-		"WNG" = { history = "WNG_1007_1_1" is_major = yes }
-		"RCT" = { history = "RCT_1007_1_1" is_major = yes }
-		"HIP" = { history = "HIP_1007_1_1" is_major = yes }
- 		"EQC" = { history = "EQC_1007_1_1" is_major = yes}
-		"JER" = { history = "JER_1007_1_1" is_major = yes }
-		"MCW" = { history = "MCW_1007_1_1" is_major = yes}		
+		"FAT" = { history = "FAT_1007_1_1" }
+		"GRI" = { history = "GRI_1007_1_1" }
+		"WNG" = { history = "WNG_1007_1_1" }
+		"RCT" = { history = "RCT_1007_1_1" }
+		"HIP" = { history = "HIP_1007_1_1" }
+ 		"EQC" = { history = "EQC_1007_1_1" }
+		"JER" = { history = "JER_1007_1_1" }
+		"MCW" = { history = "MCW_1007_1_1" }		
 
 		# Minors
 		"KIR" = { history = "KIR_1007_1_1" minor = yes}

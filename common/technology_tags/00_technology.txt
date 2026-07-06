@@ -1,6 +1,8 @@
 technology_categories = {
 	#OAK
 	
+	race_tech
+	magical_tech
 	inf_artillery
 	pykrete_tech
 	all_air

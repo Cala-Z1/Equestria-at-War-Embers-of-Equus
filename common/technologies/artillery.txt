@@ -57,7 +57,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = POR
+				
 				factor = 1000
 			}
 			
@@ -97,7 +97,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = POR
+				
 				factor = 1000
 			}
 		}
@@ -140,7 +140,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = POR
+				
 				factor = 1000
 			}
 		}
@@ -179,7 +179,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = POR
+				
 				factor = 1000
 			}
 		}
@@ -293,7 +293,7 @@ technologies = {
 			factor = 10	
 			modifier = {
 				factor = -100 
-				tag = CHI 
+				
 			}		
 		}
 		
@@ -1208,15 +1208,15 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -1253,15 +1253,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}	
 		}		
@@ -1315,15 +1315,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -1409,15 +1409,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -1449,15 +1449,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}	
 		}
@@ -1482,15 +1482,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}	
 		}
@@ -1531,15 +1531,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}	
 		}
@@ -1583,15 +1583,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}	
 		}
@@ -1621,15 +1621,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}	
 		}
@@ -1663,15 +1663,15 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -1712,15 +1712,15 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -1755,15 +1755,15 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -1818,15 +1818,15 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -1866,15 +1866,15 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -1923,15 +1923,15 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -1966,15 +1966,15 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}
@@ -2007,15 +2007,15 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				tag = USA
+				
 				factor = 50
 			}
 			modifier = {
-				tag = GER
+				
 				factor = 50
 			}
 			modifier = {
-				tag = ENG
+				
 				factor = 30
 			}
 		}

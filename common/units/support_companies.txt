@@ -356,7 +356,7 @@ field_hospital = {
 		}
 		
 		categories = {
-			category_regimental_support_battalions
+			
 			category_front_line
 			category_army
 			category_line_artillery
@@ -369,7 +369,6 @@ field_hospital = {
 
 		need = {
 			anti_tank_equipment = 12
-			horse_equipment = 24
 		}
 		manpower = 300
 		max_organisation = -10
@@ -401,7 +400,7 @@ field_hospital = {
 		}
 
 		categories = {
-			category_regimental_support_battalions
+			
 			category_front_line
 			category_army
 			category_line_artillery
@@ -416,7 +415,6 @@ field_hospital = {
 
 		need = {
 			anti_air_equipment = 10
-			horse_equipment = 20
 		}
 
 		can_be_parachuted = no
@@ -430,101 +428,6 @@ field_hospital = {
 		weight = 0.4
 
 		supply_consumption = 0.02
-
-	}
-	pack_artillery_brigade = {
-		abbreviation = "PAC"
-		sprite = artillery
-		map_icon_category = infantry
-		priority = 0
-		ai_priority = 0
-		is_artillery_brigade = yes
-		active = yes
-		affects_speed = no
-		type = {
-			artillery
-			support
-		}
-		
-		group = support
-		regimental = yes
-		divisional = no
-		
-		categories = {
-			category_regimental_support_battalions
-			category_front_line
-			category_army
-			category_line_artillery
-			category_pack_artillery		
-		}
-		allow_in_army_hq = yes
-
-
-		combat_width = 0
-
-		need = {
-			pack_artillery_equipment = 10
-			horse_equipment = 20
-		}
-		manpower = 250
-		training_time = 70
-		max_organisation = -10
-		default_morale = 0.2
-		max_strength = 2
-		weight = 0.08
-	
-		supply_consumption = 0.05
-
-		can_be_parachuted = yes
-	}
-	mountain_gun_brigade = {
-		sprite = artillery
-		map_icon_category = infantry
-		priority = 700
-		active = no
-		special_forces = no
-		is_artillery_brigade = yes
-		can_be_parachuted = yes
-				
-		type = {			
-			artillery
-			support
-		}
-
-		group = support
-
-		regimental = yes
-		divisional = no
-
-		allowed_battalion_groups = {special_infantry  }
-
-		categories = {
-			category_regimental_support_battalions
-			category_front_line
-			category_army
-            category_line_artillery	
-			category_pack_artillery		
-		}
-		allow_in_army_hq = yes
-
-		combat_width = 0
-
-		need = {
-			pack_artillery_equipment = 12
-			special_equipment = 25
-		}
-		
-		manpower = 250
-		training_time = 70
-		max_organisation = -10
-		default_morale = 0.2
-		max_strength = 2
-		weight = 0.08
-		supply_consumption = 0.05
-
-		mountain = {
-			attack = 0.02
-		}
 
 	}
 	light_sp_anti_air_company = {
@@ -549,7 +452,7 @@ field_hospital = {
 			category_anti_air
 			category_front_line
 			category_tanks
-			category_regimental_support_battalions
+			
 			category_support_spaa
 			
 		}
@@ -592,7 +495,7 @@ field_hospital = {
 			category_anti_air
 			category_front_line
 			category_tanks
-			category_regimental_support_battalions
+			
 			category_support_spaa
 			
 		}
@@ -635,7 +538,7 @@ field_hospital = {
 			category_anti_air
 			category_front_line
 			category_tanks
-			category_regimental_support_battalions
+			
 			category_support_spaa
 		}
 
@@ -677,7 +580,7 @@ field_hospital = {
 			category_anti_air
 			category_front_line
 			category_tanks
-			category_regimental_support_battalions
+			
 			category_support_spaa
 		}
 
@@ -734,12 +637,10 @@ field_hospital = {
 		
 		essential = {
 			support_equipment
-			horse_equipment
 		}
 
 		need = {
 			support_equipment = 15
-			horse_equipment = 20
 		}
 		same_support_type = logistics 
 	}
@@ -1067,61 +968,6 @@ field_hospital = {
 		need = {
 			support_equipment = 25
 			infantry_equipment = 25
-		}
-	}
-	signal_company = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 0
-		active = no
-		affects_speed = no
-		type = {
-			infantry
-			support
-		}
-		
-		group = support
-		regimental = no
-		
-		categories = {
-			category_support_battalions
-			category_army
-		}
-
-		combat_width = 0.0
-	
-		#Size Definitions
-		max_strength = 1
-		max_organisation = 35
-		default_morale = 0
-		
-		manpower = 400
-		training_time = 120
-
-		#Misc Abilities
-		weight = 0.08
-		supply_consumption = 0.03
-		can_be_parachuted = yes
-		
-		# Important Ability
-		#initiative = 0.25
-		experience_loss_factor = -0.08
-
-		battalion_mult = {
-			category = category_front_line
-			default_morale=  0.1
-			add = no
-		}
-
-		essential = {
-			support_equipment
-			motorized_equipment
-		}
-
-		need = {
-			support_equipment = 10
-			motorized_equipment = 10
-			radio_equipment = 30		
 		}
 	}
 }
