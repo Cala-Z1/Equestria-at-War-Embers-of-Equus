@@ -11,6 +11,13 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = HIP
+		}
+
 	}
 	provinces={
 		8802 12158 12217 12219 19205 19213 19834 19841 19858 19880 

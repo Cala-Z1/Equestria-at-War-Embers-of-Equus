@@ -21,6 +21,10 @@ state={
 			17802 5
 		}
 
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 
 	provinces={

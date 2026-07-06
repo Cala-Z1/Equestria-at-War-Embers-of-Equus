@@ -15,5 +15,9 @@ state={
 		add_core_of = GRF
 		
 		victory_points = { 13337 1 }
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 }

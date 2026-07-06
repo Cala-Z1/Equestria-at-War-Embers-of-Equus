@@ -33,9 +33,27 @@ script_enum_equipment_bonus_type = {
 	rocket_artillery_equipment_0
 	rocket_artillery_equipment_1
 	rocket_artillery_equipment_2
+	anti_air
+	anti_air_equipment
+	anti_air_equipment_1
+	anti_air_equipment_2
+	anti_air_equipment_3
 
 	## Anti Tank Equipment ##
-	
+	anti_tank
+	anti_tank_equipment
+	anti_tank_equipment_1
+	anti_tank_equipment_2
+	anti_tank_equipment_3
+	heavy_anti_air_equipment
+	heavy_anti_air_equipment_1
+	heavy_anti_air_equipment_2
+	heavy_anti_air_equipment_3
+	anti_tank_equipment_4
+	smoothbore_anti_tank_equipment
+	anti_tank_guided_missile_equipment
+	anti_tank_guided_missile_equipment_1
+
 	## Motorizen Equipment ##
 	motorized_equipment
 	motorized_equipment_0
@@ -50,6 +68,7 @@ script_enum_equipment_bonus_type = {
 	small_plane_airframe_2
 	small_plane_airframe_3
 	small_plane_airframe_4
+	small_plane_airframe_5
 	cv_small_plane_airframe_0
 	cv_small_plane_airframe_1
 	cv_small_plane_airframe_2
@@ -168,9 +187,7 @@ script_enum_equipment_bonus_type = {
 	missile_launcher
 	support
 	amphibious
-	anti_air
 	artillery
-	anti_tank
 	rocket
 	flame
 	land_cruiser
@@ -188,17 +205,9 @@ script_enum_equipment_bonus_type = {
 	land_cruiser_chassis_1
 	land_cruiser_equipment_1 #(No-NSB version)
 	destroyer
-	anti_tank_equipment
 	amphibious_mechanized_equipment
 	amphibious_mechanized_equipment_1
 	amphibious_mechanized_equipment_2
-	anti_air_equipment
-	anti_air_equipment_1
-	anti_air_equipment_2
-	anti_air_equipment_3
-	anti_tank_equipment_1
-	anti_tank_equipment_2
-	anti_tank_equipment_3
 	convoy_1
 	floating_harbor_equipment
 	floating_harbor_equipment_1
@@ -475,7 +484,6 @@ script_enum_equipment_bonus_type = {
 	super_heavy_tank_aa_equipment_1
 	amphibious_tank_equipment_1
 	amphibious_tank_equipment_2
-	supersonic_fighter_equipment_1
 }
 
 script_enum_operative_mission_type = {

@@ -13,6 +13,12 @@ state={
 			}
 		}
 		victory_points = { 15405 10 }
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = SDL
+		}
 	}
 	provinces={
 		15397 15401 15405 15409 15410 15414 

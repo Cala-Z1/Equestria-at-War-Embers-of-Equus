@@ -13,6 +13,13 @@ state={
 			20273 = { naval_base = 4 }
 		}
 		victory_points = { 20273 1 }
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = HIP
+		}
+
 	}
 	resources = {
 	aluminium=200.000

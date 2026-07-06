@@ -19,6 +19,9 @@ state={
 				coastal_bunker = 1
 			}
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
 	}
 	resources = {
 		tungsten=20

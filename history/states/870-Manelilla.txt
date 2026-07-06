@@ -12,6 +12,12 @@ state={
 			infrastructure = 1
 		}
 		victory_points = { 14685 3 }
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = SDL
+		}
 	}
 	provinces={
 		14658 14661 14667 14672 14673 14677 14684 14685 14688 14694 14702 14715 

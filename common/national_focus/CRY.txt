@@ -1,0 +1,954 @@
+focus_tree = {
+	id = CRY_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			original_tag = CRY
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 2000 y = 1500 }
+	focus = {
+		id = ind_1
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 40
+		y = 0
+		completion_reward = { }
+	}
+	
+	## LEFT SIDE IND ##
+	focus = {
+		id = ind_left
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		prerequisite = {
+			focus = ind_1
+		}
+		mutually_exclusive = {
+			focus = ind_right
+		}
+		x = 35
+		y = 1
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 32
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 38
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 35
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 34
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 36
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 35
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 32
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 38
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 35
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 35
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 32
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 38
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 33
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 37
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 35
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 35
+		y = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 35
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 38
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 32
+		y = 11
+		completion_reward = { }
+	}
+	
+	## RIGHT SIDE IND ##
+	focus = {
+		id = ind_right
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		prerequisite = {
+			focus = ind_1
+		}
+		mutually_exclusive = {
+			focus = ind_left
+		}
+		x = 45
+		y = 1
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 45
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 42
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 44
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 49
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 45
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 43
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 49
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 42
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 44
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 50
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 48
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 49
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 47
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 50
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 45
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 49
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 47
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 47
+		y = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 45
+		y = 10
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 44
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 46
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 48
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 50
+		y = 11
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 45
+		y = 12
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 47
+		y = 13
+		completion_reward = { }
+	}
+	## POL ##
+	focus = {
+		id = The_Crystal_Fair
+		icon = GFX_The_Crystal_Fair
+		cost = 5
+		x = 20
+		y = 0
+		completion_reward = { }
+	}
+	focus = {
+		id = Mi_Amore_Family
+		icon = GFX_Mi_Amore_Family
+		cost = 5
+		prerequisite = {
+			focus = The_Crystal_Fair
+		}
+		x = 21
+		y = 1
+		completion_reward = { }
+	}
+	focus = {
+		id = The_Crystalling_Anniversary
+		icon = GFX_The_Crystalling_Anniversary
+		cost = 5
+		prerequisite = {
+			focus = The_Crystal_Fair
+		}
+		x = 19
+		y = 1
+		completion_reward = { }
+	}
+	focus = {
+		id = Winter_Solstice
+		icon = GFX_Winter_Solstice
+		cost = 5
+		prerequisite = {
+			focus = The_Crystalling_Anniversary
+		}
+		x = 19
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = The_Grand_Festival
+		icon = GFX_The_Grand_Festival
+		cost = 5
+		prerequisite = {
+			focus = The_Crystalling_Anniversary
+		}
+		x = 17
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = Referendum
+		icon = GFX_Referendum
+		cost = 5
+		prerequisite = {
+			focus = The_Grand_Festival
+		}
+		prerequisite = {
+			focus = Winter_Solstice
+		}
+		mutually_exclusive = {
+			focus = Subordination
+		}
+		x = 18
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = Empire_Reborn
+		icon = GFX_Empire_Reborn
+		cost = 5
+		prerequisite = {
+			focus = Mi_Amore_Family
+		}
+		x = 21
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = miamore_forever
+		icon = GFX_miamore_forever
+		cost = 5
+		prerequisite = {
+			focus = Mi_Amore_Family
+		}
+		x = 23
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = Subordination
+		icon = GFX_Subordination
+		cost = 5
+		prerequisite = {
+			focus = miamore_forever
+		}
+		prerequisite = {
+			focus = Empire_Reborn
+		}
+		mutually_exclusive = {
+			focus = Referendum
+		}
+		x = 22
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = Find_The_Sombra_Supporters
+		icon = GFX_Find_The_Sombra_Supporters
+		cost = 5
+		prerequisite = {
+			focus = Subordination
+			focus = Referendum
+		}
+		x = 20
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = Reaching_Beyond_the_Empire
+		icon = GFX_Reaching_Beyond_the_Empire
+		cost = 5
+		prerequisite = {
+			focus = Find_The_Sombra_Supporters
+		}
+		x = 18
+		y = 5
+		completion_reward = { }
+}
+	focus = {
+		id = Social_Welfare
+		icon = GFX_Social_Welfare
+		cost = 5
+		prerequisite = {
+			focus = Find_The_Sombra_Supporters
+		}
+		mutually_exclusive = {
+			focus = laissez_faire
+		}
+		x = 22
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = laissez_faire
+		icon = GFX_laissez_faire
+		cost = 5
+		prerequisite = {
+			focus = Find_The_Sombra_Supporters
+		}
+		mutually_exclusive = {
+			focus = Social_Welfare
+		}
+		x = 24
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = The_New_Crystal_Order
+		icon = GFX_The_New_Crystal_Order
+		cost = 5
+		prerequisite = {
+			focus = Social_Welfare
+			focus = laissez_faire
+		}
+		x = 23
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = Strike_at_Sombra_Supporters
+		icon = GFX_Strike_at_Sombra_Supporters
+		cost = 5
+		prerequisite = {
+			focus = Find_The_Sombra_Supporters
+		}
+		prerequisite = {
+			focus = The_New_Crystal_Order
+		}
+		x = 20
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = Crystal_Court_Consolidation
+		icon = GFX_Crystal_Court_Consolidation
+		cost = 5
+		mutually_exclusive = {
+			focus = Reasserting_Royal_Authority
+		}
+		prerequisite = {
+			focus = Strike_at_Sombra_Supporters
+		}
+		x = 18
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Reasserting_Royal_Authority
+		icon = GFX_Reasserting_Royal_Authority
+		cost = 5
+		mutually_exclusive = {
+			focus = Crystal_Court_Consolidation
+		}
+		prerequisite = {
+			focus = Strike_at_Sombra_Supporters
+		}
+		x = 22
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = Vist_To_Stalliongrad
+		icon = GFX_Vist_To_Stalliongrad
+		cost = 5
+		prerequisite = {
+			focus = Reaching_Beyond_the_Empire
+		}
+		x = 16
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = operation_Break_Shadow
+		icon = GFX_operation_Break_Shadow
+		cost = 5
+		prerequisite = {
+			focus = Reasserting_Royal_Authority
+			focus = Crystal_Court_Consolidation
+		}
+		x = 20
+		y = 10
+		completion_reward = { }
+	}
+	## MIL ## 
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 55
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 56
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 58
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 65
+		y = 0
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 60
+		y = 1
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 70
+		y = 1
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 60
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 62
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 60
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 64
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 57
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 59
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 61
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 63
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 65
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 57
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 59
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 61
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 63
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 65
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 55
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 56
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 64
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 60
+		y = 6
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 60
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 58
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 62
+		y = 7
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 61
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 59
+		y = 8
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 60
+		y = 9
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 71
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 69
+		y = 2
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 70
+		y = 3
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 70
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 68
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 72
+		y = 4
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 71
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 69
+		y = 5
+		completion_reward = { }
+	}
+	focus = {
+		id = x
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		x = 70
+		y = 6
+		completion_reward = { }
+	}
+}

@@ -16,5 +16,9 @@ state={
 		victory_points = {
 			12098 1
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 }

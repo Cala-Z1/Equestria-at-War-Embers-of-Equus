@@ -1,6 +1,8 @@
 technology_categories = {
 	#OAK
 	
+	race_tech
+	magical_tech
 	inf_artillery
 	pykrete_tech
 	all_air
@@ -85,6 +87,7 @@ technology_categories = {
 	cat_battlefield_support
 	cat_operational_integrity
 	cat_naval_planes_doc
+	cat_artillery
 	night_vision
 	base_strike_main
 	mot_rockets

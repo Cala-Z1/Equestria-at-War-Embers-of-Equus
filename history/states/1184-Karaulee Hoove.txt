@@ -19,6 +19,10 @@ state={
 		victory_points = {
 			17873 1
 		}
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 	resources={
 		aluminium=150.000

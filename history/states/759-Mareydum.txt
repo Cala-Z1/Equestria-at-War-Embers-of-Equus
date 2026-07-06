@@ -12,6 +12,13 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 		}
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = HIP
+		}
+
 	}
 	provinces={
 		12112 12151 12153 12160 12178 12206 12228 19202 19211 19212 19222 19231 19237 

@@ -19,6 +19,13 @@ state={
 		}
 		add_core_of = ABY
 
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = ABY
+		}
+
 	}
 
 	provinces={

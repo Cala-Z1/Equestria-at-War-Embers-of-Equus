@@ -15,7 +15,14 @@ state={
 		add_core_of = FAT
 
 		victory_points = { 3706 3 }
-	}
+	
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = FAT
+		}
+}
 
 	resources={
 		steel=100

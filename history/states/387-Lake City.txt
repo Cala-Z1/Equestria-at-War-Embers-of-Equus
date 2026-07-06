@@ -27,6 +27,13 @@ state={
 				landmark_palace_of_grand_prince = 1
 			}
 		}
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = RCT
+		}
+
 	}
 
 	resources={

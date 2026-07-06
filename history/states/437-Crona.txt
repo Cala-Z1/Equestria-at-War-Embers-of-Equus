@@ -21,7 +21,14 @@ state={
 			arms_factory = 2
 			industrial_complex = 1
 		}
-	}
+	
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = GRI
+		}
+}
 
 	resources={
 		steel=40

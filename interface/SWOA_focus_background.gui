@@ -1,0 +1,15 @@
+guiTypes = {
+	containerWindowType = {
+		name = "SWOA_focus_background_container"
+		size = { width = 1920 height = 1080 }
+		position = { x = 0 y = 0 }
+		orientation = upper_left
+
+        iconType = {
+            name = "SWOA_focus_background_image"
+            position = { x = 0 y = 0 }
+            scale = 1.0
+            alwaystransparent = yes
+        }
+	}
+}

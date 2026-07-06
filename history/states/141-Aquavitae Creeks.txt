@@ -10,6 +10,10 @@ state={
 		owner = CRY
 		add_core_of = CRY
 
+		1007.1.3 = {
+			owner = HLR
+		}
+
 	}
 
 	provinces={

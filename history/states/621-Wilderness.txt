@@ -16,7 +16,14 @@ state={
 		add_core_of = RCT
 
 		victory_points = { 2044 1 }
-	}
+	
+		1007.1.2 = {
+			owner = HLR
+		}
+		1007.1.3 = {
+			owner = RCT
+		}
+}
 
 	resources = {
 		aluminium=70

@@ -854,7 +854,7 @@ technologies = {
 		# can build radars/radar boost in air/sea combat depends on radar level
 		allow = {
 	 		ROOT = {
-				# = sp:sp_air_radar
+				is_special_project_completed = sp:sp_air_radar
 			}
 		}
 
@@ -899,7 +899,7 @@ technologies = {
 	centimetric_radarr = {
 		allow = {
 	 		ROOT = {
-				# = sp:sp_cavity_magnetron
+				is_special_project_completed =sp:sp_cavity_magnetron
 			}
 		}
 		is_special_project_tech = yes
@@ -946,7 +946,7 @@ technologies = {
 
 		allow = {
 	 		ROOT = {
-				# = sp:sp_cavity_magnetron
+				is_special_project_completed = sp:sp_cavity_magnetron
 			}
 			AND = { 
 			has_tech = centimetric_radarr
