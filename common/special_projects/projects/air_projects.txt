@@ -394,8 +394,6 @@ sp_air_jet_engine = {
 	icon = GFX_sp_air_jet_engine
 
 	project_tags = {
-		
-		sp_tag_jet
 	}
 
 	available = { 

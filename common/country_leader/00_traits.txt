@@ -1,0 +1,6 @@
+leader_traits = {
+		crystal_administrator = {
+		random = no
+		stability_factor = 0.6
+	}
+}

@@ -5,10 +5,7 @@
 #    When adding a new subideology, please add an entry of the subideology in    #
 # common/scripted_localisation/EAW_subideology_display_scripted_localisation.txt #
 ######======================================================================######
-
-
 ideologies = {
-
 	democratic = {
 		types = {
 			conservatism = {
@@ -26,7 +23,7 @@ ideologies = {
 			harmonic_theocracy = {
 			    can_be_randomly_selected = no
 			}
-			holy_order_h = {
+			holy_order = {
 			    can_be_randomly_selected = no
 			}
 			harmonic_libertarianism = {
@@ -45,7 +42,6 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 		}
-
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
 			"FACTION_NAME_DEMOCRATIC_2"
@@ -54,9 +50,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_5"
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
-
 		color = { 246 193 219 }
-
 		rules = {
 			can_declare_war_on_same_ideology = no
 			can_force_government = no
@@ -67,12 +61,9 @@ ideologies = {
 			can_guarantee_other_ideologies = yes
 			can_create_collaboration_government = no
 		}
-
 		can_host_government_in_exile = yes
-
 		war_impact_on_world_tension = 0.25 #harmonists are nice people
 		faction_impact_on_world_tension = 0.1
-
 		modifiers = {
 			generate_wargoal_tension = 0.50
 			join_faction_tension = 0.50
@@ -87,7 +78,6 @@ ideologies = {
 			embargo_threshold_factor = -0.5
 			air_volunteer_cap = 2
 		}
-
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
@@ -97,8 +87,6 @@ ideologies = {
 		
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
 	}
-
-
 	communism = {
 		types = {
 			marxism = {
@@ -147,7 +135,6 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 		}
-
 		dynamic_faction_names = {
 			"FACTION_NAME_COMMUNIST_1"
 			"FACTION_NAME_COMMUNIST_2"
@@ -155,17 +142,12 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_4"
 			"FACTION_NAME_COMMUNIST_5"
 		}
-
 		color = { 236 7 75 }
-
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
-
 		ai_communist = yes # uses the commie AI behaviour
 		ai_ideology_wanted_units_factor = 1.20
-
 		can_collaborate = yes
-
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -173,7 +155,6 @@ ideologies = {
 			can_guarantee_other_ideologies = yes
 
 		}
-
 		modifiers = {
 			generate_wargoal_tension = 0.3
 			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead			send_volunteer_divisions_required = -0.25
@@ -191,7 +172,6 @@ ideologies = {
 		}
 		ai_give_core_state_control_threshold = 10
 	}
-
 	fascism = {
 		types = {
 			nazism = {

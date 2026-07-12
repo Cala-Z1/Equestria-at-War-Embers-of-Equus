@@ -1,14 +1,27 @@
 characters = {
-    CRY_Cadance = {
-    name = "Princess Cadance"
+    CRY_Cadence = {
+    name = CRY_Cadence
     portraits = {
 		civilian = {
-			large = "GFX_Cadence"
+		large = "GFX_Cadence"
 		}
 	}
-country_leader = {
-	ideology = harmonic_theocracy
-	expire = "1999.1.1.1"
-}
+	advisor = {
+		slot = political_advisor
+		available = {
+			if = {
+				limit = {
+					original_tag = CRY 
+				}
+				has_completed_focus = Crystal_Court_Consolidation
+			}
+		}
+		traits = { }
+	}
+		country_leader = {
+			ideology = alicornrule
+			expire = "1965.1.1.1"
+			id = -1 
+		}
 	}
 }

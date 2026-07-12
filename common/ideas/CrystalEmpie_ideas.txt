@@ -1,0 +1,73 @@
+ideas = {
+	country = {
+		equestrian_overlord = {
+			allowed = {
+				always = no
+			}
+			available = {
+				is_subject = yes
+				overlord = {
+					original_tag = EQS
+				}
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = EQS_harmonic_stagnation2
+			modifier = {
+				war_support_factor = -0.20
+				political_power_gain = -0.25
+				research_speed_factor = -0.15
+			}
+		}
+	}
+	country = {
+		crystal_buff = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_communist_crystals
+			modifier = {
+				experience_gain_army = 0.02
+				out_of_supply_factor = -0.1
+				supply_consumption_factor = -0.10
+				heat_attrition_factor = -0.5
+				winter_attrition_factor = -1
+				max_dig_in = 3
+			}
+		}
+	}
+	country = {
+		CRY_five_year_plan = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_five_year_plan
+			modifier = {
+				consumer_goods_expected_value = 0.02
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_arms_factory_factor = -0.40
+				research_speed_factor = 0.05
+			}
+		}
+	}
+	country = {
+		closed_market = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_closed_market
+			modifier = {
+				min_export = -0.05
+				local_resources_factor = 0.05
+			}
+		}	
+	}
+}

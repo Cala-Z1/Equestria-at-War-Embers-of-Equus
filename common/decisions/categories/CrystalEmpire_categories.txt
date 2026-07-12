@@ -1,0 +1,10 @@
+Sombra_Scare_Missons = {
+	icon = GFX_decision_category_generic_political_actions
+	priority = 10
+	allowed = {
+		tag = CRY
+	}
+	visible = {
+		tag = CRY
+	}
+}

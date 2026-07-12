@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = CRY_focus_tree
 	country = {
 		factor = 0
@@ -34,7 +34,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_mining_expansion
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 32
@@ -42,7 +42,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_artisan_works
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 38
@@ -50,7 +50,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_construction_corps
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 35
@@ -58,7 +58,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_infrastructure
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 34
@@ -66,7 +66,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_power_grid
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 36
@@ -74,7 +74,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_economic_zone
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 35
@@ -82,7 +82,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_agricultural_reform
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 32
@@ -90,7 +90,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_export_market
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 38
@@ -98,7 +98,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_industrial_academy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 35
@@ -106,7 +106,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_production_surge
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 35
@@ -114,7 +114,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_heart_district
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 32
@@ -122,7 +122,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_northern_development
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 38
@@ -130,7 +130,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_city_expansion
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 33
@@ -138,7 +138,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_workforce_mobilisation
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 37
@@ -146,7 +146,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_industrial_complex
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 35
@@ -154,7 +154,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_second_push
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 35
@@ -162,7 +162,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_economic_supremacy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 35
@@ -170,7 +170,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_trade_empire
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 38
@@ -178,7 +178,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = civ_heart_economy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 32
@@ -202,7 +202,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_foundry_network
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 45
@@ -210,7 +210,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_crystal_armour_division
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 42
@@ -218,7 +218,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_enchanted_arms
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 44
@@ -226,7 +226,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_northern_arsenal
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 49
@@ -234,7 +234,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_military_pact
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 45
@@ -242,7 +242,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_guard_equipment
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 43
@@ -250,7 +250,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_siege_works
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 49
@@ -258,7 +258,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_refined_alloys
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 42
@@ -266,7 +266,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_mass_production
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 44
@@ -274,7 +274,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_ammo_stockpile
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 50
@@ -282,7 +282,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_research_development
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 48
@@ -290,7 +290,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_engineering_corps
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 49
@@ -298,7 +298,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_advanced_weapons
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 47
@@ -306,7 +306,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_war_economy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 50
@@ -314,7 +314,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_siege_corps
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 45
@@ -322,7 +322,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_production_surge
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 49
@@ -330,7 +330,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_imperial_arsenal
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 47
@@ -338,7 +338,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_northern_arms
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 47
@@ -346,7 +346,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_armoured_manufacturing
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 45
@@ -354,7 +354,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_strike_force_equipment
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 44
@@ -362,7 +362,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_mass_enchantment
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 46
@@ -370,7 +370,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_military_supremacy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 48
@@ -378,7 +378,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_fortress_network
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 50
@@ -386,7 +386,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_total_war
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 45
@@ -394,7 +394,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mfac_crystal_war_machine
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 47
@@ -408,7 +408,9 @@ focus_tree = {
 		cost = 5
 		x = 20
 		y = 0
-		completion_reward = { }
+		completion_reward = { 
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = Mi_Amore_Family
@@ -419,7 +421,11 @@ focus_tree = {
 		}
 		x = 21
 		y = 1
-		completion_reward = { }
+		completion_reward = { 
+		cry = {
+			add_country_leader_trait = crystal_administrator 
+			}
+		}
 	}
 	focus = {
 		id = The_Crystalling_Anniversary
@@ -531,7 +537,10 @@ focus_tree = {
 		}
 		x = 18
 		y = 5
-		completion_reward = { }
+		completion_reward = { 
+			remove_ideas = closed_market
+			add_ideas = free_trade
+		}
 }
 	focus = {
 		id = Social_Welfare
@@ -585,7 +594,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 7
-		completion_reward = { }
+		completion_reward = {
+     		set_country_flag = CRY_sombra_purged
+			}
 	}
 	focus = {
 		id = Crystal_Court_Consolidation
@@ -640,31 +651,44 @@ focus_tree = {
 	}
 	## MIL ## 
 	focus = {
-		id = x
+		id = Modern_Battle_Doctrine
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Steel_and_Crystal
+		}
 		x = 55
 		y = 4
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Steel_and_Crystal
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Steel_Beneath_the_Snow
+		}
+		mutually_exclusive = {
+			focus = The_Imperial_Guard
+			focus = Arcane_Warfare_Department
+		}
 		x = 56
 		y = 3
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Steel_Beneath_the_Snow
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = The_Empire's_Shield
+		}
 		x = 58
 		y = 2
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Military_Expansions
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 65
@@ -672,63 +696,92 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = The_Empire's_Shield
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Military_Expansions
+		}
 		x = 60
 		y = 1
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Crystal_Air_Force
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Military_Expansions
+		}
 		x = 70
 		y = 1
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Restore_the_Crystal_Legions
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = The_Empire's_Shield
+		}
 		x = 60
 		y = 2
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Legacy_of_King_Sombra
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = The_Empire's_Shield
+		}
 		x = 62
 		y = 2
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = The_Imperial_Guard
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Restore_the_Crystal_Legions
+		}
+		mutually_exclusive = {
+			focus = Steel_and_Crystal
+			focus = Arcane_Warfare_Department
+		}
 		x = 60
 		y = 3
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Arcane_Warfare_Department
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Legacy_of_King_Sombra
+		}
+		mutually_exclusive = {
+			focus = Steel_and_Crystal
+			focus = The_Imperial_Guard
+		}
 		x = 64
 		y = 3
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Mechanize_the_Legions
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Steel_and_Crystal
+		}
 		x = 57
 		y = 4
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = art_shell_technology
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 59
@@ -736,7 +789,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = tnk_doctrine
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 61
@@ -744,31 +797,43 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Enchanted_Artillery
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Arcane_Warfare_Department
+		}
 		x = 63
 		y = 4
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = The_Heart's_Power
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Arcane_Warfare_Department
+		}
 		x = 65
 		y = 4
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Armored_Ascendancy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Mechanize_the_Legions
+		}
+		mutually_exclusive = {
+			focus = The_Iron_Heart
+		}
 		x = 57
 		y = 5
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = art_coordinated_barrage
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 59
@@ -776,7 +841,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = tnk_crew_excellence
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 61
@@ -784,47 +849,73 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = study_the_crystal_heart
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Enchanted_Artillery
+		}
+		mutually_exclusive = {
+			focus = Weaponize_the_Crystal_Heart
+		}
 		x = 63
 		y = 5
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Weaponize_the_Crystal_Heart
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = The_Heart's_Power
+		}
+		mutually_exclusive = {
+			focus = study_the_crystal_heart
+		}
 		x = 65
 		y = 5
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = The_Iron_Heart
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Modern_Battle_Doctrine
+		}
+		mutually_exclusive = {
+			focus = Armored_Ascendancy
+		}
 		x = 55
 		y = 5
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Crystal_Steel_Foundries
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = The_Iron_Heart
+			focus = Armored_Ascendancy
+		}
 		x = 56
 		y = 6
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Harness_Ancient_Magic
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Weaponize_the_Crystal_Heart
+			focus = study_the_crystal_heart
+		}
 		x = 64
 		y = 6
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = tnk_combined_arms
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 60
@@ -832,7 +923,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = tnk_breakthrough
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 60
@@ -840,7 +931,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = art_crystal_howitzers
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 58
@@ -848,7 +939,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = tnk_flanking_manoeuvre
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 62
@@ -856,7 +947,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = tnk_shock_division
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 61
@@ -864,7 +955,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = art_suppression_fire
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 59
@@ -872,7 +963,7 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = tnk_armoured_victory
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		x = 60
@@ -880,73 +971,116 @@ focus_tree = {
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Northern_Air_Command
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Crystal_Air_Force
+		}
 		x = 71
 		y = 2
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Crystal_Aviation_Initiative
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Crystal_Air_Force
+		}
 		x = 69
 		y = 2
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Wings_Over_the_Empire
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Crystal_Aviation_Initiative
+			focus = Northern_Air_Command
+		}
 		x = 70
 		y = 3
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Pegasi_Strike_Wings
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Wings_Over_the_Empire
+		}
+		mutually_exclusive = {
+			focus = Skyward_Supremacy
+			focus = Guardians_of_the_Clouds
+		}
 		x = 70
 		y = 4
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Skyward_Supremacy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Wings_Over_the_Empire
+		}
+		mutually_exclusive = {
+			focus = Guardians_of_the_Clouds
+			focus = Pegasi_Strike_Wings
+		}
 		x = 68
 		y = 4
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = Guardians_of_the_Clouds
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Wings_Over_the_Empire
+		}
+		mutually_exclusive = {
+			focus = Skyward_Supremacy
+			focus = Pegasi_Strike_Wings
+		}
 		x = 72
 		y = 4
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = The_Crystal_Air_Corps
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Guardians_of_the_Clouds
+			focus = Pegasi_Strike_Wings
+		}
 		x = 71
 		y = 5
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = cystal_cas_force
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Pegasi_Strike_Wings
+			focus = Skyward_Supremacy
+		}
 		x = 69
 		y = 5
 		completion_reward = { }
 	}
 	focus = {
-		id = x
+		id = mastery_of_rocketry
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = cystal_cas_force
+			focus = The_Crystal_Air_Corps
+		}
 		x = 70
 		y = 6
 		completion_reward = { }

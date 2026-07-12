@@ -76,7 +76,7 @@ NDefines.NDiplomacy.LL_TO_PUPPET_AUTONOMY_DAILY_BASE = 0		-- If overlord lend le
 NDefines.NDiplomacy.LL_TO_PUPPET_AUTONOMY_DAILY_FACTOR = 0     -- If overlord lend leases equipment to puppet of higher tech level as they have, puppet losses autonomy
 ---------------------------------------------------------------
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 4                   --HARSHEST 
-NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1  --was 2
+NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 2  --was 2
 NDefines.NPolitics.ARMY_LEADER_MAX_COST = 100				-- max cost BEFORE modifiers
 NDefines.NPolitics.NAVY_LEADER_MAX_COST = 100				-- max cost BEFORE modifiers
 ---------------------------------------------------------------

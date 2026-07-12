@@ -1,6 +1,6 @@
 capital = 425
 set_technology ={
-
+	starting_industry = 1
 }
 
 set_research_slots = 0

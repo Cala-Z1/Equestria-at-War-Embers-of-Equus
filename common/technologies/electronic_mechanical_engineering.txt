@@ -765,11 +765,6 @@ technologies = {
 		enable_equipments = {
 			anti_tank_guided_missile_equipment_1
 		}		
-		enable_subunits = {
-			atgm_battalion
-			motorized_atgm_battalion
-			atgm_company			
-		}
 
 		research_cost = 1.2
 		start_year = 1016

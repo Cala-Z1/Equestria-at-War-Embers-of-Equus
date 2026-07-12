@@ -3,6 +3,10 @@
 # Place in: common/units/00_categories.txt
 
 sub_unit_categories = {
+	category_flame_tanks
+	category_heavy_and_super_heavy_tanks
+	category_assault_guns
+	category_support_spaa
 	category_tanks
 	category_motorised
 	category_light_infantry

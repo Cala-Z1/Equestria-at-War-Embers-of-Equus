@@ -1,34 +1,34 @@
 ﻿Capital = 344
- #Starting Tech
 set_technology ={
-
+	starting_industry = 1
+	electronic_mechanical_engineering = 1
+	construction1 = 1
 }
-
+set_power_balance = {
+	id = CRY_balamce_of_power 
+}
 set_research_slots = 4
-
 set_convoys = 300
-
 set_popularities = {
 	democratic = 90
 	fascism = 0
 	communism = 5
 	neutrality = 5
 }
-
 set_politics = {
-
 	ruling_party = democratic
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Princess Cadence"
-	desc = " "
-	picture = "GFX_Cadence"
-	ideology = harmonic_theocracy
-}
-
+set_war_support = 0.3
+set_stability = 0.22
+add_ideas = closed_economy
+add_ideas = limited_conscription
 add_ideas = {
+	equestrian_overlord
+	crystal_buff
+	CRY_five_year_plan
+	closed_market
 }
+recruit_character = TEST

@@ -24,7 +24,19 @@ bookmarks = {
 		"PLB" = { history = "PLB_1007_1_1" minor = yes}
 		"GRF" = { history = "GRF_1007_1_1" minor = yes}
 		"STG" = { history = "STG_1007_1_1" minor = yes}
-		"CRY" = { history = "CRY_1007_1_1" minor = yes}
+		"CRY" = {
+		ideas = {
+			equestrian_overlord
+			crystal_buff
+			CRY_five_year_plan
+		}
+		focuses = {
+			The_Crystal_Fair
+			Find_The_Sombra_Supporters
+			Social_Welfare
+		}
+		 history = "CRY_1007_1_1" minor = yes
+		}
 		"EQC" = { history = "EQC_1007_1_1" minor = yes}
 		"MCW" = { history = "MCW_1007_1_1" minor = yes}
 		"KIR" = { history = "KIR_1007_1_1" minor = yes}
@@ -41,7 +53,19 @@ bookmarks = {
 		# Majors
 		"EQS" = { history = "EQS_1007_1_1" }
 		"CHN" = { history = "CHN_1007_1_1" }
-		"CRY" = { history = "CRY_1007_1_1" }
+		"CRY" = {
+		ideas = {
+			equestrian_overlord
+			crystal_buff
+			CRY_five_year_plan
+		}
+		focuses = {
+			The_Crystal_Fair
+			Find_The_Sombra_Supporters
+			Social_Welfare
+		}
+		 history = "CRY_1007_1_1" 
+		}
 		"STG" = { history = "STG_1007_1_1" }
  		"OLE" = { history = "OLE_1007_1_1" }
 		"PLB" = { history = "PLB_1007_1_1" }

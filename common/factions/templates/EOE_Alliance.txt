@@ -1,0 +1,19 @@
+# ── FACTION TEMPLATE ────────────────────────────────────────────────────────
+# Place this file in common/factions/templates/
+# One file per faction. The id must be unique.
+faction_template_United_Ponies_Alliance = {
+	name = United_Ponies_Alliance
+	icon = GFX_faction_icon_1
+	# Which countries can found this faction
+	allowed = {
+		original_tag = EQS
+		original_tag = CRY
+		original_tag = STG
+	}
+	# Which countries can join
+	can_join = {
+		always = yes
+	}
+	# Starting power projection
+	power_projection = 0
+}
