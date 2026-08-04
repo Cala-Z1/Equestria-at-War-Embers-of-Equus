@@ -1,27 +1,70 @@
 characters = {
-    CRY_Cadence = {
-    name = CRY_Cadence
-    portraits = {
-		civilian = {
-		large = "GFX_Cadence"
-		}
-	}
-	advisor = {
-		slot = political_advisor
-		available = {
-			if = {
-				limit = {
-					original_tag = CRY 
-				}
-				has_completed_focus = Crystal_Court_Consolidation
+	CRY_princess_mi_amore_cadenza = { 
+		name = CRY_Cadence
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRY/Cadence.tga"
 			}
 		}
-		traits = { }
-	}
+		advisor = {
+			slot = political_advisor
+			idea_token = princess_cadence
+			allowed = {
+				has_completed_focus = Crystal_Court_Consolidation
+			}
+			available = {
+				has_completed_focus = Crystal_Court_Consolidation
+			}
+			traits = { popular_figurehead }
+		}
 		country_leader = {
+			desc = "POLITICS_CADENZA_DESC"
 			ideology = alicornrule
 			expire = "1965.1.1.1"
-			id = -1 
+		}
+		gender = female
+	}
+	CRY_Crystal_Court = {
+		name = Crystal_court
+		portraits = {
+			civilian = {
+				large = "gfx/leader/CRY/Crystal_Court.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = "POLITICS_Crystal_Court_DESC"
+			expire = "1965.1.1.1"
+			traits = { popular_figurehead }
 		}
 	}
+	    CRY_general_shining_armor = {
+        name = CRY_Shining_Armor
+        portraits = {
+            army = {
+                large = "gfx/leaders/CRY/ShiningArmour.tga"
+            }
+        }
+  		corps_commander = {
+			desc = "POLITICS_Shining_Armor_DESC"
+			traits = { 
+				My_knight_in_shining_armor
+				politically_connected
+				infantry_leader
+				brilliant_strategist
+				trait_engineer
+				winter_specialist
+				winter_expert
+				commando
+				skilled_staffer
+				panzer_leader
+			 }
+			skill = 8
+            attack_skill = 10
+            defense_skill = 5
+            planning_skill = 7
+            logistics_skill = 7
+        }
+        gender = male
+    }
 }

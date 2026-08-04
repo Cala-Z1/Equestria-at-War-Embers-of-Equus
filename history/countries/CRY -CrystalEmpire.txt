@@ -3,6 +3,14 @@ set_technology ={
 	starting_industry = 1
 	electronic_mechanical_engineering = 1
 	construction1 = 1
+	heavy_antiair = 1
+	field_gun = 1
+	artillery1 = 1
+	gw_pack_artillery = 1
+}
+add_breakthrough_progress = {
+	specialization = specialization_magical
+	value = 0.7
 }
 set_power_balance = {
 	id = CRY_balamce_of_power 
@@ -31,4 +39,10 @@ add_ideas = {
 	CRY_five_year_plan
 	closed_market
 }
-recruit_character = TEST
+recruit_character = CRY_princess_mi_amore_cadenza
+recruit_character = CRY_Crystal_Court
+set_rule = {
+	can_generate_female_aces = yes
+	can_generate_female_unit_leaders  = yes
+	can_generate_female_country_leaders = yes
+}

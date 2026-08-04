@@ -1,3 +1,7 @@
+NDefines.NMilitary.MAX_DIVISION_BRIGADE_WIDTH = 5
+NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 4
+
+
 --HFU defines:
 NDefines.NMilitary.PLANNING_MAX = 0.25
 NDefines.NProduction.MIN_LAND_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.9      -- Fraction of the chassis industry cost which is always included in the conversion cost.

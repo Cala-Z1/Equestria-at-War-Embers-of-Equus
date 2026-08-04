@@ -374,20 +374,16 @@ guiTypes = {
 				background = {
 					name = "Background"
 					spriteType ="GFX_tiled_window_transparent"
-				}
-			
+				}			
 				containerWindowType = {
 					name = "filter_grid_container"
 					position = { x= 0 y = 10 }
-					size = { width = 105 height = 380 }
-					
-					verticalScrollbar = "right_vertical_slider"
-					
+					size = { width = 105 height = 380 }					
+					verticalScrollbar = "right_vertical_slider"					
 					background = {
 						name = "Background"
 						spriteType ="GFX_tiled_window_transparent"
-					}
-					
+					}					
 					gridboxtype = {
 						name = "grid"
 						position = { x = 20 y = 0 }
@@ -395,11 +391,9 @@ guiTypes = {
 						slotsize = { width = 45 height = 45 }
 						max_slots_horizontal = 1
 					}
-				}
-			
+				}			
 			}
-		}
-		
+		}		
 		buttonType = {
 			name = "close_button"
 			position = { x = -45 y = 13 }
@@ -409,9 +403,30 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
+		}		
+		containerWindowType = {
+			name = "shortcut_grid_container"
+			position = { x=4 y=-56 }
+			orientation = lower_left
+			
+			gridboxtype = {
+				name = "shortcut_grid"
+				position = { x = 0 y = 0 }
+				slotsize = { width = 200 height = 68 }
+				max_slots_horizontal = 1
+				max_slots_vertical = 8
+				format = "LOWER_LEFT"	
+			}
+		}
+		buttonType = {
+			name = "toggle_shortcuts"
+			position = { x = 17 y = -56 }
+			quadTextureSprite ="GFX_production_line_arrow_left"
+			buttonFont = "Main_14_black"
+			orientation = lower_left
+			pdx_tooltip = "CONSTRUCTION_MINIMIZE"
 		}
 	}
-
 	containerWindowType = {
 		name = "continuous_national_focus_item"
 		position = { x=0 y=0 }

@@ -55,4 +55,7 @@ sub_unit_categories = {
 	category_carrier_cas
     category_carrier_nav_bomber
     category_land_nav_bomber
+	category_sp_td
+	category_mot_arty
+	category_regimental_support_battalions
 }

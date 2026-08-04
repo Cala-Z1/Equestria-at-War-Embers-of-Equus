@@ -1,0 +1,431 @@
+ideas = {
+	academy_spirit = {
+		
+		heritage_of_accomplishment = {
+			ledger = army
+			visible = { 
+				NOT = {
+					tag=POL
+				}	
+
+			}
+			modifier = {
+				weekly_manpower = 1500
+			}
+			
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		bold_attack_spirit = {
+			ledger = army
+			modifier = {
+				army_attack_factor = 0.05
+				army_strength_factor = -0.08
+				custom_modifier_tooltip = bold_attack_spirit_tt
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		tenacious_defense_spirit = {
+			ledger = army
+			modifier = {
+				army_defence_factor  = 0.1
+				army_strength_factor = -0.08
+				custom_modifier_tooltip = tenacious_defense_spirit_tt
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		meticulous_preparation_spirit = {
+			ledger = army
+			modifier = {
+				custom_modifier_tooltip = meticulous_preparation_spirit_tt
+				max_planning = 0.05
+				planning_speed = -0.25
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		best_of_the_best_spirit = {
+			ledger = army
+			visible = { 
+			
+			}
+			modifier = {
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05
+			}
+
+		}
+		academy_scholarships_spirit = {
+			ledger = army
+			visible = { 	
+				OR = {
+					NOT = {
+						has_government = communism
+					}
+					AND = {
+						has_government = communism
+						has_war = yes
+					}
+				}
+			}
+			modifier = {
+				training_time_army_factor = -0.15
+				army_advisor_cost_factor = -0.25
+				command_power_gain_mult = 0.2 
+
+			}
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		SOV_academy_scholarships_spirit = {
+			ledger = army
+			visible = { 	
+				has_government = communism
+				has_war = no
+			}
+			cancel = {
+				has_war = yes
+			}
+			modifier = {
+				training_time_army_factor = -0.65
+				army_advisor_cost_factor = -0.25
+				command_power_gain_mult = 0.2 
+
+			}
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		
+		inventive_leadership_spirit = {
+			ledger = army
+			modifier = {
+				planning_speed = 0.15
+				coordination_bonus = 0.05
+				custom_modifier_tooltip = meticulous_preparation_spirit_tt
+			}
+		}
+		mobile_warfare_academy_spirit = {
+			ledger = army
+			modifier = {
+				army_fuel_consumption_factor = 0.3
+				army_armor_attack_factor = 0.05
+
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		superior_firepower_academy_spirit = {
+			ledger = army
+			
+			modifier = {
+				max_dig_in = 3
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		mass_assault_academy_spirit = {
+			ledger = army
+			modifier = {
+				dig_in_speed_factor = 0.25
+				army_morale_factor = 0.1
+
+			}
+		}
+	}
+
+	army_spirit = {
+		political_loyalty_spirit = {
+			ledger = army
+			visible = { 
+				
+			}
+			modifier = {
+
+			}
+		}
+		grand_battleplan_army_spirit = {
+		
+			ledger = army
+			modifier = {
+
+			}
+		}
+		professional_officer_corps_spirit = {
+			ledger = army
+			modifier = {	
+					
+			}
+		}
+
+		elevated_engineering_corps_spirit = {
+			ledger = army
+			research_bonus = {
+				engineers_tech = 0.25
+			}
+			modifier = {
+				dig_in_speed_factor = 0.1
+				railway_gun_bombardment_factor = 0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		proper_heritage_spirit = {
+			ledger = army
+			modifier = {
+				cavalry_attack_factor = 0.05
+				cavalry_defence_factor = 0.05
+				research_speed_factor = 0.05
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		quick_improvisation_spirit = {
+			ledger = army
+			modifier = {
+				command_power_gain = 0.1
+				planning_speed = 0.25
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		relief_of_command_spirit = {
+			ledger = army
+			modifier = {
+
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_serves_the_military_spirit = {
+			ledger = army
+			modifier = {
+				war_support_factor = 0.05
+				mobilization_laws_cost_factor = -0.3
+				economy_cost_factor = -0.3
+				army_advisor_cost_factor = -0.3
+			}
+			research_bonus = {
+				industry = -0.2
+				infantry_weapons = 0.15
+				cat_artillery = 0.15
+				armor = 0.15
+				naval_equipment = 0.15
+				air_equipment = 0.15
+			}
+			ai_will_do = {
+				factor = 1.5
+			}
+		}				
+	}
+	division_command_spirit = {
+		static_warfare_spirit = {
+			ledger = army
+			visible = {
+		
+			}
+
+			modifier = {
+				tactic_elastic_defense_preferred_weight_factor = 0.5
+				tactic_overwhelming_fire_preferred_weight_factor = 0.5
+				max_dig_in_factor = 0.05
+				dig_in_speed_factor = 0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		flexible_organization_spirit = {
+			ledger = army
+			visible = {
+				
+			}
+			modifier = {
+				org_loss_when_moving = -0.15
+				army_speed_factor = 0.05
+				choose_preferred_tactics_cost = -15
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 5
+				}
+			}
+		}
+
+		aggressive_reconnaisance_spirit = {
+			ledger = army
+			visible = {
+				
+			}
+			modifier = {
+				tactic_infantry_charge_preferred_weight_factor = 0.5
+				intel_from_combat_factor = 0.15
+				recon_factor = 0.15
+				experience_gain_army_unit_factor  = 0.1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		reserve_officers_spirit = {
+			ledger = army
+			visible = {
+				
+			}
+			modifier = {
+				tactic_delay_preferred_weight_factor = 0.5
+				training_time_army_factor = -0.25
+				command_power_gain = 0.15
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		victory_or_death_spirit = {
+			ledger = army
+			visible = {
+				
+			}
+			modifier = {
+				tactic_human_wave_tactics_preferred_weight_factor = 0.5
+				org_loss_at_low_org_factor = -0.3
+				army_strength_factor = -0.08
+				
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		foreign_legion_spirit = {
+			ledger = army
+			visible = {
+				
+			}
+			modifier = {
+				
+				army_experience_from_volunteers = 0.5
+				experience_gain_army_unit_factor = -0.1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		maneuver_warfare_spirit = {
+			modifier = {
+				tactic_unexpected_thrust_preferred_weight_factor = 0.5
+				army_speed_factor = 0.05
+				coordination_bonus = 0.05
+			}
+			ai_will_do = {
+				factor = 1.5
+				modifier = {
+					has_tech = mobile_warfare
+					factor = 3
+				}
+			}
+		}
+
+		military_society_spirit = {
+			available = {
+				OR = {
+					has_idea = war_economy
+					NOT = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+			}
+			modifier = {
+				war_support_reduction_on_damage = -0.2
+				war_support_factor = 0.05
+				weekly_casualties_war_support = 0.0035
+				weekly_bombing_war_support = 0.0035
+				weekly_convoys_war_support = 0.0035
+			}
+		}
+
+		smoke_and_fire_spirit = {
+			ledger = army
+			modifier = {
+				tactic_barrage_preferred_weight_factor = 0.5
+				breakthrough_factor = 0.07
+			}
+		}
+		spirit_of_defiance_spirit = {
+			ledger = army
+			modifier = {
+				resistance_target = 0.05
+				resistance_growth_on_our_occupied_states = 0.1
+				compliance_growth_on_our_occupied_states = -0.1
+				resistance_damage_to_garrison_on_our_occupied_states = 0.1
+				operation_boost_resistance_cost = 0.5
+			}
+		}
+
+		logistical_focus_spirit = {
+			ledger = army
+			modifier = {
+				tactic_planned_attack_preferred_weight_factor = 0.5
+				supply_consumption_factor = -0.05
+				air_fuel_consumption_factor = -0.1
+				navy_fuel_consumption_factor = -0.1
+				army_fuel_consumption_factor = -0.1
+	
+			}
+
+			ai_will_do = {
+				factor = 1.5
+				modifier = {
+					has_tech = trench_warfare
+					factor = 4
+				}
+			}
+		}
+
+		living_off_land_spirit = {
+			ledger = army
+			modifier = {
+				attrition = -0.1
+				out_of_supply_factor = -0.1
+				recon_factor = -0.1
+				coordination_bonus = -0.03
+				resistance_growth = 0.1
+				resistance_activity = 0.05
+			}
+		}
+
+		operational_reserve_spirit = {
+			ledger = army
+			modifier = {
+				tactic_relentless_assault_preferred_weight_factor = 0.5
+				army_strength_factor = 0.08	
+			}
+		}
+	}
+}
