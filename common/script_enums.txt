@@ -64,9 +64,9 @@ script_enum_equipment_bonus_type = {
 
 	## Motorizen Equipment ##
 	motorized_equipment
-	motorized_equipment_0
+	motorized_equipment_1
 	armored_cars_equipment
-	armored_cars_equipment_0
+	armored_cars_equipment_1
 
 	## Aircraft ##
     small_plane_airframe
@@ -707,7 +707,6 @@ script_enum_equipment_bonus_type = {
 	artillery
 	rocket
 	flame
-	land_cruiser
 	armored_support_vehicle
 	armored_support_vehicle_1
 	helicopter_equipment
@@ -718,8 +717,6 @@ script_enum_equipment_bonus_type = {
 	strat_bomber_intercontinental_equipment_1
 
 	# Equipment archetypes & types
-	land_cruiser_chassis
-	land_cruiser_chassis_1
 	destroyer
 	amphibious_mechanized_equipment
 	amphibious_mechanized_equipment_1
@@ -752,8 +749,7 @@ script_enum_equipment_bonus_type = {
 	mechanized_equipment_1
 	mechanized_equipment_2
 	mechanized_equipment_3
-	motorized_equipment
-	motorized_equipment_0
+
 	railway_gun_equipment
 	railway_gun_equipment_1
 	super_heavy_railway_gun_equipment
@@ -959,7 +955,6 @@ script_enum_equipment_category = {
 	anti_tank
 	rocket
 	flame
-	land_cruiser
 }
 script_enum_production_stat = {
 	production_cost_factor

@@ -1262,8 +1262,6 @@ NAVAL_INVASION_CAN_NOT_TRANSFER_THROUGH:1 " - $NAME|Y$ - We have £GFX_naval_dom
  self_propelled_super_heavy_artillery_desc: "Massive-caliber howitzers, mounted on mobile chassis, combine devastating firepower with improved mobility to crush enemy defenses."
  super_heavy_railway_gun: "$super_heavy_railway_gun_equipment$"
  super_heavy_railway_gun_desc: "$super_heavy_railway_gun_equipment_desc$"
- land_cruiser: "Land Cruiser"
- land_cruiser_desc: "A colossal war machine armed with battleship-grade weaponry and the heaviest armor, but extremely slow and resource-intensive."
  
  strat_bomber_intercontinental: "Intercontinental Bomber"
 

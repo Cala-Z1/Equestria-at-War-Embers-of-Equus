@@ -19,7 +19,7 @@ equipments = {
 		}
 		supply_truck = yes
 	}
-	motorized_equipment_0 = {
+	motorized_equipment_1 = {
 		archetype = motorized_equipment
 		priority = 30
 		visual_level = 2
@@ -59,8 +59,7 @@ equipments = {
 			steel = 9
 		}
 	}
-	# pre armored cars 
-	armored_cars_equipment_0 = {
+	armored_cars_equipment_1 = {
 		archetype = armored_cars_equipment
 		priority = 30
 		visual_level = 0

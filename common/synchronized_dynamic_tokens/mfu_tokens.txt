@@ -75,7 +75,6 @@ infantry_spain
 jet_fighter
 jet_strat_bomber
 jet_tac_bomber
-land_cruiser
 light_armor
 light_armor_para
 light_armor_recon

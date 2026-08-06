@@ -988,12 +988,6 @@ technologies = {
 			leads_to_tech = sp_armored_lc_specialized_field_manuals_tech
 			research_cost_coeff = 1
 		}
-
-		land_cruiser = {
-			maximum_speed  = 0.05
-			supply_consumption  = -0.02
-		}
-
 		super_heavy_armor = {
 			maximum_speed  = 0.05
 			supply_consumption  = -0.02
@@ -1040,39 +1034,12 @@ technologies = {
 	}
 
 	sp_armored_lc_transmission_improvements_tech = {
-
-
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_land_land_cruiser
-			}
-		}
-
 		path = {
 			leads_to_tech = sp_armored_lc_weapon_fire_control_tech
 			research_cost_coeff = 1
 		}
 
 		is_special_project_tech = yes
-
-		land_cruiser = {
-			reliability = 0.05
-			supply_consumption = -0.02
-
-			forest = {
-				movement = 0.2
-			}
-			hills = {
-				movement = 0.2
-			}
-			mountain = 	{
-				movement = 0.2
-			}
-			jungle = {
-				movement = 0.2
-			}
-		}
-
 		super_heavy_armor = {
 			reliability = 0.05
 			supply_consumption = -0.02
@@ -1136,25 +1103,12 @@ technologies = {
 		allow_branch = {
 			 has_dlc = "Gotterdammerung"
 		}
-
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_land_land_cruiser
-			}
-		}
-
 		path = {
 			leads_to_tech = sp_armored_lc_weapon_fire_control_tech
 			research_cost_coeff = 1
 		}
 
 		is_special_project_tech = yes
-
-		land_cruiser = {
-			entrenchment = 0.05
-			max_strength = 0.05
-			max_organisation = 10
-		}
 
 		research_cost = 1
 		start_year = 1013
@@ -1201,19 +1155,7 @@ technologies = {
 		allow_branch = {
 			 has_dlc = "Gotterdammerung"
 		}
-
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_land_land_cruiser
-			}
-		}
-
 		is_special_project_tech = yes
-
-		land_cruiser = {
-			breakthrough = 0.1
-			defense = 0.1
-		}
 
 		research_cost = 1
 		start_year = 1014
