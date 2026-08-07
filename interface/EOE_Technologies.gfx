@@ -16,7 +16,58 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	## Equipment ##
-
+	SpriteType = {
+		name = "GFX_gwtank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/light_mkv.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_light_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/light_keto.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_light_tank_chassis_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/light_l64up.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_light_tank_chassis_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/light_bernardini.dds" 
+	}
+	SpriteType = {
+		name = "GFX_advanced_light_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/light_v200.dds" 
+	}
+	SpriteType = {
+		name = "GFX_basic_medium_tank_chassismedium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/medium_m1340.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/medium_m1440.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/medium_chiri.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/medium_chiri.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/heavy_tog1.dds" 
+	}
+	SpriteType = {
+		name = "GFX_improved_heavy_tank_chassis_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/heavy_beutepanzer.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_heavy_tank_chassis_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/heavy_copperhill.dds"
+	}
+	SpriteType = {
+		name = "GFX_aadvanced_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/heavy_fv221.dds"
+	}
 	## Modules ## 
     spriteType = {
         name = "GFX_EMI_high_octane_fuel_small"
@@ -685,6 +736,49 @@ spriteTypes = {
   
 	spriteType = {
 		name = "GFX_EMI_tank_interleaved_suspension_SH"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_interleaved_roadwheels.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_module_camouflage_net"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_camouflage_net.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_design_simplification"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/simple_design.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_cheap_materials" 
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/low_quality_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_module_improved_turning_mechanisms"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_improved_turning_mechanisms.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_suspension_type_L"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_interleaved_roadwheels.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_suspension_type_M"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_interleaved_roadwheels.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_suspension_type_H"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_interleaved_roadwheels.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_suspension_type_SH"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_interleaved_roadwheels.dds"
 		legacy_lazy_load = no
 	}

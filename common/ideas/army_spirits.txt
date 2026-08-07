@@ -345,7 +345,7 @@ ideas = {
 			ai_will_do = {
 				factor = 1.5
 				modifier = {
-					has_tech = mobile_warfare
+					has_doctrine = new_mobile_warfare
 					factor = 3
 				}
 			}
@@ -402,7 +402,7 @@ ideas = {
 			ai_will_do = {
 				factor = 1.5
 				modifier = {
-					has_tech = trench_warfare
+					has_doctrine = grand_battleplan
 					factor = 4
 				}
 			}

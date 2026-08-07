@@ -1524,7 +1524,6 @@ equipment_modules = {
 
 	}
 	###Weapons Categories: tank_small_main_armament, tank_flamethrower, tank_medium_main_armament_early, tank_medium_main_armament_mid, tank_medium_main_armament_late, tank_artillery_main_armament, tank_rocket_armament, tank_heavy_main_armament, tank_siege_main_armament, tank_very_heavy_main_armament
-
 	tank_heavy_machine_gun = {
 		abbreviation = "hmg"
 		category = tank_small_main_armament
@@ -1546,7 +1545,6 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	flamethrower = { 
 		abbreviation = "flt"
 		category = tank_flamethrower
@@ -1573,7 +1571,6 @@ equipment_modules = {
 		
 		xp_cost = 0
 	}
-
 	tank_auto_cannon = {
 		abbreviation = "ac1"
 		category = tank_small_main_armament
@@ -1594,7 +1591,6 @@ equipment_modules = {
 			convert_cost_ic = 2
 		}
 	}
-
 	tank_auto_cannon_2 = {
 		abbreviation = "ac2"
 		category = tank_small_main_armament
@@ -1615,7 +1611,6 @@ equipment_modules = {
 			convert_cost_ic = 2
 		}
 	}
-
 	tank_anti_air_cannon = {
 		abbreviation = "aa1"
 		category = tank_small_main_armament
@@ -1640,7 +1635,6 @@ equipment_modules = {
 			convert_cost_ic = 3
 		}
 	}
-
 	tank_anti_air_cannon_2 = {
 		abbreviation = "aa2"
 		category = tank_small_main_armament
@@ -1669,7 +1663,6 @@ equipment_modules = {
 			tungsten = 1
 		}
 	}
-
 	tank_anti_air_cannon_3 = {
 		abbreviation = "aa3"
 		category = tank_small_main_armament
@@ -1697,7 +1690,6 @@ equipment_modules = {
 			tungsten = 2
 		}
 	}
-
 	tank_small_cannon = {
 		abbreviation = "sc1"
 		category = tank_small_main_armament
@@ -1718,7 +1710,6 @@ equipment_modules = {
 			convert_cost_ic = 2.5
 		}
 	}
-
 	tank_small_cannon_2 = {
 		abbreviation = "sc2"
 		category = tank_small_main_armament
@@ -1739,7 +1730,6 @@ equipment_modules = {
 			convert_cost_ic = 3
 		}
 	}
-
 	tank_close_support_gun = {
 		abbreviation = "cs"
 		category = tank_small_main_armament
@@ -1858,7 +1848,6 @@ equipment_modules = {
 			chromium = 2
 		}
 	}
-
 	tank_medium_cannon_2 = {
 		abbreviation = "mc2"
 		category = tank_medium_main_armament
@@ -1911,7 +1900,6 @@ equipment_modules = {
 			chromium = 1
 		}
 	}
-
 	tank_medium_howitzer = {
 		abbreviation = "mh1"
 		category = tank_artillery_main_armament
@@ -1938,7 +1926,6 @@ equipment_modules = {
 			tungsten = 1
 		}
 	}
-
 	tank_medium_howitzer_2 = {
 		abbreviation = "mh2"
 		category = tank_artillery_main_armament
@@ -1966,9 +1953,6 @@ equipment_modules = {
 	
 		}
 	}
-
-
-
 	tank_high_velocity_cannon = {
 		abbreviation = "hv1"
 		category = tank_small_main_armament
@@ -1992,7 +1976,6 @@ equipment_modules = {
 		   tungsten = 4
 		}
 	}
-
 	tank_high_velocity_cannon_2 = {
 		abbreviation = "hv2"
 		category = tank_medium_main_armament
@@ -2042,7 +2025,6 @@ equipment_modules = {
 			chromium = 1
 		}
 	}
-
 	tank_heavy_cannon = {
 		abbreviation = "hc1"
 		category = tank_heavy_main_armament
@@ -2068,7 +2050,6 @@ equipment_modules = {
 			chromium = 1
 		}
 	}
-
 	tank_heavy_cannon_2 = {
 		abbreviation = "hc2"
 		category = tank_heavy_main_armament
@@ -2094,7 +2075,6 @@ equipment_modules = {
 			chromium = 2
 		}
 	}
-
 	tank_very_heavy_cannon = {
 		abbreviation = "vhc"
 		category = tank_very_heavy_main_armament
@@ -2217,7 +2197,6 @@ equipment_modules = {
 			chromium = 3
 		}
 	}
-
 	tank_super_heavy_cannon = {
 		abbreviation = "sh1"
 		category = tank_very_heavy_main_armament
@@ -2239,10 +2218,46 @@ equipment_modules = {
 			chromium = 5
 		}
 	}
-
-
 	###Special Modules
-
+	tank_module_camouflage_net = {
+		abbreviation = "titm"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			initiative = 0.035
+			defense = 2
+			build_cost_ic = 0.75
+		}
+	}
+	tank_design_simplification = {
+			abbreviation = "ds"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			build_cost_ic = -0.025
+		}
+	}
+	tank_cheap_materials = {
+			abbreviation = "ds"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+				multiply_stats = {
+			build_cost_ic = -0.005
+		}
+		build_cost_resources = {
+			steel = -1
+		}		
+	}
+	tank_module_improved_turning_mechanisms = {
+		abbreviation = "titm"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			initiative = 0.05
+			breakthrough = 5
+			build_cost_ic = 1.25
+		}
+	}	
 	amphibious_drive = {
 		abbreviation = "amph"
 		category = tank_special_module
@@ -2265,7 +2280,6 @@ equipment_modules = {
 			build_cost_ic = 0.25
 		}
 	}
-
 	unsloped_armor = {
 		abbreviation = "slop"
 		category = tank_armor_sloping
@@ -2338,7 +2352,6 @@ equipment_modules = {
 		xp_cost = 0
 
 	}
-	
 	dozer_blade = {
 		abbreviation = "dozer"
 		category = tank_special_module
@@ -2353,7 +2366,6 @@ equipment_modules = {
 			
 		}
 	}
-
 	smoke_launchers = {
 		abbreviation = "smok"
 		category = tank_special_module
@@ -2388,7 +2400,6 @@ equipment_modules = {
 			rubber = 1
 		}
 	}
-
 	extra_ammo_storage = {
 		abbreviation = "extra"
 		category = tank_special_module
@@ -2408,7 +2419,6 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	wet_ammo_storage = {
 		abbreviation = "wet"
 		category = tank_special_module
@@ -2420,7 +2430,6 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	squeezebore_adaptor = {
 		abbreviation = "sque"
 		category = tank_special_module
@@ -2438,7 +2447,6 @@ equipment_modules = {
 			tungsten = 1
 		}
 	}
-
 	armor_skirts = {
 		abbreviation = "skirt"
 		category = tank_special_module
@@ -2474,7 +2482,6 @@ equipment_modules = {
 		xp_cost = 0
 			
 	}
-
 	auto_loader = {
 		abbreviation = "auto"
 		category = tank_semiautoloader_module
@@ -2529,7 +2536,6 @@ equipment_modules = {
 		
 		
 	}
-	
 	cupola = {
 		abbreviation = "cupola"
 		category = tank_cupola_module
@@ -2560,7 +2566,6 @@ equipment_modules = {
 		}
 		xp_cost = 0
 	}
-
 	tank_rocket_launcher_2 = {
 		abbreviation = "rk2"
 		category = tank_rocket_module
@@ -2773,7 +2778,6 @@ equipment_modules = {
 		xp_cost = 0
 		
 	}
-
 	easy_maintenance = {
 		abbreviation = "easy"
 		category = tank_special_module
@@ -2805,7 +2809,6 @@ equipment_modules = {
 		xp_cost = 0
 
 	}
-
 	additional_machine_guns = {
 		abbreviation = "mg"
 		category = tank_special_module
@@ -2865,8 +2868,7 @@ equipment_modules = {
 			hard_attack = -0.25
 			breakthrough = -0.075
 		}
-	}
-	
+	}	
 	secondary_turret_hmg_small = {
 		abbreviation = "thmg"
 		category = tank_secondary_turret_small

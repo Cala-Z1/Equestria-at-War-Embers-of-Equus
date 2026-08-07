@@ -81,7 +81,6 @@ equipments = {
 					tank_cupola_module
 					tank_secondary_turret_small
 					tank_flamethrower
-					
 					tank_rocket_module
 				}
 			}
@@ -224,7 +223,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension_L
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -306,7 +305,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -380,7 +379,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension_L
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -415,7 +414,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -491,7 +490,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -525,7 +524,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -602,7 +601,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -635,7 +634,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -722,7 +721,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -756,7 +755,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -843,7 +842,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -881,7 +880,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -966,7 +965,7 @@ equipments = {
 	default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -1005,7 +1004,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -1090,7 +1089,7 @@ equipments = {
 	default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -1133,7 +1132,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -1216,7 +1215,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -1257,7 +1256,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -1338,7 +1337,7 @@ equipments = {
 	default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -1378,7 +1377,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -1562,7 +1561,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -1617,7 +1616,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -1650,7 +1649,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -1724,7 +1723,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -1757,7 +1756,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -1828,7 +1827,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -1865,7 +1864,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -1938,7 +1937,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -1971,7 +1970,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -2055,7 +2054,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -2094,7 +2093,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -2176,7 +2175,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -2212,7 +2211,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -2295,7 +2294,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -2336,7 +2335,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -2418,7 +2417,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -2459,7 +2458,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -2549,7 +2548,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -2589,7 +2588,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -2678,7 +2677,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -2719,7 +2718,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -2819,7 +2818,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -2859,7 +2858,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_M
 				}
 			}
 			
@@ -2959,7 +2958,7 @@ equipments = {
 	    default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -2998,7 +2997,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
 				}
 			}
 			
@@ -3181,7 +3180,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -3251,7 +3250,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_H
 				}
 			}
 			
@@ -3458,7 +3457,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -3625,7 +3624,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_H
 				}
 			}
 			
@@ -3766,7 +3765,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -3819,7 +3818,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_H
 				}
 			}
 			
@@ -3960,7 +3959,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -4013,7 +4012,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_H
 				}
 			}
 			
@@ -4165,7 +4164,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -4219,7 +4218,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_H
 				}
 			}
 			
@@ -4371,7 +4370,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -4425,7 +4424,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_H
 				}
 			}
 			
@@ -4587,7 +4586,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -4641,7 +4640,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_H
 				}
 			}
 			
@@ -4793,7 +4792,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -4849,7 +4848,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_SH
 				}
 			}
 			
@@ -5069,7 +5068,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -5149,7 +5148,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_SH
 				}
 			}
 			
@@ -5236,7 +5235,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -5288,7 +5287,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_SH
 				}
 			}
 			
@@ -5375,7 +5374,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -5427,7 +5426,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_SH
 				}
 			}
 			
@@ -5526,7 +5525,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
@@ -5578,7 +5577,7 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_SH
 				}
 			}
 			
@@ -5676,7 +5675,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_wheeled_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
