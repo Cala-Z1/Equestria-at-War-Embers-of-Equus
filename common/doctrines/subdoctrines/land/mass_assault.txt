@@ -884,11 +884,6 @@ direct_fire_support = {
         soft_attack = 0.05
         hard_attack = 0.05
     }
-    super_heavy_assault_gun_brigade = {
-        max_organisation = 1
-        soft_attack = 0.05
-        hard_attack = 0.05
-    }
     
     rewards = {
         direct_fire_support = {
@@ -914,11 +909,6 @@ direct_fire_support = {
                 hard_attack = 0.05
             }
             heavy_assaut_gun_brigade = {
-                max_organisation = 2
-                soft_attack = 0.05
-                hard_attack = 0.05
-            }
-            super_heavy_assault_gun_brigade = {
                 max_organisation = 2
                 soft_attack = 0.05
                 hard_attack = 0.05

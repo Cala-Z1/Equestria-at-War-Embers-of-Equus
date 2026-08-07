@@ -68,7 +68,6 @@ equipment_modules = {
 	}
 
 	###Armor Types
-
 	tank_riveted_armor = {
 		abbreviation = "riv"
 		category = tank_armor_type
@@ -85,7 +84,6 @@ equipment_modules = {
 		
 		}
 	}
-
 	tank_cast_armor = {
 		abbreviation = "cas"
 		category = tank_armor_type
@@ -101,7 +99,6 @@ equipment_modules = {
 
 		}
 	}
-
 	tank_welded_armor = {
 		abbreviation = "wel"
 		category = tank_armor_type
@@ -117,60 +114,361 @@ equipment_modules = {
 	}
 
 	###Suspension Types
-
-	tank_torsion_bar_suspension = {
-		abbreviation = "tor"
-		category = tank_suspension_type
+	tank_wheeled_suspension = {
+		abbreviation = "whe"
+		category = tank_non_tracked_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 2
-			reliability = 0.1
+			reliability = -0.1
+			hardness = -0.2
 		}
-		multiply_stats = {
+		dismantle_cost_ic = 0.5
+		multiply_stats =  {
+			maximum_speed = 0.2
+			build_cost_ic = -0.05
 		}
 	}
-
-	tank_christie_suspension = {
+	tank_half_track_suspension = {
+		abbreviation = "htr"
+		category = tank_non_tracked_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 0.5
+		add_stats = {
+			reliability = -0.05
+			hardness = -0.1
+		}
+		multiply_stats =  {
+			maximum_speed = 0.1
+			build_cost_ic = -0.025
+		}
+		can_convert_from = {
+			module = tank_wheeled_suspension
+			convert_cost_ic = 0.5
+		}
+	}
+	tank_christie_suspension_L = {
 		abbreviation = "chr"
-		category = tank_suspension_type
+		category = tank_suspension_type_L
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 4
+			build_cost_ic = 0.5
 		}
+		dismantle_cost_ic = 1.5
 		multiply_stats =  {
 			maximum_speed = 0.2
 		}
 	}
-
-	tank_bogie_suspension = {
-		abbreviation = "bog"
-		category = tank_suspension_type
+	tank_christie_suspension_M = {
+		abbreviation = "chr"
+		category = tank_suspension_type_M
 		sfx = sfx_ui_sd_module_sonar
 
+		add_stats = {
+			build_cost_ic = 0.75
+		}
+		dismantle_cost_ic = 2.5
+		multiply_stats =  {
+			maximum_speed = 0.2
+		}
+	}
+	tank_christie_suspension_H = {
+		abbreviation = "chr"
+		category = tank_suspension_type_H
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 1.25
+		}
+		dismantle_cost_ic = 4
+		multiply_stats =  {
+			maximum_speed = 0.2
+		}
+	}
+	tank_christie_suspension_SH = {
+		abbreviation = "chr"
+		category = tank_suspension_type_SH
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 1.75
+		}
+		dismantle_cost_ic = 5
+		multiply_stats =  {
+			maximum_speed = 0.2
+		}
+	}
+	tank_bogie_suspension_L = {
+		abbreviation = "bog"
+		category = tank_suspension_type_L
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 0.5
+		add_stats = {
+			reliability = 0.025
+		}
+	}
+	tank_bogie_suspension_M = {
+		abbreviation = "bog"
+		category = tank_suspension_type_M
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 0.5
+				add_stats = {
+			reliability = 0.025
+		}
+	}
+	tank_bogie_suspension_H = {
+		abbreviation = "bog"
+		category = tank_suspension_type_H
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 0.5
+				add_stats = {
+			reliability = 0.025
+		}
+	}
+	tank_bogie_suspension_SH = {
+		abbreviation = "bog"
+		category = tank_suspension_type_SH
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 0.5
+				add_stats = {
+			reliability = 0.025
+		}
+	}
+	tank_torsion_bar_suspension_L = {
+		abbreviation = "tor"
+		category = tank_suspension_type_L
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			reliability = 0.2
+			build_cost_ic = 0.5
+		}
+		dismantle_cost_ic = 1
+	}
+	tank_torsion_bar_suspension_M = {
+		abbreviation = "tor"
+		category = tank_suspension_type_M
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			reliability = 0.2
+			build_cost_ic = 0.75
+		}
+		dismantle_cost_ic = 1.5
+	}	
+	tank_torsion_bar_suspension_H = {
+		abbreviation = "tor"
+		category = tank_suspension_type_H
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			reliability = 0.2
+			build_cost_ic = 1.25
+		}
+		dismantle_cost_ic = 2.5
+	}		
+	tank_torsion_bar_suspension_SH = {
+		abbreviation = "tor"
+		category = tank_suspension_type_SH
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			reliability = 0.2
+			build_cost_ic = 1.75
+		}
+		dismantle_cost_ic = 3.5
+	}		
+	tank_interleaved_suspension_L = {
+		abbreviation = "int"
+		category = tank_suspension_type_L
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			breakthrough = 5
+			reliability = -0.05
+				build_cost_ic = 0.75
+		}
+		dismantle_cost_ic = 1.5
+	}
+	tank_interleaved_suspension_M = {
+		abbreviation = "int"
+		category = tank_suspension_type_M
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			breakthrough = 5
+			reliability = -0.1
+				build_cost_ic = 1.25
+		}
+		dismantle_cost_ic = 2.5
+	}	
+	tank_interleaved_suspension_H = {
+		abbreviation = "int"
+		category = tank_suspension_type_H
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			breakthrough = 5
+			reliability = -0.1
+				build_cost_ic = 2
+		}
+		dismantle_cost_ic = 4
+	}	
+	tank_interleaved_suspension_SH = {
+		abbreviation = "int"
+		category = tank_suspension_type_SH
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			breakthrough = 5
+			reliability = -0.1
+			build_cost_ic = 2.5
+		}
+		dismantle_cost_ic = 5
+	}	
+	tank_module_belleville_washer_L = {
+		abbreviation = "hor"
+		category = tank_suspension_type_L
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			initiative = 0.04
+			breakthrough = 2
+			reliability = 0.05
+			build_cost_ic = 0.75
+		}
+			multiply_stats = {
+			maximum_speed = 0.05
+		}
+		dismantle_cost_ic = 1.5
+	}	
+	tank_module_belleville_washer_M = {
+		abbreviation = "hor"
+		category = tank_suspension_type_M
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			initiative = 0.04
+			breakthrough = 2
+			reliability = 0.05
+			build_cost_ic = 1.25
+		}
+		multiply_stats = {
+			maximum_speed = 0.05
+		}
+		dismantle_cost_ic = 2
+	}	
+	tank_module_belleville_washer_H = {
+		abbreviation = "hor"
+		category = tank_suspension_type_H
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			initiative = 0.04
+			breakthrough = 2
+			reliability = 0.05
+			build_cost_ic = 1.75
+		}
+			multiply_stats = {
+			maximum_speed = 0.05
+		}
+		dismantle_cost_ic = 3
+	}	
+	tank_module_belleville_washer_SH = {
+		abbreviation = "hor"
+		category = tank_suspension_type_SH
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			initiative = 0.04
+			breakthrough = 2
+			reliability = 0.05
+			build_cost_ic = 2.5
+		}
+			multiply_stats = {
+			maximum_speed = 0.05
+		}
+		dismantle_cost_ic = 4
+	}	
+	tank_horstmann_suspension_L = {
+		abbreviation = "hor"
+		category = tank_suspension_type_L
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			build_cost_ic = 0.75
+			defense = 2.0
+			reliability = 0.05
+		}
+		dismantle_cost_ic = 1.5
+	}	
+	tank_horstmann_suspension_M = {
+		abbreviation = "hor"
+		category = tank_suspension_type_M
+		sfx = sfx_ui_sd_module_sonar
 		add_stats = {
 			build_cost_ic = 1
+			defense = 2.0
+			reliability = 0.05
 		}
-	}
-
-	tank_interleaved_suspension = {
-		abbreviation = "int"
-		category = tank_suspension_type
+		dismantle_cost_ic = 2
+	}	
+	tank_horstmann_suspension_H = {
+		abbreviation = "hor"
+		category = tank_suspension_type_H
 		sfx = sfx_ui_sd_module_sonar
-
 		add_stats = {
-			build_cost_ic = 3
-			breakthrough = 4
-			reliability = -0.05
+			build_cost_ic = 1.5
+			defense = 2.0
+			reliability = 0.05
 		}
-		multiply_stats =  {
+		dismantle_cost_ic =3
+	}	
+	tank_horstmann_suspension_SH = {
+		abbreviation = "hor"
+		category = tank_suspension_type_SH
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			build_cost_ic = 2
+			defense = 2.0
+			reliability = 0.05
 		}
+		dismantle_cost_ic = 4
+	}	
+	tank_hydropneumatic_suspension_L = {
+		abbreviation = "hys"
+		category = tank_suspension_type_L
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			build_cost_ic = 0.75
+			defense = 1
+			breakthrough = 2.5
+		}
+		dismantle_cost_ic = 1.5
 	}
-
+	tank_hydropneumatic_suspension_M = {
+		abbreviation = "hys"
+		category = tank_suspension_type_M
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			build_cost_ic = 1.25
+			defense = 1
+			breakthrough = 2.5
+		}
+		dismantle_cost_ic = 2.5
+	}
+	tank_hydropneumatic_suspension_H = {
+		abbreviation = "hys"
+		category = tank_suspension_type_H
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			build_cost_ic = 1.75
+			defense = 1
+			breakthrough = 2.5
+		}
+		dismantle_cost_ic = 3.5
+	}
+	tank_hydropneumatic_suspension_SH = {
+		abbreviation = "hys"
+		category = tank_suspension_type_SH
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			build_cost_ic = 2.5
+			defense = 1
+			breakthrough = 2.5
+		}
+		dismantle_cost_ic = 5
+	}
 	###Turret Types - light
 	### turrets are split by chassis to make it easier to control which guns they can mount
-
 	tank_light_one_man_tank_turret = {
 		abbreviation = "l1m"
 		category = tank_light_turret_type
@@ -185,14 +483,13 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = -2
-			tank_production = -1
+			# = -1
 		}
 		
 		xp_cost = 0
 		
 
 	}
-
 	tank_light_two_man_tank_turret = {
 		abbreviation = "l2m"
 		category = tank_light_turret_type
@@ -219,7 +516,6 @@ equipment_modules = {
 		
 
 	}
-
 	tank_light_three_man_tank_turret = {
 		abbreviation = "l3m"
 		category = tank_light_turret_type
@@ -308,7 +604,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -3
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
@@ -352,11 +648,10 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -3
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
-	
 	tank_light_casemate_turret = {
 		abbreviation = "lcs"
 		category = tank_light_casemate_turret_type
@@ -391,7 +686,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -2
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
@@ -429,11 +724,10 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -2
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
-
 	tank_medium_one_man_tank_turret = {
 		abbreviation = "m1m"
 		category = tank_medium_turret_type
@@ -447,7 +741,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = -3
-			tank_production = -1
+			# = -1
 		}
 		multiply_stats = {
 		
@@ -455,7 +749,6 @@ equipment_modules = {
 		xp_cost = 0
 
 	}
-
 	tank_medium_two_man_tank_turret = {
 		abbreviation = "m2m"
 		category = tank_medium_turret_type
@@ -484,7 +777,6 @@ equipment_modules = {
 		}
 
 	}
-
 	tank_medium_three_man_tank_turret = {
 		abbreviation = "m3m"
 		category = tank_medium_turret_type
@@ -618,11 +910,10 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -3
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
-	
 	tank_medium_casemate_turret = {
 		abbreviation = "mfs"
 		category = tank_medium_casemate_turret_type
@@ -656,7 +947,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -3
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
@@ -692,7 +983,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = -3
-			tank_production = -2
+			# = -2
 		}
 
 	}
@@ -730,7 +1021,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -3
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
     }
 	tank_medium_opentop_turret_early = {
@@ -771,7 +1062,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -4
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
@@ -815,7 +1106,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -4
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
@@ -858,7 +1149,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -4
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
@@ -903,11 +1194,10 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -4
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
-
 	tank_heavy_two_man_tank_turret = {
 		abbreviation = "h2m"
 		category = tank_heavy_turret_type
@@ -940,7 +1230,6 @@ equipment_modules = {
 		}
 
 	}
-
 	tank_heavy_three_man_tank_turret = {
 		abbreviation = "h3m"
 		category = tank_heavy_turret_type
@@ -1061,7 +1350,6 @@ equipment_modules = {
 
 
 	}
-
 	tank_heavy_casemate_turret = {
 		abbreviation = "hfs"
 		category = tank_heavy_casemate_turret_type
@@ -1099,7 +1387,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -4
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
@@ -1141,11 +1429,10 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -4
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
-	
 	tank_heavy_opentop_turret = {
 		abbreviation = "hfs"
 		category = tank_heavy_opentop_turret_type
@@ -1187,7 +1474,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -5
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
@@ -1232,13 +1519,10 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = -5
 			tungsten = -2
-			tank_production = -2
+			# = -2
 		}
 
 	}
-
-
-
 	###Weapons Categories: tank_small_main_armament, tank_flamethrower, tank_medium_main_armament_early, tank_medium_main_armament_mid, tank_medium_main_armament_late, tank_artillery_main_armament, tank_rocket_armament, tank_heavy_main_armament, tank_siege_main_armament, tank_very_heavy_main_armament
 
 	tank_heavy_machine_gun = {
@@ -1284,7 +1568,7 @@ equipment_modules = {
 		}
 		
 		build_cost_resources = {
-			tank_production = -3
+			# = -3
 		}
 		
 		xp_cost = 0
@@ -2008,7 +2292,6 @@ equipment_modules = {
 		xp_cost = 0
 	
 	}
-
 	sloped_armor = {
 		abbreviation = "slop"
 		category = tank_armor_sloping
@@ -2039,7 +2322,6 @@ equipment_modules = {
 			
 		}
 	}
-
 	stabilizer = {
 		abbreviation = "stab"
 		category = tank_special_module
@@ -2384,7 +2666,7 @@ equipment_modules = {
         }	
 		build_cost_resources = {
 			chromium = 2
-			tank_production = 1
+			# = 1
 		}		
 		xp_cost = 0
 		
@@ -2402,7 +2684,7 @@ equipment_modules = {
 			chromium = -1
 			tungsten = -2
 			steel = -2
-			tank_production = -1
+			# = -1
 		}			
 		xp_cost = 0
 		
@@ -2556,7 +2838,7 @@ equipment_modules = {
 			supply_consumption = 0.15
 		}
 		build_cost_resources = {
-			tank_production = 1
+			# = 1
 		}
 		forbid_equipment_type = { artillery }
 	}

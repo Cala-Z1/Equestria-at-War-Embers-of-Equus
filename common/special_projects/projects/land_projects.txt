@@ -601,19 +601,6 @@ sp_land_multi_charge_large_caliber_gun = {
 					}
 
 					scientist_effects = {
-						if = {
-							limit = {
-								NOT = { has_trait = scientist_trait_fast_learner }
-							}
-							random_list = {
-								70 = {
-									#No effect
-								}
-								30 = {
-									add_scientist_trait = scientist_trait_fast_learner
-								}
-							}
-						}
 						else_if = {
 							limit = {
 								NOT = { has_trait = scientist_trait_bright }

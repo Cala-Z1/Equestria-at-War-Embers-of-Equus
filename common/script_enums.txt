@@ -9,14 +9,16 @@ script_enum_equipment_bonus_type = {
 
 	## Infantry equipment ##
 	radio_equipment
-	radio_equipment_0
+	radio_equipment_1
 	special_equipment
-	special_equipment_0
+	special_equipment_1
 	infantry_equipment
 	infantry_equipment_0
 	infantry_equipment_1
 	infantry_equipment_2
 	infantry_equipment_3
+	infantry_equipment_4
+
 	
 	## Artillery Equipment ##
 	artillery_equipment
@@ -67,6 +69,10 @@ script_enum_equipment_bonus_type = {
 	motorized_equipment_1
 	armored_cars_equipment
 	armored_cars_equipment_1
+	armored_cars_equipment_2
+	armored_cars_equipment_3
+	armored_cars_equipment_4
+	armored_cars_equipment_5
 
 	## Aircraft ##
     small_plane_airframe
@@ -160,6 +166,9 @@ script_enum_equipment_bonus_type = {
 	large_plane_maritime_patrol_plane_airframe_4
 
 	## Tanks ##
+	land_cruiser
+	land_cruiser_chassis
+	land_cruiser_chassis_1
     amphibious_tank_equipment
 	amphibious_tank_equipment_1
 	amphibious_tank_equipment_2
@@ -406,6 +415,7 @@ script_enum_equipment_bonus_type = {
 	light_tank_rocket_chassis_2 
 	light_tank_rocket_chassis_3 
 	medium_tank_aa_chassis_1934
+	land_cruiser
 	medium_tank_aa_chassis_1936
 	medium_tank_aa_chassis_1937
 	medium_tank_aa_chassis_1938

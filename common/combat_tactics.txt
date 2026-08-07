@@ -1195,8 +1195,6 @@ tactic_sf_armor_supported_assault = { #Assault using specialist armoured vehicle
 				has_unit_type = super_heavy_flame_tank
 				has_unit_type = light_assault_gun_company
 				has_unit_type = medium_assault_gun_company
-				has_unit_type = heavy_assaut_gun_company
-				has_unit_type = super_heavy_assault_gun_company
 			}
 		}
 	}

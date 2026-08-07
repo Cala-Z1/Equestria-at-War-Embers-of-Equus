@@ -1049,7 +1049,6 @@ leader_traits = {
 				
 		parent = {
 			traits = {
-				heat_specialist
 				desert_fox
 				swamp_fox
 				trait_mountaineer

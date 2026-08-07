@@ -1598,10 +1598,6 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		guided_missile = { 
-			air_range = 0.25
-		}
-
 		rocket_artillery = {
 			soft_attack = 0.1
 		}

@@ -355,10 +355,6 @@ assault_sweeps = {
                 air_agility = 0.1
                 air_defence = 0.05
             }
-            tac_bomber = {
-                air_agility = 0.1
-                air_defence = 0.05
-            }
         }
         assault_sweeps_mastery2 = {
             air_cas_present_factor = 0.1
@@ -435,10 +431,6 @@ logistics_bombing = {
     category_cas = {
         air_ground_attack = 0.2
     }
-    tac_bomber = {
-        air_ground_attack = 0.2
-    }
-
     rewards = {
 		logistics_bombing_mastery = {
             air_strategic_bomber_bombing_factor = 0.1

@@ -10938,7 +10938,6 @@ Terathopia_3 = {
 	}
 }
 HLR = {
-	name = asia
 	army = {
 		male = {
 			"GFX_portrait_griffon_generic_land_1"

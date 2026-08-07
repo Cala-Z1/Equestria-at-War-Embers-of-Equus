@@ -20,6 +20,7 @@ sub_units = {
 			category_line_artillery
 			category_light_artillery		
 		}
+		allow_in_army_hq = yes
 
 		combat_width = 2
 	
@@ -30,7 +31,7 @@ sub_units = {
 		manpower = 500
 		max_strength = 5
 		max_organisation = 3
-		default_morale = 0.1
+		default_morale = 0.08
 		training_time = 80
 		weight = 0.5
 		initiative = 0.01
@@ -95,7 +96,9 @@ sub_units = {
 			category_army
 			category_line_artillery
 			category_light_artillery		
+			category_mot_arty
 		}
+		allow_in_army_hq = yes
 
 		combat_width = 2
 
@@ -106,12 +109,12 @@ sub_units = {
 		}
 		max_strength = 5
 		max_organisation = 3
-		default_morale = 0.1
+		default_morale = 0.08
 		training_time = 80
 		weight = 0.6
 		initiative = 0.01
 		supply_consumption = 0.08
-		# = 50
+		fuel_capacity = 50
 		defense = 0.1
 		breakthrough = 0.1
 		soft_attack = 0.15
@@ -175,6 +178,7 @@ sub_units = {
 			category_line_artillery
 			category_field_gun		
 		}
+		allow_in_army_hq = yes
 
 		combat_width = 2
 	
@@ -185,7 +189,7 @@ sub_units = {
 		manpower = 500
 		max_strength = 5
 		max_organisation = 3
-		default_morale = 0.1
+		default_morale = 0.08
 		training_time = 80
 		weight = 0.5
 		initiative = 0.01
@@ -249,8 +253,10 @@ sub_units = {
 			category_front_line
 			category_army
 			category_line_artillery
+			category_mot_arty
 			category_field_gun		
 		}
+		allow_in_army_hq = yes
 
 		combat_width = 2
 
@@ -262,12 +268,12 @@ sub_units = {
 			
 		max_strength = 5
 		max_organisation = 3
-		default_morale = 0.1
+		default_morale = 0.08
 		training_time = 80
 		weight = 0.6
 		initiative = 0.01
 		supply_consumption = 0.08
-		# = 50
+		fuel_capacity = 50
 		experience_loss_factor = -0.01
 		defense = 0.1
 		breakthrough = 0.1
@@ -313,6 +319,7 @@ sub_units = {
 
 		}
 	}
+	
 	pack_artillery_brigade = {
 		sprite = artillery
 		map_icon_category = infantry
@@ -344,7 +351,7 @@ sub_units = {
 		manpower = 400
 		max_strength = 5
 		max_organisation = 3
-		default_morale = 0.15
+		default_morale = 0.13
 		training_time = 70
 		weight = 0.4
 		initiative = 0.01
@@ -404,7 +411,9 @@ sub_units = {
 			category_army
 			category_line_artillery
 			category_pack_artillery
+			category_mot_arty
 		}
+		allow_in_army_hq = yes
 
 		combat_width = 2
 
@@ -416,12 +425,12 @@ sub_units = {
 		manpower = 400
 		max_strength = 5
 		max_organisation = 3
-		default_morale = 0.15
+		default_morale = 0.13
 		training_time = 70
 		weight = 0.4
 		initiative = 0.01
 		supply_consumption = 0.06
-		# = 50
+		fuel_capacity = 50
 		experience_loss_factor = -0.01
 		defense = 0.1
 		breakthrough = 0.1
@@ -480,6 +489,7 @@ sub_units = {
 			category_heavy_artillery
 			category_line_artillery			
 		}
+		allow_in_army_hq = yes
 
 		combat_width = 2
 
@@ -490,7 +500,7 @@ sub_units = {
 		manpower = 550
 		training_time = 85
 		max_organisation = 3
-		default_morale = 0.1
+		default_morale = 0.08
 		max_strength = 5
 		maximum_speed = -0.23	
 		weight = 0.6
@@ -570,7 +580,9 @@ sub_units = {
 			category_army
 			category_heavy_artillery
 			category_line_artillery
+			category_mot_arty
 		}
+		allow_in_army_hq = yes
 
 		combat_width = 2
 		
@@ -582,13 +594,13 @@ sub_units = {
 		manpower = 550
 		training_time = 85
 		max_organisation = 3
-		default_morale = 0.1
+		default_morale = 0.08
 		max_strength = 5
 		weight = 0.7
 		initiative = 0.01
 		maximum_speed = -0.33
 		supply_consumption = 0.1
-		# = 50
+		fuel_capacity = 50
 		experience_loss_factor = -0.01
 		defense = 0.1
 		breakthrough = 0.1
@@ -671,6 +683,7 @@ sub_units = {
 			category_line_artillery	
 			category_rocket_artillery	
 		}		
+		allow_in_army_hq = yes
 
 		combat_width = 2
 
@@ -681,7 +694,7 @@ sub_units = {
 		manpower = 500
 		experience_loss_factor = -0.01
 		max_organisation = 3
-		default_morale = 0.1
+		default_morale = 0.08
 		max_strength = 5
 		training_time = 80
 		weight = 0.5
@@ -726,6 +739,7 @@ sub_units = {
 			attack = -0.05
 		}
 	}
+	
 	motorized_rocket_brigade = {
 		sprite = motorized
 		map_icon_category = infantry
@@ -745,7 +759,9 @@ sub_units = {
 			category_army
 			category_line_artillery	
 			category_rocket_artillery
+			category_mot_arty
 		}		
+		allow_in_army_hq = yes
 
 		combat_width = 2
 
@@ -756,13 +772,13 @@ sub_units = {
 		
 		manpower = 500
 		max_organisation = 3
-		default_morale = 0.1
+		default_morale = 0.08
 		max_strength = 5
 		training_time = 80
 		weight = 0.6
 		initiative = 0.01
 		supply_consumption = 0.1
-		# = 50
+		fuel_capacity = 50
 		experience_loss_factor = -0.01
 		defense = 0.1
 		breakthrough = 0.1
@@ -825,6 +841,7 @@ sub_units = {
             category_light_artillery		
 			category_line_artillery	
 		}
+		allow_in_army_hq = yes
 
 		combat_width = 2
 	
@@ -836,7 +853,7 @@ sub_units = {
 		manpower = 500
 		max_strength = 2
 		max_organisation = 3
-		default_morale = 0.1
+		default_morale = 0.08
 		training_time = 80
 		weight = 0.5
 		initiative = 0.01
@@ -955,158 +972,7 @@ sub_units = {
 			movement = -0.2
 		}
 	}
-	anti_tank_brigade = {
-		sprite = anti_tank
-		map_icon_category = infantry
-		priority = 1197
-		active = yes				
-		type = {
-			artillery
-			anti_tank
-		}	
-		group = infantry		
-		categories = {
-			category_front_line
-			category_army
-			category_line_artillery
-			category_anti_tank
-		}				
-		combat_width = 2
-		maximum_speed = 0.25
-		need = {
-			anti_tank_equipment = 12
-		}
-		manpower = 500
-		max_organisation = 3
-		default_morale = 0.08
-		max_strength = 10
-		training_time = 80
-		is_artillery_brigade = yes
-		weight = 0.4
-		initiative = 0.01
-		supply_consumption = 0.04
-		experience_loss_factor = -0.01
-		forest = {
-			attack = -0.05
-			movement = -0.1
-		}
-
-		hills = {
-			attack = -0.2
-			defence = -0.15
-			movement = -0.05
-		}
-
-		mountain = {
-			attack = -0.3
-			defence = -0.25
-			movement = -0.05
-		}
-
-		jungle = {
-			attack = -0.15
-			movement = 0.05
-		}
-
-		marsh = {
-			attack = -0.1
-			movement = -0.05
-		}
-
-		river = {
-			attack = -0.2
-			movement = -0.2
-		}
-
-		amphibious = {
-			attack = -0.05
-		}
-		plains = {
-			attack = 0.05 
-			defence = 0.05 
-		}
-		desert = {
-			attack = 0.05
-			defence = 0.05 
-		}
-	}
-	anti_tank_brigade_mot = {
-		sprite = anti_tank
-		map_icon_category = infantry
-		priority = 1197
-		active = yes				
-		type = {
-			motorized
-			artillery
-			anti_tank
-		}		
-		group = mobile	
-		categories = {
-			category_front_line
-			category_army
-			category_line_artillery
-			category_mot_arty
-			category_anti_tank
-		}				
-		combat_width = 2
-		need = {
-			anti_tank_equipment = 12
-			motorized_equipment = 30
-		}
-		manpower = 500
-		fuel_capacity = 50
-		max_organisation = 3
-		default_morale = 0.08
-		max_strength = 10
-		training_time = 80
-		weight = 0.4
-		initiative = 0.01
-		supply_consumption = 0.06
-		experience_loss_factor = -0.01
-		defense = 0.1
-		breakthrough = 0.1
-		hard_attack = 0.2			
-		forest = {
-			attack = -0.2
-			movement = -0.2
-		}
-		hills = {
-			attack = -0.2
-			movement = -0.2
-		}
-		mountain = {
-			attack = -0.6
-			movement = -0.65
-		}		
-		jungle = {
-			attack = -0.5
-			movement = -0.6
-		}
-		marsh = {
-			attack = -0.5
-			movement = -0.6
-		}
-		fort = {
-			attack = 0.05							  
-		}
-
-		river = {
-			attack = -0.3
-			movement = -0.3		  
-		}
-
-		amphibious = {
-			attack = -0.05						   
-		}
-		plains = {
-			attack = 0.05 
-			defence = 0.05 
-		}
-		desert = {
-			attack = 0.15
-			defence = 0.15 
-		}
-	}
+	
 }
 
 

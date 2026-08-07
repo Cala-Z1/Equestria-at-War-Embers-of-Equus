@@ -54,12 +54,7 @@ guiTypes = {
 					width = 1400 height = 1100
 					min = { width = 100%% height = 100%% }
 				}
-				clipping = no
-                background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-				
+				clipping = no			
 				iconType = {
 					name ="infantry_techtree_bg"
 					spriteType = "GFX_infantry_techtree_bg"
@@ -456,10 +451,6 @@ guiTypes = {
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
-                background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
 				iconType = {
 					name ="infantry_techtree_bg"
 					spriteType = "GFX_support_techtree_bg"
@@ -620,7 +611,7 @@ guiTypes = {
 				iconType = {
 					name ="armortech_bg"
 					spriteType = "GFX_armortech_bg"
-					position = { x=0 y=0 }
+					position = { x= 0 y= 0 }
 					alwaystransparent = yes
 				}
 
@@ -887,10 +878,24 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
 			scroll_wheel_factor = 40
-
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x = 120  y = 0 }
+				size = {
+					width = 3000 height = 500
+					min = { width=100%% height=100%% }
+				}
+				clipping = no
+			iconType = {
+				name ="hipamror_bg"
+				spriteType = "GFX_hippogriff_techtree_bg"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes		
+			}		
 			}
 			containerWindowType = {
 				name = "nsb_armour_subtitles"
@@ -936,11 +941,11 @@ guiTypes = {
 				}		
 				instantTextBoxType = {
 					name = "armour_subtitle_engine"
-					position = { x = -500 y = 55  }
+					position = { x = -430 y = 25 }
 					textureFile = ""
 					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "SUSPENSIONS"
+					borderSize = {x = -36 y = 4}
+					text = "SUSPENSIONS AND ENGINES"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -960,11 +965,23 @@ guiTypes = {
 				}
 				instantTextBoxType = {	
 					name = "armour_subtitle_armor"	
-					position = { x = 1200 y = 55 }	
+					position = { x = 1250 y = 55 }	
 					textureFile = ""	
 					font = "hoi_33"	
 					borderSize = {x = 0 y = 4}	
-					text = "ARMOR"	
+					text = "TANK ARMOR"	
+					maxWidth = 200	
+					maxHeight = 62	
+					format = center	
+					Orientation = "UPPER_LEFT"	
+				}
+				instantTextBoxType = {	
+					name = "armour_subtitle_mech"	
+					position = { x = -1000 y = -100 }	
+					textureFile = ""	
+					font = "hoi_33"	
+					borderSize = {x = 0 y = 4}	
+					text = "MECH AND ARMOR CARS"	
 					maxWidth = 200	
 					maxHeight = 62	
 					format = center	
@@ -992,8 +1009,22 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-			gridboxtype = {
-				name = "engine_tech_1_tree"
+			gridBoxType = {
+				name = "gw_suspensions_tree"
+				position = { x = -22% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridBoxType = {
+				name = "tech_armored_cars_tree"
+				position = { x = -22% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridBoxType = {
+				name = "motorised_infantry_tree"
 				position = { x = -22% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
@@ -1022,12 +1053,6 @@ guiTypes = {
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-
 				iconType = {
 					name ="upgrade_techtree_bg"
 					spriteType = "GFX_upgradetech_bg"
@@ -1044,7 +1069,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "upgrade_subtitle_small_cannons"
-						position = { x = -950 y = 140 }
+						position = { x = -750 y = 140 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1056,7 +1081,7 @@ guiTypes = {
 					}	
 					instantTextBoxType = {
 						name = "upgrade_subtitle_autocannon"
-						position = { x = -890 y = 958 }
+						position = { x = -700 y = 958 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1065,10 +1090,7 @@ guiTypes = {
 						maxHeight = 22
 						format = center
 						Orientation = "UPPER_LEFT"
-					}						
-
-					
-					
+					}																
 					instantTextBoxType = {
 						name = "artillery_subtitle_medium_cannons"
 						position = { x = -745 y = 265 }
@@ -1079,8 +1101,7 @@ guiTypes = {
 						maxWidth = 300
 						maxHeight = 62
 						format = center
-						Orientation = "UPPER_LEFT"
-								
+						Orientation = "UPPER_LEFT"								
 					}
 					instantTextBoxType = {
 						name = "artillery_subtitle_heavy_cannons"
@@ -1092,8 +1113,7 @@ guiTypes = {
 						maxWidth = 400
 						maxHeight = 62
 						format = center
-						Orientation = "UPPER_LEFT"
-								
+						Orientation = "UPPER_LEFT"								
 					}	
 					instantTextBoxType = {
 						name = "artillery_subtitle_very_heavy_cannons"
@@ -1105,8 +1125,7 @@ guiTypes = {
 						maxWidth = 400
 						maxHeight = 62
 						format = center
-						Orientation = "UPPER_LEFT"
-								
+						Orientation = "UPPER_LEFT"								
 					}	
 					instantTextBoxType = {
 						name = "artillery_subtitle_super_heavy_cannons"
@@ -1118,10 +1137,8 @@ guiTypes = {
 						maxWidth = 400
 						maxHeight = 62
 						format = center
-						Orientation = "UPPER_LEFT"
-								
-					}	
-		
+						Orientation = "UPPER_LEFT"								
+					}			
 					instantTextBoxType = {
 						name = "artillery_subtitle_howizer"
 						position = { x = -730  y = 1115 }
@@ -1145,32 +1162,7 @@ guiTypes = {
 						maxHeight = 62
 						format = center
 						Orientation = "UPPER_LEFT"
-					}		
-					instantTextBoxType = {
-						name = "armour_subtitle_sloping"
-						position = { x = -1000 y = 1670 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "UPGRADE_TITLE_SLOPING"
-						maxWidth = 400
-						maxHeight = 62
-						format = center
-						Orientation = "UPPER_LEFT"
-					}		
-					instantTextBoxType = {
-						name = "armour_subtitle_thickness"
-						position = { x = -500 y = 1820 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "UPGRADE_TITLE_THICK"
-						maxWidth = 400
-						maxHeight = 62
-						format = center
-						Orientation = "UPPER_LEFT"
-					}		
-				
+					}				
 					instantTextBoxType = {
 						name = "armour_subtitle_special"
 						position = { x = -470 y = 1400 }
@@ -2254,12 +2246,6 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-	
 			}
 
 
@@ -2589,12 +2575,6 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-
 				iconType = {
 					name ="artillery_techtree_bg"
 					spriteType = "GFX_air_techtree_bg"
@@ -2964,12 +2944,6 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-
 				iconType = {
 					name ="artillery_techtree_bg"
 					spriteType = "GFX_air_techtree_bg"
@@ -4792,7 +4766,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
 		gridboxtype = {
-			# contains special_project_specialization
 			name = "special_project_specialization_list"
 		}
 
@@ -4818,6 +4791,11 @@ guiTypes = {
 			maxHeight = 20
 			format = right
 		}
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=0 y=42 }
+			spriteType = "GFX_design_team_icon"
+		}	
 	}
 	containerWindowType = {
 		name = "techtree_nsb_armour_folder_item"
@@ -4830,7 +4808,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
 		gridboxtype = {
-			# contains special_project_specialization
 			name = "special_project_specialization_list"
 		}
 
@@ -5653,25 +5630,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-	#containerWindowType = {
-		#name = "techtree_secret_weapons_folder_item"
-		#position = { x=-55 y=5 }
-		#size = { width = 204 height = 72 }
-		#clipping = no
-
-		#background = {
-		#	name = "Background"
-		#	quadTextureSprite ="GFX_technology_unavailable_item_bg"
-		#}
-
-		#iconType = {
-		#	name = "Icon"
-		#	position = { x=34 y=35}
-		#	spriteType = "GFX_technology_medium"
-		#	centerposition = yes
-		#	alwaystransparent = yes
-		#}
-	#}	
 	containerWindowType = {
 		name = "techtree_electronics_folder_item"
 		position = { x=0 y=5 }

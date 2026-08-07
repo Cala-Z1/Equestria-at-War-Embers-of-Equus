@@ -2197,7 +2197,6 @@ sp_naval_underway_replenishment = {
 	available = {
 		FROM = {
 		
-			has_full_navy_doctrine = yes
 		}
  
 	}

@@ -1450,13 +1450,6 @@
 
                             field_gun_brigade = { x = 4 y = 1 }
                         }
-                        regimental_support = {
-                            anti_air = { x = 0 y = 0 }
-                            anti_tank_brigade = { x = 0 y = 1 }
-                            pack_artillery_brigade = { x = 0 y = 2 }
-                            pack_artillery_brigade = { x = 0 y = 3 }
-                            pack_artillery_brigade = { x = 0 y = 4 }
-                        }
                         support = {
                             recon = { x = 0 y = 0 }
                             engineer = { x = 0 y = 1 }
@@ -1533,13 +1526,6 @@
                             field_gun_brigade = { x = 4 y = 0 }
                             field_gun_brigade = { x = 4 y = 1 }
                         }
-                        regimental_support = {
-                            anti_air = { x = 0 y = 0 }
-                            pack_artillery_brigade = { x = 0 y = 1 }
-                            pack_artillery_brigade = { x = 0 y = 2 }
-                            pack_artillery_brigade = { x = 0 y = 3 }
-                            pack_artillery_brigade = { x = 0 y = 4 }
-                        }
                         support = {
                             field_hospital = { x = 0 y = 0 }
                             military_police = { x = 0 y = 1 }
@@ -1587,13 +1573,6 @@
                     
 
 
-                        }
-                        regimental_support = {
-                            anti_tank_brigade = { x = 0 y = 0 }
-                            anti_tank_brigade = { x = 0 y = 1 }
-                            anti_tank_brigade = { x = 0 y = 2 }
-                            anti_tank_brigade = { x = 0 y = 3 }
-                            anti_tank_brigade = { x = 0 y = 4 }
                         }
                         support = {
                             recon = { x = 0 y = 0 }
@@ -1871,11 +1850,6 @@
                                 super_heavy_armor = { x = 4 y = 0 }
                                 super_heavy_armor = { x = 4 y = 1 }
                             }
-                            regimental_support = {
-                                anti_air = { x = 0 y = 0 }
-                                anti_tank_brigade = { x = 0 y = 1 }
-                                anti_tank_brigade = { x = 0 y = 2 }
-                            }
                             support = {
                                 recon = { x = 0 y = 0 }
                                 engineer = { x = 0 y = 1 }
@@ -1930,11 +1904,6 @@
                                 heavy_armor = { x = 4 y = 0 }
                                 heavy_armor = { x = 4 y = 1 }
                             }
-                            regimental_support = {
-                                anti_air = { x = 0 y = 0 }
-                                anti_tank_brigade = { x = 0 y = 1 }
-                                anti_tank_brigade = { x = 0 y = 2 }
-                            }
                             support = {
                                 recon = { x = 0 y = 0 }
                                 engineer = { x = 0 y = 1 }
@@ -1987,11 +1956,6 @@
                                 medium_armor = { x = 4 y = 0 }
                                 medium_armor = { x = 4 y = 1 }
                             }
-                            regimental_support = {
-                                anti_air = { x = 0 y = 0 }
-                                anti_tank_brigade = { x = 0 y = 1 }
-                                anti_tank_brigade = { x = 0 y = 2 }
-                            }
                             support = {
                                 recon = { x = 0 y = 0 }
                                 engineer = { x = 0 y = 1 }
@@ -2039,11 +2003,6 @@
 
                                 light_armor = { x = 4 y = 0 }
                                 light_armor = { x = 4 y = 1 }
-                            }
-                            regimental_support = {
-                                anti_air = { x = 0 y = 0 }
-                                anti_tank_brigade = { x = 0 y = 1 }
-                                anti_tank_brigade = { x = 0 y = 2 }
                             }
                             support = {
                                 recon = { x = 0 y = 0 }
@@ -4235,9 +4194,6 @@ superior_firepower = {
 
                             field_gun_brigade = { x = 3 y = 3 }
                         }
-                       regimental_support = {
-                            anti_air = { x = 0 y = 0 }
-                       }
                         support = {
                             recon = { x = 0 y = 0 }
                             engineer = { x = 0 y = 1 }
@@ -4292,9 +4248,6 @@ superior_firepower = {
 
                             field_gun_brigade = { x = 3 y = 3 }
                         }
-                       regimental_support = {
-                            anti_air = { x = 0 y = 0 }
-                       }
                         support = {
                             artillery_heavy_support = { x = 0 y = 0 }
                             recon_ac = { x = 0 y = 1 }
@@ -4349,10 +4302,6 @@ superior_firepower = {
 
                         mechanized = { x = 4 y = 0 }
                         mechanized = { x = 4 y = 1 }
-                    }
-                    regimental_support = {
-                        anti_tank_brigade = { x = 0 y = 0 }
-                        anti_tank_brigade = { x = 0 y = 1 }
                     }
                     support = {
                         artillery_heavy_support = { x = 0 y = 0 }
@@ -6735,12 +6684,6 @@ grand_battleplan = {
 
                             field_gun_brigade = { x = 3 y = 3 }
                         }
-                       regimental_support = {
-                            anti_air = { x = 0 y = 0 }
-                            anti_tank_brigade = { x = 0 y = 1 }
-                            pack_artillery_brigade = { x = 0 y = 2 }
-                            pack_artillery_brigade = { x = 0 y = 3 }
-                       }
                         support = {
                             recon = { x = 0 y = 0 }
                             engineer = { x = 0 y = 1 }
@@ -6781,11 +6724,6 @@ grand_battleplan = {
 
                             field_gun_brigade = { x = 3 y = 3 }
                         }
-                       regimental_support = {
-                            anti_air = { x = 0 y = 0 }
-                            anti_tank_brigade = { x = 0 y = 1 }
-                            anti_tank_brigade = { x = 0 y = 2 }
-                       }
                         support = {
                             artillery_heavy_support = { x = 0 y = 0 }
                             recon_ac = { x = 0 y = 1 }
@@ -6848,11 +6786,6 @@ grand_battleplan = {
                                 super_heavy_armor = { x = 4 y = 0 }
                                 super_heavy_armor = { x = 4 y = 1 }
                             }
-                            regimental_support = {
-                                anti_air = { x = 0 y = 0 }
-                                anti_tank_brigade = { x = 0 y = 1 }
-                                anti_tank_brigade = { x = 0 y = 2 }
-                            }
                             support = {
                                 artillery_heavy_support = { x = 0 y = 0 }
                                 light_armor_recon = { x = 0 y = 1 }
@@ -6907,11 +6840,6 @@ grand_battleplan = {
                                 heavy_armor = { x = 4 y = 0 }
                                 heavy_armor = { x = 4 y = 1 }
                             }
-                            regimental_support = {
-                                anti_air = { x = 0 y = 0 }
-                                anti_tank_brigade = { x = 0 y = 1 }
-                                anti_tank_brigade = { x = 0 y = 2 }
-                            }
                             support = {
                                 artillery_heavy_support = { x = 0 y = 0 }
                                 light_armor_recon = { x = 0 y = 1 }
@@ -6964,11 +6892,6 @@ grand_battleplan = {
                                 medium_armor = { x = 4 y = 0 }
                                 medium_armor = { x = 4 y = 1 }
                             }
-                            regimental_support = {
-                                anti_air = { x = 0 y = 0 }
-                                anti_tank_brigade = { x = 0 y = 1 }
-                                anti_tank_brigade = { x = 0 y = 2 }
-                            }
                             support = {
                                 artillery_heavy_support = { x = 0 y = 0 }
                                 light_armor_recon = { x = 0 y = 1 }
@@ -7016,11 +6939,6 @@ grand_battleplan = {
 
                                 medium_armor = { x = 4 y = 0 }
                                 medium_armor = { x = 4 y = 1 }
-                            }
-                            regimental_support = {
-                                anti_air = { x = 0 y = 0 }
-                                anti_tank_brigade = { x = 0 y = 1 }
-                                anti_tank_brigade = { x = 0 y = 2 }
                             }
                             support = {
                                 artillery_heavy_support = { x = 0 y = 0 }
@@ -7283,14 +7201,6 @@ grand_battleplan = {
                                 super_heavy_armor = { x = 2 y = 0 }
                                 super_heavy_armor = { x = 2 y = 1 }
                                 super_heavy_armor = { x = 2 y = 2 }
-
-                                super_heavy_assault_gun_brigade = { x = 3 y = 0 }
-                                super_heavy_assault_gun_brigade = { x = 3 y = 1 }
-                                super_heavy_assault_gun_brigade = { x = 3 y = 2 }
-                        
-
-                                super_heavy_assault_gun_brigade = { x = 4 y = 0 }
-                                super_heavy_assault_gun_brigade = { x = 4 y = 1 }
                             }
                             support = {
                                 artillery_heavy_support = { x = 0 y = 0 }
@@ -9344,10 +9254,7 @@ mass_assault = {
                             field_gun_brigade = { x = 4 y = 1 }
                              volkssturm_infantry = { x = 4 y = 2 }
                         }
-                        regimental_support = {
-                            pack_artillery_brigade = { x = 0 y = 0 }
-                            pack_artillery_brigade = { x = 0 y = 1 }
-                        }
+
                         support = {
                             recon = { x = 0 y = 0 }
                             artillery = { x = 0 y = 1 }
@@ -9398,9 +9305,6 @@ mass_assault = {
                             field_gun_brigade = { x = 4 y = 0 }
                             infantry = { x = 4 y = 1 }
                         }
-                       regimental_support = {
-                            anti_air = { x = 0 y = 0 }
-                       }
                         support = {
                             recon = { x = 0 y = 0 }
                             engineer = { x = 0 y = 1 }
@@ -9456,13 +9360,6 @@ mass_assault = {
                             field_gun_brigade = { x = 4 y = 1 }
                     
                         }
-                       regimental_support = {
-                            anti_air = { x = 0 y = 0 }
-                            anti_air = { x = 0 y = 1 }
-                            pack_artillery_brigade = { x = 0 y = 2 }
-                            pack_artillery_brigade = { x = 0 y = 3 }
-                            pack_artillery_brigade = { x = 0 y = 4 }
-                       }
                         support = {
                             artillery_heavy_support = { x = 0 y = 0 }
                             recon_ac = { x = 0 y = 1 }
@@ -9738,15 +9635,6 @@ mass_assault = {
                                 super_heavy_armor = { x = 2 y = 0 }
                                 super_heavy_armor = { x = 2 y = 1 }
                                 super_heavy_armor = { x = 2 y = 2 }
-
-                                super_heavy_assault_gun_brigade = { x = 3 y = 0 }
-                                super_heavy_assault_gun_brigade = { x = 3 y = 1 }
-                                super_heavy_assault_gun_brigade = { x = 3 y = 2 }
-                        
-
-                                super_heavy_assault_gun_brigade = { x = 4 y = 0 }
-                                super_heavy_assault_gun_brigade = { x = 4 y = 1 }
-                                super_heavy_assault_gun_brigade = { x = 4 y = 2 }
                             }
                             support = {
                                 artillery_heavy_support = { x = 0 y = 0 }

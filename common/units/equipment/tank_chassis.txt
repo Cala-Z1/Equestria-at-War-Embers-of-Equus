@@ -33,7 +33,8 @@ equipments = {
 			suspension_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_suspension_type
+					tank_suspension_type_L
+					tank_non_tracked_suspension_type
 				}
 			}
 			
@@ -223,7 +224,7 @@ equipments = {
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_bogie_suspension_L
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			armor_sloping_slot = unsloped_armor
@@ -239,7 +240,7 @@ equipments = {
 		
 		armor_value = 14
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 6
 			tungsten = 2
 
@@ -268,7 +269,7 @@ equipments = {
 		hardness = 0.16
 		maximum_speed = 4.2
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 6
 			tungsten = 2
 			
@@ -370,7 +371,7 @@ equipments = {
 		hardness = 0.19
 		defense = 7
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 6
 			tungsten = 2
 			chromium = 1
@@ -481,7 +482,7 @@ equipments = {
 		armor_value = 15.4
 		defense = 8
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 6
 			tungsten = 2
 			chromium = 1
@@ -592,7 +593,7 @@ equipments = {
 
 
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 6
 			tungsten = 2
 			chromium = 1
@@ -711,7 +712,7 @@ equipments = {
 		defense = 9
 
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 7
 			tungsten = 2
 			chromium = 1
@@ -833,7 +834,7 @@ equipments = {
 		armor_value = 17.5
 		defense = 10
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 7
 			tungsten = 2
 			chromium = 1
@@ -956,7 +957,7 @@ equipments = {
 		armor_value = 18.2
 		defense = 11
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 7
 			tungsten = 2
 			chromium = 1
@@ -1080,7 +1081,7 @@ equipments = {
 		defense = 11.5
 
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 7
 			tungsten = 2
 			chromium = 1
@@ -1206,7 +1207,7 @@ equipments = {
 		armor_value = 19.6
 		defense = 13
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 7
 			tungsten = 2
 			chromium = 1
@@ -1577,7 +1578,7 @@ equipments = {
 		hardness = 0.29
 		
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 3
@@ -1608,7 +1609,7 @@ equipments = {
 
 		
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 3
@@ -1715,7 +1716,7 @@ equipments = {
 		
 
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 9
 			tungsten = 3
 			chromium = 3
@@ -1819,7 +1820,7 @@ equipments = {
 		defense = 9
 		hardness = 0.33
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 9
 			tungsten = 3
 			chromium = 3
@@ -1929,7 +1930,7 @@ equipments = {
 
 		
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 9
 			tungsten = 3
 			chromium = 3
@@ -2046,7 +2047,7 @@ equipments = {
 
 
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 3
@@ -2167,7 +2168,7 @@ equipments = {
 
 		
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 3
@@ -2286,7 +2287,7 @@ equipments = {
 		defense = 14
 		
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 3
@@ -2409,7 +2410,7 @@ equipments = {
 
 
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 3
@@ -2539,7 +2540,7 @@ equipments = {
 		supply_consumption = 0.13
 		defense = 14
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 4
@@ -2669,7 +2670,7 @@ equipments = {
 		hardness = 0.38
 		defense = 14
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 4
@@ -2810,7 +2811,7 @@ equipments = {
 		supply_consumption = 0.13
 		defense = 15
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 4
@@ -2950,7 +2951,7 @@ equipments = {
 		hardness = 0.41
 		defense = 16
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 10
 			tungsten = 3
 			chromium = 4
@@ -3196,7 +3197,7 @@ equipments = {
 		armor_value = 9.8
 		hardness = 0.31
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 9
 			tungsten = 3
 			chromium = 3
@@ -3470,7 +3471,7 @@ equipments = {
 		reliability = 0.7
 		armor_value = 28
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 13
 			tungsten = 3
 			chromium = 11
@@ -3503,7 +3504,7 @@ equipments = {
 
 
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 12
 			tungsten = 3
 			chromium = 10
@@ -3531,7 +3532,7 @@ equipments = {
 		armor_value = 33.6
 		defense = 11
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 13
 			tungsten = 3
 			chromium = 12
@@ -3560,7 +3561,7 @@ equipments = {
 		armor_value = 34.3
 		defense = 12
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 13
 			tungsten = 3
 			chromium = 12
@@ -3588,7 +3589,7 @@ equipments = {
 		armor_value = 35
 		defense = 13
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 14
 			tungsten = 3
 			chromium = 13
@@ -3782,7 +3783,7 @@ equipments = {
 		hardness = 0.4
 		defense = 14
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 14
 			tungsten = 3
 			chromium = 13
@@ -3976,7 +3977,7 @@ equipments = {
 		hardness = 0.42
 		defense = 14
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 14
 			tungsten = 3
 			chromium = 13
@@ -4181,7 +4182,7 @@ equipments = {
 		hardness = 0.43
 		defense = 15
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 15
 			tungsten = 4
 			chromium = 13
@@ -4387,7 +4388,7 @@ equipments = {
 		hardness = 0.45
 		defense = 16
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 15
 			tungsten = 4
 			chromium = 13
@@ -4603,7 +4604,7 @@ equipments = {
 		armor_value = 38.5
 		defense = 17
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 15
 			tungsten = 4
 			chromium = 13
@@ -4809,7 +4810,7 @@ equipments = {
 		armor_value = 39.2
 		defense = 18
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 15
 			tungsten = 4
 			chromium = 13
@@ -5088,7 +5089,7 @@ equipments = {
 
 		fuel_consumption = 0.3
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 15
 			tungsten = 3
 			chromium = 13
@@ -5251,7 +5252,7 @@ equipments = {
 		hardness = 0.47
 		defense = 17
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 16
 			tungsten = 4
 			chromium = 13
@@ -5390,7 +5391,7 @@ equipments = {
 		hardness = 0.5
 		defense = 18
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 15
 			tungsten = 4
 			chromium = 14
@@ -5541,7 +5542,7 @@ equipments = {
 		hardness = 0.53
 		defense = 20
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 17
 			tungsten = 4
 			chromium = 14
@@ -5691,7 +5692,7 @@ equipments = {
 		armor_value = 47.6
 		defense = 21
 		resources = {
-			tank_production = 10
+			# = 10
 			steel = 17
 			tungsten = 4
 			chromium = 14
@@ -5701,5 +5702,191 @@ equipments = {
 	###################################
 	######## SPECIAL PROJECTS #########
 	###################################
+
+	land_cruiser_chassis = {
+		year = 1945
+		is_archetype = yes
+		is_buildable = no
+		
+		picture = archetype_super_heavy_tank_equipment #TODO_Manu: Check if new one
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+
+		#max_military_factories = 5
+
+		module_slots = {
+			lc_main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					lc_main_armament
+				}
+			}
+
+			lc_secondary_armament_slot = {
+				required = no
+				allowed_module_categories = {
+					lc_secondary_armament
+				}
+			}
+
+			lc_special_features_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					lc_radio_module
+					lc_aerial_deployment
+					lc_external_features
+					lc_structural_features
+				}
+			}
+
+			lc_special_features_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					lc_radio_module
+					lc_aerial_deployment
+					lc_external_features
+					lc_structural_features
+				}
+			}
+
+			lc_special_features_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					lc_radio_module
+					lc_aerial_deployment
+					lc_external_features
+					lc_structural_features
+				}
+			}
+				
+			lc_additional_armament_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					lc_additional_armament
+				}
+			}
+
+			lc_additional_armament_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					lc_additional_armament
+				}
+			}
+
+			lc_additional_armament_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					lc_additional_armament
+				}
+			}
+
+			lc_additional_armament_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					lc_additional_armament
+				}
+			}
+		}
+
+		module_count_limit = {
+			module = lc_assault_gun
+			count < 2
+		}
+
+		module_count_limit = {
+			module = lc_high_velocity_cannon_turret
+			count < 3
+		}
+
+		module_count_limit = {
+			module = lc_flamethrower_turret
+			count < 3
+		}
+
+		module_count_limit = {
+			module = lc_rocket_launcher
+			count < 3
+		}
+
+		module_count_limit = {
+			category = lc_radio_module
+			count < 2
+		}
+
+		module_count_limit = {
+			module = lc_radar
+			count < 2
+		}
+
+		module_count_limit = {
+			module = lc_aerial_deployment
+			count < 2
+		}
+		
+		module_count_limit = {
+			module = lc_armored_skirts
+			count < 2
+		}
+
+		module_count_limit = {
+			module = lc_obstacle_clearance_gear
+			count < 2
+		}
+
+		module_count_limit = {
+			module = lc_wet_ammunition_storage
+			count < 2
+		}
+
+		module_count_limit = {
+			module = lc_smoke_generators
+			count < 2
+		}
+
+		module_count_limit = {
+			module = lc_stabilizers
+			count < 2
+		}	
+
+		default_modules = {
+			lc_main_armament_slot = lc_heavy_naval_guns
+			lc_secondary_armament_slot = lc_medium_naval_guns
+		}
+
+		fuel_consumption = 12
+		maximum_speed = 5 #shouldn't be slower than infantry, or we ran into problems
+		build_cost_ic = 600
+		reliability = 1
+		armor_value = 56
+		defense = 9
+		hardness = -0.03 #Hardness doesn't apply to support comapnies, this must be changed if they every become a line battalion. #Was 10
+		
+		resources = {
+			# = 10
+			steel = 15
+			chromium = 5
+		}
+
+		lend_lease_cost = 300
+
+		manpower = 30 #Other Tanks: 2
+
+	}
+
+	land_cruiser_chassis_1 = {
+		abbreviation = "LCR"
+		derived_variant_name = land_cruiser_equipment_1
+		visual_level = 0
+		year = 1945
+		archetype = land_cruiser_chassis
+		priority = 2000
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
 }
 

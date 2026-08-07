@@ -1,4 +1,8 @@
+# options for map_icon_category:
+# For land units: infantry,armored,other
+# For sea units: ship,transport,uboat
 sub_units = {
+
 	infantry = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -18,6 +22,7 @@ sub_units = {
 			category_leg_infantry
 			category_heavy_infantry
 		}
+		allow_in_army_hq = yes
 		
 		combat_width = 2
 
@@ -31,11 +36,12 @@ sub_units = {
 			infantry_equipment
 			motorized_equipment
 		}
+
 		hardness = -0.2
 		#Size Definitions
 		max_strength = 17
-		max_organisation = 45
-		default_morale = 0.3
+		max_organisation = 53
+		default_morale = 0.25
 		manpower = 1200
 		maximum_speed = -0.58
 		initiative = 0.005
@@ -76,6 +82,7 @@ sub_units = {
 		}
 		
 	}
+
 	militia = {
 		abbreviation = "MIL"
 		sprite = infantry
@@ -98,6 +105,7 @@ sub_units = {
 			category_leg_infantry
 	
 		}
+		allow_in_army_hq = yes
 		combat_width = 2
 		need = {
 			infantry_equipment = 240
@@ -108,8 +116,8 @@ sub_units = {
 		hardness = -0.6
 		#Size Definitions
 		max_strength = 6.5
-		max_organisation = 52
-		default_morale = 0.4
+		max_organisation = 60
+		default_morale = 0.34
 		initiative = 0.01
 		manpower = 1600
 		soft_attack = 1.25
@@ -158,6 +166,7 @@ sub_units = {
 			category_army
 			category_leg_infantry
 		}
+		allow_in_army_hq = yes
 		
 		combat_width = 2
 		
@@ -166,13 +175,13 @@ sub_units = {
 			radio_equipment = 2
 		}	
 		entrenchment = 0.4
-		maximum_speed = 4
+
 		breakthrough = -1
 		hardness = -0.6
 		#Size Definitions
 		max_strength = 17
-		max_organisation = 45
-		default_morale = 0.3
+		max_organisation = 53
+		default_morale = 0.25
 		manpower = 1200
 
 		#Misc Abilities
@@ -220,12 +229,13 @@ sub_units = {
 			category_leg_infantry
 			
 		}
+		allow_in_army_hq = yes
 		
 		combat_width = 2	
 		
 		#Size Definitions
 		max_strength = 14
-		max_organisation = 55
+		max_organisation = 58
 		default_morale = 0.05
 		manpower = 900
 
@@ -283,6 +293,101 @@ sub_units = {
 		
 		}			
 	}
+
+	bicycle_battalion = {
+		sprite = infantry
+		map_icon_category = infantry
+		active = no
+		priority = 600
+		ai_priority = 150
+
+
+		type = {
+			infantry
+		}
+		
+		group = mobile
+		
+		categories = {
+			category_front_line
+			category_all_infantry
+			category_army
+			category_leg_infantry
+			
+		}
+		allow_in_army_hq = yes
+		
+		need = {
+			infantry_equipment = 150
+			support_equipment = 20
+			radio_equipment = 2
+		}
+		
+		combat_width = 2	
+
+		#Size Definitions
+		max_strength = 17
+		max_organisation = 53
+		default_morale = 0.25
+		manpower = 1200
+		maximum_speed = -0.46
+		initiative = 0.005
+		own_equipment_fuel_consumption_mult = 0.3
+		breakthrough = 0.2
+		defense = 0.2
+		soft_attack = 0.2
+		hard_attack = 0.2
+		
+		#Misc Abilities
+		training_time = 80
+		suppression = 1.5
+		weight = 0.4
+		supply_consumption = 0.03
+	
+		plains = {
+			attack = 0.035
+			movement = 0.10
+		}
+		urban = {
+			attack = 0.085
+			movement = 0.10
+		}
+		marsh = {
+			attack = 0.05
+			movement = -0.10
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		river = {
+			attack = 0.1
+		}
+		hills = {
+			attack = 0.15
+			movement = -0.05
+		}
+		mountain = {
+			attack = 0.2
+			movement = -0.15
+		}
+		forest = {
+			attack = 0.05
+			movement = -0.05
+		}
+		jungle = {
+			attack = 0.05
+			movement = -0.10
+		}
+		desert = {
+			movement = -0.15
+		}
+		essential = {
+			infantry_equipment
+			motorized_equipment
+			support_equipment
+		}
+		
+	}
 	motorized = {
 		sprite = motorized
 		map_icon_category = infantry
@@ -302,13 +407,13 @@ sub_units = {
 			category_army
 			category_motorised
 		}
+		allow_in_army_hq = yes
 		
 		combat_width = 2
-		
 		#Size Definitions
 		max_strength = 19.5
-		max_organisation = 49
-		default_morale = 0.3
+		max_organisation = 57
+		default_morale = 0.25
 		manpower = 1300
 
 		#Misc Abilities
@@ -391,13 +496,14 @@ sub_units = {
 			category_motorised
 			category_mechanized
 		}
+		allow_in_army_hq = yes
 
 		combat_width = 2
 		
 		#Size Definitions
 		max_strength = 19.5
-		max_organisation = 49
-		default_morale = 0.3
+		max_organisation = 57
+		default_morale = 0.25
 		manpower = 1300
 		initiative = 0.01
 		
@@ -487,16 +593,17 @@ sub_units = {
 			category_army
 			category_special_forces
 			category_leg_infantry
-			category_heavy_infantry
+		
 			
 		}
+		allow_in_army_hq = yes
 		
 		combat_width = 2
 		
 		#Size Definitions
 		max_strength = 8
-		max_organisation = 45
-		default_morale = 0.3
+		max_organisation = 53
+		default_morale = 0.25
 		manpower = 2500
 
 		#Misc Abilities
@@ -567,16 +674,17 @@ sub_units = {
 			category_all_infantry
 			category_army
 			category_special_forces
-			category_heavy_infantry
+	
 			category_leg_infantry
 		}
+		allow_in_army_hq = yes
 		
 		combat_width = 2
 		
 		#Size Definitions
 		max_strength = 8
-		max_organisation = 45
-		default_morale = 0.3
+		max_organisation = 53
+		default_morale = 0.25
 		initiative = 0.01
 		manpower = 2500
 
@@ -648,46 +756,118 @@ sub_units = {
 			category_all_infantry
 			category_army
 			category_special_forces
-			category_heavy_infantry
+		
 			category_leg_infantry
 		}
+		allow_in_army_hq = yes
 		
-		combat_width = 2
+		combat_width = 1.5
 		
 		#Size Definitions
-		max_strength = 11
-		max_organisation = 67
-		default_morale = 0.6
-		manpower = 2500
+		is_artillery_brigade = yes
+		max_strength = 7.5
+		max_organisation = 70
+		default_morale = 0.15
+		manpower = 1800
 						
 		#Misc Abilities
 		training_time = 80
-		initiative = 0.01
-		suppression = 1
-		weight = 0.4
-		supply_consumption = 0.05
+		initiative = 0.008
+		suppression = 0.75
+		weight = 0.3
+		supply_consumption = 0.04
  
 		### Limited AT
 		hard_attack = -0.75
 		
 		### Best Of The Best
-		soft_attack = 0.85
-		breakthrough = 1.5
-		defense = 0.25
+
+
 		
 		
 		can_be_parachuted = yes
 	
 		need = {
-			infantry_equipment = 140
-			special_equipment = 115
+			infantry_equipment = 130
+			special_equipment = 110
 			radio_equipment = 2
 		}	
 		essential = {
 			special_equipment
 		}
 		urban = {
-			defence = -0.1
+			attack = 0.05
+		}
+		plains = {	
+			attack = 0.05
+			defence = 0.05
+		}
+		desert = {
+			attack = 0.1
+			defence = 0.05
+		}		
+	}
+	mot_paratrooper = {
+		sprite = infantry
+		map_icon_category = infantry
+		special_forces = yes
+
+		priority = 602
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = special_infantry
+		
+		categories = {
+			category_front_line
+			#category_light_infantry
+			category_all_infantry
+			category_army
+			category_special_forces
+		
+			category_leg_infantry
+		}
+		allow_in_army_hq = yes
+		
+		combat_width = 1.5
+		
+		#Size Definitions
+		max_strength = 7.5
+		max_organisation = 70
+		default_morale = 0.15
+		manpower = 1800
+						
+		#Misc Abilities
+		training_time = 80
+		initiative = 0.008
+		suppression = 0.75
+		weight = 0.3
+		supply_consumption = 0.04
+ 
+		### Limited AT
+		hard_attack = -0.75
+		
+		### Best Of The Best
+
+
+		
+		
+		can_be_parachuted = yes
+	
+		need = {
+			infantry_equipment = 130
+			motorized_equipment = 37
+			special_equipment = 110
+			radio_equipment = 2
+		}	
+		essential = {
+			special_equipment
+		}
+		urban = {
+			attack = 0.05
 		}
 		plains = {	
 			attack = 0.05
@@ -713,6 +893,7 @@ sub_units = {
 		}
 		
 		group = support
+		regimental = no
 		
 		categories = {
 			category_support_battalions
@@ -793,7 +974,8 @@ sub_units = {
 		need = {
 			infantry_equipment = 1
 		}
-	}	
+	}
+	
 	penal_battalion = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -812,6 +994,7 @@ sub_units = {
 			category_army
 			category_leg_infantry
 		}
+		allow_in_army_hq = yes
 		
 		combat_width = 2
 		
@@ -825,8 +1008,8 @@ sub_units = {
 		hardness = -0.6
 		#Size Definitions
 		max_strength = 15
-		max_organisation = 48
-		default_morale = 0.25
+		max_organisation = 53
+		default_morale = 0.21
 		manpower = 1000
 
 		#Misc Abilities

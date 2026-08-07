@@ -622,10 +622,6 @@ technologies = {
 			always = no
 		}
 
-		nav_bomber = {
-			naval_strike_attack = 0.05
-		}
-
 		ai_will_do = {
 			factor = 0
 		}
@@ -1009,10 +1005,6 @@ technologies = {
 			armor_value = -0.03
 		}
 		heavy_assaut_gun_brigade = {
-			combat_width = -0.05
-			armor_value = -0.03
-		}
-		super_heavy_assault_gun_brigade = {
 			combat_width = -0.05
 			armor_value = -0.03
 		}
@@ -1435,10 +1427,6 @@ technologies = {
 			armor_value = -0.03
 		}
 		heavy_assaut_gun_brigade = {
-			combat_width = -0.05
-			armor_value = -0.03
-		}
-		super_heavy_assault_gun_brigade = {
 			combat_width = -0.05
 			armor_value = -0.03
 		}
