@@ -7,7 +7,7 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=769 height=100%% } #EAW modified width was 689, for extra resource 
+		size = { width=800 height=100%% } #EAW modified width was 689, for extra resource 
 		clipping = no #TODO SEA remove it. Added for displaying coal
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -121,7 +121,7 @@ guiTypes = {
 			gridBoxType = {
 				name = "resources_grid"
 				position = { x = 101 y = 0 }
-				size = { width = 501 height = 100%% } #EAW modified width was 422
+				size = { width = 800 height = 100%% } #EAW modified width was 422
 				slotsize = { width = 79 height = 156 }
 				max_slots = { x = 8 y = 1 } #EAW modified x was 7
 				format = "UPPER_LEFT"
@@ -672,7 +672,7 @@ guiTypes = {
 		iconType = {
 			name ="icon"
 			spriteType = "GFX_resources_strip"
-			position = { x= 26 y = 3 }
+			position = { x= 30` y = 3 }
 			alwaystransparent = yes
 		}	
 	}

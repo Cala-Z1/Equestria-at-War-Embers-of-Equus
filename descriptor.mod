@@ -68,8 +68,6 @@ replace_path="common/scripted_guis"
 replace_path="common/scripted_localisation"
 replace_path="common/scripted_triggers"
 replace_path="common/on_actions"
-
-
 replace_path="common/country_leader"
 replace_path="common/country_tag_aliases"
 replace_path="common/continuous_focus"

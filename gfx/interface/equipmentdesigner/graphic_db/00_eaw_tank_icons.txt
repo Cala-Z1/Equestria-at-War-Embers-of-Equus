@@ -94,8 +94,6 @@ default = {
 				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_t71.dds"
 				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_inf91.dds"
 				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_type63.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_type63myanmar.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_bmd.dds"
 				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_bmdiran.dds"
 				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_coyote.dds"
 				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_ee9.dds"
@@ -103,26 +101,6 @@ default = {
 				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_lynx.dds"
 				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_m113saladin.dds"
 				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_scorpion.dds"
-			 }
-		}
-	}
-	light_tank_chassis_5 = {
-		pool = {
-			icons = { 
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_scimitar.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_acv15.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_amxdnc.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_hsvt.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_m551.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_m551a1.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_x1a2.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_yw309.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_zds90.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_bvp.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_bmdii.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_4fa.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_105sk.dds"
-				"gfx/interface/equipmentdesigner/tanks/designer/generic/light_stingray.dds"
 			 }
 		}
 	}
