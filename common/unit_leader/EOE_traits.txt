@@ -1,0 +1,12 @@
+leader_traits = {
+	My_knight_in_shining_armor = {
+		trait_type = personality_trait
+		type = all
+		allowed = {
+			is_character = CRY_general_shining_armor
+		}
+		modifier = {
+			promote_cost_factor = 9999
+		}
+	}
+}

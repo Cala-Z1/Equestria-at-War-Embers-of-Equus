@@ -228,9 +228,9 @@ technology_categories = {
 	cat_scout_plane
 	cat_1941_tanks
 	cat_1943_tanks
-		train_tech
+	train_tech
 	cat_production
-		cat_armored_cars
+	cat_armored_cars
 	cat_special_forces_generic
 	cat_torpedoes
 	cat_ship_light_battery
@@ -295,6 +295,17 @@ technology_folders = {
 			has_dlc = "No Step Back"
 		}
 	}
+	upgrade_folder = {
+		ledger = army
+		available = {
+			AND = {
+				has_dlc = "No Step Back"
+				NOT = {
+					original_tag = HOL
+				}
+			}
+		}
+	}	
 	artillery_folder = {
 		ledger = army
 	}
@@ -311,35 +322,26 @@ technology_folders = {
 	naval_folder = {
 		available = {
 			not = { has_dlc = "Man the Guns" }
+		}	
+		ledger = navy	
+	}
+	mtgnavalfolder = {
+		available = {
+			has_dlc = "Man the Guns"
 		}
-		ledger = navy
+		ledger = navy	   
 	}
 	industry_folder = {
 		ledger = civilian
 	}
-	land_doctrine_folder = {
-		ledger = army
-		doctrine = yes
-	}
-	naval_doctrine_folder = {
-		ledger = navy
-		doctrine = yes
-	}
-	air_doctrine_folder = {
-		ledger = air
-		doctrine = yes
+	electronics_folder = {
+		ledger = civilian
 	}
 	special_forces_doctrine_folder = {
 		available = {
-                        OR = {
-                                has_dlc = "Arms Against Tyranny"
-                                has_dlc = "No Compromise, No Surrender"
-                        }
+			has_dlc = "Arms Against Tyranny"
 		}
 		ledger = hidden #For now
 		doctrine = yes
-	}
-	electronics_folder = {
-		ledger = civilian
 	}
 }

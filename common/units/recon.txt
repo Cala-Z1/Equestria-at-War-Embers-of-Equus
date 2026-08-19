@@ -46,8 +46,6 @@ sub_units = {
 			infantry_equipment
 			support_equipment
 		}
-
-		transport = infantry_equipment
 		need = {
 			infantry_equipment = 35
 			support_equipment = 10

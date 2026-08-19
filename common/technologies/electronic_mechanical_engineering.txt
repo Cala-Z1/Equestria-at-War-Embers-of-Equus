@@ -1449,59 +1449,26 @@ technologies = {
 
 	}
 	nuclear_reactor = {
-		
-		# can build reactors
-		
 		start_year = 1014
 		research_cost = 5
-		
-		#folder = {
-		#	name = electronics_folder
-		#	position = { x = 0 y = 2 }
-		#}
-
-		#path = {
-		#	leads_to_tech = nukes 
-		#	research_cost_coeff = 1
-		#}
-		
-		
 		categories = {
 			nuclear
 		}
-
-		special_project_specialization = { specialization_nuclear }
-		
+		special_project_specialization = { specialization_nuclear }	
 		enable_building = {
 			building = nuclear_reactor
 			level = 1
 		}
 	}
 	nuclear_reactor_heavy_water = {
-
-		# can build reactors
-		
 		start_year = 1014
 		research_cost = 5
-		
-		#folder = {
-		#	name = electronics_folder
-		#	position = { x = 0 y = 2 }
-		#}
-
-		#path = {
-		#	leads_to_tech = nukes 
-		#	research_cost_coeff = 1
-		#}
-		
 		ai_will_do = {
 			factor = 1
 		}
-		
 		categories = {
 			nuclear
 		}
-
 		special_project_specialization = { specialization_nuclear }
 		
 		enable_building = {
@@ -1510,19 +1477,11 @@ technologies = {
 		}
 	}
 	nukes = {
-	
 		start_year = 1016
 		research_cost = 5
-		
-		#folder = {
-		#	name = electronics_folder
-		#	position = { x = 0 y = 6 }
-		#}
-		
 		ai_will_do = {
 			factor = 10
 		}
-		
 		nuclear_production = 0.5
 		on_research_complete = {
 
@@ -1533,19 +1492,11 @@ technologies = {
 		special_project_specialization = { specialization_nuclear }
 	}
 	nuclear_rockets = {
-	
 		start_year = 1016
 		research_cost = 5
-		
-		#folder = {
-		#	name = electronics_folder
-		#	position = { x = 0 y = 6 }
-		#}
-		
 		ai_will_do = {
 			factor = 10
-		}
-		
+		}		
 		enable_equipments = {
 			nuclear_missile_equipment_2
 		}
@@ -1554,9 +1505,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_nuclear }
 	}
-	
-	lar_decryption_bonus_tech = {
-				
+	lar_decryption_bonus_tech = {		
 		research_cost = 1.5 #Carrier Variant
 		start_year = 1015
 
@@ -1648,10 +1597,6 @@ technologies = {
 		special_project_specialization = { specialization_air }
 
 		is_special_project_tech = yes
-
-		guided_missile = { 
-			air_range = 0.25
-		}
 
 		rocket_artillery = {
 			soft_attack = 0.1

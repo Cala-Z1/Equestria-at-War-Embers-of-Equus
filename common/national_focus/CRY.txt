@@ -422,9 +422,9 @@
 		x = 21
 		y = 1
 		completion_reward = { 
-		cry = {
-			add_country_leader_trait = crystal_administrator 
-			}
+		CRY = {
+			add_country_leader_trait = crystal_administrator
+		 }
 		}
 	}
 	focus = {
@@ -497,7 +497,17 @@
 		}
 		x = 23
 		y = 2
-		completion_reward = { }
+		completion_reward = { 
+			add_power_balance_value = {
+				id = CRY_balamce_of_power
+				value = 0.25
+			}
+			add_days_mission_timeout = {
+				mission = Sombra_Scare_3
+				days = 60
+			}
+			recruit_character = CRY_general_shining_armor
+		}
 	}
 	focus = {
 		id = Subordination
@@ -610,7 +620,9 @@
 		}
 		x = 18
 		y = 8
-		completion_reward = { }
+		completion_reward = {
+			promote_character = CRY_Crystal_Court
+		 }
 	}
 	focus = {
 		id = Reasserting_Royal_Authority

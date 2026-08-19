@@ -1,0 +1,12 @@
+leader_traits = {
+	crystal_administrator = {
+		random = no
+		stability_factor = 0.1
+		army_attack_against_major_factor = 0.05
+		army_armor_attack_factor = 0.1
+		army_defence_factor = -0.05
+	}
+	popular_figurehead = {
+		stability_factor = 0.15
+	}
+}

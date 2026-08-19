@@ -533,9 +533,7 @@ sp_air_helicopter = {
 	specialization = specialization_air 	
 	icon = GFX_sp_air_helicopter
 
-	project_tags = {
-		sp_tag_helicopter
-	}
+	project_tags = { }
 
 	allowed = {
 		has_dlc = "Gotterdammerung"		

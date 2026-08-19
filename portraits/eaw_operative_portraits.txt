@@ -1,0 +1,79 @@
+continent = {
+	name = europe #ponies
+	operative = {
+		male = {
+			"GFX_portrait_pony_generic_operative_1"
+			"GFX_portrait_pony_generic_operative_2"
+			"GFX_portrait_pony_generic_operative_3"
+			"GFX_portrait_pony_generic_operative_4"
+			"GFX_portrait_pony_generic_operative_5"
+			"GFX_portrait_pony_generic_operative_6"
+			"GFX_portrait_pony_generic_land_14"
+		}
+		female = {
+			"GFX_portrait_pony_generic_operative_female_1"
+			"GFX_portrait_pony_generic_operative_female_2"
+			"GFX_portrait_pony_generic_operative_female_3"
+		}
+	}
+}
+continent = {
+	name = asia #griffons
+	operative = {
+		male = {
+			"GFX_portrait_griffon_generic_operative_male_1"
+			"GFX_portrait_griffon_generic_operative_male_2"
+			"GFX_portrait_griffon_generic_operative_male_3"
+			"GFX_portrait_griffon_generic_operative_male_4"
+			"GFX_portrait_griffon_generic_operative_male_5"
+			"GFX_portrait_griffon_generic_operative_male_6"
+			"GFX_portrait_griffon_generic_operative_male_7"
+			"GFX_portrait_griffon_generic_operative_male_8"
+			"GFX_portrait_griffon_generic_operative_male_9"
+		}
+		female = {
+			"GFX_portrait_griffon_generic_operative_female_1"
+			"GFX_portrait_griffon_generic_operative_female_2"
+			"GFX_portrait_griffon_generic_operative_female_3"
+			"GFX_portrait_griffon_generic_operative_female_4"
+		}
+	}
+}
+continent = {
+	name = africa #zebras
+	operative = {
+		male = {
+			"GFX_portrait_zebra_generic_operative_male_1"
+			"GFX_portrait_zebra_generic_operative_male_2"
+			"GFX_portrait_zebra_generic_operative_male_3"
+			"GFX_portrait_zebra_generic_operative_male_4"
+		}
+		female = {
+			"GFX_portrait_zebra_generic_operative_female_1"
+			"GFX_portrait_zebra_generic_female_1"
+			"GFX_portrait_zebra_generic_female_2"
+			"GFX_portrait_zebra_generic_female_3"
+			"GFX_portrait_zebra_generic_female_4"
+			"GFX_portrait_zebra_generic_female_5"
+			"GFX_portrait_zebra_generic_female_6"
+		}
+	}
+}
+HLR = { 
+		operative = {
+		male = {
+			"GFX_portrait_pony_generic_operative_1"
+			"GFX_portrait_pony_generic_operative_2"
+			"GFX_portrait_pony_generic_operative_3"
+			"GFX_portrait_pony_generic_operative_4"
+			"GFX_portrait_pony_generic_operative_5"
+			"GFX_portrait_pony_generic_operative_6"
+			"GFX_portrait_pony_generic_land_14"
+		}
+		female = {
+			"GFX_portrait_pony_generic_operative_female_1"
+			"GFX_portrait_pony_generic_operative_female_2"
+			"GFX_portrait_pony_generic_operative_female_3"
+		}
+	}
+}

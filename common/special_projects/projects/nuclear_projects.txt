@@ -224,49 +224,7 @@ sp_commercial_nuclear_reactor = {
 			}
 		}
 
-		facility_state_effects = {
-			hidden_effect = {
-				IF = {
-					limit = {
-						nuclear_reactor_heavy_water > 0
-					}
-					remove_building = {
-						type = nuclear_reactor_heavy_water
-						level = 1
-					}
-					set_building_level = {
-						type = commercial_nuclear_reactor
-						level = 1
-					}
-				}
-				ELSE_IF = {
-					limit = {
-						nuclear_reactor > 0
-					}
-					remove_building = {
-						type = nuclear_reactor
-						level = 1
-					}
-					set_building_level = {
-						type = commercial_nuclear_reactor
-						level = 1
-					}	
-				}
-				ELSE_IF = {
-					limit = { 
-						free_building_slots = {
-							building = industrial_complex
-							size > 0
-							include_locked = yes 
-						}
-					}
-					set_building_level = {
-						type = commercial_nuclear_reactor
-						level = 1
-					}
-				}
-			}
-		}
+		facility_state_effects = { }
 	}
 	
 	empty_reward_weight = {
