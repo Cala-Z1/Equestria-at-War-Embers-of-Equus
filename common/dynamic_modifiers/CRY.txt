@@ -1,0 +1,6 @@
+Five_Year_Plan = {
+	consumer_goods_expected_value = CRY_five_year_plan_consumer_goods_expected_value_variable
+	production_speed_industrial_complex_factor = CRY_production_speed_industrial_complex_factor_variable
+	production_speed_arms_factory_factor = CRY_production_speed_arms_factory_factor_variable
+	research_speed_factor = CRY_research_speed_factor_variable
+}

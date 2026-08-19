@@ -1,0 +1,38 @@
+scripted_gui = {
+	name = CRY_corruption_panel
+	
+	context_type = selected_country_context
+	
+	# Only show for Crystal Empire player
+	visible = {
+		tag = CRY
+		is_ai = no
+	}
+
+	window_name = "CRY_corruption_window"
+	
+	effects = {
+		# No direct button effects — controlled via decisions
+	}
+	
+	triggers = {
+		# Threshold indicators
+		CRY_corruption_critical_trigger = {
+			check_variable = { CRY_corruption_level > 79 }
+		}
+		CRY_corruption_high_trigger = {
+			check_variable = { CRY_corruption_level > 49 }
+			NOT = { check_variable = { CRY_corruption_level > 79 } }
+		}
+		CRY_corruption_low_trigger = {
+			check_variable = { CRY_corruption_level < 50 }
+			NOT = { check_variable = { CRY_corruption_level < 20 } }
+		}
+		CRY_corruption_purified_trigger = {
+			check_variable = { CRY_corruption_level < 20 }
+		}
+		CRY_sombra_defeated_trigger = {
+			check_variable = { CRY_corruption_level < 1 }
+		}
+	}
+}

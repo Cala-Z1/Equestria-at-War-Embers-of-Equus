@@ -360,14 +360,14 @@ guiTypes = {
 			}	
             gridboxtype = {
 				name = "infantry_at_tree"
-				position = { x = 140 y = 210 }
+				position = { x = 140 y = 290 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
             gridboxtype = {
 				name = "infantry_at3_tree"
-				position = { x = 140 y = 210 }
+				position = { x = 140 y = 910 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -859,8 +859,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 			}
-
-
 			gridboxtype = {
 				name = "gwtank_tree"
 				position = { x = 10% y = 172 }
@@ -1017,7 +1015,7 @@ guiTypes = {
 				format = "UP"
 			}
 			gridBoxType = {
-				name = "tech_armored_cars_tree"
+				name = "armored_car1_tree"
 				position = { x = -22% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }

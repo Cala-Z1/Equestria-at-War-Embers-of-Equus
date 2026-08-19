@@ -36,6 +36,12 @@
 	focus = {
 		id = civ_mining_expansion
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = ind_left
+		}
+		mutually_exclusive = {
+			focus = civ_artisan_works
+		}
 		cost = 5
 		x = 32
 		y = 2
@@ -44,6 +50,12 @@
 	focus = {
 		id = civ_artisan_works
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = ind_left
+		}
+		mutually_exclusive = {
+			focus = civ_mining_expansion
+		}
 		cost = 5
 		x = 38
 		y = 2
@@ -52,6 +64,9 @@
 	focus = {
 		id = civ_construction_corps
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = civ_artisan_works focus = civ_mining_expansion
+		}
 		cost = 5
 		x = 35
 		y = 3
@@ -61,6 +76,12 @@
 		id = civ_infrastructure
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_construction_corps
+		}
+		mutually_exclusive = {
+			focus = civ_power_grid
+		}
 		x = 34
 		y = 4
 		completion_reward = { }
@@ -69,6 +90,12 @@
 		id = civ_power_grid
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_construction_corps
+		}
+		mutually_exclusive = {
+			focus = civ_infrastructure
+		}
 		x = 36
 		y = 4
 		completion_reward = { }
@@ -77,6 +104,9 @@
 		id = civ_economic_zone
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_power_grid focus = civ_infrastructure
+		}
 		x = 35
 		y = 5
 		completion_reward = { }
@@ -85,6 +115,9 @@
 		id = civ_agricultural_reform
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_mining_expansion
+		}
 		x = 32
 		y = 5
 		completion_reward = { }
@@ -93,6 +126,9 @@
 		id = civ_export_market
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_artisan_works
+		}
 		x = 38
 		y = 5
 		completion_reward = { }
@@ -101,6 +137,9 @@
 		id = civ_industrial_academy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_economic_zone
+		}
 		x = 35
 		y = 6
 		completion_reward = { }
@@ -109,6 +148,9 @@
 		id = civ_production_surge
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_industrial_academy
+		}
 		x = 35
 		y = 7
 		completion_reward = { }
@@ -117,6 +159,9 @@
 		id = civ_heart_district
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_agricultural_reform
+		}
 		x = 32
 		y = 7
 		completion_reward = { }
@@ -125,6 +170,9 @@
 		id = civ_northern_development
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_export_market
+		}
 		x = 38
 		y = 7
 		completion_reward = { }
@@ -133,6 +181,12 @@
 		id = civ_city_expansion
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_heart_district
+		}
+		prerequisite = {
+			focus = civ_production_surge
+		}
 		x = 33
 		y = 8
 		completion_reward = { }
@@ -141,6 +195,12 @@
 		id = civ_workforce_mobilisation
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_production_surge
+		}
+		prerequisite = {
+			focus = civ_northern_development
+		}
 		x = 37
 		y = 8
 		completion_reward = { }
@@ -149,6 +209,9 @@
 		id = civ_industrial_complex
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_city_expansion focus = civ_workforce_mobilisation
+		}
 		x = 35
 		y = 9
 		completion_reward = { }
@@ -157,6 +220,9 @@
 		id = civ_second_push
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_industrial_complex
+		}
 		x = 35
 		y = 10
 		completion_reward = { }
@@ -165,6 +231,15 @@
 		id = civ_economic_supremacy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_second_push
+		}
+		mutually_exclusive = {
+			focus = civ_trade_empire
+		}
+		mutually_exclusive = {
+			focus = civ_heart_economy
+		}
 		x = 35
 		y = 11
 		completion_reward = { }
@@ -173,6 +248,15 @@
 		id = civ_trade_empire
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_second_push
+		}
+		mutually_exclusive = {
+			focus = civ_economic_supremacy
+		}
+		mutually_exclusive = {
+			focus = civ_heart_economy
+		}		
 		x = 38
 		y = 11
 		completion_reward = { }
@@ -181,6 +265,15 @@
 		id = civ_heart_economy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = civ_second_push
+		}
+		mutually_exclusive = {
+			focus = civ_economic_supremacy
+		}
+		mutually_exclusive = {
+			focus = civ_trade_empire
+		}	
 		x = 32
 		y = 11
 		completion_reward = { }
@@ -205,6 +298,9 @@
 		id = mfac_foundry_network
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = ind_right
+		}
 		x = 45
 		y = 3
 		completion_reward = { }
@@ -213,6 +309,9 @@
 		id = mfac_crystal_armour_division
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = ind_right
+		}
 		x = 42
 		y = 4
 		completion_reward = { }
@@ -221,6 +320,9 @@
 		id = mfac_enchanted_arms
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_foundry_network
+		}
 		x = 44
 		y = 4
 		completion_reward = { }
@@ -229,6 +331,9 @@
 		id = mfac_northern_arsenal
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_foundry_network
+		}
 		x = 49
 		y = 4
 		completion_reward = { }
@@ -237,6 +342,12 @@
 		id = mfac_military_pact
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_enchanted_arms
+		}
+		mutually_exclusive = {
+			focus = mfac_guard_equipment
+		}
 		x = 45
 		y = 5
 		completion_reward = { }
@@ -245,6 +356,12 @@
 		id = mfac_guard_equipment
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_enchanted_arms
+		}
+		mutually_exclusive = {
+			focus = mfac_military_pact
+		}
 		x = 43
 		y = 5
 		completion_reward = { }
@@ -253,6 +370,9 @@
 		id = mfac_siege_works
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_northern_arsenal
+		}
 		x = 49
 		y = 5
 		completion_reward = { }
@@ -261,6 +381,9 @@
 		id = mfac_refined_alloys
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_crystal_armour_division
+		}
 		x = 42
 		y = 6
 		completion_reward = { }
@@ -269,6 +392,9 @@
 		id = mfac_mass_production
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_guard_equipment focus = mfac_military_pact
+		}
 		x = 44
 		y = 6
 		completion_reward = { }
@@ -277,6 +403,12 @@
 		id = mfac_ammo_stockpile
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_siege_works
+		}
+		mutually_exclusive = {
+			focus = mfac_research_development
+		}
 		x = 50
 		y = 6
 		completion_reward = { }
@@ -285,6 +417,12 @@
 		id = mfac_research_development
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_siege_works
+		}
+		mutually_exclusive = {
+			focus = mfac_ammo_stockpile
+		}
 		x = 48
 		y = 6
 		completion_reward = { }
@@ -293,6 +431,9 @@
 		id = mfac_engineering_corps
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_research_development focus = mfac_ammo_stockpile
+		}
 		x = 49
 		y = 7
 		completion_reward = { }
@@ -301,6 +442,9 @@
 		id = mfac_advanced_weapons
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_engineering_corps
+		}
 		x = 47
 		y = 8
 		completion_reward = { }
@@ -309,6 +453,9 @@
 		id = mfac_war_economy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_engineering_corps
+		}
 		x = 50
 		y = 8
 		completion_reward = { }
@@ -317,6 +464,12 @@
 		id = mfac_siege_corps
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_advanced_weapons
+		}
+		mutually_exclusive = {
+			focus = mfac_imperial_arsenal
+		}
 		x = 45
 		y = 9
 		completion_reward = { }
@@ -325,6 +478,9 @@
 		id = mfac_production_surge
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_war_economy
+		}
 		x = 49
 		y = 9
 		completion_reward = { }
@@ -333,6 +489,12 @@
 		id = mfac_imperial_arsenal
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_advanced_weapons
+		}
+		mutually_exclusive = {
+			focus = mfac_siege_corps
+		}
 		x = 47
 		y = 9
 		completion_reward = { }
@@ -340,6 +502,9 @@
 	focus = {
 		id = mfac_northern_arms
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = mfac_imperial_arsenal
+		}
 		cost = 5
 		x = 47
 		y = 10
@@ -349,6 +514,9 @@
 		id = mfac_armoured_manufacturing
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_siege_corps
+		}
 		x = 45
 		y = 10
 		completion_reward = { }
@@ -357,6 +525,9 @@
 		id = mfac_strike_force_equipment
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_armoured_manufacturing
+		}
 		x = 44
 		y = 11
 		completion_reward = { }
@@ -365,6 +536,9 @@
 		id = mfac_mass_enchantment
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_armoured_manufacturing
+		}
 		x = 46
 		y = 11
 		completion_reward = { }
@@ -373,6 +547,9 @@
 		id = mfac_military_supremacy
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_northern_arms
+		}
 		x = 48
 		y = 11
 		completion_reward = { }
@@ -381,6 +558,9 @@
 		id = mfac_fortress_network
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_northern_arms
+		}
 		x = 50
 		y = 11
 		completion_reward = { }
@@ -389,6 +569,9 @@
 		id = mfac_total_war
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_strike_force_equipment focus = mfac_mass_enchantment
+		}
 		x = 45
 		y = 12
 		completion_reward = { }
@@ -397,6 +580,9 @@
 		id = mfac_crystal_war_machine
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = mfac_military_supremacy focus = mfac_fortress_network focus = mfac_total_war
+		}
 		x = 47
 		y = 13
 		completion_reward = { }
@@ -436,7 +622,9 @@
 		}
 		x = 19
 		y = 1
-		completion_reward = { }
+		completion_reward = {
+			custom_effect_tooltip = The_Crystalling_Anniversary_tt
+		 }
 	}
 	focus = {
 		id = Winter_Solstice
@@ -458,7 +646,9 @@
 		}
 		x = 17
 		y = 2
-		completion_reward = { }
+		completion_reward = {
+			custom_effect_tooltip = The_Grand_Festival_tt
+		 }
 	}
 	focus = {
 		id = Referendum
@@ -475,7 +665,17 @@
 		}
 		x = 18
 		y = 3
-		completion_reward = { }
+		completion_reward = { 
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_free
+			}
+			remove_ideas = equestrian_overlord
+			add_power_balance_value = {
+				id = CRY_balamce_of_power
+				value = -0.25
+			}
+		}
 	}
 	focus = {
 		id = Empire_Reborn
@@ -486,7 +686,9 @@
 		}
 		x = 21
 		y = 2
-		completion_reward = { }
+		completion_reward = { 
+
+		}
 	}
 	focus = {
 		id = miamore_forever
@@ -506,7 +708,6 @@
 				mission = Sombra_Scare_3
 				days = 60
 			}
-			recruit_character = CRY_general_shining_armor
 		}
 	}
 	focus = {
@@ -524,19 +725,34 @@
 		}
 		x = 22
 		y = 3
-		completion_reward = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = equestrian_overlord
+				add_idea = equestrian_overlord_2
+			}
+			add_power_balance_value = {
+				id = CRY_balamce_of_power
+				value = 0.75
+			}
+		 }
 	}
 	focus = {
 		id = Find_The_Sombra_Supporters
 		icon = GFX_Find_The_Sombra_Supporters
 		cost = 5
+		available = {
+			has_intelligence_agency = yes
+		}
 		prerequisite = {
 			focus = Subordination
 			focus = Referendum
 		}
 		x = 20
 		y = 4
-		completion_reward = { }
+		completion_reward = {
+			custom_effect_tooltip = CRY_Find_The_Sombra_Supporters_tt
+			set_country_flag = CRY_sombra_cooldown
+		 }
 	}
 	focus = {
 		id = Reaching_Beyond_the_Empire
@@ -548,10 +764,21 @@
 		x = 18
 		y = 5
 		completion_reward = { 
-			remove_ideas = closed_market
-			add_ideas = free_trade
+			custom_effect_tooltip = CRY_Reaching_Beyond_the_Empire_tt
+			if = {
+				limit = {
+					has_completed_focus = Subordination
+				}
+				remove_ideas = closed_market
+				add_ideas = free_trade
+			}
+			else_if = {
+				limit = { has_completed_focus = Referendum }
+				remove_ideas = closed_market
+				add_ideas = limited_exports
+			}
 		}
-}
+	}
 	focus = {
 		id = Social_Welfare
 		icon = GFX_Social_Welfare
@@ -564,7 +791,39 @@
 		}
 		x = 22
 		y = 5
-		completion_reward = { }
+		completion_reward = {
+			custom_effect_tooltip = Social_Welfare_tt
+			if = {
+				limit = {
+					has_completed_focus = Referendum
+				}
+				145 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 9
+						instant_build = yes
+					}
+				}
+				add_to_variable = {
+					CRY_production_speed_arms_factory_factor_variable = -0.2
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = Subordination
+				}
+				145 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 4
+						instant_build = yes
+					}
+				}
+				add_to_variable = {
+					CRY_production_speed_arms_factory_factor_variable = -0.2
+				}
+			}
+		 }
 	}
 	focus = {
 		id = laissez_faire
@@ -578,7 +837,39 @@
 		}
 		x = 24
 		y = 5
-		completion_reward = { }
+		completion_reward = { 
+			custom_effect_tooltip = laissez_faire_tt
+			if  = {
+				limit = {
+					has_completed_focus = Referendum
+				}
+				145 = { 
+					add_building_construction = {
+						type = industrial_complex
+						level = 6
+						instant_build = yes
+					}
+				}
+				add_to_variable = {
+					CRY_production_speed_industrial_complex_factor_variable = -0.2
+				}
+			}
+		else_if = {
+			limit = { 
+				has_completed_focus = Subordination
+				}
+			145 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+					}
+				}
+			add_to_variable = {
+				CRY_production_speed_industrial_complex_factor_variable = -0.2
+				}
+			}
+		}
 	}
 	focus = {
 		id = The_New_Crystal_Order
@@ -590,22 +881,49 @@
 		}
 		x = 23
 		y = 6
-		completion_reward = { }
+		completion_reward = { 
+			custom_effect_tooltip = The_New_Crystal_Order_tt
+			show_ideas_tooltip = equestrian_overlord_3
+			if = {
+				limit = {
+					has_completed_focus = Subordination
+				}
+				swap_ideas = {
+					remove_idea = equestrian_overlord_2
+					add_idea = equestrian_overlord_3
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = Referendum
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Strike_at_Sombra_Supporters
 		icon = GFX_Strike_at_Sombra_Supporters
 		cost = 5
+			available = {
+				has_country_flag = {
+					flag = CRY_sombra_cooldown
+					days > 120
+				}
+			}
 		prerequisite = {
 			focus = Find_The_Sombra_Supporters
-		}
-		prerequisite = {
-			focus = The_New_Crystal_Order
 		}
 		x = 20
 		y = 7
 		completion_reward = {
      		set_country_flag = CRY_sombra_purged
+			custom_effect_tooltip = CRY_Strike_at_Sombra_Supporters_tt
+			remove_ideas = Sombra_Scare 
 			}
 	}
 	focus = {
@@ -622,6 +940,7 @@
 		y = 8
 		completion_reward = {
 			promote_character = CRY_Crystal_Court
+			retire_character = CRY_general_shining_armor
 		 }
 	}
 	focus = {
@@ -647,7 +966,57 @@
 		}
 		x = 16
 		y = 6
-		completion_reward = { }
+		completion_reward = { 
+			if = {
+				limit = {
+					has_completed_focus = Subordination
+				}
+				add_resource = {
+					type = crystals
+					amount = 100
+					state = 166
+				}
+				add_resource = {
+					type = tungsten
+					amount = 100
+					state = 166
+				}
+				add_resource = {
+					type = chromium
+					amount = 100
+					state = 166
+				}
+				give_resource_rights = {
+					receiver = STG
+					state = 55
+				}
+				give_resource_rights = {
+					receiver = STG
+					state = 64
+				}
+			}
+			else = { 
+				add_resource = {
+					type = crystals
+					amount = 100
+					state = 166
+				}
+				add_resource = {
+					type = tungsten
+					amount = 100
+					state = 166
+				}
+				add_resource = {
+					type = chromium
+					amount = 100
+					state = 166
+				}
+				give_resource_rights = {
+					receiver = STG
+					state = 55
+				}
+			}
+		}
 	}
 	focus = {
 		id = operation_Break_Shadow
@@ -659,7 +1028,9 @@
 		}
 		x = 20
 		y = 10
-		completion_reward = { }
+		completion_reward = {
+			custom_effect_tooltip = operation_Break_Shadow_tt
+		 }
 	}
 	## MIL ## 
 	focus = {
@@ -795,6 +1166,7 @@
 	focus = {
 		id = art_shell_technology
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {focus = The_Imperial_Guard}
 		cost = 5
 		x = 59
 		y = 4
@@ -803,6 +1175,7 @@
 	focus = {
 		id = tnk_doctrine
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {  focus = The_Imperial_Guard }
 		cost = 5
 		x = 61
 		y = 4
@@ -847,6 +1220,9 @@
 	focus = {
 		id = art_coordinated_barrage
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = art_shell_technology
+		}
 		cost = 5
 		x = 59
 		y = 5
@@ -855,6 +1231,9 @@
 	focus = {
 		id = tnk_crew_excellence
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = tnk_doctrine
+		}
 		cost = 5
 		x = 61
 		y = 5
@@ -929,6 +1308,12 @@
 	focus = {
 		id = tnk_combined_arms
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = art_coordinated_barrage
+		}
+		prerequisite = {
+			focus = tnk_crew_excellence
+		}
 		cost = 5
 		x = 60
 		y = 6
@@ -937,6 +1322,9 @@
 	focus = {
 		id = tnk_breakthrough
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = tnk_combined_arms
+		}
 		cost = 5
 		x = 60
 		y = 7
@@ -945,6 +1333,9 @@
 	focus = {
 		id = art_crystal_howitzers
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = Crystal_Steel_Foundries
+		}
 		cost = 5
 		x = 58
 		y = 7
@@ -954,6 +1345,9 @@
 		id = tnk_flanking_manoeuvre
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
+		prerequisite = {
+			focus = Harness_Ancient_Magic
+		}
 		x = 62
 		y = 7
 		completion_reward = { }
@@ -961,6 +1355,9 @@
 	focus = {
 		id = tnk_shock_division
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = tnk_breakthrough focus = tnk_flanking_manoeuvre
+		}
 		cost = 5
 		x = 61
 		y = 8
@@ -969,6 +1366,9 @@
 	focus = {
 		id = art_suppression_fire
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = tnk_breakthrough focus = art_crystal_howitzers
+		}
 		cost = 5
 		x = 59
 		y = 8
@@ -977,6 +1377,9 @@
 	focus = {
 		id = tnk_armoured_victory
 		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = art_suppression_fire focus = tnk_shock_division
+		}
 		cost = 5
 		x = 60
 		y = 9

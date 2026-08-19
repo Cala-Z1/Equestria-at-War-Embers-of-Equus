@@ -43,7 +43,7 @@ Sombra_Scare_Missons = {
 			}
 		}
 	}
-		Sombra_Scare_3 = {
+	Sombra_Scare_3 = {
 		days_remove = 1
 		available = {has_completed_focus = operation_Break_Shadow}
 		cancel_trigger = {has_war = yes}
@@ -59,6 +59,96 @@ Sombra_Scare_Missons = {
 		} 
 		timeout_effect = { 
 
+		}
+	}
+}
+CRY_on_map_decisions = {
+	CRY_on_map_decisions_1 = {
+		icon = oppression
+		on_map_mode = map_and_decisions_view
+		fire_only_once = yes
+		available = {
+			tag = CRY
+		}
+		visible = {
+			has_completed_focus = The_Grand_Festival
+		}
+		state_target = yes
+		targets = {343}
+		days_remove = 120
+		cost = 50
+		complete_effect = {
+			343 = {
+				add_state_modifier = {
+					modifier = { production_speed_industrial_complex_factor = 0.1 }
+				}
+			}
+		}
+	}
+	CRY_on_map_decisions_2 = {
+		icon = oppression
+		on_map_mode = map_only
+		fire_only_once = yes
+		available = {
+			tag = CRY
+		}
+		visible = {
+			has_completed_focus = The_Grand_Festival
+		}
+		state_target = yes
+		targets = {318}
+		days_remove = 120
+		cost = 50
+		complete_effect = {
+			318 = {
+				add_state_modifier = {
+					modifier = { production_speed_industrial_complex_factor = 0.1 }
+				}
+			}
+		}
+	}
+	CRY_on_map_decisions_3 = {
+		icon = oppression
+		on_map_mode = map_only
+		fire_only_once = yes
+		available = {
+			tag = CRY
+		}
+		visible = {
+			has_completed_focus = The_Grand_Festival
+		}
+		state_target = yes
+		targets = {139}
+		days_remove = 120
+		cost = 50
+		complete_effect = {
+			139 = {
+				add_state_modifier = {
+					modifier = { production_speed_industrial_complex_factor = 0.1 }
+				}
+			}
+		}
+	}
+	CRY_on_map_decisions_4 = {
+		icon = oppression
+		on_map_mode = map_only
+		fire_only_once = yes
+		available = {
+			tag = CRY
+		}
+		visible = {
+			has_completed_focus = The_Grand_Festival
+		}
+		state_target = yes
+		targets = {324}
+		days_remove = 120
+		cost = 50
+		complete_effect = {
+			324 = {
+				add_state_modifier = {
+					modifier = { production_speed_industrial_complex_factor = 0.1 }
+				}
+			}
 		}
 	}
 }

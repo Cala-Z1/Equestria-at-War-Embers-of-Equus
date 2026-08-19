@@ -1929,7 +1929,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = motorized_rocket_unit
+			leads_to_tech = motorized_rocket_unitT
 			research_cost_coeff = 1
 		}
 		research_cost = 1.3
@@ -1951,7 +1951,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	motorized_rocket_unit = {
+	motorized_rocket_unitT = {
 
 		enable_subunits = {
 			motorized_rocket_brigade
@@ -2085,7 +2085,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = antitank4
+			leads_to_tech = antitankT
 			research_cost_coeff = 1
 		}
 		
@@ -2144,7 +2144,7 @@ technologies = {
 	}
 	
 
-	antitank4 = {
+	antitankT = {
 		
 		
 		enable_equipments = {
@@ -2390,7 +2390,7 @@ technologies = {
 			ship_anti_air_3
 		}
 		path = {
-			leads_to_tech = antiair5
+			leads_to_tech = antiairT
 			research_cost_coeff = 1
 		}
 		path = {
@@ -2423,7 +2423,7 @@ technologies = {
 	
 
 	
-	antiair5 = {
+	antiairT = {
 		
 
 		enable_equipments = {

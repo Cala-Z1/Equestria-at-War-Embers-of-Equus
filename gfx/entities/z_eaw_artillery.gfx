@@ -1,0 +1,14 @@
+objectTypes = {
+	
+	#### Artillery ########################################################
+	
+	pdxmesh = {
+		name = "EQS_artillery_mesh"
+		file = "gfx/models/units/artillery/EquestrianFieldGun.mesh"
+		
+		animation = { id = "idle"  			type = "GXC_artillery_75_type_jin_12_idle_animation" }
+		animation = { id = "move"  			type = "GXC_artillery_75_type_jin_12_moving_animation" }
+		animation = { id = "attack"  		type = "GXC_artillery_75_type_jin_12_attack_animation" }
+	}
+
+}

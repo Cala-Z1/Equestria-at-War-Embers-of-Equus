@@ -573,14 +573,14 @@ technologies = {
 		}
 	}
 # ── MECH & AMROR CARS ────────────────────────────
-	tech_armored_cars = {
+	armored_car1 = {
 		enable_subunits = {
 			recon_ac
 			armored_car
 		}	
 		enable_equipments = { armored_cars_equipment_1 }
 		path = {
-			leads_to_tech = tech_armored_cars2
+			leads_to_tech = armored_car2
 			research_cost_coeff = 1
 		}		
 		research_cost = 1
@@ -594,10 +594,10 @@ technologies = {
 			motorized_equipment
 		}
 	}
-	tech_armored_cars2 = {	
+	armored_car2 = {	
 		enable_equipments = { armored_cars_equipment_2 }
 		path = {
-			leads_to_tech = tech_armored_cars3
+			leads_to_tech = armored_car3
 			research_cost_coeff = 1
 		}
 		research_cost = 1.2
@@ -623,10 +623,10 @@ technologies = {
 			motorized_equipment
 		}
 	}	
-	tech_armored_cars3 = {
+	armored_car3 = {
 		enable_equipments = { armored_cars_equipment_3 }	
 		path = {
-			leads_to_tech = tech_armored_cars4
+			leads_to_tech = armored_car4
 			research_cost_coeff = 1
 		}	
 		research_cost = 1.2
@@ -652,10 +652,10 @@ technologies = {
 			motorized_equipment
 		}
 	}
-	tech_armored_cars4 = {
+	armored_car4 = {
 		enable_equipments = { armored_cars_equipment_4 }
 		path = {
-			leads_to_tech = tech_armored_cars5
+			leads_to_tech = armored_car5
 			research_cost_coeff = 1
 		}
 		
@@ -683,7 +683,7 @@ technologies = {
 			motorized_equipment
 		}
 	}
-	tech_armored_cars5 = {
+	armored_car5 = {
 		enable_equipments = { armored_cars_equipment_5 }
 	
 		research_cost = 1.4

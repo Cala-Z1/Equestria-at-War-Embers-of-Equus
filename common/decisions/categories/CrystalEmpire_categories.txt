@@ -8,3 +8,23 @@ Sombra_Scare_Missons = {
 		tag = CRY
 	}
 }
+CRY_crystal_heart_decisions = {
+	icon = GFX_Crystal_Court_Consolidation
+	priority = 9
+	allowed = {
+		tag = CRY
+	}
+	visible = {
+		tag = CRY
+	}
+}
+CRY_on_map_decisions = {
+	icon = GFX_decision_category_generic_political_actions
+	priority = 8
+	allowed = {
+		tag = CRY
+	}
+	visible = {
+		tag = CRY
+	}
+}

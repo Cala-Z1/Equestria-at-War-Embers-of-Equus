@@ -125,21 +125,6 @@ entity = {
 }
 
 entity = {
-	name = "african_gfx_army_headquarters_entity"
-	clone = "ZEBRA_infantry_entity"
-
-	version = 1
-	scale = 0.8
-}
-entity = {
-	name = "ZES_army_headquarters_entity"
-	clone = "ZEBRA_infantry_entity"
-
-	version = 1
-	scale = 0.8
-}
-
-entity = {
 	name = "GER_army_headquarters_entity"
 	clone = "CHN_bug_entity"
 
@@ -150,13 +135,6 @@ entity = {
 entity = {
 	name = "deer_gfx_army_headquarters_entity"
 	clone = "deer_gfx_infantry_entity"
-	
-	scale = 0.8	
-}
-
-entity = {
-	name = "HIP_army_headquarters_entity"
-	clone = "HIP_infantry_entity"
 	
 	scale = 0.8	
 }

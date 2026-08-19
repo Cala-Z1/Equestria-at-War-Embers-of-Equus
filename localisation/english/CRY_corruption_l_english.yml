@@ -1,0 +1,65 @@
+l_english:
+
+ # ── GUI ─────────────────────────────────────────────────────────────────────
+ CRY_CORRUPTION_TITLE: "§YCrystal Corruption§!"
+ CRY_CORRUPTION_LABEL: "§PSombra's Influence§!"
+ CRY_THRESHOLD_LABELS: "§G0 — Heart Restored   50 — Danger   §R80 — Critical§!"
+
+ CRY_STATUS_CRITICAL: "§RSombra's shadow runs deep through the Crystal Empire. The Heart weakens. Without urgent action, all may be lost.§!"
+ CRY_STATUS_HIGH: "§YThe shadow grows. Crystal ponies feel unease in their hearts. The Crystal Heart flickers.§!"
+ CRY_STATUS_LOW: "§GThe Crystal Heart holds. Sombra's influence wanes, though the shadow has not yet been driven out.§!"
+ CRY_STATUS_PURIFIED: "§GSombra is almost gone. The Crystal Heart shines brightly. One final push will end his shadow forever.§!"
+
+ # ── Decisions ───────────────────────────────────────────────────────────────
+ CRY_spread_crystal_love: "Spread the Crystal Heart's Love"
+ CRY_spread_crystal_love_desc: "Organise gatherings across the Crystal Empire where ponies share love and warmth, channeling positive energy through the Crystal Heart to push back Sombra's corruption."
+ CRY_spread_love_tt: "Crystal ponies gather to share love and warmth, pushing back the shadow."
+ 
+ CRY_crystal_fair: "Hold the Crystal Fair"
+ CRY_crystal_fair_desc: "The Crystal Fair is the Empire's most beloved tradition — a great celebration of love, craft, and community. Hosting it sends a powerful surge of positive energy through the Crystal Heart."
+ CRY_crystal_fair_tt: "The Crystal Fair fills the Empire with joy and love, powerfully weakening Sombra's grip."
+
+ CRY_purify_mines: "Purify the Crystal Mines"
+ CRY_purify_mines_desc: "Sombra's shadow seeps into the crystal mines, corrupting the raw crystals at their source. Sending teams of crystal-attuned ponies to cleanse the mines will cut off his power at the root."
+ CRY_purify_mines_tt: "Cleansing the crystal mines removes Sombra's corruption at its source and increases crystal output."
+
+ CRY_root_out_shadow: "Root Out the Shadow's Agents"
+ CRY_root_out_shadow_desc: "Sombra works through agents — dark-corrupted ponies and hidden cultists who spread his influence from within. Our intelligence service can find and neutralise them."
+ CRY_root_out_shadow_tt: "Intelligence agents hunt down Sombra's cultists and sympathisers, weakening his influence."
+
+ CRY_corruption_decreased_tt: "§GSombra's corruption has been pushed back. The Crystal Heart grows stronger.§!"
+
+ # ── Ideas ───────────────────────────────────────────────────────────────────
+ CRY_sombra_influence_low: "Sombra's Shadow"
+ CRY_sombra_influence_low_desc: "A dark presence lingers in the Crystal Empire. The Crystal Heart wavers under the weight of an ancient evil not yet fully defeated."
+
+ CRY_sombra_influence_high: "Sombra's Growing Shadow"
+ CRY_sombra_influence_high_desc: "Sombra's corruption spreads through the Empire. Crystal ponies feel fear and unease, and the Crystal Heart's light dims noticeably."
+
+ CRY_sombra_influence_critical: "Sombra's Overwhelming Darkness"
+ CRY_sombra_influence_critical_desc: "The shadow has spread to every corner of the Crystal Empire. The Crystal Heart barely holds. If this continues, all may fall to Sombra's eternal night."
+
+ CRY_crystal_heart_restored: "Crystal Heart Restored"
+ CRY_crystal_heart_restored_desc: "Sombra has been defeated. The Crystal Heart shines at full power, filling every crystal pony with love and strength. The Empire enters a golden age of warmth and prosperity."
+
+ # ── Events ──────────────────────────────────────────────────────────────────
+ CRY_corruption.1.t: "The Shadow Stirs"
+ CRY_corruption.1.d: "Reports reach the palace of strange happenings in the outlying provinces — crops of dark crystals appearing overnight, crystal ponies speaking of nightmares. Sombra's influence grows stronger."
+ CRY_corruption.1.a: "We must work harder to push back the dark."
+
+ CRY_corruption.2.t: "Shadow in the Mines"
+ CRY_corruption.2.d: "Workers in the eastern crystal mines have reported strange formations — black crystals that seem to pulse with dark energy. The foremen believe Sombra's shadow has taken root underground."
+ CRY_corruption.2.a: "Seal off the affected sections. We cannot afford to panic."
+ CRY_corruption.2.b: "Dispatch the Crystal Guard to cleanse the mines."
+
+ CRY_corruption.3.t: "The Heart Dims"
+ CRY_corruption.3.d: "The Crystal Heart's light has visibly dimmed. Crystal ponies who once shone with warmth now look pale and frightened. Sombra's corruption has reached a critical point. The Heart itself may be in danger."
+ CRY_corruption.3.a: "We will not let the darkness win. Double our efforts."
+
+ CRY_corruption.4.t: "Sombra's Whispers"
+ CRY_corruption.4.d: "Ponies across the Empire report hearing whispers in the dark — cold, commanding voices that promise power and safety in exchange for loyalty. Sombra's presence grows."
+ CRY_corruption.4.a: "Remain vigilant. Report any who listen to the whispers."
+
+ CRY_corruption.10.t: "The Light Returns"
+ CRY_corruption.10.d: "It is done.\n\nThe last shadow has been driven from the Crystal Empire. The Crystal Heart blazes with a light that can be seen for miles — warm, golden, and absolute. Crystal ponies across the Empire stop what they are doing and simply... feel it. Love. Safety. Home.\n\nSombra is gone. The Crystal Empire endures."
+ CRY_corruption.10.a: "The Crystal Heart shines again. Long live the Empire."

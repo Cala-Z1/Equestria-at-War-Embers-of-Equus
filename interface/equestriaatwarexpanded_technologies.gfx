@@ -1,0 +1,3563 @@
+spriteTypes = {
+
+	#### DREAD LEAGUE ######
+	SpriteType = {
+		name = "GFX_DED_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/DED_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_DED_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/DED_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_DED_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/DED_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_DED_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/DED_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_DED_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/DED_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_DED_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/DED_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_DED_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/DED_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_DED_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/DED_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_DED_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/DED_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_DED_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/DED_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_DED_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/DED_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_DED_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/DED_infantry_equipment_5.dds"
+	}
+	#### BUFFALO ######
+		SpriteType = {
+		name = "GFX_BUF_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_BUF_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_BUF_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUF_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUF_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUF_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUF_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUF_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUF_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUF_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUF_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUF_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_5.dds"
+	}
+	#### SOUTHRONS ######
+			SpriteType = {
+		name = "GFX_SCS_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_SCS_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_SCS_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SCS_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SCS_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SCS_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SCS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_SCS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SCS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SCS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SCS_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SCS_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_5.dds"
+	}
+	#### PEGASUS ######
+				SpriteType = {
+		name = "GFX_LSP_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_LSP_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_LSP_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSP_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSP_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSP_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSP_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSP_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSP_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSP_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSP_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSP_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_5.dds"
+	}
+	#### JUNGLE ######
+				SpriteType = {
+		name = "GFX_JUN_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_JUN_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_JUN_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JUN_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JUN_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JUN_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JUN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_JUN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JUN_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JUN_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JUN_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JUN_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_5.dds"
+	}
+	#### CELESTIAL ######
+				SpriteType = {
+		name = "GFX_CES_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_CES_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_CES_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CES_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CES_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_CES_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/BUF_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_CES_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_CES_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CES_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CES_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_CES_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_CES_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/BUF_infantry_equipment_5.dds"
+	}
+	#### CHANGELING ######
+		SpriteType = {
+		name = "GFX_CHN_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/CHN_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_CHN_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/CHN_musket.dds"
+	}
+	
+	#### EQUESTRIA ######
+		SpriteType = {
+		name = "GFX_EQS_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQS_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_EQS_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/EQS_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_EQS_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQS_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQS_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/EQS_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQS_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/EQS_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQS_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/EQS_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQS_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/EQS_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQS_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQS_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/EQS_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQS_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/EQS_infantry_equipment_5.dds"
+	}
+	
+	#### CRYSTAL ######
+		SpriteType = {
+		name = "GFX_CRY_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/CRY_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_CRY_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/CRY_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_CRY_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/CRY_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRY_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/CRY_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRY_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/CRY_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRY_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/CRY_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRY_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CRY_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRY_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/CRY_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRY_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CRY_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRY_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CRY_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRY_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/CRY_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_CRY_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/CRY_infantry_equipment_5.dds"
+	}
+	
+	#### MARELAND ######
+				SpriteType = {
+		name = "GFX_EQC_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQC_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_EQC_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/EQC_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_EQC_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQC_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQC_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/EQC_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQC_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/EQC_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQC_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/EQC_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQC_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQC_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQC_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/EQC_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQC_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQC_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQC_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/EQC_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQC_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/EQC_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_EQC_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/EQC_infantry_equipment_5.dds"
+	}
+	#### GRIFFONIAN EMPIRE ######
+				SpriteType = {
+		name = "GFX_GRI_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_GRI_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_GRI_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRI_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRI_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRI_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRI_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRI_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRI_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRI_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRI_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRI_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+		#### FEATHISIA ######
+				SpriteType = {
+		name = "GFX_FEA_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_FEA_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_FEA_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FEA_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FEA_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FEA_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FEA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_FEA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FEA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FEA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FEA_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FEA_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+		#### ROMAU ######
+				SpriteType = {
+		name = "GFX_ROU_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_ROU_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_ROU_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROU_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROU_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROU_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROU_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROU_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROU_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROU_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROU_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROU_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+			#### YALE ######
+				SpriteType = {
+		name = "GFX_YAL_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_YAL_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_YAL_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_YAL_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_YAL_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_YAL_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_YAL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_YAL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_YAL_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_YAL_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_YAL_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_YAL_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+		#### GRIFFONMARCH ######
+				SpriteType = {
+		name = "GFX_PYT_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_PYT_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_PYT_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_PYT_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_PYT_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_PYT_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_PYT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_PYT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_PYT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_PYT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_PYT_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_PYT_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+		#### BRONZE ######
+				SpriteType = {
+		name = "GFX_BRZ_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_BRZ_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_BRZ_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRZ_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRZ_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRZ_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRZ_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRZ_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRZ_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRZ_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRZ_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRZ_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+			#### ANGRIVER ######
+				SpriteType = {
+		name = "GFX_ANG_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_ANG_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_ANG_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ANG_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ANG_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ANG_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ANG_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ANG_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ANG_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ANG_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ANG_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ANG_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+			#### KATERIN ######
+				SpriteType = {
+		name = "GFX_KAT_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_KAT_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_KAT_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAT_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAT_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAT_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAT_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAT_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+		#### BANDIT ######
+				SpriteType = {
+		name = "GFX_BAN_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_BAN_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_BAN_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BAN_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BAN_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BAN_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BAN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_BAN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BAN_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BAN_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BAN_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BAN_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_5.dds"
+	}
+			#### RUMARE ######
+				SpriteType = {
+		name = "GFX_LAK_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_LAK_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_LAK_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAK_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAK_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAK_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAK_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAK_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAK_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAK_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAK_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAK_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_5.dds"
+	}
+			#### CYANOLISIA ######
+				SpriteType = {
+		name = "GFX_CYA_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_CYA_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_CYA_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CYA_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CYA_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_CYA_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_CYA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_CYA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CYA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CYA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_CYA_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_CYA_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_5.dds"
+	}
+			#### GRYPHUS ######
+				SpriteType = {
+		name = "GFX_GRU_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_GRU_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_GRU_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRU_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRU_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRU_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRU_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRU_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRU_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRU_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRU_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRU_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_5.dds"
+	}
+			#### LIBERATION ARMY ######
+				SpriteType = {
+		name = "GFX_GRW_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_GRW_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_GRW_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRW_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRW_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRW_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRW_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRW_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRW_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRW_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRW_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRW_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_5.dds"
+	}
+			#### COSSACK ######
+				SpriteType = {
+		name = "GFX_GRY_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_GRY_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_GRY_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRY_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRY_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRY_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRY_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRY_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRY_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRY_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRY_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GRY_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_5.dds"
+	}
+			#### BRODFELD ######
+				SpriteType = {
+		name = "GFX_BRF_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_BRF_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_BRF_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRF_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRF_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRF_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRF_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRF_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRF_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRF_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRF_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRF_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_5.dds"
+	}
+			#### GRIFFONSTONE ######
+				SpriteType = {
+		name = "GFX_BOI_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_BOI_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_BOI_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BOI_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BOI_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BOI_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BOI_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_BOI_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BOI_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BOI_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BOI_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BOI_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_5.dds"
+	}
+			#### LUSHI ######
+				SpriteType = {
+		name = "GFX_LUS_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_LUS_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_LUS_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LUS_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LUS_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LUS_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRW_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LUS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_LUS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LUS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LUS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LUS_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LUS_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRW_infantry_equipment_5.dds"
+	}
+			#### STRAWBERRY ######
+				SpriteType = {
+		name = "GFX_STW_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_STW_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_STW_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_STW_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_STW_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_STW_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_STW_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_STW_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_STW_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_STW_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_STW_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_STW_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+				#### SKYFALL ######
+				SpriteType = {
+		name = "GFX_TRD_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_TRD_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_TRD_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_TRD_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_TRD_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_TRD_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GRI_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_TRD_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_TRD_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_TRD_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_TRD_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_TRD_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_TRD_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/GRI_infantry_equipment_5.dds"
+	}
+		#### ARCTURIAN ######
+				SpriteType = {
+		name = "GFX_HLR_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/HLR_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_HLR_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/HLR_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_HLR_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/HLR_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLR_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/HLR_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLR_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/HLR_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLR_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/HLR_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/HLR_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/HLR_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/HLR_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/HLR_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLR_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/HLR_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLR_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/HLR_infantry_equipment_5.dds"
+	}
+		#### PRIDEA ######
+				SpriteType = {
+		name = "GFX_JFT_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_JFT_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_JFT_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JFT_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JFT_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JFT_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JFT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_JFT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JFT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JFT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JFT_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JFT_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+		#### FRANCISTRIA ######
+				SpriteType = {
+		name = "GFX_FRN_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_FRN_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_FRN_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRN_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRN_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRN_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRN_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRN_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRN_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRN_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### FLOWENA ######
+				SpriteType = {
+		name = "GFX_FLO_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_FLO_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_FLO_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FLO_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FLO_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FLO_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FLO_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_FLO_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FLO_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FLO_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FLO_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FLO_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### GREIFWALD ######
+				SpriteType = {
+		name = "GFX_AET_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_AET_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_AET_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_AET_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_AET_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_AET_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_AET_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_AET_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_AET_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_AET_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_AET_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_AET_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### RILA ######
+				SpriteType = {
+		name = "GFX_JEB_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_JEB_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_JEB_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JEB_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JEB_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JEB_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JEB_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_JEB_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JEB_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JEB_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JEB_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JEB_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### VINOVIA ######
+				SpriteType = {
+		name = "GFX_VIN_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_VIN_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_VIN_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_VIN_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_VIN_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_VIN_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_VIN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_VIN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_VIN_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_VIN_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_VIN_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_VIN_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### AVIAN ######
+				SpriteType = {
+		name = "GFX_AVI_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_AVI_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_AVI_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_AVI_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_AVI_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_AVI_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_AVI_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_AVI_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_AVI_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_AVI_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_AVI_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_AVI_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### ERIE ######
+				SpriteType = {
+		name = "GFX_ERI_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_ERI_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_ERI_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ERI_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ERI_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ERI_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ERI_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ERI_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ERI_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ERI_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ERI_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ERI_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### EYRIE ######
+				SpriteType = {
+		name = "GFX_EYR_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_EYR_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_EYR_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_EYR_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_EYR_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_EYR_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_EYR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_EYR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_EYR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_EYR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_EYR_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_EYR_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### WESTKEEP ######
+				SpriteType = {
+		name = "GFX_JRR_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_JRR_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_JRR_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JRR_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JRR_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JRR_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JRR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_JRR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JRR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JRR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JRR_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JRR_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### TARRIN ######
+				SpriteType = {
+		name = "GFX_JES_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_JES_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_JES_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JES_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JES_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JES_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JES_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_JES_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JES_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JES_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JES_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JES_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+				#### POMOVARRA ######
+				SpriteType = {
+		name = "GFX_POM_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_POM_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_POM_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POM_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POM_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POM_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JER_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POM_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_POM_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POM_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POM_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POM_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POM_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/JER_infantry_equipment_5.dds"
+	}
+			#### HELLQUILL ######
+				SpriteType = {
+		name = "GFX_HLQ_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_HLQ_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_HLQ_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLQ_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLQ_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLQ_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLQ_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLQ_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLQ_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLQ_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLQ_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_HLQ_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_5.dds"
+	}
+				#### LONGSWORD ######
+				SpriteType = {
+		name = "GFX_LNS_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_LNS_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_LNS_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LNS_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LNS_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LNS_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LNS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_LNS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LNS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LNS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LNS_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LNS_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_5.dds"
+	}
+					SpriteType = {
+		name = "GFX_LSM_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_LSM_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_LSM_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSM_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSM_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSM_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSM_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSM_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSM_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSM_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSM_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSM_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_5.dds"
+	}
+					SpriteType = {
+		name = "GFX_LSC_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_LSC_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_LSC_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSC_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSC_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSC_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/LNS_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSC_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSC_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSC_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSC_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSC_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_LSC_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/LNS_infantry_equipment_5.dds"
+	}
+			#### ISLAND LINGS ######
+		SpriteType = {
+		name = "GFX_NCH_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/NCH_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_NCH_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NCH_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_NCH_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/NCH_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NCH_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/NCH_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/NCH_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NCH_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NCH_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NCH_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NCH_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/NCH_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/NCH_infantry_equipment_5.dds"
+	}
+				#### LUNAR ######
+				SpriteType = {
+		name = "GFX_NLR_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/NLR_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_NLR_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NLR_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_NLR_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/NLR_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NLR_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/NLR_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/NLR_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NLR_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NLR_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NLR_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NLR_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/NLR_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/NLR_infantry_equipment_5.dds"
+}
+		#### OLENIAN ######
+				SpriteType = {
+		name = "GFX_OLE_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLE_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_OLE_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/OLE_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_OLE_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLE_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLE_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/OLE_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLE_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/OLE_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLE_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/OLE_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLE_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLE_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLE_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/OLE_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLE_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLE_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLE_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLE_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLE_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/OLE_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLE_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/OLE_infantry_equipment_5.dds"
+	}
+			#### BEAR ######
+	SpriteType = {
+		name = "GFX_PLB_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_PLB_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_PLB_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_PLB_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_PLB_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_PLB_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_PLB_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_PLB_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_PLB_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_PLB_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_PLB_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_PLB_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_5.dds"
+	}
+		#### FARBROOK ######
+	SpriteType = {
+		name = "GFX_FBK_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_FBK_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_FBK_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FBK_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FBK_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FBK_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FBK_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_FBK_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FBK_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FBK_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FBK_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FBK_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_5.dds"
+	}
+			#### FIRTREE ######
+	SpriteType = {
+		name = "GFX_FIR_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_FIR_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_FIR_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_5.dds"
+	}
+			#### JACKS ######
+	SpriteType = {
+		name = "GFX_JAK_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_JAK_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_JAK_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAK_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAK_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAK_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAK_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAK_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAK_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAK_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAK_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAK_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_5.dds"
+	}
+	
+		#### PINGUIN ######
+	SpriteType = {
+		name = "GFX_PNG_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_PNG_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_PNG_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_PNG_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_PNG_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_PNG_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_PNG_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_PNG_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_PNG_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_PNG_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_PNG_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_PNG_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_5.dds"
+	}
+	
+			#### NORTHTRIBES ######
+	SpriteType = {
+		name = "GFX_NTR_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_NTR_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_NTR_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NTR_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_NTR_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NTR_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_NTR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_NTR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NTR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_NTR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NTR_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_NTR_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_5.dds"
+	}
+	
+				#### WATER ######
+	SpriteType = {
+		name = "GFX_WAT_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_WAT_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_WAT_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_WAT_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_WAT_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_WAT_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/PLB_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_WAT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_WAT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_WAT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_WAT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_WAT_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_WAT_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/PLB_infantry_equipment_5.dds"
+	}
+	
+					#### VIKING ######
+	SpriteType = {
+		name = "GFX_OLV_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLV_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_OLV_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/OLV_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_OLV_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLV_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLV_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/OLV_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLV_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/OLV_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLV_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/OLV_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLV_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLV_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLV_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/OLV_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLV_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLV_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLV_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/OLV_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLV_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/OLV_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_OLV_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/OLV_infantry_equipment_5.dds"
+	}
+	
+		#### STALLIONGRAD ######
+	SpriteType = {
+		name = "GFX_STG_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_STG_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/STG_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_STG_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_STG_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/STG_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_STG_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/STG_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_STG_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/STG_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_STG_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_STG_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_STG_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_STG_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_STG_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_STG_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_5.dds"
+	}
+	
+		#### TOWN ######
+		SpriteType = {
+		name = "GFX_STL_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_STL_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/STG_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_STL_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_STL_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/STG_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_STL_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/STG_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_STL_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/STG_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_STL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_STL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_STL_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_STL_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_STL_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_STL_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/STG_infantry_equipment_5.dds"
+	}
+	
+			#### KNIGHTS ######
+	SpriteType = {
+		name = "GFX_VED_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/VED_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_VED_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/VED_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_VED_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/VED_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_VED_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/VED_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_VED_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/VED_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_VED_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/VED_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_VED_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/VED_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_VED_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/VED_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_VED_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/VED_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_VED_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/VED_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_VED_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/VED_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_VED_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/VED_infantry_equipment_5.dds"
+	}
+				#### RIVERPONIES ######
+	SpriteType = {
+		name = "GFX_RIV_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_RIV_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_BAK_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_BAK_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_DEP_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_DEP_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_DMT_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_DMT_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_FRE_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_FRE_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_RCT_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_RCT_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_LCT_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_LCT_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RIV_melee_weapons1.dds"
+	}
+				#### SOLAR ######
+	SpriteType = {
+		name = "GFX_SOL_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/SOL_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_SOL_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SOL_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_SOL_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/SOL_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOL_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SOL_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOL_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/SOL_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOL_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/SOL_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SOL_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SOL_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOL_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SOL_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOL_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SOL_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOL_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/SOL_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOL_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/SOL_infantry_equipment_5.dds"
+	}
+					#### PEGA ######
+	SpriteType = {
+		name = "GFX_NIM_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/NIM_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_NIM_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NIM_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_NIM_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/NIM_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NIM_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NIM_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_NIM_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/NIM_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NIM_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/NIM_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_NIM_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NIM_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NIM_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NIM_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_NIM_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NIM_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NIM_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NIM_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_NIM_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/NIM_infantry_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_NIM_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/NIM_infantry_equipment_6.dds"
+	}
+	
+					#### MAGE ######
+	SpriteType = {
+		name = "GFX_WIT_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/WIT_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_WIT_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WIT_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_WIT_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/WIT_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_WIT_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WIT_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_WIT_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/WIT_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_WIT_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/WIT_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_WIT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WIT_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_WIT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WIT_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_WIT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WIT_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_WIT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WIT_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_WIT_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/WIT_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_WIT_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/WIT_infantry_equipment_5.dds"
+	}
+	
+				#### SKYNAVIA ######
+	SpriteType = {
+		name = "GFX_SRS_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_SRS_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SRS_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_SRS_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SRS_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SRS_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SRS_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SRS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_SRS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SRS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SRS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SRS_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SRS_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_5.dds"
+	}
+	
+		#### REPUBLICAN ######
+	SpriteType = {
+		name = "GFX_FAT_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_FAT_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SRS_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_FAT_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAT_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAT_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAT_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAT_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAT_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_5.dds"
+	}
+	
+			#### SUNSTRIKER ######
+	SpriteType = {
+		name = "GFX_MNC_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_MNC_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SRS_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_MNC_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNC_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNC_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNC_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/SRS_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNC_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNC_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNC_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNC_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNC_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNC_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/SRS_infantry_equipment_5.dds"
+	}
+	
+		#### WINGBARDY ######
+	SpriteType = {
+		name = "GFX_WNG_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_WNG_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_WNG_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_WNG_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_WNG_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_WNG_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_WNG_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_WNG_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_WNG_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_WNG_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_WNG_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_WNG_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_5.dds"
+	}
+			#### ARANTIGA ######
+	SpriteType = {
+		name = "GFX_ARA_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_ARA_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_ARA_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARA_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARA_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARA_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARA_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ARA_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_5.dds"
+	}
+				#### TALOUSE ######
+	SpriteType = {
+		name = "GFX_TAL_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_TAL_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_TAL_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_TAL_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_TAL_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_TAL_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_TAL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_TAL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_TAL_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_TAL_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_TAL_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_TAL_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_5.dds"
+	}
+	
+				#### FALCOR ######
+	SpriteType = {
+		name = "GFX_FAL_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_FAL_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_FAL_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAL_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAL_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAL_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAL_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAL_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAL_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FAL_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_5.dds"
+	}
+	
+				#### SICAMEON ######
+	SpriteType = {
+		name = "GFX_SIC_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_SIC_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_SIC_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIC_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIC_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIC_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/WNG_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIC_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIC_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIC_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIC_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIC_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIC_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/WNG_infantry_equipment_5.dds"
+	}
+					#### KASA ######
+	SpriteType = {
+		name = "GFX_ZES_melee_weapons_medium"
+		texturefile = "gfx/interface/technologies/ZES_melee_weapons.dds"
+	}
+		SpriteType = {
+		name = "GFX_ZES_melee_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ZES_melee_weapons1.dds"
+	}
+		SpriteType = {
+		name = "GFX_ZES_magical_weapons_medium"
+		texturefile = "gfx/interface/technologies/ZES_magical_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZES_magical_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ZES_magical_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZES_magical_weapons2_medium"
+		texturefile = "gfx/interface/technologies/ZES_magical_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZES_magical_weapons3_medium"
+		texturefile = "gfx/interface/technologies/ZES_magical_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZES_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ZES_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZES_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ZES_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZES_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ZES_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZES_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ZES_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZES_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/ZES_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZES_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/ZES_infantry_equipment_5.dds"
+	}
+}

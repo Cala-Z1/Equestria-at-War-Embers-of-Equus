@@ -527,10 +527,6 @@ entity = {
 #							#  ##  #   #  #  #   #
 #							#   #   ###   #   #  #
 
-entity = {
-	clone = "JER_knights_entity"
-	name = "HLR_knights_entity"
-}
 
 entity = {
 	clone = "WC_knights_entity"

@@ -208,7 +208,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/land/artillery/rocket_artillery3.dds"
 	}	
 	SpriteType = {
-		name = "GFX_motorized_rocket_unit_medium"
+		name = "GFX_motorized_rocket_unitT_medium"
 		texturefile = "gfx/interface/technologies/land/artillery/mot_rok.dds"
 	}
 	SpriteType = {
@@ -242,7 +242,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/land/artillery/no_hors_at_line.dds"
 	}
 	SpriteType = {
-		name = "GFX_antitank4_medium"
+		name = "GFX_antitankT_medium"
 		texturefile = "gfx/interface/technologies/land/artillery/Art_AT_2_SWE_57mm.dds"
 	}
 
@@ -300,7 +300,7 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
-		name = "GFX_antiair5_medium"
+		name = "GFX_antiairT_medium"
 		texturefile = "gfx/interface/technologies/land/artillery/Art_AA_3_GEN_50mm.dds" 
 	}		
 			

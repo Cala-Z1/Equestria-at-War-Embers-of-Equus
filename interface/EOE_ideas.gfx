@@ -19,4 +19,12 @@ spriteTypes = {
         name = GFX_idea_equestrian_overlord
         textureFile = "gfx/interface/ideas/CRY/CRY_equestrian_advisors.dds"
     }
+    spriteType = {
+        name = GFX_idea_equestrian_overlord_2
+        textureFile = "gfx/interface/ideas/CRY/CRY_equestrian_advisors.dds"
+    }
+    spriteType = {
+        name = GFX_idea_Sombra_Scare
+        textureFile = "gfx/interface/BOP/CRY/CRY_sombra_threat.dds"
+    }
 }
