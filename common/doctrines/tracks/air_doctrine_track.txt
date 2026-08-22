@@ -1,0 +1,114 @@
+
+spirit_of_fighter_KNI = {
+    name = "Spirit of Fighter Aviation"
+    icon = "GFX_blank"
+    icon_frame = "GFX_blank"
+    mastery = {
+       multiplier = 12
+        equipment = {
+            fighter
+            interceptor
+           
+        }
+    }
+}
+fighter_operations_KNI = {
+    name = "Fighter Operations"
+    icon = "GFX_blank"
+    icon_frame = "GFX_blank"
+    mastery = {
+       multiplier = 12
+        equipment = {
+           fighter
+            interceptor
+        }
+    }
+}
+advanced_fighter_operations_KNI = {
+    name = "Advanced Fighter Operations"
+    icon = "GFX_blank"
+    icon_frame = "GFX_blank"
+    mastery = {
+       multiplier = 12
+        equipment = {
+            fighter
+            interceptor
+        }
+    }
+}
+spirit_of_tactical_KNI = {
+    name = "Spirit of Tactical Aviation"
+    icon = "GFX_blank"
+    icon_frame = "GFX_blank"
+    mastery = {
+       multiplier = 12
+        equipment = {
+            cas
+            naval_bomber
+            tactical_bomber
+        }
+    }
+}
+assault_operations_KNI = {
+    name = "Assault Operations"
+    icon = "GFX_blank"
+    icon_frame = "GFX_blank"
+    mastery = {
+       multiplier = 12
+        equipment = {
+            cas
+            naval_bomber
+            tactical_bomber
+        }
+    }
+}
+advanced_assault_operations_KNI = {
+    name = "Advanced Assault Operations"
+    icon = "GFX_blank"
+    icon_frame = "GFX_blank"
+    mastery = {
+       multiplier = 12
+        equipment = {
+            cas
+            naval_bomber
+            tactical_bomber
+        }
+    }
+}
+spirit_of_strategic_KNI = {
+    name = "Spirit of Strategic Aviation"
+    icon = "GFX_blank"
+    icon_frame = "GFX_blank"
+    mastery = {
+       multiplier = 12
+        equipment = {
+           strategic_bomber
+           tactical_bomber
+        }
+    }
+}
+strategic_aviation_doctrine_KNI = {
+    name = "Strategic Aviation Doctrine"
+    icon = "GFX_blank"
+    icon_frame = "GFX_blank"
+    mastery = {
+       multiplier = 12
+        equipment = {
+           strategic_bomber
+           tactical_bomber
+           
+        }
+    }
+}
+advanced_strategic_aviation_doctrine_KNI = {
+    name = "Advanced Strategic Aviation Doctrine"
+    icon = "GFX_blank"
+    icon_frame = "GFX_blank"
+    mastery = {
+       multiplier = 12
+        equipment = {
+           strategic_bomber
+           tactical_bomber
+        }
+    }
+}

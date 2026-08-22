@@ -9,7 +9,7 @@ focus_tree = {
   	}
 
 	focus = {
-		id = Zugschienenverlegung
+		id = WORKINGPORGESS
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 0
 		y = 0

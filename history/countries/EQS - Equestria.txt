@@ -5,13 +5,10 @@ set_rule = {
 	can_generate_female_country_leaders = yes
 }
 set_technology ={
-
+	starting_industry = 1
 }
-
 set_research_slots = 7
-
 set_convoys = 1000
-
 set_popularities = {
 	democratic = 80
 	fascism = 0 
@@ -20,15 +17,12 @@ set_popularities = {
 }
 set_stability = 0.4
 set_war_support = 0.2
-
 set_politics = {
-
 	ruling_party = democratic
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
 }
-
 create_country_leader = {
 	name = "Celestia and Luna"
 	desc = " "
@@ -37,6 +31,15 @@ create_country_leader = {
 	traits = {
 	}
 }
+# create_faction_from_template = faction_template_United_Ponies_Alliance
+# add_to_faction = CRY
+# add_to_faction = STG
+# add_to_faction = EQC
+	set_autonomy = {
+		target = CRY
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
 add_ideas = {
 
 }

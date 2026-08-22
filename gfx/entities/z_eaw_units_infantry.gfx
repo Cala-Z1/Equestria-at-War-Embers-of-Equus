@@ -1,0 +1,4073 @@
+objectTypes = {
+		pdxmesh = {
+		name = "CRY_infantry_rifle_mesh"
+		file = "gfx/models/EAWEntity/newponies/CRY_infantry.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_anim" }
+		animation = { id = "training"		type = "pony_training_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_anim" }
+		
+		}
+		
+		
+		pdxmesh = {
+		name = "EQS_infantry_rifle_mesh"
+		file = "gfx/models/EAWEntity/newponies/EQS_infantry.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_anim" }
+		animation = { id = "training"		type = "pony_training_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_anim" }
+		
+		
+		scale = 1.0
+		
+			meshsettings = {
+			name = "mesh"
+			index = 0
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "EQS_infantry_diffuse.dds"
+			texture_normal = "EQS_infantry_normal.dds"
+			texture_specular = "EQS_infantry_spec.dds"
+			}
+		
+		}
+		
+		
+		pdxmesh = {
+		name = "WesternType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/WesternerType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_anim" }
+		animation = { id = "training"		type = "pony_training_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_anim" }
+		
+		
+		scale = 1.0
+		
+		
+		}
+		
+		
+		pdxmesh = {
+		name = "WesternType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/WesternerType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_anim" }
+		animation = { id = "training"		type = "pony_training_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_anim" }
+		
+		
+		scale = 1.0
+		
+		
+		}
+		
+			pdxmesh = {
+		name = "PONY_infantry_rifle_1_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_pony_infantry_1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_anim" }
+		animation = { id = "training"		type = "pony_training_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_anim" }
+		
+		
+		scale = 1.0
+		
+			meshsettings = {
+			name = "mesh"
+			index = 0
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "GENERIC_pony_infantry_1_diffuse.dds"
+			texture_normal = "GENERIC_pony_infantry_1_normal.dds"
+			texture_specular = "GENERIC_pony_infantry_1_spec.dds"
+			}
+		
+		}
+
+		pdxmesh = {
+		name = "GenericPegasus_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_pegasi.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericHorseType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_HorseType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericHorseType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_HorseType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericHorseType3_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_HorseType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericPonyType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_PonyType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericPonyType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_PonyType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericPonyType3_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_PonyType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericPonyTypeMarine_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_PonyTypeMarine.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericPonyTypeMountaineers_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_PonyTypeMountaineers.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericPonyTypeParatroopers_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_PonyTypeParatroopers.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericPonyTypeKnight_mesh"
+		file = "gfx/models/EAWEntity/newponies/GENERIC_PonyTypeKnight.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ChirpieType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/ChirpieType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ChirpieType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/ChirpieType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ChirpieType3_mesh"
+		file = "gfx/models/EAWEntity/newponies/ChirpieType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ChirpieTypeMotorizedInfantry_mesh"
+		file = "gfx/models/EAWEntity/newponies/ChirpieType4.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ChirpieTypeMechanizedInfantry_mesh"
+		file = "gfx/models/EAWEntity/newponies/ChirpieType5.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ChirpieTypePegasus_mesh"
+		file = "gfx/models/EAWEntity/newponies/ChirpieTypePegasus.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericKirinType1_mesh"
+		file = "gfx/models/EAWEntity/kirin/GENERIC_KirinType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericKirinType2_mesh"
+		file = "gfx/models/EAWEntity/kirin/GENERIC_KirinType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericKirinType3_mesh"
+		file = "gfx/models/EAWEntity/kirin/GENERIC_KirinType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericKirinTypeMountaineer_mesh"
+		file = "gfx/models/EAWEntity/kirin/GENERIC_KirinTypeMountaineer.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericKirinTypeMarine_mesh"
+		file = "gfx/models/EAWEntity/kirin/GENERIC_KirinTypeMarine.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "STGType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/STGType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "STGType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/STGType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "STGType3_mesh"
+		file = "gfx/models/EAWEntity/newponies/STGType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "STGTypeP_mesh"
+		file = "gfx/models/EAWEntity/newponies/STGTypePegasus.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		
+		pdxmesh = {
+		name = "CHN_infantry_rifle_mesh"
+		file = "gfx/models/EAWEntity/changelings/CHN_Infantry.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		meshsettings = {
+			name = "mesh"
+			index = 0
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "CHN_infantry_diffuse.dds"
+			texture_normal = "CHN_infantry_normal.dds"
+			texture_specular = "CHN_infantry_spec.dds"
+			}
+		
+		}
+		
+		pdxmesh = {
+		name = "CHN_infantry_jager_mesh"
+		file = "gfx/models/EAWEntity/changelings/CHN_InfantryJager.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		
+		pdxmesh = {
+		name = "CHN_Type2_mesh"
+		file = "gfx/models/EAWEntity/changelings/CHN_InfantryType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		
+		pdxmesh = {
+		name = "CHN_Type3_mesh"
+		file = "gfx/models/EAWEntity/changelings/CHN_InfantryType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "NCH_infantry_rifle_mesh"
+		file = "gfx/models/EAWEntity/changelings/NCH_Infantry2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "NCH_infantry_smg_mesh"
+		file = "gfx/models/EAWEntity/changelings/NCH_Infantry.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "NCH_infantry_jager_mesh"
+		file = "gfx/models/EAWEntity/changelings/NCH_InfantryJager.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "NCH_infantry_marine_mesh"
+		file = "gfx/models/EAWEntity/changelings/NCH_InfantryMarine.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "NCH_infantry_paratrooper_mesh"
+		file = "gfx/models/EAWEntity/changelings/NCH_InfantryParatroopers.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EQSType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/EQSType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EQSType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/EQSType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EQSType3_mesh"
+		file = "gfx/models/EAWEntity/newponies/EQSType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "CRYType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/CRYType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "CRYType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/CRYType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "CRYType3_mesh"
+		file = "gfx/models/EAWEntity/newponies/CRYType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "LunarType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/LunarType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "LunarType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/LunarType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "LunarType3_mesh"
+		file = "gfx/models/EAWEntity/newponies/LunarType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "LunarTypePegasus_mesh"
+		file = "gfx/models/EAWEntity/newponies/LunarTypePegasus.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EQCType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/EQCType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EQCType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/EQCType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EQCType3_mesh"
+		file = "gfx/models/EAWEntity/newponies/EQCType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EQCTypeParatroopers_mesh"
+		file = "gfx/models/EAWEntity/newponies/EQCTypeParatroopers.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EQCTypeMarine_mesh"
+		file = "gfx/models/EAWEntity/newponies/EQCTypeMarine.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ArabianPonyType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/ArabianPonyType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ArabianPonyTypePegasus_mesh"
+		file = "gfx/models/EAWEntity/newponies/ArabianPonyTypePegasus.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "Centaur1_mesh"
+		file = "gfx/models/EAWEntity/centaur/Centaur_infantry.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "TribalZebra1_mesh"
+		file = "gfx/models/EAWEntity/zebras/ZebraTypeTribal1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "TribalZebra2_mesh"
+		file = "gfx/models/EAWEntity/zebras/ZebraTypeTribal2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "TribalZebra3_mesh"
+		file = "gfx/models/EAWEntity/zebras/ZebraTypeTribal3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "TribalZebra4_mesh"
+		file = "gfx/models/EAWEntity/zebras/ZebraTypeTribal4.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "TribalZebra5_mesh"
+		file = "gfx/models/EAWEntity/zebras/ZebraTypeTribal5.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericZebraType1_mesh"
+		file = "gfx/models/EAWEntity/zebras/ZebraGeneric1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericZebraType2_mesh"
+		file = "gfx/models/EAWEntity/zebras/ZebraGeneric2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericZebraType3_mesh"
+		file = "gfx/models/EAWEntity/zebras/ZebraGeneric3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "GenericZebraTypeCharger_mesh"
+		file = "gfx/models/EAWEntity/zebras/ZebraTypeCharger.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ROAType1_mesh"
+		file = "gfx/models/EAWEntity/zebras/ROAType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ROAType2_mesh"
+		file = "gfx/models/EAWEntity/zebras/ROAType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ROAType3_mesh"
+		file = "gfx/models/EAWEntity/zebras/ROAType3.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "KasaZebraType1_mesh"
+		file = "gfx/models/EAWEntity/zebras/KasaType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "KasaPonyType2_mesh"
+		file = "gfx/models/EAWEntity/zebras/KasaType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "HIPType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/HIPType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+
+		
+		scale = 1.0
+
+		}
+
+		pdxmesh = {
+		name = "HIPType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/HIPType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+
+		
+		scale = 1.0
+
+		}
+
+		pdxmesh = {
+		name = "HIPType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/HIPType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+
+		
+		scale = 1.0
+
+		}
+
+		pdxmesh = {
+		name = "HIPTypeMarine_mesh"
+		file = "gfx/models/EAWEntity/griffons/HIPTypeMarine.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+
+		
+		scale = 1.0
+
+		}
+
+		pdxmesh = {
+		name = "HIPTypeMountaineers_mesh"
+		file = "gfx/models/EAWEntity/griffons/HIPTypeMountaineers.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+
+		
+		scale = 1.0
+
+		}
+
+		pdxmesh = {
+		name = "HIPTypeAirborne_mesh"
+		file = "gfx/models/EAWEntity/griffons/HIPTypeAirborne.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+
+		
+		scale = 1.0
+
+		}
+
+		pdxmesh = {
+		name = "HIPHelmetType1_mesh"
+		file = "gfx/models/EAWEntity/weapons/hippogryphons/HIPHatType1.mesh"
+
+		}
+
+		pdxmesh = {
+		name = "HIPHelmetType2_mesh"
+		file = "gfx/models/EAWEntity/weapons/hippogryphons/HIPHatType2.mesh"
+
+		}
+
+		pdxmesh = {
+		name = "HIPHelmetTypeMarine_mesh"
+		file = "gfx/models/EAWEntity/weapons/hippogryphons/HIPHatTypeMarine.mesh"
+
+		}
+
+		pdxmesh = {
+		name = "HIPRifle_mesh"
+		file = "gfx/models/EAWEntity/weapons/hippogryphons/HIPRifle.mesh"
+
+		}
+
+		pdxmesh = {
+		name = "HIPSMG_mesh"
+		file = "gfx/models/EAWEntity/weapons/hippogryphons/HIPSMG.mesh"
+
+		}
+		
+		pdxmesh = {
+		name = "GRIType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/GRIType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		meshsettings = {
+			name = "mesh"
+			index = 0
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "GRI_infantry_diffuse.dds"
+			texture_normal = "GRI_infantry_normal.dds"
+			texture_specular = "GRI_infantry_spec.dds"
+			}
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "GRIType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/GRIType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "GRIType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/GRIType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "GRIEliteType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/GRIEliteType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "GRIEliteType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/GRIEliteType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+
+		pdxmesh = {
+		name = "WNG_infantry_pasta_rifle_mesh"
+		file = "gfx/models/EAWEntity/griffons/GRI_infantry_pasta.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "NorthernType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/NorthernType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+
+		meshsettings = {
+			name = "mesh"
+			index = 0
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "GRI_infantry_diffuse.dds"
+			texture_normal = "GRI_infantry_normal.dds"
+			texture_specular = "GRI_infantry_spec.dds"
+			}
+		scale = 1.0
+		}
+
+		pdxmesh = {
+		name = "SouthernType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/SouthernType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EasternType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/EasternType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "EasternType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/EasternType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "HLQType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/HLQType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "HLQType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/HLQType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "HLQType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/HLQType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "LNSType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/LNSType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "LNSType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/LNSType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "LNSType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/LNSType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "LSCTypeG1_mesh"
+		file = "gfx/models/EAWEntity/griffons/LSCTypeG1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		
+		scale = 1.0
+		}
+
+		pdxmesh = {
+		name = "LSCType1_mesh"
+		file = "gfx/models/EAWEntity/newponies/LSCType1.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "LSCType2_mesh"
+		file = "gfx/models/EAWEntity/newponies/LSCType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "LSMType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/LSMType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "LSMType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/LSMType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "GRYType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/GRYType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "GRYType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/GRYType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "DRGType1_mesh"
+		file = "gfx/models/EAWEntity/dragons/DRG2_infantry.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+
+		meshsettings = {
+			name = "mesh"
+			index = 0
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "GRI_infantry_diffuse.dds"
+			texture_normal = "GRI_infantry_normal.dds"
+			texture_specular = "GRI_infantry_spec.dds"
+			}
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "FrenchType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/FrenchType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "MERType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/MERType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "MERType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/MERType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "MERType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/MERType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JFTType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/JFTType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JFTType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/JFTType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JFTType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/JFTType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JRRType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/JRRType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JRRType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/JRRType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JRRType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/JRRType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "VINType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/VINType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "VINType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/VINType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "VINType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/VINType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JEBType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/JEBType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JEBType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/JEBType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JEBType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/JEBType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JERType1_mesh"
+		file = "gfx/models/EAWEntity/griffons/JERType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JERType2_mesh"
+		file = "gfx/models/EAWEntity/griffons/JERType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JERType3_mesh"
+		file = "gfx/models/EAWEntity/griffons/JERType3.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+#		animation = { id = "test"			type = "GRI_infantry_test" }
+
+		scale = 1.0
+		}
+		
+### Weapons and Helmets
+
+
+		
+
+		pdxmesh = {
+		name = "STWHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/STWHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "FEAHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/FEAHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "ANGHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/ANGHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "PYTHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/PYTHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "TRDHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/TRDHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "YALHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/YALHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "RepublicanHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/RepublicanHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "GenericHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/GenericHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "GenericSpecialistHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/GenericSpecialistHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "GenericSpecialistHat_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/GenericSpecialistCap.mesh"
+		}
+		
+		pdxmesh = {
+		name = "GenericSouthernHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/SouthernTypeHelmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "EasternHelmetType1.mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/EasternHelmetType1.mesh"
+		}
+		
+		pdxmesh = {
+		name = "EasternHelmetType2.mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/EasternHelmetType2.mesh"
+		}
+		
+		pdxmesh = {
+		name = "EasternHelmetType2b.mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/EasternHelmetType2visorless.mesh"
+		}
+		
+		pdxmesh = {
+		name = "FALHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/FALHelmet.mesh"
+		}		
+		
+		pdxmesh = {
+		name = "GRI_infantry_helmet_pickelhaube_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/GRI_infantry_helmet_pickelhaube.mesh"
+		}
+		
+		pdxmesh = {
+		name = "generic_infantry_helmet_central_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/generic_infantry_helmet_central.mesh"
+		}
+
+		pdxmesh = {
+		name = "WNG_infantry_helmet_pasta_mesh"
+		file = "gfx/models/EAWEntity/griffons/attachments/WNG_infantry_helmet_pasta.mesh"
+		}
+		
+		pdxmesh = {
+		name = "EQS_helmet_mesh"
+		file = "gfx/models/EAWEntity/newponies/attachments/EQS_helmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "CRY_helmet_mesh"
+		file = "gfx/models/EAWEntity/newponies/attachments/CRY_helmet.mesh"
+		}
+		pdxmesh = {
+		name = "CHN_helmet_mesh"
+		file = "gfx/models/EAWEntity/newponies/attachments/CHN_helmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "CHN_kit_mesh"
+		file = "gfx/models/EAWEntity/newponies/CHN_Kit.mesh"
+		}
+		
+		pdxmesh = {
+		name = "Pony_generic_helmet_1_mesh"
+		file = "gfx/models/EAWEntity/newponies/attachments/GENERIC_Pony_Helmet_1.mesh"
+		}
+
+		pdxmesh = {
+		name = "SAInfantryKitRoot004_mesh"
+		file = "gfx/models/EAWEntity/weapons/horses/SaddleArabianInfantryKitRoot004.mesh"
+		}
+
+		pdxmesh = {
+		name = "SARifleRoot004_mesh"
+		file = "gfx/models/EAWEntity/weapons/horses/SaddleArabianRifleKitRoot004.mesh"
+		}
+
+		pdxmesh = {
+		name = "SASMGRoot004_mesh"
+		file = "gfx/models/EAWEntity/weapons/horses/SaddleArabianSMGKitRoot004.mesh"
+		}
+
+		pdxmesh = {
+		name = "SASaberKit1_mesh"
+		file = "gfx/models/EAWEntity/weapons/horses/NewModelSaddleArabianSaberKit.mesh"
+		}
+
+		pdxmesh = {
+		name = "SASaberKit2_mesh"
+		file = "gfx/models/EAWEntity/weapons/horses/NewModelSaddleArabianRifleKit.mesh"
+		}
+
+		pdxmesh = {
+		name = "LingRifle_mesh"
+		file = "gfx/models/EAWEntity/weapons/changelings/LingRifle.mesh"
+		}
+
+		pdxmesh = {
+		name = "LingSniperRifle_mesh"
+		file = "gfx/models/EAWEntity/weapons/changelings/LingSniperRifle.mesh"
+		}
+
+		pdxmesh = {
+		name = "LingSMG_mesh"
+		file = "gfx/models/EAWEntity/weapons/changelings/LingSMG.mesh"
+		}
+
+		pdxmesh = {
+		name = "LingReconRoot004_mesh"
+		file = "gfx/models/EAWEntity/weapons/changelings/LingReconRoot004.mesh"
+		}
+
+		pdxmesh = {
+		name = "LingSaddlebagRoot004_mesh"
+		file = "gfx/models/EAWEntity/weapons/changelings/LingSaddlebag2Root004.mesh"
+		}
+
+		pdxmesh = {
+		name = "ZeebSaddlebagRoot004_mesh"
+		file = "gfx/models/EAWEntity/weapons/zebra/ZeebSaddlebagsRoot004.mesh"
+		}
+
+		pdxmesh = {
+		name = "ZeebRifle_mesh"
+		file = "gfx/models/EAWEntity/weapons/zebra/ZeebRifle.mesh"
+		}
+
+		pdxmesh = {
+		name = "ZeebSword_mesh"
+		file = "gfx/models/EAWEntity/weapons/zebra/ZeebSword.mesh"
+		}
+
+		pdxmesh = {
+		name = "ZeebSMG_mesh"
+		file = "gfx/models/EAWEntity/weapons/zebra/ZeebSMG.mesh"
+		}
+
+		pdxmesh = {
+		name = "PrimativeGlaive_mesh"
+		file = "gfx/models/EAWEntity/weapons/zebra/PrimativeGlaive.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonyEnfield_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonyEnfield.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonyBitGun_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonyBitGun.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonyBigBitty_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonyBigBitty.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonyMountaineer_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonyMountaineer.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonySaddlebagRoot004_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonySaddlebagRoot004.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonySaddlebag2Root004_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonySaddlebag2Root004.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonyAirborne_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonyEnfieldSniper.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonyTokorev_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonyTokorev.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonyLeverAction_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonyLeverAction.mesh"
+		}
+
+		pdxmesh = {
+		name = "PonyPPSH_mesh"
+		file = "gfx/models/EAWEntity/weapons/pony/PonyPPSH.mesh"
+		}
+		
+		pdxmesh = {
+		name = "deer_gfx_infantry_rifle_mesh"
+		file = "gfx/models/EAWEntity/deer/GenericDeer.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_training" }
+		animation = { id = "limp"			type = "CRY_infantry_limp" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "OLE_infantryType1_mesh"
+		file = "gfx/models/EAWEntity/deer/OLE_infantry.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_training" }
+		animation = { id = "limp"			type = "CRY_infantry_limp" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "OLE_infantryType2_mesh"
+		file = "gfx/models/EAWEntity/deer/OLE_infantry2.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_training" }
+		animation = { id = "limp"			type = "CRY_infantry_limp" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "OLE_infantryType3_mesh"
+		file = "gfx/models/EAWEntity/deer/OLE_infantry3.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_training" }
+		animation = { id = "limp"			type = "CRY_infantry_limp" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "Hindeer_infantryType1_mesh"
+		file = "gfx/models/EAWEntity/deer/HinDeer_infantry.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_training" }
+		animation = { id = "limp"			type = "CRY_infantry_limp" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "Hindeer_infantryType2_mesh"
+		file = "gfx/models/EAWEntity/deer/HinDeer_infantry2.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_training" }
+		animation = { id = "limp"			type = "CRY_infantry_limp" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "Hindeer_infantryType3_mesh"
+		file = "gfx/models/EAWEntity/deer/HinDeer_infantry3.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_training" }
+		animation = { id = "limp"			type = "CRY_infantry_limp" }
+		
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "MITType1_mesh"
+		file = "gfx/models/EAWEntity/minotaur/MinotaurType1.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+
+		pdxmesh = {
+		name = "ABYHorseType1_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/ABYCavalry.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "ABYType1_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/ABYType1.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+		}
+
+		pdxmesh = {
+		name = "ABYType2_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/ABYType2.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+		}
+
+		pdxmesh = {
+		name = "ABYType3_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/ABYType3.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+		}
+	pdxmesh = {
+			name = "ABY_infantry_weapon_lmg_mesh"
+			file = "gfx/models/EAWEntity/caninesandcats/ABYMG.mesh"
+		}	
+	pdxmesh = {
+			name = "ABY_infantry_weapon_AT_mesh"
+			file = "gfx/models/EAWEntity/caninesandcats/ABYATRifle.mesh"
+		}	
+	pdxmesh = {
+		name = "ABYTypeAT_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/ABYType3.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+	pdxmesh = {
+		name = "ABYTypeMarine_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/ABYTypeMarine.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+	pdxmesh = {
+		name = "ABYTypeMountaineer_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/ABYTypeMountaineer.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+	pdxmesh = {
+		name = "ABYTypeParatrooper_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/ABYTypeParatrooper.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+	
+		pdxmesh = {
+		name = "BRZType1_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/BRZType1.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+	
+		pdxmesh = {
+		name = "BRZType2_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/BRZType2.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+	
+		pdxmesh = {
+		name = "BRZType3_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/BRZType3.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+	
+		pdxmesh = {
+		name = "DMTType1_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/DMTType1.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}		
+
+		pdxmesh = {
+		name = "HYEType1_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/HYEType1.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+		}
+
+		pdxmesh = {
+		name = "HYEType2_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/HYEType2.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+		}
+
+		pdxmesh = {
+		name = "HYEType3_mesh"
+		file = "gfx/models/EAWEntity/caninesandcats/HYEType3.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+		}
+		
+		pdxmesh = {
+		name = "CMEType1_mesh"
+		file = "gfx/models/EAWEntity/camel/CMEType1.mesh"
+
+		animation = { id = "cavalry_idle"			type = "cavalry_camel_idle_animation" }
+		animation = { id = "cavalry_move"			type = "cavalry_camel_moving_animation" }
+		animation = { id = "cavalry_attack"			type = "cavalry_camel_charge_animation" }
+		animation = { id = "cavalry_attack_2"		type = "cavalry_camel_charge_2_animation" }
+		
+		scale = 1.0
+
+
+		
+		}
+		
+		pdxmesh = {
+		name = "CMEType2_mesh"
+		file = "gfx/models/EAWEntity/camel/CMEType2.mesh"
+
+		animation = { id = "cavalry_idle"			type = "cavalry_camel_idle_animation" }
+		animation = { id = "cavalry_move"			type = "cavalry_camel_moving_animation" }
+		animation = { id = "cavalry_attack"			type = "cavalry_camel_charge_animation" }
+		animation = { id = "cavalry_attack_2"		type = "cavalry_camel_charge_2_animation" }
+		
+		scale = 1.0
+
+
+		
+		}
+		
+		pdxmesh = {
+		name = "CMEType3_mesh"
+		file = "gfx/models/EAWEntity/camel/CMEType3.mesh"
+
+		animation = { id = "cavalry_idle"			type = "cavalry_camel_idle_animation" }
+		animation = { id = "cavalry_move"			type = "cavalry_camel_moving_animation" }
+		animation = { id = "cavalry_attack"			type = "cavalry_camel_charge_animation" }
+		animation = { id = "cavalry_attack_2"		type = "cavalry_camel_charge_2_animation" }
+		
+		scale = 1.0
+
+
+		
+		}
+		
+		pdxmesh = {
+		name = "LMBType1_mesh"
+		file = "gfx/models/EAWEntity/lamba/LMBType1.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_idle" }
+		
+		scale = 1.0
+
+
+		
+		}
+		
+		pdxmesh = {
+		name = "LMBType2_mesh"
+		file = "gfx/models/EAWEntity/lamba/LMBType2.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_idle" }
+		
+		scale = 1.0
+
+
+		
+		}
+		
+		pdxmesh = {
+		name = "LMBType3_mesh"
+		file = "gfx/models/EAWEntity/lamba/LMBType3.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_idle" }
+		
+		scale = 1.0
+
+
+		
+		}
+		
+		pdxmesh = {
+		name = "MCWType1_mesh"
+		file = "gfx/models/EAWEntity/harpy/MCWType1b.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+		}	
+		
+		pdxmesh = {
+		name = "MCWType2_mesh"
+		file = "gfx/models/EAWEntity/harpy/MCWType2.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+		}	
+		
+		pdxmesh = {
+		name = "MCWType3_mesh"
+		file = "gfx/models/EAWEntity/harpy/MCWType3.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+		}	
+	
+
+		pdxmesh = {
+		name = "iambic_equestrian"
+		file = "gfx/models/EAWEntity/zebras/zegro.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_idle" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "enfield_mesh"
+		file = "gfx/models/EAWEntity/zebras/enfield.mesh"
+		}
+		
+
+
+### SF UNITS
+		
+		pdxmesh = {
+		name = "GRI_knights_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/GRI_knights.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "GRI_knights_helmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/GRI_knights_helmet.mesh"
+		}
+
+		pdxmesh = {
+		name = "DreadKnight_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/DreadKnight.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+		scale = 1.0
+		}
+
+		pdxmesh = {
+		name = "DreadSoldier_mesh"
+		file = "gfx/models/EAWEntity/griffons/DEDType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "DreadSoldier2_mesh"
+		file = "gfx/models/EAWEntity/griffons/DEDType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "DreadKnightHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/DreadKnightHelmet.mesh"
+				
+        }
+		
+		pdxmesh = {
+		name = "OrderHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/HLRHelmetType1.mesh"
+				
+        }
+		
+		pdxmesh = {
+		name = "OrderKnightHelmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/HLR_HelmetKnight.mesh"
+				
+        }
+
+		pdxmesh = {
+		name = "OrderKnight_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/ArcturianKnight.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+		scale = 1.0
+		}
+
+		pdxmesh = {
+		name = "OrderSoldier_mesh"
+		file = "gfx/models/EAWEntity/griffons/HLRType1.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "OrderSoldier2_mesh"
+		file = "gfx/models/EAWEntity/griffons/HLRType2.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+
+		scale = 1.0
+		
+		}
+		
+		
+		
+		pdxmesh = {
+		name = "GRI_knights_worn_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/GRI_knights.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+		meshsettings = {
+			texture_diffuse = "GRI_knights_worn_diffuse.dds"
+			texture_normal = "GRI_knights_worn_normal.dds"
+			texture_specular = "GRI_knights_worn_spec.dds"
+			}
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "GRI_knights_worn_helmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/GRI_knights_helmet.mesh"
+		
+		meshsettings = {
+			texture_diffuse = "GRI_knights_worn_helmet_diffuse.dds"
+			texture_normal = "GRI_knights_worn_helmet_normal.dds"
+			texture_specular = "GRI_knights_worn_helmet_spec.dds"
+			}		
+		}
+		
+		
+		
+		pdxmesh = {
+		name = "WNG_knights_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/WNG_knights.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "WNG_knights_helmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/WNG_knights_helmet.mesh"
+		}		
+		
+		
+		pdxmesh = {
+		name = "JER_knights_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/JER_knights.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "JER_knights_helmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/JER_knights_helmet.mesh"
+		}
+		
+		pdxmesh = {
+		name = "western_generic_knights_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/JER_knights.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+		meshsettings = {
+			texture_diffuse = "western_generic_knights_diffuse.dds"
+			texture_normal = "JER_knights_normal.dds"
+			texture_specular = "JER_knights_spec.dds"
+			}
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "western_generic_knights_helmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/JER_knights_helmet.mesh"
+		
+		meshsettings = {
+			texture_diffuse = "western_generic_knights_helmet_diffuse.dds"
+			texture_normal = "JER_knights_helmet_normal.dds"
+			texture_specular = "JER_knights_helmet_spec.dds"
+			}		
+		}
+		
+		pdxmesh = {
+		name = "central_generic_knights_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/GRI_knights.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+		meshsettings = {
+			texture_diffuse = "central_generic_knights_diffuse.dds"
+			texture_normal = "GRI_knights_normal.dds"
+			texture_specular = "GRI_knights_spec.dds"
+			}
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "central_generic_knights_helmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/GRI_knights_helmet.mesh"
+		
+		meshsettings = {
+			texture_diffuse = "central_generic_knights_helmet_diffuse.dds"
+			texture_normal = "GRI_knights_helmet_normal.dds"
+			texture_specular = "GRI_knights_helmet_spec.dds"
+			}		
+		}
+		
+		pdxmesh = {
+		name = "southern_generic_knights_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/WNG_knights.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+		animation = { id = "limp"			type = "GRI_infantry_limp" }
+		
+		meshsettings = {
+			texture_diffuse = "southern_generic_knights_diffuse.dds"
+			texture_normal = "WNG_knights_normal.dds"
+			texture_specular = "WNG_knights_spec.dds"
+			}
+		scale = 1.0
+		}
+		
+		pdxmesh = {
+		name = "southern_generic_knights_helmet_mesh"
+		file = "gfx/models/EAWEntity/griffons/knights/attachments/WNG_knights_helmet.mesh"
+		
+		meshsettings = {
+			texture_diffuse = "southern_generic_knights_helmet_diffuse.dds"
+			texture_normal = "WNG_knights_helmet_normal.dds"
+			texture_specular = "WNG_knights_helmet_spec.dds"
+			}		
+        }
+		
+		pdxmesh = {
+		name = "GRI_super_griffons_mesh"
+		file = "gfx/models/EAWEntity/griffons/super_griffons/Ultramargriff.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "FAT_super_griffons_mesh"
+		file = "gfx/models/EAWEntity/griffons/super_griffons/chaosgriff.mesh"
+		
+		animation = { id = "move"			type = "GRI_infantry_move" }
+		animation = { id = "idle"			type = "GRI_infantry_idle" }
+		animation = { id = "idle01"			type = "GRI_infantry_idle_01" }
+		animation = { id = "idle02"			type = "GRI_infantry_idle_02" }
+		animation = { id = "idle03"			type = "GRI_infantry_idle_03" }
+		animation = { id = "idle04"			type = "GRI_infantry_idle_04" }
+		animation = { id = "long_idle"		type = "GRI_infantry_long_idle" }
+		animation = { id = "charge"			type = "GRI_infantry_attack_charge" }
+		animation = { id = "retreat"		type = "GRI_infantry_retreat" }
+		animation = { id = "training"		type = "GRI_infantry_training_idle" }
+
+		scale = 1.0
+		
+		}
+		
+		pdxmesh = {
+		name = "NCRType1_mesh"
+		file = "gfx/models/EAWEntity/ncr/NCRType1.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+
+		pdxmesh = {
+		name = "NCRType2_mesh"
+		file = "gfx/models/EAWEntity/ncr/NCRType2.mesh"
+		
+		animation = { id = "idle"			type = "pony_idle_00_ears_anim" }
+		animation = { id = "idle01"			type = "pony_idle_01_ears_anim" }
+		animation = { id = "idle02"			type = "pony_idle_02_ears_anim" }
+		animation = { id = "idle03"			type = "pony_idle_03_ears_anim" }
+		animation = { id = "idle04"			type = "pony_idle_04_ears_anim" }
+		animation = { id = "idle05"			type = "pony_idle_05_ears_anim" }
+		animation = { id = "attack"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "defend"			type = "pony_attack_cycle_ears_anim" }
+		animation = { id = "retreat"		type = "pony_limp_cycle_ears_anim" }
+		animation = { id = "move"			type = "pony_move_cycle_ears_anim" }
+		animation = { id = "training"		type = "pony_training_ears_anim" }
+		animation = { id = "limp"			type = "pony_limp_cycle_ears_anim" }
+		
+		scale = 1.0
+		
+		}
+
+		pdxmesh = {
+		name = "NCRT55_mesh"
+		file = "gfx/models/EAWEntity/ncr/NCRMechanized.mesh"
+		
+		animation = { id = "idle"			type = "CRY_infantry_idle" }
+		animation = { id = "idle01"			type = "CRY_infantry_idle_01" }
+		animation = { id = "idle02"			type = "CRY_infantry_idle_02" }
+		animation = { id = "attack"			type = "CRY_infantry_attack" }
+		animation = { id = "defend"			type = "CRY_infantry_attack" }
+		animation = { id = "retreat"		type = "CRY_infantry_retreat" }
+		animation = { id = "move"			type = "CRY_infantry_move" }
+		animation = { id = "training"		type = "CRY_infantry_idle" }
+		
+		scale = 1.0
+		
+	}
+	
+	pdxmesh = {
+		name = "NCRServiceRifle_mesh"
+		file = "gfx/models/EAWEntity/ncr/NCRServiceRifle.mesh"
+		}
+		
+}

@@ -1,6 +1,7 @@
 equipments = {
+
 	support_equipment = {
-		year = 989
+		year = 1918
 		
 		is_archetype = yes
 		picture = archetype_support_equipment
@@ -24,6 +25,7 @@ equipments = {
 			steel = 7
 		}
 	}
+	
 	support_equipment_1 = {
 		year = 1918
 		archetype = support_equipment

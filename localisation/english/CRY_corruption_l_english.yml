@@ -1,0 +1,60 @@
+﻿l_english:
+ # ── System UI ────────────────────────────────────────────────────────────────
+ CRY_corruption_level:0 "Shadow Corruption"
+ CRY_corruption_panel_title:0 "Crystal Heart Monitor"
+ CRY_corruption_gauge_label:0 "Sombra's Influence"
+
+ # ── Corruption thresholds ────────────────────────────────────────────────────
+ CRY_corruption_low_label:0 "§GThe Crystal Heart shines bright§!"
+ CRY_corruption_medium_label:0 "§YShadows stir beneath the surface§!"
+ CRY_corruption_high_label:0 "§OSombra's influence grows§!"
+ CRY_corruption_critical_label:0 "§RThe darkness is consuming everything§!"
+ CRY_sombra_defeated_label:0 "§GSombra is defeated. The Crystal Heart is restored.§!"
+
+ # ── Decision names ───────────────────────────────────────────────────────────
+ CRY_crystal_faire_celebration:0 "Host the Crystal Faire"
+ CRY_crystal_faire_celebration_desc:0 "The Crystal Faire is the heart of Equestrian culture — a festival of joy, light, and unity that has powered the Crystal Heart for centuries. Organizing a grand celebration will strengthen the ponies' connection to the Heart and drive back Sombra's shadows.\n\n§YReduces corruption by §G8§Y points§!\n§YCooldown: §W90 days§!"
+
+ CRY_spread_crystal_love:0 "Spread the Crystal Heart's Light"
+ CRY_spread_crystal_love_desc:0 "Deploy teams of crystal ponies across the Empire to share the Heart's love and warmth with communities still living under the shadow of Sombra's memory. Education, culture, and fellowship are our weapons against the darkness.\n\n§YReduces corruption by §G5§Y points§!\n§YRequires: §WStability above 50%§!\n§YCooldown: §W60 days§!"
+
+ CRY_empower_crystal_heart:0 "Empower the Crystal Heart"
+ CRY_empower_crystal_heart_desc:0 "Channel the full magical resources of the Empire to amplify the Crystal Heart's power. This is costly and demanding, but nothing strikes back the shadow more effectively.\n\n§YReduces corruption by §G15§Y points§!\n§YRequires: §WCrystal research, Stability above 60%§!\n§YCooldown: §W120 days§!"
+
+ CRY_purge_shadow_influence:0 "Root Out Shadow Agents"
+ CRY_purge_shadow_influence_desc:0 "Sombra's influence doesn't just exist in the darkness — it hides in pony hearts, in whispered doubts, in agents who serve the old king's memory. Our intelligence services must hunt them down and purge them before the corruption spreads further.\n\n§YReduces corruption by §G20§Y points§!\n§YRequires: §WIntelligence Agency§!\n§YCooldown: §W150 days§!"
+
+ # ── Decision tooltips ────────────────────────────────────────────────────────
+ CRY_faire_tt:0 "Crystal ponies celebrate the Faire. Their joy feeds the Crystal Heart."
+ CRY_love_spread_tt:0 "Crystal Heart missionaries spread light across the Empire."
+ CRY_empower_heart_tt:0 "The Crystal Heart blazes with renewed power."
+ CRY_purge_shadow_tt:0 "Intelligence operatives hunt Sombra's hidden agents."
+ CRY_corruption_reduced_tt:0 "§GSombra's influence weakens. The Crystal Heart grows stronger.§!"
+
+ # ── Events ───────────────────────────────────────────────────────────────────
+ CRY_corruption.1.t:0 "The Light Prevails"
+ CRY_corruption.1.d:0 "The last shadows of King Sombra's influence have been purged from the Crystal Empire. The Crystal Heart — freed from the corruption that once threatened to consume it — blazes with a light that can be seen for miles. In the streets of the Crystal City, ponies weep with joy. It is over. It is finally over.\n\nSombra is gone. The Crystal Heart is restored. And the Empire stands stronger than it has in a generation."
+ CRY_corruption.1.a:0 "Let the Crystal Heart shine forever."
+
+ CRY_corruption.2.t:0 "The Shadows Deepen"
+ CRY_corruption.2.d:0 "Reports from across the Empire are alarming. In the outlying settlements, crystal ponies speak of dark dreams and cold mornings. Markets are quieter. Foals cry without knowing why. The shadow corruption has passed a critical threshold — if we do not act decisively, the darkness will consume everything we have built.\n\nSombra grows stronger. We must not wait any longer."
+ CRY_corruption.2.a:0 "We will not falter. Double our efforts."
+
+ CRY_corruption.3.t:0 "Sombra's Shadow Falls"
+ CRY_corruption.3.d:0 "The corruption has reached every corner of the Crystal Empire. The Crystal Heart flickers — its light dimmed almost to nothing by the weight of shadow that has accumulated around it. In the throne room, the temperature has dropped. The crystal walls have gone dark. And somewhere, in the depths beneath the city, something stirs.\n\nWe are running out of time."
+ CRY_corruption.3.a:0 "We will fight until our last breath."
+
+ # ── Dynamic modifier names ───────────────────────────────────────────────────
+ CRY_corruption_debuffs:0 "Shadow Corruption"
+ CRY_heart_restored_buffs:0 "Crystal Heart Restored"
+
+ # ── Outcome tooltips ─────────────────────────────────────────────────────────
+ CRY_sombra_defeated_tt:0 "§GSombra's influence has been completely purged. The Crystal Heart blazes with its full power. The Empire enters a golden age.§!"
+ CRY_critical_warning_tt:0 "§RThe shadow corruption has reached a critical level. Every day without action brings Sombra closer to victory.§!"
+ CRY_max_corruption_tt:0 "§RSombra's shadow falls across the Empire. The people suffer under a growing darkness they cannot name.§!"
+
+ # ── Panel UI strings ─────────────────────────────────────────────────────────
+ CRY_panel_title_loc:0 "Crystal Heart Monitor"
+ CRY_active_effects_label:0 "Active Effects"
+ CRY_corruption_value_text:0 "Corruption:"
+ CRY_stability_penalty_label:0 "§RStability, War Support, Production\nand Conscription reduced\nby corruption level§!"

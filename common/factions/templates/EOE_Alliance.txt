@@ -1,0 +1,5 @@
+faction_template_United_Ponies_Alliance = {
+	name = "United Ponies Alliance"
+	icon = GFX_faction_icon_1
+	manifest = 
+}

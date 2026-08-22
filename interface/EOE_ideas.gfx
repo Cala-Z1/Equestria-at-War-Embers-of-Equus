@@ -1,0 +1,34 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_CRY_BOP_LEFT_1
+        textureFile = "gfx/interface/BOP/CRY/CRY_sombra_threat.dds"
+    }
+    spriteType = {
+        name = GFX_CRY_BOP_RIGHT_1
+        textureFile =  "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_five_year_plan
+        textureFile = "gfx/interface/ideas/CRY/CRY_COM_five_year_plan.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_communist_crystals
+        textureFile = "gfx/interface/ideas/CRY/CRY_COM_crystals.dds"
+    }
+    spriteType = {
+        name = GFX_idea_equestrian_overlord
+        textureFile = "gfx/interface/ideas/CRY/CRY_equestrian_advisors.dds"
+    }
+    spriteType = {
+        name = GFX_idea_equestrian_overlord_2
+        textureFile = "gfx/interface/ideas/CRY/CRY_equestrian_advisors.dds"
+    }
+    spriteType = {
+        name = GFX_idea_Sombra_Scare
+        textureFile = "gfx/interface/BOP/CRY/CRY_sombra_threat.dds"
+    }
+    spriteType = {
+        name = GFX_idea_Sombra_Scare_idea_2
+        textureFile = "gfx/interface/BOP/CRY/CRY_sombra_threat.dds"
+    }
+}

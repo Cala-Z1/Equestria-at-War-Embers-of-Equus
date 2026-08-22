@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_buildings_strip_bg"
+		textureFile = "gfx/interface/buildings/building_icon_strip_bg.dds"
+		noOfFrames = 36
+	}
+	spriteType = {
+		name = "GFX_convert_ic_button_bg"
+		textureFile = "gfx/interface/convert_ic_button_bg.dds"
+		noOfFrames = 1
+	}
+}

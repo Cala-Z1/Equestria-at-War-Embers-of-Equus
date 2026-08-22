@@ -1,0 +1,1457 @@
+technologies = {
+		night_vision_tank = {
+		category_all_armor = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		research_cost = 1
+		categories = {
+			tank_upgrade
+		}
+	}
+	UNLOCK_SIEGE_ARTY_ABILITY_TECH = {
+
+	}
+	enable_mot_paratrooper = {
+		 enable_subunits = {
+            mot_paratrooper
+        }
+	}
+	enable_sniper_unit = {
+		 enable_subunits = {
+            sniper_unit
+        }
+	}
+	enable_mobile_engineer = {
+		 enable_subunits = {
+            mobile_engineer
+        }
+	}
+	enable_light_armor_para = {
+		 enable_subunits = {
+            light_armor_para
+        }
+	}
+	enable_commando = {
+		 enable_subunits = {
+            commando_unit
+        }
+	}
+	mech_hp_bonus = {
+		 category_mechanized = {
+				max_strength = 1.5
+			}
+	}
+	blowtorch_and_corcscrew = {
+		commando_unit = {
+			battalion_mult = {
+				category = category_special_forces
+				soft_attack = 0.15
+				hard_attack = 0.15
+				breakthrough = 0.15
+			}
+		
+		}
+	}
+	
+	jungle_support = {
+		commando_unit = {
+			jungle = {
+				attack = 0.05
+				movement = 0.05
+			}
+		}
+	}
+	ranger_support = {
+		 commando_unit = {
+				forest = {
+				attack = 0.05
+				movement = 0.05
+			}
+			
+		}
+	}
+	long_range_patrol_hot = {
+		mot_recon = {
+			recon = 0.5
+			desert = {
+				attack = 0.1
+				movement = 0.1
+			}
+		}
+		
+	}
+	long_range_patrol_cold = {
+		recon = {
+			recon = 1 
+			snow = {
+				attack = 0.05
+			}
+		}
+	}
+	exped_warfare_doctrine = {
+		special_forces_min = 16
+	}
+	
+	refresh_dummy_tech = {
+		category_front_line = {
+			forest = {
+				movement = 0.001
+			}
+		}
+	}
+
+	MW_volksturm_bonuses = {
+		category_all_infantry = {
+			urban = {
+				defence = 0.05
+			}
+			forest = {
+				defence = 0.05
+			}
+			hills = {
+				defence = 0.05
+			}
+
+		}
+		category_all_armor = {
+			urban = {
+				defence = 0.05
+			}
+			forest = {
+				defence = 0.05
+			}
+			hills = {
+				defence = 0.05
+			}
+
+		}
+		garrison = {
+			urban = {
+				defence = 0.15
+			}
+			forest = {
+				defence = 0.15
+			}
+			hills = {
+				defence = 0.15
+			}
+		}
+	}
+	
+	sfp_aggresive_bonus = {
+		category_all_infantry = {
+			forest = {
+				attack = 0.05
+				defence = -0.05
+			}
+			urban = {
+				attack = 0.05
+				defence = -0.05
+			}
+			jungle = {
+				attack = 0.05
+				defence = -0.05
+			}
+			marsh = {
+				attack = 0.05
+				defence = -0.05
+			}
+			hills = {
+				attack = 0.05
+				defence = -0.05
+			}
+			mountain = {
+				attack = 0.05
+				defence = -0.05
+			}
+		}
+	}
+	GBP_combat_support_tactics_bonus = {
+
+	
+        category_assault_gun_company = {
+            battalion_mult = {
+                category = category_heavy_infantry
+                soft_attack = 0.1
+                hard_attack = 0.1
+                breakthrough = 0.1
+                add = no
+            }
+        }
+	}
+	sfp_tank_fort_attack = {
+		category_all_armor = {
+			fort = {
+				attack = 0.05
+			}
+		}
+	}
+	gbp_sf_bonus = {
+		category_special_forces = {
+			forest = {
+				attack = 0.03
+			}
+			urban = {
+				attack = 0.03
+			}
+			jungle = {
+				attack = 0.03
+			}
+			marsh = {
+				attack = 0.03
+			}
+			amphibious = {
+				attack = 0.03
+			}
+			river = {
+				attack = 0.03
+			}
+			hills = {
+				attack = 0.03
+			}
+			mountain = {
+				attack = 0.03
+			}
+		}
+	}
+	combat_support_tactics_bonus = {
+
+	
+		category_assault_guns = {
+
+                urban = {
+                    attack = 0.05
+                    defence = 0.05
+                }
+
+            }
+        category_assault_gun_company = {
+            battalion_mult = {
+                category = category_heavy_infantry
+                soft_attack = 0.1
+                hard_attack = 0.1
+                breakthrough = 0.1
+                add = no
+            }
+        }
+	}	
+	asiatic_tanks = {
+		category_tanks = {
+			urban = {
+				attack = 0.1
+			}
+			mountain = {
+				attack = 0.1
+			}
+			
+		}
+	}
+	radio_increased_cost = {
+		category_all_armor = {
+				need = {
+					radio_equipment = 1
+				}
+			}
+			category_all_infantry = {
+			
+				need = {
+					radio_equipment = 1
+				}
+				
+			}
+			category_line_artillery = {
+				
+				need = {
+					radio_equipment = 1
+				}
+			}	
+		
+	}
+	gbp_infiltration_bonus = {
+		category_front_line = {
+			forest = {
+				movement = 0.05
+			}
+			urban = {
+				movement = 0.05
+			}
+			hills = {
+				movement = 0.05
+			}
+			jungle = {
+				movement = 0.05
+			}
+			marsh = {
+				movement = 0.05
+			}
+		}
+	}
+	gbp_second_bonus = {
+		category_tanks = {
+			forest = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			marsh = {
+				attack = 0.05
+			}
+		}
+		category_motorised = {
+			forest = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			marsh = {
+				attack = 0.05
+			}
+		}
+	}
+	gbp_first_bonus = {
+		category_tanks = {
+			forest = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			marsh = {
+				attack = 0.05
+			}
+		}
+		category_motorised = {
+			forest = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			marsh = {
+				attack = 0.05
+			}
+		}
+	}
+	no_ai_eq = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+		industrial_capacity_factory = -10
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	legionnaires = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+
+		mountaineers = {
+			desert = {
+				attack = 0.15
+				defence = 0.1 
+				movement = 0.1
+		    }
+			mountain = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+		    }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Shturmovi = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+
+		mountaineers = {
+			Urban = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+		    }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	sf_mountain_gun = {
+
+		research_cost = -1
+		allow = {
+			always = no
+		}
+
+		mountain_artillery_brigade = {
+			hills = {
+				attack = 0.05
+				movement = 0.1
+			}
+			forest = {
+				attack = 0.1
+				movement = 0.1
+			}
+		}
+		mountaineers = {
+			hills = {
+				attack = 0.05
+				movement = 0.1
+			}
+			forest = {
+				attack = 0.1
+				movement = 0.1
+			}
+		}
+
+	}
+	can_modify_heavy_urban = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+		 artillery_heavy_mot = {
+			maximum_speed = 0.22
+			urban = {
+				attack = 0.05
+			}
+		 }
+	}
+	arditi = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+
+		mountaineers = {
+			urban = {
+			attack = 0.1
+			defence = 0.1 
+			movement = 0.1
+		    }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	get_ship_aa_4 = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+
+		enable_equipment_modules = { 
+			ship_anti_air_4
+		}
+		
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	hellandback = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+
+		marine = {
+			forest = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+			jungle = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+		}
+		
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	rangers2 = {
+		mountaineers = {
+			forest = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+			jungle = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+		}
+		paratrooper = {
+			forest = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+			jungle = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+		}
+
+	}
+	rangers = {
+		mountaineers = {
+			forest = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+			jungle = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+		}
+		paratrooper = {
+			forest = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+			jungle = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+		}
+		marine = {
+			forest = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+			jungle = {
+				attack = 0.025
+				defence = 0.05
+				movement = 0.05
+		    }
+		}
+
+	}
+
+	osttruppen_tech = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+
+		volkssturm_infantry = {
+			need = {
+			   	infantry_equipment = -15
+				# = -5
+			}
+			hard_attack = -0.05
+			soft_attack = -0.05
+			breakthrough = -0.05
+			defense = -0.05
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	sons_of_the_outback = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+
+		category_all_infantry = {
+			desert = {
+				attack = 0.1 
+				defence = 0.1
+				movement = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+       irish_anti_sub_help = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	to_hell_and_back = {
+		research_cost = -1 
+
+		allow = {
+			always = no
+		}
+
+		category_all_infantry = {
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.1
+			}
+			forest = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	jungle_warfare = {
+		research_cost = -1 
+
+		allow = {
+			always = no
+		}
+
+		category_special_forces = {
+			jungle = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	width_tech = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+		special_forces_min = 17
+		garrison = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.25
+			hard_attack = -0.25
+			defense = -0.2
+			need = {
+				infantry_equipment = -16
+				# = -2
+			}
+		}
+		volkssturm_infantry = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.25
+			hard_attack = -0.25
+			defense = -0.2
+			need = {
+				infantry_equipment = -20
+				# = -2
+			}
+		}
+		infantry = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.001
+			need = {
+				infantry_equipment = -30
+				# = -3
+				motorized_equipment = -1
+			}
+		}
+	
+	
+		motorized = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				infantry_equipment = -20
+				motorized_equipment = -7
+			}
+		}
+		mechanized = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				mechanized_equipment = -7
+				infantry_equipment = -20
+			}
+		}
+	
+		
+		amphibious_mechanized = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				amphibious_mechanized_equipment = -8
+				infantry_equipment = -22
+			}
+		}
+		marine = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				infantry_equipment = -22
+				special_equipment = -8
+			}
+		}
+	
+		mountaineers = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				infantry_equipment = -22
+				special_equipment = -8
+			}
+		}
+		
+		artillery_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				artillery_equipment = -1
+				# = -2
+			}
+		}
+		mountain_artillery_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				artillery_equipment = -1
+				special_equipment = -2
+			}
+		}	
+		artillery_brigade_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				artillery_equipment = -1
+				motorized_equipment = -3
+			}
+		}
+		field_gun_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				field_gun_equipment = -1
+				# = -2
+			}
+		}	
+		field_gun_brigade_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				field_gun_equipment = -1
+				motorized_equipment = -3
+			}
+		}	
+		
+
+
+		pack_artillery_brigade_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				pack_artillery_equipment = -1
+				# = -2
+			}
+		}	
+		artillery_heavy = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				heavy_artillery_equipment = -1
+				# = -4
+			}
+		}	
+		artillery_heavy_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				heavy_artillery_equipment = -1
+				motorized_equipment = -4
+			}
+		}	
+		rocket_artillery_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				rocket_artillery_equipment = -1
+				# = -2
+			}
+		}	
+		motorized_rocket_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				rocket_artillery_equipment = -1
+				motorized_equipment = -4
+			}
+		}	
+		anti_air_heavy = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				heavy_anti_air_equipment = -1
+				motorized_equipment = -2
+			}
+		}	
+		anti_air_heavy_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				heavy_anti_air_equipment = -1
+				motorized_equipment = -4
+			}
+		}
+		
+		
+		
+		light_tank_destroyer_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_tank_destroyer_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_tank_destroyer_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		super_heavy_tank_destroyer_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		light_sp_artillery_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_sp_artillery_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_sp_artillery_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		super_heavy_sp_artillery_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		light_sp_anti_air_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_sp_anti_air_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_sp_anti_air_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		super_heavy_sp_anti_air_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		light_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		super_heavy_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		light_assault_gun_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_assault_gun_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_assaut_gun_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		amphibious_light_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		amphibious_medium_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		amphibious_heavy_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		amphibious_super_heavy_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		armored_car = {
+			combat_width = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	amerika_bomber = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+		enable_equipments = {
+			amerikabomber_equipment
+		}
+		
+	}
+	small_units_tech = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+		special_forces_min = -40
+		garrison = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.25
+			hard_attack = -0.25
+			defense = -0.2
+			need = {
+				infantry_equipment = -16
+				# = -2
+			}
+		}
+		volkssturm_infantry = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.25
+			hard_attack = -0.25
+			defense = -0.2
+			need = {
+				infantry_equipment = -20
+				# = -2
+			}
+		}
+		infantry = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.001
+			need = {
+				infantry_equipment = -30
+				# = -3
+				motorized_equipment = -1
+
+			}
+		}
+	
+	
+		motorized = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				infantry_equipment = -20
+				motorized_equipment = -7
+			}
+		}
+		mechanized = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				mechanized_equipment = -7
+				infantry_equipment = -20
+			}
+		}
+	
+		
+		amphibious_mechanized = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				amphibious_mechanized_equipment = -8
+				infantry_equipment = -22
+			}
+		}
+		marine = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				infantry_equipment = -22
+				special_equipment = -8
+			}
+		}
+	
+		mountaineers = {
+			combat_width = -0.4
+			max_strength = -1.5
+			soft_attack = -0.2
+			hard_attack = -0.2
+			defense = -0.2
+			breakthrough = -0.2
+			initiative = -0.002
+			need = {
+				infantry_equipment = -22
+				special_equipment = -8
+			}
+		}
+		
+		artillery_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				artillery_equipment = -1
+				# = -2
+			}
+		}
+		mountain_artillery_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				artillery_equipment = -1
+				special_equipment = -2
+			}
+		}	
+		artillery_brigade_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				artillery_equipment = -1
+				motorized_equipment = -3
+			}
+		}
+		field_gun_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				field_gun_equipment = -1
+				# = -2
+			}
+		}	
+		field_gun_brigade_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				field_gun_equipment = -1
+				motorized_equipment = -3
+			}
+		}	
+		
+		pack_artillery_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				pack_artillery_equipment = -1
+				# = -2
+			}
+		}	
+
+		mountain_gun_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				pack_artillery_equipment = -1
+				special_equipment = -2
+			}
+		}
+
+		pack_artillery_brigade_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				pack_artillery_equipment = -1
+				# = -2
+			}
+		}	
+		artillery_heavy = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				heavy_artillery_equipment = -1
+				# = -4
+			}
+		}	
+		artillery_heavy_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				heavy_artillery_equipment = -1
+				motorized_equipment = -4
+			}
+		}	
+		rocket_artillery_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				rocket_artillery_equipment = -1
+				# = -2
+			}
+		}	
+		motorized_rocket_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				rocket_artillery_equipment = -1
+				motorized_equipment = -4
+			}
+		}	
+		anti_tank_brigade = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				anti_tank_equipment = -1
+				# = -2
+			}
+		}	
+		anti_air = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				anti_air_equipment = -1
+				# = -2
+			}
+		}	
+		anti_air_heavy = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				heavy_anti_air_equipment = -1
+				motorized_equipment = -2
+			}
+		}	
+		anti_air_heavy_mot = {
+			combat_width = -0.2
+			soft_attack = -0.08
+			hard_attack = -0.08
+			defense = -0.08
+			breakthrough = -0.08
+			initiative = -0.001
+			need = {
+				heavy_anti_air_equipment = -1
+				motorized_equipment = -4
+			}
+		}
+		
+		
+		
+		light_tank_destroyer_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_tank_destroyer_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_tank_destroyer_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		super_heavy_tank_destroyer_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		light_sp_artillery_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_sp_artillery_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_sp_artillery_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		super_heavy_sp_artillery_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		light_sp_anti_air_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_sp_anti_air_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_sp_anti_air_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		super_heavy_sp_anti_air_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		light_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		super_heavy_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		light_assault_gun_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		medium_assault_gun_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		heavy_assaut_gun_brigade = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		amphibious_light_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		amphibious_medium_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		amphibious_heavy_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		amphibious_super_heavy_armor = {
+			combat_width = -0.05
+			armor_value = -0.03
+		}
+		armored_car = {
+			combat_width = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	} 
+}

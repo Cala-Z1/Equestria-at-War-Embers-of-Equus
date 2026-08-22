@@ -1,0 +1,792 @@
+technologies = {
+	#Vertical position
+	@989 = 0
+	@1007 = 2
+	@1008 = 3
+	@1009 = 5
+	@1010 = 6
+	@1011 = 8
+	@1012 = 10
+	@1013 = 12
+	@1014 = 14
+	@1015 = 16
+	@1016 = 18
+	@1017 = 20
+	
+# ── Tank Chassis ────────────────────────────
+	gwtank_chassis = {
+		enable_equipment_modules = {
+			unsloped_armor
+			tank_light_one_man_tank_turret
+			tank_light_two_man_tank_turret
+			tank_light_three_man_tank_turret
+			tank_light_opentop_turret
+			tank_light_casemate_turret
+			tank_medium_one_man_tank_turret
+			tank_medium_two_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_medium_opentop_turret
+			tank_medium_casemate_turret
+			tank_heavy_two_man_tank_turret
+			tank_heavy_three_man_tank_turret
+			tank_heavy_opentop_turret
+			tank_heavy_casemate_turret
+			tank_design_simplification
+			tank_cheap_materials
+		}
+		enable_equipments = {
+			light_tank_chassis_0
+			medium_tank_chassis_0
+			heavy_tank_chassis_0
+		}
+		enable_subunits = {
+			light_armor
+			medium_armor
+			heavy_armor
+		}
+		research_cost = 2
+		start_year = 900
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = 0 }
+		}
+		categories = {
+			armor
+			cat_light_armor
+		}
+		path = {
+			leads_to_tech = basic_light_tank_chassis
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_heavy_tank_chassis
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_medium_tank_chassis
+			research_cost_coeff = 1
+		}
+	}
+	basic_light_tank_chassis = {
+		enable_equipments = {
+			light_tank_chassis_1936
+		}
+		research_cost = 2
+		start_year = 1007
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = @1007}
+		}
+		path = {
+			leads_to_tech = improved_light_tank_chassis_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_light_tank_chassis_2
+			research_cost_coeff = 1
+		}
+	}
+	improved_light_tank_chassis_1 = {
+		enable_equipment_modules = {
+			tank_module_improved_turning_mechanisms
+		}
+		enable_equipments = {
+			light_tank_chassis_1939
+		}
+		research_cost = 2
+		start_year = 1010
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = @1009 }
+		}
+	}
+	improved_light_tank_chassis_2 = {
+		enable_equipment_modules = {
+			tank_module_camouflage_net
+		}
+		enable_equipments = {
+			light_tank_chassis_1940
+		}
+		research_cost = 2
+		start_year = 1011
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = @1010 }
+		}
+		path = {
+			leads_to_tech = advanced_light_tank_chassis
+			research_cost_coeff = 1
+		}
+	}
+	advanced_light_tank_chassis = {
+		enable_equipments = {
+			light_tank_chassis_1942
+		}
+		research_cost = 2
+		start_year = 1013
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = @1011}
+		}
+	}
+	basic_heavy_tank_chassis = {
+		enable_equipments = {
+			heavy_tank_chassis_1936
+		}
+		research_cost = 2
+		start_year = 1007
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 5 y = @1007}
+		}
+		path = {
+			leads_to_tech = improved_heavy_tank_chassis_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_heavy_tank_chassis_2
+			research_cost_coeff = 1
+		}
+	}
+	improved_heavy_tank_chassis_1 = {
+		enable_equipment_modules = {
+			tank_module_improved_turning_mechanisms
+		}
+		enable_equipments = {
+			heavy_tank_chassis_1939
+		}
+		research_cost = 2
+		start_year = 1010
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 5 y = @1009 }
+		}
+	}
+	improved_heavy_tank_chassis_2 = {
+		enable_equipment_modules = {
+			tank_module_camouflage_net
+		}
+		enable_equipments = {
+			heavy_tank_chassis_1940
+		}
+		research_cost = 2
+		start_year = 1011
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 8 y = @1010 }
+		}
+		path = {
+			leads_to_tech = advanced_heavy_tank_chassis
+			research_cost_coeff = 1
+		}
+	}
+	advanced_heavy_tank_chassis = {
+		enable_equipments = {
+			heavy_tank_chassis_1944
+		}
+		research_cost = 2 
+		start_year = 1015
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 8 y = 10 }
+		}
+	}
+	basic_medium_tank_chassis = {
+		enable_equipments = {
+			medium_tank_chassis_1938
+		}
+		research_cost = 2
+		start_year = 1008
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1008 }
+		}
+		path = {
+			leads_to_tech = improved_medium_tank_chassis
+			research_cost_coeff = 1
+		}
+	}
+	improved_medium_tank_chassis = {
+		enable_equipment_modules = {
+			tank_module_improved_turning_mechanisms
+			tank_module_camouflage_net
+		}
+		enable_equipments = {
+			medium_tank_chassis_1939
+		}
+		research_cost = 2 
+		start_year = 1010
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1009}
+		}
+		path = {
+			leads_to_tech = advanced_medium_tank_chassis
+			research_cost_coeff = 1
+		}
+	}
+	advanced_medium_tank_chassis = {
+		enable_equipments = {
+			medium_tank_chassis_1942
+		}
+		research_cost = 2
+		start_year = 1013
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1011}
+		}
+		path = {
+			leads_to_tech = modern_medium_tank_chassis
+			research_cost_coeff = 1
+		}
+	}
+	modern_medium_tank_chassis = {
+		enable_equipments = {
+			medium_tank_chassis_1944
+		}
+		research_cost = 2
+		start_year = 1015
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = 10}
+		}
+	}
+	gw_amphibious_tank_chassis = {
+		enable_equipments = {
+			amphibious_tank_chassis_1
+		}
+		research_cost = 2
+		start_year = 1007
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 9 y = @1007 }
+		}
+		path = {
+			leads_to_tech = amphibious_drive
+			research_cost_coeff = 1
+		}
+	}
+	amphibious_drive = {
+		enable_equipment_modules = {
+			amphibious_drive
+		}
+		research_cost = 2
+		start_year = 1010
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 9 y = @1009 }
+		}
+	}
+# ── Tank Suspensions & Engines ────────────────────────────
+	gw_suspensions = {
+		enable_equipment_modules = {
+			tank_gasoline_engine
+			tank_bogie_suspension_L
+			tank_bogie_suspension_H
+			tank_bogie_suspension_SH
+			tank_bogie_suspension_M
+			tank_wheeled_suspension
+			tank_half_track_suspension
+		}
+		path = {
+			leads_to_tech = engine_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = suspension_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 900
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = @1007}
+		}
+	}
+	suspension_1 = {
+		enable_equipment_modules = {
+			tank_hydropneumatic_suspension_L
+			tank_hydropneumatic_suspension_H
+			tank_hydropneumatic_suspension_SH
+			tank_hydropneumatic_suspension_M
+			tank_module_belleville_washer_L
+			tank_module_belleville_washer_H
+			tank_module_belleville_washer_SH
+			tank_module_belleville_washer_M
+			tank_torsion_bar_suspension_L
+			tank_torsion_bar_suspension_H
+			tank_torsion_bar_suspension_SH
+			tank_torsion_bar_suspension_M
+			tank_christie_suspension_L
+			tank_christie_suspension_H
+			tank_christie_suspension_SH
+			tank_christie_suspension_M
+		}
+		path = {
+			leads_to_tech = suspension_2
+			research_cost_coeff = 1
+		}
+		research_cost = 0.5
+		start_year = 1008
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = @1009}
+		}		
+	}
+	suspension_2 = {
+		enable_equipment_modules = {
+			tank_interleaved_suspension_L
+			tank_interleaved_suspension_M
+			tank_interleaved_suspension_H
+			tank_interleaved_suspension_SH
+			tank_horstmann_suspension_L
+			tank_horstmann_suspension_H
+			tank_horstmann_suspension_SH
+			tank_horstmann_suspension_M
+		}
+		research_cost = 0.5
+		start_year = 1010
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = @1011}
+		}		
+	}
+	engine_1 = {
+		enable_equipment_modules = {
+			tank_diesel_engine
+		}
+		path = {
+			leads_to_tech = mechanical_charging
+			research_cost_coeff = 1
+		}
+		research_cost = 0.5
+		start_year = 1007
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = @1008 }
+		}
+	}
+	mechanical_charging = {
+		enable_equipment_modules = {
+			mechanical_charging
+		}
+		path = {
+			leads_to_tech = austerity_transmission
+			research_cost_coeff = 1
+		}
+		show_effect_as_desc = yes
+
+		research_cost = 0.5
+		start_year = 1009
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = @1009 }
+		}
+		categories = {
+			armor
+			tank_upgrade
+		}
+	}
+    austerity_transmission = {
+		enable_equipment_modules = {
+			austerity_powertrain
+		}
+		path = {
+			leads_to_tech = transmission_upgrade
+			research_cost_coeff = 1
+		}
+		research_cost = 0.5
+		start_year = 1011
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = @1011 }
+		}
+		categories = {
+			armor
+			tank_upgrade
+		}
+	}
+	transmission_upgrade = {	
+		category_all_armor = {
+			reliability = 0.04
+			maximum_speed = 0.04
+		}
+		path = {
+			leads_to_tech = engine_tech_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1015
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = @1012 }
+		}
+		categories = { armor
+			tank_upgrade
+			
+		}
+	}
+	# ── Tank ARMOR ────────────────────────────
+	armor_tech_1 = {
+		enable_equipment_modules = {
+			tank_riveted_armor
+		}
+		path = {
+			leads_to_tech = armour_sloping
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armored_skirts_tech
+			research_cost_coeff = 1		
+		}	
+		research_cost = 0.5
+		start_year = 900
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 6 y = @1007}
+		}
+	}
+	armored_skirts_tech = {
+		enable_equipment_modules = {
+			armor_skirts
+		}
+		path = {
+			leads_to_tech = armour_tech_2
+			research_cost_coeff = 1
+		}
+		research_cost = 0.5
+		start_year = 1011
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 6 y = @1009 }
+		}
+		categories = {
+			armor
+			tank_upgrade
+		}
+	}
+	armour_tech_2 = {
+		enable_equipment_modules = {
+			tank_welded_armor
+			compact_design
+		}
+		path = {
+			leads_to_tech = armour_tech_3
+			research_cost_coeff = 1
+		}
+		research_cost = 0.5
+		start_year = 1010
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 6 y = @1011 }
+		}
+	}
+	armour_tech_3 = {
+		enable_equipment_modules = {
+			tank_cast_armor
+		}
+		research_cost = 0.5
+		start_year = 1010
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 6 y = @1012 }
+		}
+	}
+	armour_sloping = {
+		enable_equipment_modules = {
+		unsloped_armor
+		}
+		path = {
+	    leads_to_tech = armour_sloping2
+	   	research_cost_coeff = 1
+		}
+		research_cost = 0.5
+		start_year = 989	
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 8 y = @1008 }
+		}			
+		categories = {
+			armor
+            tank_upgrade      
+		}
+	}							
+	armour_sloping2 = {	
+		enable_equipment_modules = {
+			rounded_armor
+		}
+		path = {	  
+		}
+		path = {
+			  leads_to_tech = armour_sloping3
+	   		  research_cost_coeff = 1
+		}
+		research_cost = 0.5
+		start_year = 1009	
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 8 y = @1009 }
+		}		
+		ai_will_do = {
+			factor = 6
+			
+		}						
+		categories = {
+			armor
+            tank_upgrade
+            
+		}
+	}
+	armour_sloping3 = {
+		enable_equipment_modules = {
+			sloped_armor
+		}
+		path = {
+	    	leads_to_tech = armour_sloping4
+	   		research_cost_coeff = 1
+		}
+		research_cost = 0.5
+		start_year = 1013		
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 8 y = @1011 }
+		}			
+		categories = {
+			armor
+            tank_upgrade
+            
+		}
+	}
+	armour_sloping4 = {
+		enable_equipment_modules = {
+			advanced_sloped_armor
+		}
+		research_cost = 0.5
+		start_year = 1015		
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 8 y = @1012 }
+		}			
+		categories = {
+			armor
+            tank_upgrade
+		}
+	}
+# ── MECH & AMROR CARS ────────────────────────────
+	armored_car1 = {
+		enable_subunits = {
+			recon_ac
+			armored_car
+		}	
+		enable_equipments = { armored_cars_equipment_1 }
+		path = {
+			leads_to_tech = armored_car2
+			research_cost_coeff = 1
+		}		
+		research_cost = 1
+		start_year = 900
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -6 y = @989 }
+		}	
+		categories = { all_armour
+			cat_light_armor
+			motorized_equipment
+		}
+	}
+	armored_car2 = {	
+		enable_equipments = { armored_cars_equipment_2 }
+		path = {
+			leads_to_tech = armored_car3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.2
+		start_year = 1007
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -6 y = @1007 }
+		}
+		recon = {
+			recon = 0.5
+		}			
+		recon_ac = {
+			recon = 0.5
+		}
+		light_armor_recon = {
+			recon = 0.5
+		}
+		mot_recon = {
+			recon = 0.5
+		}
+		categories = { all_armour
+			cat_light_armor
+			motorized_equipment
+		}
+	}	
+	armored_car3 = {
+		enable_equipments = { armored_cars_equipment_3 }	
+		path = {
+			leads_to_tech = armored_car4
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.2
+		start_year = 1008
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -6 y = 4 }
+		}
+		recon = {
+			recon = 0.5
+		}			
+		recon_ac = {
+			recon = 0.5
+		}
+		light_armor_recon = {
+			recon = 0.5
+		}
+		mot_recon = {
+			recon = 0.5
+		}
+		categories = { all_armour
+			cat_light_armor
+			motorized_equipment
+		}
+	}
+	armored_car4 = {
+		enable_equipments = { armored_cars_equipment_4 }
+		path = {
+			leads_to_tech = armored_car5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.2
+		start_year = 1012
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -6 y = 7 }
+		}
+	
+		recon = {
+			recon = 0.5
+		}			
+		recon_ac = {
+			recon = 0.5
+		}
+		light_armor_recon = {
+			recon = 0.5
+		}
+		mot_recon = {
+			recon = 0.5
+		}
+		categories = { all_armour
+			cat_light_armor
+			motorized_equipment
+		}
+	}
+	armored_car5 = {
+		enable_equipments = { armored_cars_equipment_5 }
+	
+		research_cost = 1.4
+		start_year = 1012
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -6 y = @1012 }
+		}	
+		recon = {
+			recon = 0.5
+		}			
+		recon_ac = {
+			recon = 0.5
+		}
+		light_armor_recon = {
+			recon = 0.5
+		}
+		mot_recon = {
+			recon = 0.5
+		}	
+		categories = { all_armour
+			cat_light_armor
+			motorized_equipment
+		}
+	}
+	motorised_infantry = {
+		enable_subunits = {
+			motorized
+			medium_assault_gun_company
+			light_armor_recon
+		}
+		enable_equipments = {
+			motorized_equipment_1
+		}	
+		path = {
+			leads_to_tech = mechanised_infantry
+			research_cost_coeff = 1
+		}		
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -9 y = @989 }
+		}	
+		categories = { all_armour
+			motorized_equipment			
+		}	
+	}	
+	mechanised_infantry = {
+		enable_equipments = {
+			mechanized_equipment_1
+		}
+		enable_subunits = {
+			mechanized
+			logistics_company_mech
+		}
+		path = {
+			leads_to_tech = mechanised_infantry2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.8
+		start_year = 1011
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -9 y = @1010 }
+		}		
+		categories = { all_armour
+			motorized_equipment
+			cat_mechanized_equipment
+		}	
+	}
+	mechanised_infantry2 = {
+		enable_equipments = {
+			mechanized_equipment_2
+		}
+		path = {
+			leads_to_tech = mechanised_infantry3
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1014
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -9 y = 9 }
+		}				
+		categories = { all_armour
+			motorized_equipment
+			cat_mechanized_equipment
+		}		
+	}
+	mechanised_infantry3 = {
+		enable_equipments = {
+			mechanized_equipment_3
+		}				
+		research_cost = 3
+		start_year = 1016
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -9 y = 11 }
+		}		
+		categories = { all_armour
+			motorized_equipment
+			cat_mechanized_equipment
+		}		
+	}
+}

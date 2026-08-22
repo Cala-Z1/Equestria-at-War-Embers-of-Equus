@@ -1,0 +1,54 @@
+﻿l_english:
+
+ # ── PHASE 1: SOMBRA'S SHADOW vs CRYSTAL RENEWAL ────────────────────────────
+
+ CRY_balamce_of_power:0 "The Crystal Empire's Soul"
+ CRY_balamce_of_power_desc:0 "The Crystal Empire stands at a crossroads. King Sombra's dark legacy lingers in the hearts and minds of its ponies — fear, despair, and the memory of enslavement. Against this shadow, the Crystal Heart pulses with hope. The Empire must choose what it wishes to become."
+
+ CRY_left:0 "Shadow of Sombra"
+ CRY_left_desc:0 "The dark king's influence has not been fully purged. Fear and old loyalties keep his memory alive, and his agents work in the shadows to reclaim what was lost."
+
+ CRY_right:0 "Crystal Renewal"
+ CRY_right_desc:0 "The Crystal Heart's light grows stronger every day. Love, hope, and the resilience of the crystal ponies are healing the wounds Sombra left behind."
+
+ Cry_centre_range:0 "A Fragile Balance"
+ Cry_centre_range_desc:0 "The Crystal Empire teeters between shadow and light. Neither Sombra's remnants nor the Crystal Heart's full power hold sway. The struggle is not yet decided."
+
+ Cry_left_half:0 "Sombra's Grip"
+ Cry_left_half_desc:0 "Dark whispers spread through the Empire's crystal halls. Sombra's agents are gaining ground, stoking fear and eroding trust in the new order. The Crystal Ponies grow anxious."
+
+ Cry_left_full:0 "Consumed by Shadow"
+ Cry_left_full_desc:0 "The Empire is drowning in darkness. Sombra's legacy has taken hold — paranoia, instability, and despair grip the Crystal Ponies. If something is not done soon, the crystal will go dark forever."
+
+ Cry_right_half:0 "Crystal Light Emerging"
+ Cry_right_half_desc:0 "The Crystal Heart beats stronger. Sombra's agents are being pushed back, and the crystal ponies are beginning to remember who they truly are — proud, resilient, and full of love."
+
+ Cry_right_full:0 "The Crystal Heart Triumphant"
+ Cry_right_full_desc:0 "The Crystal Heart shines at full power. Sombra's shadow has been driven back, and the Crystal Empire radiates with the love and hope of its ponies. The dark king's legacy is broken."
+
+ # ── PHASE 2: CRYSTAL COURT vs MI AMORE CADENZA ─────────────────────────────
+
+ CRY_court_v_cadance:0 "The Crystal Empire's Future"
+ CRY_court_v_cadance_desc:0 "With Sombra's shadow finally banished, a new political struggle takes its place. The ancient Crystal Court — nobles and traditionalists who have ruled the Empire for centuries — clashes with Princess Mi Amore Cadenza's vision of a reformed, love-guided nation. The Empire must decide who truly leads."
+
+ CRY_court:0 "The Crystal Court"
+ CRY_court_desc:0 "The ancient nobility of the Crystal Empire — families who survived Sombra's rule through compromise, cunning, or simply staying out of sight. They believe the Empire's strength comes from tradition and order, not romantic idealism."
+
+ CRY_cadance:0 "Mi Amore Cadenza"
+ CRY_cadance_desc:0 "Princess Cadance rules with her heart as much as her crown. She believes the Crystal Empire's greatest strength is the love of its ponies — and that a nation governed by compassion and unity can overcome any foe."
+
+ CRY_p2_centre:0 "Uneasy Accord"
+ CRY_p2_centre_desc:0 "The Crystal Court and Princess Cadance maintain a careful balance. Neither side has the upper hoof, and both know that open conflict would weaken the Empire they both claim to serve."
+
+ CRY_court_half:0 "Courtly Influence"
+ CRY_court_half_desc:0 "The Crystal Court has gained the upper hoof in the Empire's corridors of power. Ancient traditions reassert themselves, and the nobility begin steering policy away from Cadance's reforms."
+
+ CRY_court_full:0 "The Court Rules"
+ CRY_court_full_desc:0 "The Crystal Court dominates. Princess Cadance's influence is curtailed at every turn, and the ancient nobility now effectively controls the Empire's direction. Tradition reigns — for better and for worse."
+
+ CRY_cadance_half:0 "Cadance's Light"
+ CRY_cadance_half_desc:0 "Princess Cadance's vision is taking hold. Her reforms gain popular support, and the Crystal Ponies — who have seen enough of hard-hearted rulers — rally to her banner of love and unity."
+
+ CRY_cadance_full:0 "Love Conquers All"
+ CRY_cadance_full_desc:0 "Mi Amore Cadenza rules unopposed. The Crystal Court has been sidelined, its influence reduced to ceremony. The Crystal Empire is governed by love, and its ponies — and perhaps the world — can feel the difference."
+

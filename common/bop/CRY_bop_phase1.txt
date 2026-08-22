@@ -1,0 +1,106 @@
+# Phase 1: Shadow of Sombra vs Crystal Renewal
+# Active from game start until Strike_at_Sombra_Supporters fires
+# After that focus completes, set flag CRY_sombra_purged and use Phase 2 BoP
+CRY_balamce_of_power = {
+    initial_value = 0
+    left_side = CRY_left
+    right_side = CRY_right
+    decision_category = CRY_bop_decsions_cat
+    # ── CENTRE ─────────────────────────────────────────────────────────────
+    range = {
+        id = Cry_centre_range
+        min = -0.25
+        max = 0.50
+        modifier = {
+            stability_factor = 0.05
+            political_power_gain = 0.1
+        }
+        on_activate = { }
+        on_deactivate = { }
+    }
+    # ── SOMBRA'S SHADOW (Left) ─────────────────────────────────────────────
+    side = {
+        id = CRY_left
+        icon = GFX_CRY_BOP_LEFT_1
+        range = {
+            id = Cry_left_half
+            min = -0.75
+            max = -0.25
+            modifier = {
+                stability_factor = -0.05
+                stability_weekly = -0.0010
+                political_power_gain = -0.10
+			    economy_cost_factor = -0.05
+			    trade_laws_cost_factor = -0.05
+			    consumer_goods_expected_value = -0.02
+                production_speed_industrial_complex_factor = 0.10
+                monthly_population = -0.02
+                local_resources_factor = -0.1
+            }
+            on_activate = { }
+            on_deactivate = { }
+        }
+        range = {
+            id = Cry_left_full
+            min = -1
+            max = -0.75
+            modifier = {
+                stability_factor = -0.10
+                stability_weekly = -0.0015
+                political_power_gain = -0.30
+			    economy_cost_factor = -0.10
+			    trade_laws_cost_factor = -0.10
+			    consumer_goods_expected_value = -0.04
+                production_speed_industrial_complex_factor = 0.20
+                monthly_population = -0.04
+                autonomy_gain = 10
+                local_resources_factor = -0.25
+            }
+            on_activate = { }
+            on_deactivate = { }
+        }
+    }
+    # ── CRYSTAL RENEWAL (Right) ────────────────────────────────────────────
+    side = {
+        id = CRY_right
+        icon = GFX_CRY_BOP_RIGHT_1
+
+        range = {
+            id = Cry_right_half
+            min = 0.50
+            max = 0.75
+            modifier = {
+                stability_factor = 0.05
+                stability_weekly = 0.0010
+                political_power_gain = 0.2
+			    economy_cost_factor = 0.05
+			    trade_laws_cost_factor = 0.05
+			    consumer_goods_expected_value = 0.02
+                production_speed_arms_factory_factor = 0.10
+                local_resources_factor = 0.05
+                political_advisor_cost_factor = 0.05
+            }
+            on_activate = { }
+            on_deactivate = { }
+        }
+        range = {
+            id = Cry_right_full
+            min = 0.75
+            max = 1
+            modifier = {
+                stability_factor = 0.10
+                stability_weekly = 0.0015
+                political_power_gain = 0.30
+			    economy_cost_factor = 0.10
+			    trade_laws_cost_factor = 0.10
+			    consumer_goods_expected_value = 0.04
+                production_speed_arms_factory_factor = 0.20
+                autonomy_gain =  -10
+                local_resources_factor = 0.15
+                political_advisor_cost_factor = 0.10
+            }
+            on_activate = { }
+            on_deactivate = { }
+        }
+    }
+}

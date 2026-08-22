@@ -1,0 +1,192 @@
+﻿l_english:
+
+ # ── POLITICAL TREE ──────────────────────────────────────────────────────────
+
+ The_Crystal_Fair:0 "0 The Crystal Fair !"
+ The_Crystal_Fair_desc:0 "The Crystal Fair is the heartbeat of the Crystal Empire — an ancient tradition that spreads the love and light of the Crystal Ponies outward through the Crystal Heart. Reviving it fully after Sombra's long dark rule will be a powerful message: the Empire endures, and it shines brighter than ever."
+
+ The_Crystalling_Anniversary:0 "0 The Crystalling !"
+ The_Crystalling_Anniversary_desc:0 "A sacred ceremony performed when a new foal is born in the Crystal Empire. Their new light amplifies the Crystal Heart, filling the Empire with warmth. By formally reviving this tradition, we celebrate new life and signal that the Crystal Ponies have a future worth celebrating."
+
+ Mi_Amore_Family:0 "1 The Mi Amore Cadenza !"
+ Mi_Amore_Family_desc:0 "Princess Cadance — Mi Amore Cadenza — and her husband Shining Armor have poured their love into protecting this Empire. Their bond is the foundation upon which the Crystal Empire's recovery stands. We should honour and strengthen the royal family's place at the heart of our nation."
+
+ The_Grand_Festival:0 "0 The Grand Crystal Festival !"
+ The_Grand_Festival_desc:0 "A grand celebration spanning the entire Crystal Empire — markets, tournaments, art, and music filling every crystal street. The festival serves a dual purpose: it lifts the spirits of ponies still haunted by Sombra's shadow, and it projects an image of prosperity and confidence to the outside world."
+
+ Winter_Solstice:0 "0 Celestia's advise !"
+ Winter_Solstice_desc:0 ""
+
+ Empire_Reborn:0 "1 Empire Reborn !"
+ Empire_Reborn_desc:0 "The Crystal Empire is no longer a shadow of its former self. Through the efforts of its ponies and the guidance of Princess Cadance, a new chapter begins. Let the light of the Crystal Heart shine as a beacon — not just for the Empire, but for all of Equus."
+
+ miamore_forever:0 "1 Love Eternal !"
+ miamore_forever_desc:0 "The love between Princess Cadance and Shining Armor is not merely personal — it is political and magical. Their bond has broken Sombra's dark enchantments before, and channelling that power into the governance of the Empire will guide us through whatever trials lie ahead. Love is, and always shall be, our greatest weapon."
+
+ Referendum:0 "0 A Referendum on the Future !"
+ Referendum_desc:0 "The Crystal Ponies have long been subject to the will of others — first Sombra, then Equestria's guidance. A referendum gives them a voice in determining their own destiny. Whatever the outcome, the act itself is a declaration: the Crystal Empire governs itself."
+
+ Subordination:0 "G Ties to Equestria !"
+ Subordination_desc:0 "Our relationship with Equestria is complicated. Princess Celestia and Princess Luna protected us and sent Cadance and Shining Armor to our aid. But the Crystal Empire has its own soul. We must define the terms of our alliance clearly — friendship between equals, not subordination."
+
+ Find_The_Sombra_Supporters:0 "R Root Out the Shadow's Agents !"
+ Find_The_Sombra_Supporters_desc:0 "Even in defeat, King Sombra left agents behind — Crystal Ponies who served him willingly, enchanted thralls who may still carry out his will, and dark magic artefacts hidden throughout the Empire. Intelligence services must be reorganised to find and neutralise these threats before they can regroup."
+
+ Reaching_Beyond_the_Empire:0 "G Reaching Beyond Our Borders !"
+ Reaching_Beyond_the_Empire_desc:0 "The Crystal Empire cannot stand alone forever. We must reach outward — forming bonds with neighbouring nations, establishing trade routes, and making our presence felt on the international stage. The age of isolation under Sombra's rule is over."
+
+ Social_Welfare:0 "B Crystal Welfare Programme !"
+ Social_Welfare_desc:0 "Centuries of enslavement left deep wounds. Many Crystal Ponies still struggle with poverty, trauma, and the loss of entire generations of history. A robust social welfare programme — clinics, schools, housing — is not just compassion. It is the foundation of a stable and productive Empire."
+
+ laissez_faire:0 "B Free Markets, Free Ponies !"
+ laissez_faire_desc:0 "The Empire's economic revival depends on unleashing the entrepreneurial spirit of its ponies. By reducing government control and allowing free trade to flourish, crystal craftsmen, merchants, and artisans can build prosperity from the ground up — as they did in the age before Sombra."
+
+ Vist_To_Stalliongrad:0 "G Diplomatic Visit to Stalliongrad !"
+ Vist_To_Stalliongrad_desc:0 "Stalliongrad, the great industrial city of the north, sits close to our borders and holds significant influence in the region. A diplomatic mission may prove fruitful — or reveal hidden tensions. Either way, it is better to know where we stand with our neighbours."
+
+ The_New_Crystal_Order:0 "B A New Crystal Order !"
+ The_New_Crystal_Order_desc:0 "The old ways — whether Sombra's dark iron rule or the loose traditions of antiquity — are not sufficient for the Empire we are building. A new constitutional order, with clear laws and institutions, will ensure that no one pony can ever again seize absolute power over the Crystal Ponies."
+
+ Strike_at_Sombra_Supporters:0 "R Strike at the Shadow Remnants !"
+ Strike_at_Sombra_Supporters_desc:0 "We have found them. Now we act. Sombra's remaining agents and supporters are to be arrested, tried, and removed from any position of influence. This is not vengeance — it is necessity. The Crystal Empire cannot build its future while the past lurks in its shadows."
+
+ Crystal_Court_Consolidation:0 "0 Consolidate the Crystal Court !"
+ Crystal_Court_Consolidation_desc:0 "The Crystal Empire's nobility and court were deeply infiltrated by Sombra's influence. Some nobles collaborated, others survived by staying silent. Consolidating loyal ponies in positions of authority — and removing those with divided loyalties — will give our institutions the clarity they need to function."
+
+ Reasserting_Royal_Authority:0 "1 Royal Authority Reasserted !"
+ Reasserting_Royal_Authority_desc:0 "Princess Cadance's authority must be made unambiguous. In the power vacuum that followed Sombra's defeat, various factions have tested boundaries. A clear reassertion of royal authority — backed by law, not just force — will settle these disputes and establish who leads the Crystal Empire."
+
+ operation_Break_Shadow:0 "R Operation: Break Shadow !"
+ operation_Break_Shadow_desc:0 "The final dismantling of King Sombra's legacy. Hidden chambers sealed. Dark magic artefacts destroyed. The last of his agents dealt with. The Crystal Empire is, at last, truly free. The shadow that once hung over every crystal pony is broken — and it will never return."
+
+ # ── INDUSTRY ROOT ────────────────────────────────────────────────────────────
+ ind_1:0 "Crystal Economic Initiative"
+ ind_1_desc:0 "The Crystal Empire's economy was shattered under Sombra's rule. Raw materials were hoarded, craftsmanship was suppressed, and the crystal ponies' legendary artisan skills were weaponised for war rather than prosperity. We must choose our path to recovery — and commit to it fully."
+
+ ind_left:0 "Hearts and Homes"
+ ind_left_desc:0 "The Crystal Empire will rebuild itself from within. Prioritising civilian industry — factories, workshops, infrastructure — will give our ponies stable livelihoods and lay the foundations for long-term prosperity. What Sombra took from us, we will rebuild with our own hooves."
+
+ ind_right:0 "Swords Before Ploughshares"
+ ind_right_desc:0 "The threats surrounding the Crystal Empire are real. Before we can prosper in peace, we must be able to defend what is ours. Military production must take precedence — ensuring that no enemy, foreign or domestic, can threaten the Empire while it recovers."
+
+ # ── MILITARY TREE ────────────────────────────────────────────────────────────
+
+ Military_Expansions:0 "Reform the Crystal Military"
+ Military_Expansions_desc:0 "The Crystal Guard was never designed for modern warfare. Trained primarily as ceremonial protectors, they are brave but inexperienced in the kind of conflict that threatens Equus today. A full military reform — new doctrine, new equipment, new organisation — is long overdue."
+
+ The_Empire's_Shield:0 "The Empire's Shield"
+ The_Empire's_Shield_desc:0 "The Crystal Guard's primary duty has always been to protect the Empire and its people. Before we can project power outward, we must ensure that our own home is secure. A solid defensive foundation will allow us to pursue more ambitious military goals with confidence."
+
+ Restore_the_Crystal_Legions:0 "Restore the Crystal Legions"
+ Restore_the_Crystal_Legions_desc:0 "Ancient records speak of the Crystal Legions — formations of crystal-armoured soldiers that once defended the Empire with honour and skill. By studying these records and applying modern training, we can revive the spirit and discipline of those legendary formations."
+
+ The_Imperial_Guard:0 "The Imperial Guard"
+ The_Imperial_Guard_desc:0 "The Imperial Guard will be the finest soldiers the Crystal Empire has ever fielded — hand-selected, intensively trained, and equipped with the best crystal-forged armour and weapons available. They will serve as the Empire's elite core, the tip of the spear."
+
+ Legacy_of_King_Sombra:0 "Sombra's Dark Legacy"
+ Legacy_of_King_Sombra_desc:0 "Whatever we may think of King Sombra, the dark king was a formidable military mind. His tactics — brutal and efficient — defeated every challenger. By studying his methods carefully, and stripping away the cruelty, we may learn something about how to win wars in the northern theatre."
+
+ Steel_Beneath_the_Snow:0 "Steel Beneath the Snow"
+ Steel_Beneath_the_Snow_desc:0 "The northern wastes are treacherous — blizzards that can bury an army, terrain that breaks wheels and hooves alike. Any force that fights in this region must be specially equipped and trained for winter conditions. Hardened soldiers who can march through knee-deep snow will have a decisive advantage."
+
+ Steel_and_Crystal:0 "Steel and Crystal"
+ Steel_and_Crystal_desc:0 "Crystal alone is beautiful but brittle under certain stresses. By alloying our enchanted crystal with northern steel, our smiths have produced a material that is both magically resonant and physically resilient. A new generation of armour and weapons will be forged from this revolutionary composite."
+
+ Crystal_Steel_Foundries:0 "Crystal-Steel Foundries"
+ Crystal_Steel_Foundries_desc:0 "Purpose-built foundries capable of handling both conventional metalwork and crystal enchantment in the same facility. These specialist workshops will dramatically increase our capacity to produce the composite equipment our forces increasingly depend on."
+
+ Arcane_Warfare_Department:0 "Arcane Warfare Department"
+ Arcane_Warfare_Department_desc:0 "Magic is as much a weapon as any cannon or sword. A dedicated department of unicorn scholars and combat mages will research, develop, and codify the use of arcane magic in warfare — developing new spells, enchantments, and counter-magic doctrines for the Crystal Empire's forces."
+
+ Modern_Battle_Doctrine:0 "Modern Battle Doctrine"
+ Modern_Battle_Doctrine_desc:0 "The Crystal Guard fights with courage, but courage alone does not win battles. By studying the conflicts across Equus and developing our own doctrine tailored to northern conditions, we will create a military that fights smart as well as hard."
+
+ Mechanize_the_Legions:0 "Mechanize the Legions"
+ Mechanize_the_Legions_desc:0 "Mechanical and crystal-powered vehicles can give our ground forces the mobility and firepower they need to dominate the battlefield. Converting our infantry legions to mechanised formations will fundamentally change how the Crystal Empire wages war."
+
+ Enchanted_Artillery:0 "Enchanted Artillery"
+ Enchanted_Artillery_desc:0 "Standard artillery hurls iron at the enemy. Crystal-enchanted artillery hurls magic. Crystal shell casings that detonate in bursts of ice and force, howitzers whose barrels are inscribed with targeting runes — our artillery will strike with precision and power that no mundane force can match."
+
+ The_Heart's_Power:0 "The Heart's Power"
+ The_Heart's_Power_desc:0 "The Crystal Heart does not merely inspire — it empowers. Attenuating its magical field to enhance the combat capabilities of the Crystal Guard is a delicate process, but the results speak for themselves. Soldiers who fight in its resonance are faster, stronger, and more resilient."
+
+ The_Iron_Heart:0 "The Iron Heart"
+ The_Iron_Heart_desc:0 "A philosophy born of necessity: the Crystal Empire must have a heart of iron as well as one of crystal. We cannot afford sentimentality in the face of our enemies. Total mobilisation, industrial focus, and unflinching military will — this is what survival requires."
+
+ Armored_Ascendancy:0 "Armoured Ascendancy"
+ Armored_Ascendancy_desc:0 "Crystal armour has always been the hallmark of the Crystal Guard. Now we will make it the hallmark of our entire military. Mass-produced crystal plate, enchanted and shaped for modern warfare, will give every Crystal soldier an edge that no enemy can easily overcome."
+
+ study_the_crystal_heart:0 "Study the Crystal Heart"
+ study_the_crystal_heart_desc:0 "The Crystal Heart's power is vast and still not fully understood. A dedicated team of scholars and mages will study its properties — the way its magical field interacts with crystal structures, living ponies, and hostile magic. What they learn may change how we fight forever."
+
+ Harness_Ancient_Magic:0 "Harness Ancient Magic"
+ Harness_Ancient_Magic_desc:0 "The Crystal Empire sits atop ley lines of extraordinary magical power, ancient channels untouched since before Sombra's rise. With the right expertise and tools, these lines can be tapped — channelling raw arcane energy into our weapons, fortifications, and war machines."
+
+ Weaponize_the_Crystal_Heart:0 "Weaponise the Crystal Heart"
+ Weaponize_the_Crystal_Heart_desc:0 "This decision will not be made lightly. The Crystal Heart is the soul of our Empire — but a soul that can also strike with terrible force. Its power, directed outward rather than inward, could devastate an attacking army. We must prepare for the worst, even as we hope for the best."
+
+ # ── AIR TREE ─────────────────────────────────────────────────────────────────
+
+ Crystal_Air_Force:0 "The Crystal Air Force"
+ Crystal_Air_Force_desc:0 "The Crystal Empire has always relied on its pegasi for reconnaissance and weather control. It is time to take the next step — organising them into a proper military air force, with dedicated combat roles, ground attack capability, and the magical equipment to fight and win in the skies above Equus."
+
+ Crystal_Aviation_Initiative:0 "Crystal Aviation Initiative"
+ Crystal_Aviation_Initiative_desc:0 "Crystal-enhanced aircraft frames are lighter, stronger, and capable of channelling magical energy directly into their systems. By launching a dedicated aviation programme built on crystal technology, the Crystal Empire can leapfrog rivals who rely on conventional materials."
+
+ Northern_Air_Command:0 "Northern Air Command"
+ Northern_Air_Command_desc:0 "The skies over the north are punishing — blizzards, magical anomalies, and extreme cold that grounds conventional aircraft. A specialised Northern Air Command, with pilots and equipment designed for arctic conditions, will give us air superiority in the very theatre where we are most vulnerable."
+
+ Wings_Over_the_Empire:0 "Wings Over the Empire"
+ Wings_Over_the_Empire_desc:0 "Expanding our air presence over the Crystal Empire itself — combat air patrol, rapid response wings, and a network of forward air bases. The Empire's skies will be sovereign, and any incursion will be met swiftly and forcefully."
+
+ Skyward_Supremacy:0 "Skyward Supremacy"
+ Skyward_Supremacy_desc:0 "Air superiority is not merely an advantage — it is a prerequisite for all other military operations. Without control of the skies, our ground forces are vulnerable and our supply lines exposed. Total aerial supremacy over our operational theatre is the goal."
+
+ Pegasi_Strike_Wings:0 "Pegasi Strike Wings"
+ Pegasi_Strike_Wings_desc:0 "Elite pegasi pilots, trained in low-altitude attack runs and close air support. Flying in tight formations enchanted for speed and stealth, these strike wings can appear from nowhere, devastate a target, and vanish before the enemy can respond. The Wonderbolts of war."
+
+ Guardians_of_the_Clouds:0 "Guardians of the Clouds"
+ Guardians_of_the_Clouds_desc:0 "Dedicated air superiority units whose purpose is simple: deny the enemy the sky. Equipped with the fastest crystal-enhanced fighters we can produce and trained in aggressive interception tactics, the Guardians will ensure that hostile aircraft never reach our cities or our soldiers."
+
+ cystal_cas_force:0 "Crystal Close Air Support"
+ cystal_cas_force_desc:0 "A specialised ground-attack force trained to work closely with our infantry and armoured units. Crystal-enhanced aircraft rigged with precision magical munitions can strike enemy positions just ahead of our advancing troops, breaking fortified lines that would otherwise hold for weeks."
+
+ The_Crystal_Air_Corps:0 "The Crystal Air Corps"
+ The_Crystal_Air_Corps_desc:0 "All branches of the Crystal Empire's air arm — fighters, bombers, reconnaissance, and close support — unified under a single command structure. The Crystal Air Corps will be a modern, integrated air force capable of projecting power far beyond the Empire's borders."
+
+ mastery_of_rocketry:0 "Mastery of Rocketry"
+ mastery_of_rocketry_desc:0 "Crystal-tipped rockets, enchanted for guidance and penetrating force, represent the next leap in aerial and anti-air warfare. A research programme to master this technology will put the Crystal Empire ahead of rivals who are still catching up with conventional aviation."
+
+# ── ToolTips ─────────────────────────────────────────────────────────────────
+  ind_left_tt:0 "Adds Y+2%! Consumer Goods and G+10%! Civilian Factory Building speed \n ifY Strike at Sombra Supporters:! is completed then add G+5%! more civilian factory building speed" 
+
+  civ_mining_expansion_tt:0 "Adds G+10%! Resource Gain Efficiency \n ifY Strike at Sambra Supporters:! is completed then add G+10%! Resource Gain Efficiency"
+
+ laissez_faire_tt:0 "Y If the Referendum path was chosen: !Adds G6 W  Civilian Factories to the Crystal Heartland -----------------------------------\nY If the Subordination path was chosen: !Adds G3 W  Civilian Factories to the Crystal Heartland\n Reduces Civilian Factory Construction Speed by R-20%!"
+ 
+ Social_Welfare_tt:0 "Y If the Referendum path was chosen: !Adds G9 W  Military Factories to the Crystal Heartland -----------------------------------\nY If the Subordination path was chosen: !Adds G4 W  Military Factories to the Crystal Heartland\n Reduces Military Factory Construction Speed by R-20% !"
+ The_New_Crystal_Order_tt:0 "Y If the Referendum path was chosen: !Adds G4 W  Military Factories \nY If the Subordination path was chosen: !Modify "
+ 
+ civ_construction_corps_tt:0 "Adds G+5% !Base Efficiency Base to YFire Year Plan! if YStrike at Sombra Supporters:! is completed an additional G+5%! will be added"
+ 
+ civ_growth_tt:0 "-----------------------------------\n Adds G+15%! Efficiency Growth to YFive Year Plan!"
+
+ civ_power_grid_tt:0 "-----------------------------------\n Adds G+5%! Efficiency Cap to YFive Year Plan!"
+ 
+ civ_economic_zone_tt:0 "-----------------------------------\n Adds G+15%! Military Factory Building Speed, and Y+2%! Consumer Goods to: YFive Year Plan!"
+
+ civ_agricultural_reform_tt:0 "-----------------------------------\n Adds G+2.5%! Factory Output, and G+2.5%! Production Efficiency Cap to: YFive Year Plan!"
+ 
+ civ_export_market_tt:0 "Adds G+10%! Factory Output, and G+5%! Production Efficiency Cap to: YFive Year Plan! \n If YStrike at Sombra Supporters! is completed add G+15%! Military Factory Building Speed"
+ 
+ civ_industrial_academy_tt:0 "Adds G+5%! Research Speed to: YFive Year Plan!"
+
+ civ_artisan_works_tt:0 "Adds G+10%! Civilian Factory Building Speed to: YFive Year Plan!"
+
+ civ_second_push_tt:0 "Adds G+60%! Military Building Speed, and Removes R-50%! Civilian Building Speed to: YFive Year Plan!"
+ 
+ civ_heart_economy_tt:0 "Modify YFive Year Plan! by \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: G+10%! \n Production Output: G+15%! \n Military Factory Building Speed: G+10%!"
+
+ civ_trade_empire_tt:0 "Adds G+15%! Resource Gain Efficiency to: YFive Year Plan!"
+
+ tab_tt:0 "-----------------------------------\n"

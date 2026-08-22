@@ -1,34 +1,116 @@
-﻿Capital = 344
- #Starting Tech
+﻿# The lights fade out in this crystal hall
+# I can't see you from down below
+# I can't do this without you
+# The green haze hides me from brighter days
+# All I'm seeing are shades of grey,
+# I can't do this without you
+# The shield has crumbled, the fight begun
+# The sky is buzzing, I'll never run
+# My Cadence, my love song
+# These stars are shining for you alone,
+# I know I can't win
+# My Cadence, my love song
+# Love blooms everywhere you go
+# I know I can't win, without you by my side
+# Best friends even since we were young
+# I should have known. Can't believe I was wrong
+# I need you here by my side
+# I've loved you since the day we met
+# I know your heart wouldn't stray from me yet.
+# I need you here by my side
+# The queen has risen, the throne undone,
+# Shining Armor you must hold on.
+# I'll never run and I'll never hide
+# I won't give up and I will not die
+# I will stay strong and I will fight
+# 'Till you're here by my side!
+# Without you by my side
+# I can't win
+# With you by my side
+# I can win
+Capital = 344
 set_technology ={
-
+	starting_industry = 1
+	electronic_mechanical_engineering = 1
+	construction1 = 1
+	heavy_antiair = 1
+	field_gun = 1
+	artillery1 = 1
+	gw_pack_artillery = 1
+	infantry_weapons = 1
 }
-
+add_breakthrough_progress = {
+	specialization = specialization_magical
+	value = 0.7
+}
+set_power_balance = {
+	id = CRY_balamce_of_power 
+}
 set_research_slots = 4
-
 set_convoys = 300
-
 set_popularities = {
-	democratic = 90
-	fascism = 0
-	communism = 5
-	neutrality = 5
+	democratic = 75
+	fascism = 15
+	communism = 0
+	neutrality = 10
 }
-
 set_politics = {
-
 	ruling_party = democratic
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Princess Cadence"
-	desc = " "
-	picture = "GFX_Cadence"
-	ideology = harmonic_theocracy
-}
-
+set_war_support = 0.3
+set_stability = 0.22
+add_ideas = closed_economy
+add_ideas = volunteer_only
 add_ideas = {
+	equestrian_overlord
+	crystal_buff
+	crystal_royal_airforce
+	CRY_five_year_plan
+	closed_market
+	Sombra_Scare
+}
+## 5 YEAR PLAN ##
+add_dynamic_modifier = {
+	modifier = Five_Year_Plan
+}
+set_variable = {
+	CRY_production_speed_arms_factory_factor_variable = -0.4
+}
+set_variable = {
+	CRY_research_speed_factor_variable = 0.1
+}
+set_variable = {
+	CRY_production_speed_industrial_complex_factor_variable = 0.1
+}
+set_variable = {
+	CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
+}
+set_variable = {
+	CRY_five_year_plan_resources_gain_efficiency_variable = -0.10
+}
+set_variable = {
+	CRY_five_year_plan_cap_variable = 0
+}
+set_variable = {
+	CRY_five_year_plan_base_variable = 0
+}
+set_variable = {
+	CRY_five_year_plan_gain_variable = 0
+}
+set_variable = {
+	CRY_five_year_plan_output_variable = 0
+}
+recruit_character = CRY_princess_mi_amore_cadenza
+recruit_character = CRY_Crystal_Court
+recruit_character = CRY_general_shining_armor
+recruit_character = CRY_Obsidian_Limelight
+recruit_character = CRY_spike
+recruit_character = CRY_trade_guy
+set_rule = {
+	can_generate_female_aces = yes
+	can_generate_female_unit_leaders  = yes
+	can_generate_female_country_leaders = yes
 }

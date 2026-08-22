@@ -1,0 +1,91 @@
+# Phase 2: Crystal Court vs Mi Amore Cadenza
+# Activated after the focus Strike_at_Sombra_Supporters completes
+CRY_court_v_cadance = {
+    initial_value = 0
+    left_side = CRY_court
+    right_side = CRY_cadance
+    decision_category = CRY_bop_phase2_cat
+    # ── CENTRE — Uneasy Balance ─────────────────────────────────────────────
+    range = {
+        id = CRY_p2_centre
+        min = -0.25
+        max = 0.25
+        modifier = {
+            stability_factor = 0.02
+            political_power_gain = 0.05
+        }
+        on_activate = { }
+        on_deactivate = { }
+    }
+    # ── CRYSTAL COURT (Left) ───────────────────────────────────────────────
+    # Traditionalist nobility — strong military, resistant to reform
+    side = {
+        id = CRY_court
+        icon = GFX_bop_icon_cry_court          # replace with your sprite name
+
+        range = {
+            id = CRY_court_half
+            min = -0.75
+            max = -0.25
+            modifier = {
+                political_power_factor = -0.05
+                stability_factor = -0.03
+                army_org_factor = 0.05
+                trade_opinion_factor = 0.05
+                drift_defence_factor = 0.05
+            }
+            on_activate = { }
+            on_deactivate = { }
+        }
+        range = {
+            id = CRY_court_full
+            min = -1
+            max = -0.75
+            modifier = {
+                political_power_factor = -0.10
+                stability_factor = -0.08
+                army_org_factor = 0.08
+                trade_opinion_factor = 0.10
+                drift_defence_factor = 0.08
+                war_support_factor = 0.05
+            }
+            on_activate = { }
+            on_deactivate = { }
+        }
+    }
+    # ── MI AMORE CADENZA (Right) ───────────────────────────────────────────
+    # Cadance's progressive love-based rule — stable, diplomatically strong
+    side = {
+        id = CRY_cadance
+        icon = GFX_bop_icon_cry_cadance        # replace with your sprite name
+
+        range = {
+            id = CRY_cadance_half
+            min = 0.25
+            max = 0.75
+            modifier = {
+                stability_factor = 0.06
+                political_power_gain = 0.10
+                diplomatic_pressure_mission_factor = 0.05
+                generate_wargoal_tension = -0.05
+            }
+            on_activate = { }
+            on_deactivate = { }
+        }
+        range = {
+            id = CRY_cadance_full
+            min = 0.75
+            max = 1
+            modifier = {
+                stability_factor = 0.12
+                political_power_gain = 0.15
+                diplomatic_pressure_mission_factor = 0.10
+                generate_wargoal_tension = -0.10
+                war_support_factor = 0.05
+                army_morale_factor = 0.05
+            }
+            on_activate = { }
+            on_deactivate = { }
+        }
+    }
+}

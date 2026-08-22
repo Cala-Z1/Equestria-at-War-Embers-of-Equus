@@ -1,14 +1,113 @@
 characters = {
-    CRY_Cadance = {
-    name = "Princess Cadance"
-    portraits = {
-		civilian = {
-			large = "GFX_Cadence"
+	# Leaders #
+	CRY_princess_mi_amore_cadenza = { 
+		name = CRY_Cadence
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRY/Cadence.tga"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = princess_cadence
+			allowed = {
+				has_completed_focus = Crystal_Court_Consolidation
+			}
+			available = {
+				has_completed_focus = Crystal_Court_Consolidation
+			}
+			traits = { popular_figurehead }
+		}
+		country_leader = {
+			desc = "POLITICS_CADENZA_DESC"
+			ideology = alicornrule
+			expire = "1965.1.1.1"
+		}
+		gender = female
+	}
+	CRY_Crystal_Court = {
+		name = Crystal_court
+		portraits = {
+			civilian = {
+				large = "gfx/leader/CRY/Crystal_Court.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = "POLITICS_Crystal_Court_DESC"
+			expire = "1965.1.1.1"
+			traits = { popular_figurehead }
 		}
 	}
-country_leader = {
-	ideology = harmonic_theocracy
-	expire = "1999.1.1.1"
-}
+	# Advisors #
+	CRY_Obsidian_Limelight = {
+		name = Obsidian_Limelight
+		portraits = {
+			civilian = {
+				large = "gfx/leader/CRY/Advisor/ObsidianLimelight.dds"
+			}
+		}
+		advisor = {
+			allowed = {
+				tag = CRY
+			}
+			slot = political_advisor
+			traits = { SWI_intelligence_officer }
+		}
 	}
+	CRY_spike = {
+		name = CRY_spike
+		advisor = {
+			slot = political_advisor
+			allowed  = {
+					tag  = CRY
+				}
+				traits  = { JAP_hiroshi_oshima_trait }
+				cost  = 100.000
+			}
+		portraits={
+			civilian = {
+				large = "gfx/leader/CRY/Advisor/ObsidianLimelight.dds"
+			}
+		}
+	}
+	CRY_trade_guy = {
+		name = CRY_trade_guy
+		advisor = {
+			slot = political_advisor
+			allowed  = {
+					tag  = CRY
+				}
+				traits  = { backroom_backstabber }
+			}
+		}
+	CRY_general_shining_armor = {
+        name = CRY_Shining_Armor
+        portraits = {
+            army = {
+                large = "gfx/leaders/CRY/ShiningArmour.tga"
+            }
+        }
+  		corps_commander = {
+			desc = "POLITICS_Shining_Armor_DESC"
+			traits = { 
+				My_knight_in_shining_armor
+				politically_connected
+				infantry_leader
+				brilliant_strategist
+				trait_engineer
+				winter_specialist
+				winter_expert
+				commando
+				skilled_staffer
+				panzer_leader
+			 }
+			skill = 8
+            attack_skill = 10
+            defense_skill = 5
+            planning_skill = 7
+            logistics_skill = 7
+        }
+        gender = male
+    }
 }

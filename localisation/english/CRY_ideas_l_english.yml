@@ -1,0 +1,25 @@
+﻿l_english:
+ 
+# ── CRY COUNTRY IDEAS ────────────────────────────────────────────────────────────
+
+ equestrian_overlord:0 "Under Equestrian Oversight"
+ equestrian_overlord_desc:0 "The Crystal Empire exists under the watchful eye of Equestria. While Canterlot's protection is welcome, its constant interference in our affairs stifles our political development, slows our research, and undermines the confidence of our ponies. We are a sovereign nation — or so we tell ourselves."
+ equestrian_overlord_2:0 "Under Equestrian Oversight"
+ equestrian_overlord_2_desc:0 "The Crystal Empire exists under the watchful eye of Equestria. While Canterlot's protection is welcome, its constant interference in our affairs stifles our political development, slows our research, and undermines the confidence of our ponies. We are a sovereign nation — or so we tell ourselves."
+ equestrian_overlord_3:0 "Under Equestrian Oversight"
+ equestrian_overlord_2_desc:0 "The Crystal Empire exists under the watchful eye of Equestria. While Canterlot's protection is welcome, its constant interference in our affairs stifles our political development, slows our research, and undermines the confidence of our ponies. We are a sovereign nation — or so we tell ourselves."
+ CRY_Reaching_Beyond_the_Empire_tt:0 " Removes Closed Crystal Market \n If A Referendum on The Future Is completed Limited Exports is added \n If Ties to Equestria is completed Free Trade is added "
+ Sombra_Scare:0 "Sombra Scare"
+ Sombra_Scare_idea_2:0 "Sombra Scare"
+ CRY_Find_The_Sombra_Supporters_tt:0 "Completes Mission Spreed The Crystal Light"
+ CRY_Strike_at_Sombra_Supporters_tt:0 "Completes Mission The Crystal Heat Ceremonies "
+ Empire_Reborn_tt:0 "Removes R -5% ! Research Speed"
+ operation_Break_Shadow_tt:0 "Completes Mission Purge Dark Magic"
+ Five_Year_Plan:0 " The Five Year Plan"
+ crystal_buff:0 "Children of the Crystal North"
+ CRY_sombra_cooldown:0 "Root Out The Shadow's Agents"
+ crystal_buff_desc:0 "Crystal Ponies are born and bred in the harshest climate on Equus. Generations of surviving bitter winters and Sombra's brutal rule have forged them into something extraordinary — resilient, disciplined, and deeply familiar with how to hold ground and make do with less."
+ CRY_five_year_plan:0 "The Five Year Plan \n !Military Factories Construction Speed: [?CRY_production_speed_arms_factory_factor_variable|%+=0]! \n !Civilian Factory Construction Speed: [?CRY_production_speed_industrial_complex_factor_variable|%+=0]! \n !Consumer Goods Expected: [?CRY_five_year_plan_consumer_goods_expected_value_variable|%-=0]! \n !Research Speed: [?CRY_research_speed_factor_variable|%+=0]! \n !Resources Gain Efficiency:! [?CRY_five_year_plan_resources_gain_efficiency_variable|%+=0] \n !Production Efficiency Cap:! [?CRY_five_year_plan_cap_variable|%+=0] \n !Production Efficiency Base:! [?CRY_five_year_plan_base_variable|%+=0] \n !Production Efficiency Growth:! [?CRY_five_year_plan_gain_variable|%+=0] \n !Factory Output:! [?CRY_five_year_plan_output_variable|%+=0]"
+ CRY_five_year_plan_desc:0 " \n The Crystal Empire commits to a sweeping programme of civilian industrial expansion. Factories, workshops, and infrastructure projects are prioritised above all else — including military production. It will be years before the full benefits are felt, but the foundations being laid now will transform the Empire's economic capacity."
+ closed_market:0 "Closed Crystal Market"
+ closed_market_desc:0 "The Crystal Empire restricts foreign access to its markets and resources. What we mine, we keep. What we produce, we consume. It is an isolationist policy that limits trade income, but it ensures that the Empire's precious crystal resources remain in crystal hooves — and out of the grasp of outside powers."

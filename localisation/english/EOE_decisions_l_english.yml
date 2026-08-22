@@ -1,4 +1,7 @@
 ﻿l_english:
+ 
+# ── Defualt Decisions ────────────────────────────────────────────────────────────
+
  focus_on_land:0 "Production Priority for Land"
  focus_on_navy:0 "Production Priority for Navy"
  length_of_shifts:0 "Increased Factory Shifts"
@@ -9,3 +12,13 @@
  convert_military_complexes:0 "Convert Military Complexes"
  Declaration_of_Neutrality:0 "Declaration of Neutrality"
  Increased_luxuries:0 "Massive Propaganda Investments"
+
+# ── CRY # ── Defualt Decisions ────────────────────────────────────────────────────────────
+ 
+ Sombra_Scare_Missons:0 "Sombra Scare Missions"
+ Sombra_Scare_1:0 "Spread the Crystal Light"
+ Sombra_Scare_1_desc:0 "The Crystal Heart's warmth does not reach every corner of the Empire on its own. We must actively carry its light outward — through public ceremonies, community gatherings, and the simple act of crystal ponies telling each other that the dark days are truly over. Hope is a weapon. We must use it."
+ Sombra_Scare_2:0 "The Crystal Heart Ceremonies"
+ Sombra_Scare_2_desc:0 "The ancient rites surrounding the Crystal Heart were suppressed under Sombra — he feared what a united, joyful populace could do. Restoring these ceremonies in full, with all their colour and tradition, will do more than lift spirits. The Crystal Heart itself grows stronger when the love of the ponies around it is genuine and freely given."
+ Sombra_Scare_3:0 "Purge the Dark Magic"
+ Sombra_Scare_3_desc:0 "Sombra's influence was not merely political — it was woven into the very walls of the Crystal Empire. Hidden chambers, cursed artefacts, enchanted locks that respond only to dark magic. A dedicated team of unicorn scholars, working alongside the Crystal Guard, will sweep every corner of the Empire and unmake whatever Sombra left behind. This is the final chapter of his reign. We will close it permanently."

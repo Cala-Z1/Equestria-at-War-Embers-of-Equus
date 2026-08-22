@@ -1,0 +1,181 @@
+ideas = {
+	country = {
+		equestrian_overlord = {
+			allowed = {
+				always = no
+			}
+			available = {
+				is_subject = yes
+				overlord = {
+					original_tag = EQS
+				}
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = EQS_harmonic_stagnation2
+			modifier = {
+				war_support_factor = -0.20
+				political_power_gain = -0.25
+				research_speed_factor = -0.15
+			}
+		}
+	}
+	country = {
+		equestrian_overlord_2 = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = EQS_harmonic_stagnation2
+			modifier = {
+				research_speed_factor = -0.10
+				political_power_gain = 0.2
+				war_support_factor = -0.20
+				stability_factor = 0.10
+				extra_trade_to_overlord_factor = 0.2
+			}
+		}
+	}
+	country = {
+		equestrian_overlord_3 = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = EQS_harmonic_stagnation2
+			modifier = {
+				research_speed_factor = -0.10
+				political_power_gain = 0.2
+				war_support_factor = -0.20
+				stability_factor = 0.10
+				extra_trade_to_overlord_factor = 0.2
+				cic_to_overlord_factor = 0.05
+				mic_to_overlord_factor = 0.10
+			}
+		}
+	}
+	country = {
+		Sombra_Scare = {
+			allowed = {
+				always = no
+				NOT = {
+					has_completed_focus = Strike_at_Sombra_Supporters
+				}
+			}
+			available = {
+				NOT = {
+					has_completed_focus = Strike_at_Sombra_Supporters
+				}
+			}
+			removal_cost = -1
+			picture = EQS_harmonic_stagnation2
+			modifier = {
+				stability_weekly = -0.002
+				weekly_manpower = -10000
+				power_balance_weekly = -0.010
+			}
+		}
+	}
+	country = {
+		Sombra_Scare_idea_2 = {
+			allowed = {
+				always = no
+			}
+			available = {
+				NOT = {
+					has_completed_focus = Strike_at_Sombra_Supporters
+				}
+			}
+			removal_cost = -1
+			picture = EQS_harmonic_stagnation2
+			modifier = {
+				stability_weekly = -0.001
+				weekly_manpower = -5000
+				power_balance_weekly = -0.005
+			}
+		}
+	}
+	country = {
+		crystal_buff = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_communist_crystals
+			modifier = {
+				experience_gain_army = 0.02
+				out_of_supply_factor = -0.1
+				supply_consumption_factor = -0.10
+				winter_attrition_factor = -1
+				max_dig_in = 3
+			}
+		}
+	}
+	country = {
+		crystal_royal_airforce = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_communist_crystals
+			modifier = {
+				experience_gain_air = -0.05
+				experience_gain_air_factor = -0.15
+				air_accidents = 0.1
+				air_ace_generation_chance_factor = 0.2
+				air_attack_factor = -0.05
+				air_defence_factor = -0.05
+			}
+		}
+	}
+	country = {
+		CRY_five_year_plan = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_five_year_plan
+		}
+	}
+	country = {
+		closed_market = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_closed_market
+			modifier = {
+				min_export = -0.05
+				local_resources_factor = 0.05
+			}
+		}	
+	}
+	## Leaders ##
+	theorist_production = {
+		Erich_Von_Talonitz = {
+			picture = GFX_Erich_Von_Talonitz
+			allowed = {
+				tag = CRY
+			}
+			traits = { war_industrialist }
+		}
+		Mistmane = {
+			picture = GFX_Mistmane
+			allowed = {
+				tag = CRY
+			}
+			traits = { captain_of_industry }
+		}
+	}
+}

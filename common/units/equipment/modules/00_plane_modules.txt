@@ -1,12 +1,4 @@
 equipment_modules = {
-	######## ##    ##  ######   #### ##    ## ########     ##     ##  #######  ########  ##     ## ##       ########  ######  
-	##       ###   ## ##    ##   ##  ###   ## ##           ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	##       ####  ## ##         ##  ####  ## ##           #### #### ##     ## ##     ## ##     ## ##       ##       ##       
-	######   ## ## ## ##   ####  ##  ## ## ## ######       ## ### ## ##     ## ##     ## ##     ## ##       ######    ######  
-	##       ##  #### ##    ##   ##  ##  #### ##           ##     ## ##     ## ##     ## ##     ## ##       ##             ## 
-	##       ##   ### ##    ##   ##  ##   ### ##           ##     ## ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	######## ##    ##  ######   #### ##    ## ########     ##     ##  #######  ########   #######  ######## ########  ######
-
 	### CATEGORY: LARGE_PLANE_ENGINE_TYPE ###
 
 	engine_1_6x = {
@@ -999,15 +991,6 @@ equipment_modules = {
 			convert_cost_ic = 4
 		}
 	}
-	
-	  ######     ###     ######     ##     ##  #######  ########  ##     ## ##       ########  ######  
-	 ##    ##   ## ##   ##    ##    ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	 ##        ##   ##  ##          #### #### ##     ## ##     ## ##     ## ##       ##       ##       
-	 ##       ##     ##  ######     ## ### ## ##     ## ##     ## ##     ## ##       ######    ######  
-	 ##       #########       ##    ##     ## ##     ## ##     ## ##     ## ##       ##             ## 
-	 ##    ## ##     ## ##    ##    ##     ## ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	  ######  ##     ##  ######     ##     ##  #######  ########   #######  ######## ########  ######
-
 	tank_buster_1 = {
 		abbreviation = "tb1"
 		category = cas_weapon
@@ -1151,15 +1134,6 @@ equipment_modules = {
 
 		dismantle_cost_ic = 0.5
 	}
-	
-	########   #######  ##     ## ########     ##     ##  #######  ########  ##     ## ##       ########  ######  
-	##     ## ##     ## ###   ### ##     ##    ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	##     ## ##     ## #### #### ##     ##    #### #### ##     ## ##     ## ##     ## ##       ##       ##       
-	########  ##     ## ## ### ## ########     ## ### ## ##     ## ##     ## ##     ## ##       ######    ######  
-	##     ## ##     ## ##     ## ##     ##    ##     ## ##     ## ##     ## ##     ## ##       ##             ## 
-	##     ## ##     ## ##     ## ##     ##    ##     ## ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	########   #######  ##     ## ########     ##     ##  #######  ########   #######  ######## ########  ######
-
 	small_bomb_bay = {
 		abbreviation = "sbb"
 		category = cas_weapon
@@ -1231,14 +1205,6 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 12
 	}
-	
- ########  #######  ########  ########  ######## ########   #######     ##     ##  #######  ########  ##     ## ##       ########  ######  
-	##    ##     ## ##     ## ##     ## ##       ##     ## ##     ##    ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	##    ##     ## ##     ## ##     ## ##       ##     ## ##     ##    #### #### ##     ## ##     ## ##     ## ##       ##       ##       
-	##    ##     ## ########  ########  ######   ##     ## ##     ##    ## ### ## ##     ## ##     ## ##     ## ##       ######    ######  
-	##    ##     ## ##   ##   ##        ##       ##     ## ##     ##    ##     ## ##     ## ##     ## ##     ## ##       ##             ## 
-	##    ##     ## ##    ##  ##        ##       ##     ## ##     ##    ##     ## ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	##     #######  ##     ## ##        ######## ########   #######     ##     ##  #######  ########   #######  ######## ########  ######
 
 	torpedo_mounting = {
 		abbreviation = "tpm"
@@ -1297,7 +1263,7 @@ equipment_modules = {
 		}
         
 		add_stats = {
-            naval_strike_attack = 20
+            naval_strike_attack = 25
 			build_cost_ic = 8
 			weight = 8
 			air_agility = -20
@@ -1305,23 +1271,6 @@ equipment_modules = {
         
 		dismantle_cost_ic = 1.5
 	}
-    
-##     ## ####  ######   ######  ######## ##       ##          ###    ##    ## ########  #######  ##     ##  ######  
-###   ###  ##  ##    ## ##    ## ##       ##       ##         ## ##   ###   ## ##       ##     ## ##     ## ##    ## 
-#### ####  ##  ##       ##       ##       ##       ##        ##   ##  ####  ## ##       ##     ## ##     ## ##       
-## ### ##  ##   ######  ##       ######   ##       ##       ##     ## ## ## ## ######   ##     ## ##     ##  ######  
-##     ##  ##        ## ##       ##       ##       ##       ######### ##  #### ##       ##     ## ##     ##       ## 
-##     ##  ##  ##    ## ##    ## ##       ##       ##       ##     ## ##   ### ##       ##     ## ##     ## ##    ## 
-##     ## ####  ######   ######  ######## ######## ######## ##     ## ##    ## ########  #######   #######   ######  
-
-##     ##  #######  ########  ##     ## ##       ########  ######  
-###   ### ##     ## ##     ## ##     ## ##       ##       ##    ## 
-#### #### ##     ## ##     ## ##     ## ##       ##       ##       
-## ### ## ##     ## ##     ## ##     ## ##       ######    ######  
-##     ## ##     ## ##     ## ##     ## ##       ##             ## 
-##     ## ##     ## ##     ## ##     ## ##       ##       ##    ## 
-##     ##  #######  ########   #######  ######## ########  ######
-
 	recon_camera = {
 		abbreviation = "rca"
 		category = recon_camera
@@ -1417,18 +1366,7 @@ equipment_modules = {
 		}
         
 		dismantle_cost_ic = 4
-	}
-
-	 ######  ########  ########  ######  ####    ###    ##          ##     ##  #######  ########  ##     ## ##       ########  ######                 ######  ##     ##    ###    ##       ##       
-	##    ## ##     ## ##       ##    ##  ##    ## ##   ##          ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ##               ##    ## ###   ###   ## ##   ##       ##       
-	##       ##     ## ##       ##        ##   ##   ##  ##          #### #### ##     ## ##     ## ##     ## ##       ##       ##                     ##       #### ####  ##   ##  ##       ##       
-	 ######  ########  ######   ##        ##  ##     ## ##          ## ### ## ##     ## ##     ## ##     ## ##       ######    ######     #######     ######  ## ### ## ##     ## ##       ##       
-		  ## ##        ##       ##        ##  ######### ##          ##     ## ##     ## ##     ## ##     ## ##       ##             ##                     ## ##     ## ######### ##       ##       
-	##    ## ##        ##       ##    ##  ##  ##     ## ##          ##     ## ##     ## ##     ## ##     ## ##       ##       ##    ##               ##    ## ##     ## ##     ## ##       ##       
-	 ######  ##        ########  ######  #### ##     ## ########    ##     ##  #######  ########   #######  ######## ########  ######                 ######  ##     ## ##     ## ######## ######## 
-
- 
-  
+	}  
 	high_octane_fuel_small = {
 		abbreviation = "aps"
 		category = plane_special_module_small
@@ -1445,7 +1383,6 @@ equipment_modules = {
         
 		dismantle_cost_ic = 0.5
 	}
-    
 	high_octane_fuel_medium = {
 		abbreviation = "aps"
 		category = plane_special_module_medium
@@ -1461,7 +1398,6 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 0.5
 	}
- 
 	high_octane_fuel_large = {
 		abbreviation = "aps"
 		category = plane_special_module_large
@@ -1475,7 +1411,140 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 0.5
 	}
- 
+
+	## LW ## 
+	ammunition_1 = {
+		abbreviation = "amu1"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 1.5
+			weight = 2   
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_attack = 0.1
+			} 
+		}
+		mission_type_stats = {
+			limit = {
+				air_superiority
+			}
+			multiply_stats = {
+				air_attack = 0.1
+			} 
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_attack = 0.1
+			} 
+		}
+        mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_attack = 0.1
+			}
+		}
+		##xp_cost = 1
+	}
+	ammunition_2 = {
+		abbreviation = "amu2"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 1.5
+			weight = 2  
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_defence = 0.1
+			} 
+		}
+		mission_type_stats = {
+			limit = {
+				air_superiority
+			}
+			multiply_stats = {
+				air_defence = 0.1
+			} 
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_defence = 0.1
+			} 
+		}
+        mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_defence = 0.1
+			}
+		}
+		##xp_cost = 1
+	}
+	ammunition_3 = {
+		abbreviation = "amu3"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 2
+			weight = 2   
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			multiply_stats = {
+				air_attack = 0.15
+			} 
+		}
+		mission_type_stats = {
+			limit = {
+				air_superiority
+			}
+			multiply_stats = {
+				air_attack = 0.1
+				air_defence = 0.1
+			} 
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			multiply_stats = {
+				air_attack = 0.1
+				air_defence = 0.1
+			} 
+		}
+        mission_type_stats = {
+			limit = {
+				strategic_bomber
+			}
+			multiply_stats = {
+				air_attack = 0.1
+				air_defence = 0.1
+			}
+		}
+		##xp_cost = 1
+	}
 	armor_plate_small = {
 		abbreviation = "aps"
 		category = plane_special_module_small
@@ -1605,14 +1674,6 @@ equipment_modules = {
 		
 	}
 
-	 ######  ########  ########  ######  ####    ###    ##          ##     ##  #######  ########  ##     ## ##       ########  ######                ##     ## ######## ########  #### ##     ## ##     ## 
-	##    ## ##     ## ##       ##    ##  ##    ## ##   ##          ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ##               ###   ### ##       ##     ##  ##  ##     ## ###   ### 
-	##       ##     ## ##       ##        ##   ##   ##  ##          #### #### ##     ## ##     ## ##     ## ##       ##       ##                     #### #### ##       ##     ##  ##  ##     ## #### #### 
-	 ######  ########  ######   ##        ##  ##     ## ##          ## ### ## ##     ## ##     ## ##     ## ##       ######    ######     #######    ## ### ## ######   ##     ##  ##  ##     ## ## ### ## 
-		  ## ##        ##       ##        ##  ######### ##          ##     ## ##     ## ##     ## ##     ## ##       ##             ##               ##     ## ##       ##     ##  ##  ##     ## ##     ## 
-	##    ## ##        ##       ##    ##  ##  ##     ## ##          ##     ## ##     ## ##     ## ##     ## ##       ##       ##    ##               ##     ## ##       ##     ##  ##  ##     ## ##     ## 
-	 ######  ##        ########  ######  #### ##     ## ########    ##     ##  #######  ########   #######  ######## ########  ######                ##     ## ######## ########  ####  #######  ##     ## 
-
 	armor_plate_medium = {
 		abbreviation = "apm"
 		category = plane_special_module_medium
@@ -1699,15 +1760,6 @@ equipment_modules = {
 		}
 	}
 
-
-	 ######  ########  ########  ######  ####    ###    ##          ##     ## ########   #######  ##     ## ##       ########  ######                ##          ###    ########   ######   ######## 
-	##    ## ##     ## ##       ##    ##  ##    ## ##   ##          ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ##               ##         ## ##   ##     ## ##    ##  ##       
-	##       ##     ## ##       ##        ##   ##   ##  ##          #### #### ##     ## ##     ## ##     ## ##       ##       ##                     ##        ##   ##  ##     ## ##        ##       
-	 ######  ########  ######   ##        ##  ##     ## ##          ## ### ## ##     ## ##     ## ##     ## ##       ######    ######     #######    ##       ##     ## ########  ##   #### ######   
-		  ## ##        ##       ##        ##  ######### ##          ##     ## ##     ## ##     ## ##     ## ##       ##             ##               ##       ######### ##   ##   ##    ##  ##       
-	##    ## ##        ##       ##    ##  ##  ##     ## ##          ##     ## ##     ## ##     ## ##     ## ##       ##       ##    ##               ##       ##     ## ##    ##  ##    ##  ##       
-	 ######  ##        ########  ######  #### ##     ## ########    ##     ## ########   #######   #######  ######## ########  ######                ######## ##     ## ##     ##  ######   ######## 
-
 	armor_plate_large = {
 		abbreviation = "apl"
 		category = plane_special_module_large
@@ -1792,15 +1844,6 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 5
 	}
-
-
-	######## ##       ########  ######  ######## ########   #######  ##    ## ####  ######   ######  
-	##       ##       ##       ##    ##    ##    ##     ## ##     ## ###   ##  ##  ##    ## ##    ## 
-	##       ##       ##       ##          ##    ##     ## ##     ## ####  ##  ##  ##       ##       
-	######   ##       ######   ##          ##    ########  ##     ## ## ## ##  ##  ##        ######  
-	##       ##       ##       ##          ##    ##   ##   ##     ## ##  ####  ##  ##             ## 
-	##       ##       ##       ##    ##    ##    ##    ##  ##     ## ##   ###  ##  ##    ## ##    ## 
-	######## ######## ########  ######     ##    ##     ##  #######  ##    ## ####  ######   ######  
 
 	bomb_sights_1 = {
 		abbreviation = "bs1"
@@ -2019,14 +2062,6 @@ equipment_modules = {
 		
 	}
 
-	########  ######## ######## ######## ##    ##  ######  #### ##     ## ########    ######## ##     ## ########  ########  ######## ########  ######  
-	##     ## ##       ##       ##       ###   ## ##    ##  ##  ##     ## ##             ##    ##     ## ##     ## ##     ## ##          ##    ##    ## 
-	##     ## ##       ##       ##       ####  ## ##        ##  ##     ## ##             ##    ##     ## ##     ## ##     ## ##          ##    ##       
-	##     ## ######   ######   ######   ## ## ##  ######   ##  ##     ## ######         ##    ##     ## ########  ########  ######      ##     ######  
-	##     ## ##       ##       ##       ##  ####       ##  ##   ##   ##  ##             ##    ##     ## ##   ##   ##   ##   ##          ##          ## 
-	##     ## ##       ##       ##       ##   ### ##    ##  ##    ## ##   ##             ##    ##     ## ##    ##  ##    ##  ##          ##    ##    ## 
-	########  ######## ##       ######## ##    ##  ######  ####    ###    ########       ##     #######  ##     ## ##     ## ########    ##     ######  
-
 	lmg_defense_turret = {
 		abbreviation = "lmgt"
 		category = plane_special_module_defense_turret
@@ -2186,15 +2221,6 @@ equipment_modules = {
 		}
 		
 	}
-	
-	  ######  ########  ########  ######  ####    ###    ##        ##     ##  #######  ########  ##     ## ##       ########  ######  
-	 ##    ## ##     ## ##       ##    ##  ##    ## ##   ##        ###   ### ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	 ##       ##     ## ##       ##        ##   ##   ##  ##        #### #### ##     ## ##     ## ##     ## ##       ##       ##       
-	  ######  ########  ######   ##        ##  ##     ## ##        ## ### ## ##     ## ##     ## ##     ## ##       ######    ######  
-		   ## ##        ##       ##        ##  ######### ##        ##     ## ##     ## ##     ## ##     ## ##       ##             ## 
-	 ##    ## ##        ##       ##    ##  ##  ##     ## ##        ##     ## ##     ## ##     ## ##     ## ##       ##       ##    ## 
-	  ######  ##        ########  ######  #### ##     ## ########  ##     ##  #######  ########   #######  ######## ########  ######
-		
 	earthshaker_bomb_release = {
 		abbreviation = "bbr"
 		category = strat_weapon
@@ -2311,5 +2337,85 @@ equipment_modules = {
 			}
 		}
 		dismantle_cost_ic = 12
+	}
+
+## SP Modules ## 
+	alicorn_slayer_cannon = {
+		abbreviation = "asc"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = { fighter heavy_fighter }
+		add_stats = {
+			build_cost_ic = 8
+			reliability = -0.1
+			air_attack = 25
+			air_defence = 5
+			air_agility = -2
+			weight = 7
+		}
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+		
+		build_cost_resources = {
+			crystals = 5
+		}
+		dismantle_cost_ic = 5
+		xp_cost = 5
+	}
+plane_crystal_projectile_module = {
+		abbreviation = "pcp"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = cas
+
+		add_stats = {	
+			reliability_factor = -0.1
+			build_cost_ic = 8
+		}
+		build_cost_resources = {
+			crystals = 5
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			cas
+			attack_logistics
+			naval_bomber
+		}
+		mission_type_stats = {
+			limit = {
+				cas
+			}
+			add_stats = {
+				air_agility = -22
+				weight = 7
+				air_ground_attack = 20
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			add_stats = {
+				air_agility = -22
+				weight = 7
+				air_ground_attack = 20
+			}
+		}
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+			}
+			add_stats = {
+				air_agility = -22
+				weight = 7
+				naval_strike_attack = 14
+			}
+			add_average_stats = {
+				naval_strike_targetting = 5
+			}
+		}
+		dismantle_cost_ic = 0.5
 	}
 }
