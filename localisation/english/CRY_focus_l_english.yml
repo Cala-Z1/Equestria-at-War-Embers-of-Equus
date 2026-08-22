@@ -2,65 +2,64 @@
 
  # ── POLITICAL TREE ──────────────────────────────────────────────────────────
 
- The_Crystal_Fair:0 "The Crystal Fair"
+ The_Crystal_Fair:0 "0 The Crystal Fair !"
  The_Crystal_Fair_desc:0 "The Crystal Fair is the heartbeat of the Crystal Empire — an ancient tradition that spreads the love and light of the Crystal Ponies outward through the Crystal Heart. Reviving it fully after Sombra's long dark rule will be a powerful message: the Empire endures, and it shines brighter than ever."
 
- The_Crystalling_Anniversary:0 "The Crystalling"
+ The_Crystalling_Anniversary:0 "0 The Crystalling !"
  The_Crystalling_Anniversary_desc:0 "A sacred ceremony performed when a new foal is born in the Crystal Empire. Their new light amplifies the Crystal Heart, filling the Empire with warmth. By formally reviving this tradition, we celebrate new life and signal that the Crystal Ponies have a future worth celebrating."
 
- Mi_Amore_Family:0 "The Mi Amore Cadenza"
+ Mi_Amore_Family:0 "1 The Mi Amore Cadenza !"
  Mi_Amore_Family_desc:0 "Princess Cadance — Mi Amore Cadenza — and her husband Shining Armor have poured their love into protecting this Empire. Their bond is the foundation upon which the Crystal Empire's recovery stands. We should honour and strengthen the royal family's place at the heart of our nation."
 
- The_Grand_Festival:0 "The Grand Crystal Festival"
+ The_Grand_Festival:0 "0 The Grand Crystal Festival !"
  The_Grand_Festival_desc:0 "A grand celebration spanning the entire Crystal Empire — markets, tournaments, art, and music filling every crystal street. The festival serves a dual purpose: it lifts the spirits of ponies still haunted by Sombra's shadow, and it projects an image of prosperity and confidence to the outside world."
 
- Winter_Solstice:0 "The Winter Solstice Rite"
- Winter_Solstice_desc:0 "In the depths of winter, the Crystal Empire has always lit the darkness. The Winter Solstice Rite harnesses the Crystal Heart's warmth to push back the bitter northern cold, a ceremony that once kept the windigoes at bay. Restoring it in full will remind our ponies what they are truly capable of."
+ Winter_Solstice:0 "0 Celestia's advise !"
+ Winter_Solstice_desc:0 ""
 
- Empire_Reborn:0 "Empire Reborn"
+ Empire_Reborn:0 "1 Empire Reborn !"
  Empire_Reborn_desc:0 "The Crystal Empire is no longer a shadow of its former self. Through the efforts of its ponies and the guidance of Princess Cadance, a new chapter begins. Let the light of the Crystal Heart shine as a beacon — not just for the Empire, but for all of Equus."
 
- miamore_forever:0 "Love Eternal"
+ miamore_forever:0 "1 Love Eternal !"
  miamore_forever_desc:0 "The love between Princess Cadance and Shining Armor is not merely personal — it is political and magical. Their bond has broken Sombra's dark enchantments before, and channelling that power into the governance of the Empire will guide us through whatever trials lie ahead. Love is, and always shall be, our greatest weapon."
 
- Referendum:0 "A Referendum on the Future"
+ Referendum:0 "0 A Referendum on the Future !"
  Referendum_desc:0 "The Crystal Ponies have long been subject to the will of others — first Sombra, then Equestria's guidance. A referendum gives them a voice in determining their own destiny. Whatever the outcome, the act itself is a declaration: the Crystal Empire governs itself."
 
- Subordination:0 "Ties to Equestria"
+ Subordination:0 "G Ties to Equestria !"
  Subordination_desc:0 "Our relationship with Equestria is complicated. Princess Celestia and Princess Luna protected us and sent Cadance and Shining Armor to our aid. But the Crystal Empire has its own soul. We must define the terms of our alliance clearly — friendship between equals, not subordination."
 
- Find_The_Sombra_Supporters:0 "Root Out the Shadow's Agents"
+ Find_The_Sombra_Supporters:0 "R Root Out the Shadow's Agents !"
  Find_The_Sombra_Supporters_desc:0 "Even in defeat, King Sombra left agents behind — Crystal Ponies who served him willingly, enchanted thralls who may still carry out his will, and dark magic artefacts hidden throughout the Empire. Intelligence services must be reorganised to find and neutralise these threats before they can regroup."
 
- Reaching_Beyond_the_Empire:0 "Reaching Beyond Our Borders"
+ Reaching_Beyond_the_Empire:0 "G Reaching Beyond Our Borders !"
  Reaching_Beyond_the_Empire_desc:0 "The Crystal Empire cannot stand alone forever. We must reach outward — forming bonds with neighbouring nations, establishing trade routes, and making our presence felt on the international stage. The age of isolation under Sombra's rule is over."
 
- Social_Welfare:0 "Crystal Welfare Programme"
+ Social_Welfare:0 "B Crystal Welfare Programme !"
  Social_Welfare_desc:0 "Centuries of enslavement left deep wounds. Many Crystal Ponies still struggle with poverty, trauma, and the loss of entire generations of history. A robust social welfare programme — clinics, schools, housing — is not just compassion. It is the foundation of a stable and productive Empire."
 
- laissez_faire:0 "Free Markets, Free Ponies"
+ laissez_faire:0 "B Free Markets, Free Ponies !"
  laissez_faire_desc:0 "The Empire's economic revival depends on unleashing the entrepreneurial spirit of its ponies. By reducing government control and allowing free trade to flourish, crystal craftsmen, merchants, and artisans can build prosperity from the ground up — as they did in the age before Sombra."
 
- Vist_To_Stalliongrad:0 "Diplomatic Visit to Stalliongrad"
+ Vist_To_Stalliongrad:0 "G Diplomatic Visit to Stalliongrad !"
  Vist_To_Stalliongrad_desc:0 "Stalliongrad, the great industrial city of the north, sits close to our borders and holds significant influence in the region. A diplomatic mission may prove fruitful — or reveal hidden tensions. Either way, it is better to know where we stand with our neighbours."
 
- The_New_Crystal_Order:0 "A New Crystal Order"
+ The_New_Crystal_Order:0 "B A New Crystal Order !"
  The_New_Crystal_Order_desc:0 "The old ways — whether Sombra's dark iron rule or the loose traditions of antiquity — are not sufficient for the Empire we are building. A new constitutional order, with clear laws and institutions, will ensure that no one pony can ever again seize absolute power over the Crystal Ponies."
 
- Strike_at_Sombra_Supporters:0 "Strike at the Shadow Remnants"
+ Strike_at_Sombra_Supporters:0 "R Strike at the Shadow Remnants !"
  Strike_at_Sombra_Supporters_desc:0 "We have found them. Now we act. Sombra's remaining agents and supporters are to be arrested, tried, and removed from any position of influence. This is not vengeance — it is necessity. The Crystal Empire cannot build its future while the past lurks in its shadows."
 
- Crystal_Court_Consolidation:0 "Consolidate the Crystal Court"
+ Crystal_Court_Consolidation:0 "0 Consolidate the Crystal Court !"
  Crystal_Court_Consolidation_desc:0 "The Crystal Empire's nobility and court were deeply infiltrated by Sombra's influence. Some nobles collaborated, others survived by staying silent. Consolidating loyal ponies in positions of authority — and removing those with divided loyalties — will give our institutions the clarity they need to function."
 
- Reasserting_Royal_Authority:0 "Royal Authority Reasserted"
+ Reasserting_Royal_Authority:0 "1 Royal Authority Reasserted !"
  Reasserting_Royal_Authority_desc:0 "Princess Cadance's authority must be made unambiguous. In the power vacuum that followed Sombra's defeat, various factions have tested boundaries. A clear reassertion of royal authority — backed by law, not just force — will settle these disputes and establish who leads the Crystal Empire."
 
- operation_Break_Shadow:0 "Operation: Break Shadow"
+ operation_Break_Shadow:0 "R Operation: Break Shadow !"
  operation_Break_Shadow_desc:0 "The final dismantling of King Sombra's legacy. Hidden chambers sealed. Dark magic artefacts destroyed. The last of his agents dealt with. The Crystal Empire is, at last, truly free. The shadow that once hung over every crystal pony is broken — and it will never return."
 
  # ── INDUSTRY ROOT ────────────────────────────────────────────────────────────
-
  ind_1:0 "Crystal Economic Initiative"
  ind_1_desc:0 "The Crystal Empire's economy was shattered under Sombra's rule. Raw materials were hoarded, craftsmanship was suppressed, and the crystal ponies' legendary artisan skills were weaponised for war rather than prosperity. We must choose our path to recovery — and commit to it fully."
 
@@ -158,3 +157,36 @@
  mastery_of_rocketry:0 "Mastery of Rocketry"
  mastery_of_rocketry_desc:0 "Crystal-tipped rockets, enchanted for guidance and penetrating force, represent the next leap in aerial and anti-air warfare. A research programme to master this technology will put the Crystal Empire ahead of rivals who are still catching up with conventional aviation."
 
+# ── ToolTips ─────────────────────────────────────────────────────────────────
+  ind_left_tt:0 "Adds Y+2%! Consumer Goods and G+10%! Civilian Factory Building speed \n ifY Strike at Sombra Supporters:! is completed then add G+5%! more civilian factory building speed" 
+
+  civ_mining_expansion_tt:0 "Adds G+10%! Resource Gain Efficiency \n ifY Strike at Sambra Supporters:! is completed then add G+10%! Resource Gain Efficiency"
+
+ laissez_faire_tt:0 "Y If the Referendum path was chosen: !Adds G6 W  Civilian Factories to the Crystal Heartland -----------------------------------\nY If the Subordination path was chosen: !Adds G3 W  Civilian Factories to the Crystal Heartland\n Reduces Civilian Factory Construction Speed by R-20%!"
+ 
+ Social_Welfare_tt:0 "Y If the Referendum path was chosen: !Adds G9 W  Military Factories to the Crystal Heartland -----------------------------------\nY If the Subordination path was chosen: !Adds G4 W  Military Factories to the Crystal Heartland\n Reduces Military Factory Construction Speed by R-20% !"
+ The_New_Crystal_Order_tt:0 "Y If the Referendum path was chosen: !Adds G4 W  Military Factories \nY If the Subordination path was chosen: !Modify "
+ 
+ civ_construction_corps_tt:0 "Adds G+5% !Base Efficiency Base to YFire Year Plan! if YStrike at Sombra Supporters:! is completed an additional G+5%! will be added"
+ 
+ civ_growth_tt:0 "-----------------------------------\n Adds G+15%! Efficiency Growth to YFive Year Plan!"
+
+ civ_power_grid_tt:0 "-----------------------------------\n Adds G+5%! Efficiency Cap to YFive Year Plan!"
+ 
+ civ_economic_zone_tt:0 "-----------------------------------\n Adds G+15%! Military Factory Building Speed, and Y+2%! Consumer Goods to: YFive Year Plan!"
+
+ civ_agricultural_reform_tt:0 "-----------------------------------\n Adds G+2.5%! Factory Output, and G+2.5%! Production Efficiency Cap to: YFive Year Plan!"
+ 
+ civ_export_market_tt:0 "Adds G+10%! Factory Output, and G+5%! Production Efficiency Cap to: YFive Year Plan! \n If YStrike at Sombra Supporters! is completed add G+15%! Military Factory Building Speed"
+ 
+ civ_industrial_academy_tt:0 "Adds G+5%! Research Speed to: YFive Year Plan!"
+
+ civ_artisan_works_tt:0 "Adds G+10%! Civilian Factory Building Speed to: YFive Year Plan!"
+
+ civ_second_push_tt:0 "Adds G+60%! Military Building Speed, and Removes R-50%! Civilian Building Speed to: YFive Year Plan!"
+ 
+ civ_heart_economy_tt:0 "Modify YFive Year Plan! by \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: G+10%! \n Production Output: G+15%! \n Military Factory Building Speed: G+10%!"
+
+ civ_trade_empire_tt:0 "Adds G+15%! Resource Gain Efficiency to: YFive Year Plan!"
+
+ tab_tt:0 "-----------------------------------\n"

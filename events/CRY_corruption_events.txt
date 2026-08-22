@@ -1,144 +1,71 @@
+# Crystal Corruption Events
+
 add_namespace = CRY_corruption
 
-# ── Sombra's Influence Grows (corruption increases) ───────────────────────
+# Event 1 - Sombra Defeated / Crystal Heart Restored
 country_event = {
 	id = CRY_corruption.1
 	title = CRY_corruption.1.t
 	desc = CRY_corruption.1.d
-	picture = GFX_report_event_crystal_empire
+	picture = GFX_event_crystal_heart
 
 	is_triggered_only = yes
-	hidden = no
 
 	trigger = {
 		tag = CRY
+		check_variable = { CRY_corruption_level < 1 }
 		NOT = { has_country_flag = CRY_sombra_defeated }
 	}
 
 	option = {
 		name = CRY_corruption.1.a
-		add_to_variable = { CRY_corruption_level = 10 }
-		clamp_variable = {
-			var = CRY_corruption_level
-			min = 0
-			max = 100
-		}
-		add_stability = -0.03
+		CRY_sombra_defeated_effect = yes
+		custom_effect_tooltip = CRY_sombra_defeated_tt
 	}
 }
 
-# ── Shadow Spreads Through the Mines ─────────────────────────────────────
+# Event 2 - Critical Warning
 country_event = {
 	id = CRY_corruption.2
 	title = CRY_corruption.2.t
 	desc = CRY_corruption.2.d
-	picture = GFX_report_event_crystal_empire
+	picture = GFX_event_sombra_shadow
 
 	is_triggered_only = yes
 
 	trigger = {
 		tag = CRY
+		check_variable = { CRY_corruption_level > 74 }
 		NOT = { has_country_flag = CRY_sombra_defeated }
-		check_variable = { CRY_corruption_level > 40 }
 	}
 
 	option = {
-		name = CRY_corruption.2.a # Do nothing
-		add_to_variable = { CRY_corruption_level = 8 }
-		clamp_variable = { var = CRY_corruption_level min = 0 max = 100 }
-		add_political_power = -30
-	}
-
-	option = {
-		name = CRY_corruption.2.b # Dispatch guards
-		trigger = { has_war = no }
-		add_to_variable = { CRY_corruption_level = 3 }
-		clamp_variable = { var = CRY_corruption_level min = 0 max = 100 }
-		add_manpower = -500
-		add_political_power = -50
+		name = CRY_corruption.2.a
+		add_stability = -0.05
+		custom_effect_tooltip = CRY_critical_warning_tt
 	}
 }
 
-# ── Critical Corruption Warning ───────────────────────────────────────────
+# Event 3 - Max Corruption debuffs kick in
 country_event = {
 	id = CRY_corruption.3
 	title = CRY_corruption.3.t
 	desc = CRY_corruption.3.d
-	picture = GFX_report_event_crystal_empire
+	picture = GFX_event_sombra_shadow
 
 	is_triggered_only = yes
 
 	trigger = {
 		tag = CRY
-		check_variable = { CRY_corruption_level > 79 }
-	}
-
-	immediate = {
-		# Apply debuffs via idea swap
+		check_variable = { CRY_corruption_level > 99 }
+		NOT = { has_country_flag = CRY_sombra_defeated }
 	}
 
 	option = {
 		name = CRY_corruption.3.a
-		add_stability = -0.05
-		add_war_support = -0.05
+		add_stability = -0.10
+		add_war_support = -0.10
 		add_political_power = -50
-	}
-}
-
-# ── Random monthly corruption increase ───────────────────────────────────
-country_event = {
-	id = CRY_corruption.4
-	title = CRY_corruption.4.t
-	desc = CRY_corruption.4.d
-	picture = GFX_report_event_crystal_empire
-
-	trigger = {
-		tag = CRY
-		NOT = { has_country_flag = CRY_sombra_defeated }
-		check_variable = { CRY_corruption_level > 5 }
-	}
-
-	mean_time_to_happen = {
-		days = 120
-		modifier = {
-			factor = 0.5
-			check_variable = { CRY_corruption_level > 70 }
-		}
-		modifier = {
-			factor = 2.0
-			check_variable = { CRY_corruption_level < 30 }
-		}
-		modifier = {
-			factor = 0.7
-			has_war = yes
-		}
-	}
-
-	option = {
-		name = CRY_corruption.4.a
-		add_to_variable = { CRY_corruption_level = 5 }
-		clamp_variable = { var = CRY_corruption_level min = 0 max = 100 }
-	}
-}
-
-# ── Sombra Defeated — Crystal Heart Restored ─────────────────────────────
-country_event = {
-	id = CRY_corruption.10
-	title = CRY_corruption.10.t
-	desc = CRY_corruption.10.d
-	picture = GFX_report_event_crystal_empire
-
-	is_triggered_only = yes
-
-	option = {
-		name = CRY_corruption.10.a
-		add_stability = 0.15
-		add_war_support = 0.10
-		add_political_power = 100
-		add_ideas = CRY_crystal_heart_restored
-		remove_ideas = CRY_sombra_influence_low
-		remove_ideas = CRY_sombra_influence_high
-		remove_ideas = CRY_sombra_influence_critical
-		set_variable = { CRY_corruption_level = 0 }
+		custom_effect_tooltip = CRY_max_corruption_tt
 	}
 }

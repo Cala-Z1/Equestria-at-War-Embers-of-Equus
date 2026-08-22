@@ -18,7 +18,12 @@ script_enum_equipment_bonus_type = {
 	infantry_equipment_2
 	infantry_equipment_3
 	infantry_equipment_4
-
+	magical_equipment
+	magical_equipment_0
+	magical_equipment_1
+	magical_equipment_2
+	magical_equipment_3
+	magical_equipment_4
 	
 	## Artillery Equipment ##
 	artillery_equipment
@@ -48,6 +53,10 @@ script_enum_equipment_bonus_type = {
 	anti_air_equipment_1
 	anti_air_equipment_2
 	anti_air_equipment_3
+	magical_tank_equipment
+	magical_tank_equipment_1
+	magical_artillery_equipment
+	magical_artillery_equipment_1
 
 	## Anti Tank Equipment ##
 	anti_tank

@@ -7,4 +7,9 @@ spriteTypes = {
 		name = GFX_Cadence
 		texturefile = "gfx/leaders/CRY/Cadence.tga"
 	}
+# ── CRY Characters ────────────────────────────────────────────────────────────
+	spriteType = {
+		name = GFX_Mistmane
+		texturefile = "gfx/leaders/CRY/Advisor/Mistmane.tga"
+	}
 }

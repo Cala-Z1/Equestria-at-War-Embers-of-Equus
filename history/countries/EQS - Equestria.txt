@@ -31,10 +31,10 @@ create_country_leader = {
 	traits = {
 	}
 }
-create_faction_from_template = faction_template_United_Ponies_Alliance
-add_to_faction = CRY
-add_to_faction = STG
-add_to_faction = EQC
+# create_faction_from_template = faction_template_United_Ponies_Alliance
+# add_to_faction = CRY
+# add_to_faction = STG
+# add_to_faction = EQC
 	set_autonomy = {
 		target = CRY
 		autonomous_state = autonomy_colony

@@ -15,7 +15,26 @@
 		cost = 5
 		x = 40
 		y = 0
-		completion_reward = { }
+		completion_reward = {
+		344 = { add_building_construction = {
+				type = infrastructure
+				level = 10
+				instant_build = yes
+				}
+		 	}
+		345 = { add_building_construction = {
+				type = infrastructure
+				level = 10
+				instant_build = yes
+				}
+		 	}
+		53 = { add_building_construction = {
+				type = infrastructure
+				level = 10
+				instant_build = yes
+				}
+		 	}
+		}
 	}
 	
 	## LEFT SIDE IND ##
@@ -31,7 +50,31 @@
 		}
 		x = 35
 		y = 1
-		completion_reward = { }
+		completion_reward = { 
+			custom_effect_tooltip = ind_left_tt
+			else = {
+				add_to_variable = {
+					CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
+				}
+				add_to_variable = {
+					CRY_production_speed_industrial_complex_factor_variable = 0.1
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = Strike_at_Sombra_Supporters
+				}
+				add_to_variable = {
+					CRY_production_speed_industrial_complex_factor_variable = 0.05
+				}
+				add_to_variable = {
+					CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
+				}
+				add_to_variable = {
+					CRY_production_speed_industrial_complex_factor_variable = 0.1
+			}
+			}
+		}
 	}
 	focus = {
 		id = civ_mining_expansion
@@ -45,7 +88,37 @@
 		cost = 5
 		x = 32
 		y = 2
-		completion_reward = { }
+		completion_reward = { 
+			custom_effect_tooltip = civ_mining_expansion_tt
+			if = {
+				limit = {
+					has_completed_focus = Strike_at_Sombra_Supporters
+				}
+				add_to_variable = {
+					CRY_five_year_plan_resources_gain_efficiency_variable = 0.1
+				}
+				custom_effect_tooltip = tab_tt
+				add_resource = {
+					type = crystal
+					amount = 150
+					state = 98
+				}
+				add_to_variable = {
+					CRY_five_year_plan_resources_gain_efficiency_variable = 0.1
+				}
+			}
+			else = {
+				custom_effect_tooltip = tab_tt
+				add_resource = {
+					type = crystal
+					amount = 150
+					state = 98
+				}
+				add_to_variable = {
+					CRY_five_year_plan_resources_gain_efficiency_variable = 0.1
+				}
+			}
+		}
 	}
 	focus = {
 		id = civ_artisan_works
@@ -59,7 +132,27 @@
 		cost = 5
 		x = 38
 		y = 2
-		completion_reward = { }
+		completion_reward = {
+			146 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+				}
+			}
+			145 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3 
+					instant_build = yes
+				}
+			}
+			add_to_variable = {
+				CRY_production_speed_industrial_complex_factor_variable = 0.1
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = civ_artisan_works_tt
+		 }
 	}
 	focus = {
 		id = civ_construction_corps
@@ -70,10 +163,25 @@
 		cost = 5
 		x = 35
 		y = 3
-		completion_reward = { }
+		completion_reward = { 
+			custom_effect_tooltip = civ_construction_corps_tt
+			if = {
+				limit = {
+					has_completed_focus = Strike_at_Sombra_Supporters
+					add_to_variable = {
+						CRY_five_year_plan_base_variable = 0.10
+					}
+				}
+			}
+			else = {
+				add_to_variable = {
+					CRY_five_year_plan_base_variable = 0.05
+				}
+			}
+		}
 	}
 	focus = {
-		id = civ_infrastructure
+		id = civ_growth
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		prerequisite = {
@@ -84,7 +192,19 @@
 		}
 		x = 34
 		y = 4
-		completion_reward = { }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = civ_growth_tt
+			add_to_variable = {
+				CRY_five_year_plan_gain_variable = 0.15
+			}
+		 }
 	}
 	focus = {
 		id = civ_power_grid
@@ -94,22 +214,78 @@
 			focus = civ_construction_corps
 		}
 		mutually_exclusive = {
-			focus = civ_infrastructure
+			focus = civ_growth
 		}
 		x = 36
 		y = 4
-		completion_reward = { }
+		completion_reward = { 
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = civ_power_grid_tt
+			add_to_variable = {
+				CRY_five_year_plan_cap_variable = 0.05
+			}
+			
+		}
 	}
 	focus = {
 		id = civ_economic_zone
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		prerequisite = {
-			focus = civ_power_grid focus = civ_infrastructure
+			focus = civ_power_grid focus = civ_growth
 		}
 		x = 35
 		y = 5
-		completion_reward = { }
+		completion_reward = {
+			add_tech_bonus = {
+				name = cry_ind_1
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+			add_research_slot = 1
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_to_variable = {
+				CRY_production_speed_arms_factory_factor_variable = 0.15
+			}
+			add_to_variable = {
+				CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
+			}
+			custom_effect_tooltip = civ_economic_zone_tt
+		 }
 	}
 	focus = {
 		id = civ_agricultural_reform
@@ -120,7 +296,52 @@
 		}
 		x = 32
 		y = 5
-		completion_reward = { }
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			add_resource = {
+					type = crystals
+					amount = 150
+					state = 149
+				}
+			add_resource = {
+				type = steel
+				amount = -320
+				state = 64
+			}
+			add_resource = {
+				type = tungsten
+				amount = -280
+				state = 64
+			}
+			add_to_variable = {
+				CRY_five_year_plan_output_variable = 0.025
+			}
+			add_to_variable = {
+				CRY_five_year_plan_cap_variable = 0.025
+			}
+			custom_effect_tooltip = civ_agricultural_reform_tt
+		 }
 	}
 	focus = {
 		id = civ_export_market
@@ -131,7 +352,74 @@
 		}
 		x = 38
 		y = 5
-		completion_reward = { }
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = Strike_at_Sombra_Supporters
+				}
+				add_to_variable = { 
+					CRY_production_speed_arms_factory_factor_variable = 0.15
+				}
+				add_to_variable = {
+					CRY_five_year_plan_cap_variable = 0.05
+				}
+				add_to_variable = {
+					CRY_five_year_plan_output_variable = 0.10
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			else = {
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}	
+				add_to_variable = {
+					CRY_five_year_plan_cap_variable = 0.05
+				}
+				add_to_variable = {
+					CRY_five_year_plan_output_variable = 0.10
+				}				
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = civ_export_market_tt
+		 }
 	}
 	focus = {
 		id = civ_industrial_academy
@@ -142,7 +430,25 @@
 		}
 		x = 35
 		y = 6
-		completion_reward = { }
+		completion_reward = { 
+			add_tech_bonus = {
+				name = cry_ind_2
+				bonus = 1
+				uses = 2 
+				category = electronics
+			}
+			add_tech_bonus = {
+				name = cry_ind_3
+				bonus = 1 
+				uses = 1 
+				category = industry
+			}
+			add_to_variable = {
+				CRY_research_speed_factor_variable = 0.05
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = civ_industrial_academy_tt
+		}
 	}
 	focus = {
 		id = civ_production_surge
@@ -153,7 +459,9 @@
 		}
 		x = 35
 		y = 7
-		completion_reward = { }
+		completion_reward = {
+			add_ideas = low_economic_mobilisation
+		}
 	}
 	focus = {
 		id = civ_heart_district
@@ -223,9 +531,20 @@
 		prerequisite = {
 			focus = civ_industrial_complex
 		}
+		available = {
+			date > 1008.10.1
+		}
 		x = 35
 		y = 10
-		completion_reward = { }
+		completion_reward = {
+			add_to_variable = {
+				CRY_production_speed_industrial_complex_factor_variable = -0.5
+			}
+			add_to_variable = {
+				CRY_production_speed_arms_factory_factor_variable = 0.6
+			}
+			custom_effect_tooltip = civ_second_push_tt
+		 }
 	}
 	focus = {
 		id = civ_economic_supremacy
@@ -242,7 +561,44 @@
 		}
 		x = 35
 		y = 11
-		completion_reward = { }
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 6
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 6
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 6
+					instant_build = yes
+				}
+			}
+		 }
 	}
 	focus = {
 		id = civ_trade_empire
@@ -259,7 +615,49 @@
 		}		
 		x = 38
 		y = 11
-		completion_reward = { }
+		completion_reward = { 
+			add_to_variable = {
+				CRY_five_year_plan_resources_gain_efficiency_variable = 0.15
+			}
+			add_tech_bonus = {
+				name = ind_4
+				bonus = 4
+				uses = 1
+				technology = excavation1
+			}
+			add_tech_bonus = {
+				name = ind_4
+				bonus = 4
+				uses = 1
+				technology = excavation2
+			}
+			add_tech_bonus = {
+				name = ind_4
+				bonus = 4
+				uses = 1
+				technology = excavation3
+			}
+			add_tech_bonus = {
+				name = ind_4
+				bonus = 4
+				uses = 1
+				technology = excavation4
+			}
+			add_tech_bonus = {
+				name = ind_4
+				bonus = 4
+				uses = 1
+				technology = excavation5
+			}
+			custom_effect_tooltip = tab_tt
+			add_resource = {
+				type = crystals 
+				amount = 200
+				state = 344
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = civ_trade_empire_tt
+		}
 	}
 	focus = {
 		id = civ_heart_economy
@@ -276,7 +674,21 @@
 		}	
 		x = 32
 		y = 11
-		completion_reward = { }
+		completion_reward = {
+			add_to_variable = {
+				CRY_five_year_plan_cap_variable = 0.5
+			}
+			add_to_variable = {
+				CRY_five_year_plan_output_variable = 0.15
+			}
+			add_to_variable = {
+				CRY_five_year_plan_gain_variable = 0.10
+			}
+			add_to_variable = {
+				CRY_production_speed_arms_factory_factor_variable = 0.10
+			}
+			custom_effect_tooltip = civ_heart_economy_tt
+		 }
 	}
 	
 	## RIGHT SIDE IND ##
@@ -635,7 +1047,10 @@
 		}
 		x = 19
 		y = 2
-		completion_reward = { }
+		completion_reward = {
+			add_political_power = 200
+			country_event = CRY.1
+		 }
 	}
 	focus = {
 		id = The_Grand_Festival
@@ -687,7 +1102,14 @@
 		x = 21
 		y = 2
 		completion_reward = { 
-
+			custom_effect_tooltip = Empire_Reborn_tt
+			add_to_variable = {
+				CRY_research_speed_factor_variable = -0.05
+			}
+			swap_ideas = {
+				add_idea = Sombra_Scare_idea_2
+				remove_idea = Sombra_Scare
+			}
 		}
 	}
 	focus = {
@@ -924,6 +1346,7 @@
      		set_country_flag = CRY_sombra_purged
 			custom_effect_tooltip = CRY_Strike_at_Sombra_Supporters_tt
 			remove_ideas = Sombra_Scare 
+			remove_idea = Sombra_Scare_idea_2
 			}
 	}
 	focus = {

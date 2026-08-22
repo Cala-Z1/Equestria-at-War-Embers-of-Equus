@@ -72,6 +72,7 @@ add_ideas = {
 	closed_market
 	Sombra_Scare
 }
+## 5 YEAR PLAN ##
 add_dynamic_modifier = {
 	modifier = Five_Year_Plan
 }
@@ -87,9 +88,27 @@ set_variable = {
 set_variable = {
 	CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
 }
+set_variable = {
+	CRY_five_year_plan_resources_gain_efficiency_variable = -0.10
+}
+set_variable = {
+	CRY_five_year_plan_cap_variable = 0
+}
+set_variable = {
+	CRY_five_year_plan_base_variable = 0
+}
+set_variable = {
+	CRY_five_year_plan_gain_variable = 0
+}
+set_variable = {
+	CRY_five_year_plan_output_variable = 0
+}
 recruit_character = CRY_princess_mi_amore_cadenza
 recruit_character = CRY_Crystal_Court
 recruit_character = CRY_general_shining_armor
+recruit_character = CRY_Obsidian_Limelight
+recruit_character = CRY_spike
+recruit_character = CRY_trade_guy
 set_rule = {
 	can_generate_female_aces = yes
 	can_generate_female_unit_leaders  = yes

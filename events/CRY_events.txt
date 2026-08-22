@@ -1,0 +1,16 @@
+country_event = {
+	id = CRY.1
+	title = CRY.1.t
+	desc = CRY.1.d
+	picture = GFX_report_event_crystal_empire
+	hidden = no
+	is_triggered_only = yes
+	trigger = {
+		has_completed_focus = Winter_Solstice
+		tag = CRY
+	}
+	option = {
+		name = CRY.1.a
+		add_stability = 0.01
+	}
+}

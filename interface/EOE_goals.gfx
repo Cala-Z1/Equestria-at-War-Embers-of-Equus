@@ -1,4 +1,22 @@
 spriteTypes = {
+	## Gen ## 
+	spriteType = {
+		name = generic_political_pressure
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_winter_sun.dds"
+	}
+	spriteType = {
+		name = generic_political_pressure_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_winter_sun.dds"
+	}
+	spriteType = {
+		name = gen
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_winter_sun.dds"
+	}
+	spriteType = {
+		name = gen_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_winter_sun.dds"
+	}
+
 	## CRYSTAL EMPIRE ## 
 	spriteType = {
 		name = GFX_The_Crystal_Fair

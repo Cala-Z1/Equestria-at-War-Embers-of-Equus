@@ -1,4 +1,5 @@
 characters = {
+	# Leaders #
 	CRY_princess_mi_amore_cadenza = { 
 		name = CRY_Cadence
 		portraits = {
@@ -38,7 +39,49 @@ characters = {
 			traits = { popular_figurehead }
 		}
 	}
-	    CRY_general_shining_armor = {
+	# Advisors #
+	CRY_Obsidian_Limelight = {
+		name = Obsidian_Limelight
+		portraits = {
+			civilian = {
+				large = "gfx/leader/CRY/Advisor/ObsidianLimelight.dds"
+			}
+		}
+		advisor = {
+			allowed = {
+				tag = CRY
+			}
+			slot = political_advisor
+			traits = { SWI_intelligence_officer }
+		}
+	}
+	CRY_spike = {
+		name = CRY_spike
+		advisor = {
+			slot = political_advisor
+			allowed  = {
+					tag  = CRY
+				}
+				traits  = { JAP_hiroshi_oshima_trait }
+				cost  = 100.000
+			}
+		portraits={
+			civilian = {
+				large = "gfx/leader/CRY/Advisor/ObsidianLimelight.dds"
+			}
+		}
+	}
+	CRY_trade_guy = {
+		name = CRY_trade_guy
+		advisor = {
+			slot = political_advisor
+			allowed  = {
+					tag  = CRY
+				}
+				traits  = { backroom_backstabber }
+			}
+		}
+	CRY_general_shining_armor = {
         name = CRY_Shining_Armor
         portraits = {
             army = {

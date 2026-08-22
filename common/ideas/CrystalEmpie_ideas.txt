@@ -78,8 +78,27 @@ ideas = {
 			removal_cost = -1
 			picture = EQS_harmonic_stagnation2
 			modifier = {
+				stability_weekly = -0.002
+				weekly_manpower = -10000
+				power_balance_weekly = -0.010
+			}
+		}
+	}
+	country = {
+		Sombra_Scare_idea_2 = {
+			allowed = {
+				always = no
+			}
+			available = {
+				NOT = {
+					has_completed_focus = Strike_at_Sombra_Supporters
+				}
+			}
+			removal_cost = -1
+			picture = EQS_harmonic_stagnation2
+			modifier = {
 				stability_weekly = -0.001
-				weekly_manpower = -1000
+				weekly_manpower = -5000
 				power_balance_weekly = -0.005
 			}
 		}
@@ -141,5 +160,22 @@ ideas = {
 				local_resources_factor = 0.05
 			}
 		}	
+	}
+	## Leaders ##
+	theorist_production = {
+		Erich_Von_Talonitz = {
+			picture = GFX_Erich_Von_Talonitz
+			allowed = {
+				tag = CRY
+			}
+			traits = { war_industrialist }
+		}
+		Mistmane = {
+			picture = GFX_Mistmane
+			allowed = {
+				tag = CRY
+			}
+			traits = { captain_of_industry }
+		}
 	}
 }
