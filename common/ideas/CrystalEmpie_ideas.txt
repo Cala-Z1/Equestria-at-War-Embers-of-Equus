@@ -128,7 +128,7 @@ ideas = {
 				always = no
 			}
 			removal_cost = -1
-			picture = CRY_communist_crystals
+			picture = CRY_crystal_royal_airforce
 			modifier = {
 				experience_gain_air = -0.05
 				experience_gain_air_factor = -0.15

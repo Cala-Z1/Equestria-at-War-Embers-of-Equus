@@ -1454,4 +1454,24 @@ technologies = {
 			factor = 0
 		}
 	} 
+	stronghold_network_tech = {
+		research_cost = -1
+		allow = {
+			always = no
+		}
+		enable_building = {
+			building = stronghold_network
+			level = 1
+		}
+	}
+	land_multi_charge_large_caliber_gun_tech = {
+				research_cost = -1
+		allow = {
+			always = no
+		}
+		enable_building = {
+			building = mega_gun_emplacement
+			level = 1
+		}
+	}
 }

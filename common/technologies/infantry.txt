@@ -314,7 +314,6 @@ technologies = {
 		special_project_specialization = { specialization_land }
 		enable_equipments = {
 			infantry_equipment_0
-			transport_plane_equipment_1
 		}
 				
 		enable_subunits = {

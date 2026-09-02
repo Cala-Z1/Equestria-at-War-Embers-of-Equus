@@ -1048,6 +1048,7 @@ technologies = {
 			aircraft_cannon_1_1x
 			aircraft_cannon_1_2x
 			ammunition_1
+			ammunition_1large
 		}
 		
 		research_cost = 1
@@ -1089,6 +1090,7 @@ technologies = {
 			cannon_defense_turret
 			cannon_defense_turret_2x
 			ammunition_2
+			ammunition_2large
 		}
 		
 		research_cost = 1.5
@@ -1120,6 +1122,7 @@ technologies = {
 			cannon_defense_turret
 			cannon_defense_turret_2x
 			ammunition_3
+			ammunition_3large
 		}
 		
 		research_cost = 1

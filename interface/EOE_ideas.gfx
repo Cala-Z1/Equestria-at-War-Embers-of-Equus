@@ -31,4 +31,12 @@ spriteTypes = {
         name = GFX_idea_Sombra_Scare_idea_2
         textureFile = "gfx/interface/BOP/CRY/CRY_sombra_threat.dds"
     }
+    spriteType = {
+        name = GFX_idea_crystal_royal_airforce
+        textureFile = "gfx/interface/ideas/CRY/CRY_darkar_design.dds"
+    }
+    spriteType = {
+        name = GFX_idea_closed_market
+        textureFile = "gfx/interface/ideas/CRY/CRY_old_dignity.dds"
+    }
 }

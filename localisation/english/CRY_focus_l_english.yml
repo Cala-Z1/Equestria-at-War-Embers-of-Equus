@@ -160,6 +160,8 @@
 # ── ToolTips ─────────────────────────────────────────────────────────────────
   ind_left_tt:0 "Adds Y+2%! Consumer Goods and G+10%! Civilian Factory Building speed \n ifY Strike at Sombra Supporters:! is completed then add G+5%! more civilian factory building speed" 
 
+ Vist_To_Stalliongrad_tt:0 "If the focus YTies to Equestria! is completed Give GEQS! the rights to all resources in YCrytal Mountains!"
+
   civ_mining_expansion_tt:0 "Adds G+10%! Resource Gain Efficiency \n ifY Strike at Sambra Supporters:! is completed then add G+10%! Resource Gain Efficiency"
 
  laissez_faire_tt:0 "Y If the Referendum path was chosen: !Adds G6 W  Civilian Factories to the Crystal Heartland -----------------------------------\nY If the Subordination path was chosen: !Adds G3 W  Civilian Factories to the Crystal Heartland\n Reduces Civilian Factory Construction Speed by R-20%!"
@@ -171,7 +173,7 @@
  
  civ_growth_tt:0 "-----------------------------------\n Adds G+15%! Efficiency Growth to YFive Year Plan!"
 
- civ_power_grid_tt:0 "-----------------------------------\n Adds G+5%! Efficiency Cap to YFive Year Plan!"
+ civ_power_grid_tt:0 "-----------------------------------\n Adds G+5%! Efficiency Cap, and removes R-15%! Production Efficiency Growth to: YFive Year Plan!"
  
  civ_economic_zone_tt:0 "-----------------------------------\n Adds G+15%! Military Factory Building Speed, and Y+2%! Consumer Goods to: YFive Year Plan!"
 
@@ -183,9 +185,15 @@
 
  civ_artisan_works_tt:0 "Adds G+10%! Civilian Factory Building Speed to: YFive Year Plan!"
 
- civ_second_push_tt:0 "Adds G+60%! Military Building Speed, and Removes R-50%! Civilian Building Speed to: YFive Year Plan!"
+ civ_second_push_tt:0 "Modify YFire Year Plan! by: \n  Military Building Speed: G+60%! \n  Civilian Building Speed: R-50%!"
  
- civ_heart_economy_tt:0 "Modify YFive Year Plan! by \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: G+10%! \n Production Output: G+15%! \n Military Factory Building Speed: G+10%!"
+ civ_heart_economy_tt:0 "Modify YFive Year Plan! by: \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: G+10%! \n Production Output: G+15%! \n Military Factory Building Speed: G+10%!"
+
+ civ_industrial_complex_tt:0 "Modify YFive Year Plan! by: \n Consumer Goods: Y-10%!"
+
+ civ_northern_development_tt:0 "Adds R-10%! Resource Gain Efficiency, and G+5%! Factory Output to: YFive Year Plan!"
+
+ civ_heart_district_tt:0 "Modify YFire Year Plan! by: \n Military Factory Building Speed: G+15%! \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: R-10%!"
 
  civ_trade_empire_tt:0 "Adds G+15%! Resource Gain Efficiency to: YFive Year Plan!"
 

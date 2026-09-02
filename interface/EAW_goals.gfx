@@ -1,0 +1,155 @@
+spriteTypes = {
+	## CRYSTAL EMPIRE ## 
+	spriteType = {
+		name = GFX_The_Crystal_Fair
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_crystal_fair.dds"
+	}
+	spriteType = {
+		name = GFX_The_Crystal_Fair_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_crystal_fair.dds"
+	}
+	spriteType = {
+		name = GFX_The_Crystalling_Anniversary
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_crystalling.dds"
+	}
+	spriteType = {
+		name = GFX_The_Crystalling_Anniversary_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_crystalling.dds"
+	}
+	spriteType = {
+		name = GFX_Mi_Amore_Family
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_miamore.dds"
+	}
+	spriteType = {
+		name = GFX_Mi_Amore_Family_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_miamore.dds"
+	}
+	spriteType = {
+		name = GFX_Find_The_Sombra_Supporters
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_sombra_threat_destroyed.dds"
+	}
+	spriteType = {
+		name = GFX_Find_The_Sombra_Supporters_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_sombra_threat_destroyed.dds"
+	}
+	spriteType = {
+		name = GFX_Subordination
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_subordination.dds"
+	}
+	spriteType = {
+		name = GFX_Subordination_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_subordination.dds"
+	}
+	spriteType = {
+		name = GFX_Referendum
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_referendum.dds"
+	}
+	spriteType = {
+		name = GFX_Referendum_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_referendum.dds"
+	}
+	spriteType = {
+		name = GFX_The_Grand_Festival
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_festival.dds"
+	}
+	spriteType = {
+		name = GFX_The_Grand_Festival_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_festival.dds"
+	}
+	spriteType = {
+		name = GFX_Winter_Solstice
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_winter_sun.dds"
+	}
+	spriteType = {
+		name = GFX_Winter_Solstice_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_winter_sun.dds"
+	}
+	spriteType = {
+		name = GFX_miamore_forever
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_miamore.dds"
+	}
+	spriteType = {
+		name = GFX_miamore_forever_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_miamore.dds"
+	}
+	spriteType = {
+		name = GFX_Social_Welfare
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_welfare.dds"
+	}
+	spriteType = {
+		name = GFX_Social_Welfare_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_welfare.dds"
+	}
+	spriteType = {
+		name = GFX_The_New_Crystal_Order
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_star.dds"
+	}
+	spriteType = {
+		name = GFX_The_New_Crystal_Order_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_star.dds"
+	}
+	spriteType = {
+		name = GFX_Vist_To_Stalliongrad
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_crystal_commies.dds"
+	}
+	spriteType = {
+		name = GFX_Vist_To_Stalliongrad_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_crystal_commies.dds"
+	}
+	spriteType = {
+		name = GFX_Reasserting_Royal_Authority
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_equestria_games.dds"
+	}
+	spriteType = {
+		name = GFX_Reasserting_Royal_Authority_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_equestria_games.dds"
+	}
+	spriteType = {
+		name = GFX_Reaching_Beyond_the_Empire
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_free_trade.dds"
+	}
+	spriteType = {
+		name = GFX_Reaching_Beyond_the_Empire_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_free_trade.dds"
+	}
+	spriteType = {
+		name = GFX_Strike_at_Sombra_Supporters
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_eqc_royal_visit.dds"
+	}
+	spriteType = {
+		name = GFX_Strike_at_Sombra_Supporters_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_eqc_royal_visit.dds"
+	}
+	spriteType = {
+		name = GFX_operation_Break_Shadow
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_sombra_return.dds"
+	}
+	spriteType = {
+		name = GFX_operation_Break_Shadow_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_sombra_return.dds"
+	}
+	spriteType = {
+		name = GFX_laissez_faire
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_factory_cel.dds"
+	}
+	spriteType = {
+		name = GFX_laissez_faire_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_factory_cel.dds"
+	}
+	spriteType = {
+		name = GFX_Empire_Reborn
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_crystal_palace.dds"
+	}
+	spriteType = {
+		name = GFX_Empire_Reborn_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_crystal_palace.dds"
+	}
+	spriteType = {
+		name = GFX_Crystal_Court_Consolidation
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_fearwar.dds"
+	}
+	spriteType = {
+		name = GFX_Crystal_Court_Consolidation_shine
+		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_fearwar.dds"
+	}
+}

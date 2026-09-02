@@ -1,0 +1,14 @@
+characters={
+	EQS_CelestiaLuna = {
+		name = "Celestia and Luna"
+	portraits = {
+		civilian = {
+			large = "GFX_CelestiaLuna"
+		}
+	}
+country_leader = {
+	ideology = harmonic_theocracy
+	expire = "1999.1.1.1"
+}
+	}
+}

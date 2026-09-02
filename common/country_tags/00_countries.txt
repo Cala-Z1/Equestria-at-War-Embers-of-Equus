@@ -19,3 +19,6 @@ EQC = "countries/EquestrianColony.txt"
 GRI = "countries/GriffonEmpire.txt"
 FAT = "countries/Fatass.txt"
 RCT = "countries/RiverCity.txt"
+HEQ = "countries/HellquillCountry.txt"
+LNS = "countries/Longsword.txt"
+
