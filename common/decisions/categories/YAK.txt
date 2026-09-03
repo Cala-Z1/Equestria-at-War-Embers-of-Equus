@@ -1,0 +1,10 @@
+YAK_starting_leaning = {
+	icon = GFX_Crystal_Court_Consolidation
+	priority = 10
+	allowed = {
+		tag = YAK
+	}
+	visible = {
+		tag = YAK
+	}
+}

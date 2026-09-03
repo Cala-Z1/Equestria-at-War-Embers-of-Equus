@@ -1,0 +1,10 @@
+JAK_starting_leaning = {
+	icon = GFX_Crystal_Court_Consolidation
+	priority = 10
+	allowed = {
+		tag = JAK
+	}
+	visible = {
+		tag = JAK
+	}
+}

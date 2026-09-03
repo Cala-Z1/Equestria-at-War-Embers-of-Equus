@@ -33,8 +33,8 @@ equipments = {
 		fuel_consumption = 0
 		build_cost_ic = 15
 		resources = {
-			aluminium = 2
-			rubber = 1
+			aluminium = 8 
+			rubber = 4
 		}
 
 		module_slots = {
@@ -559,8 +559,8 @@ equipments = {
 		naval_strike_targetting = 7.5
 		build_cost_ic = 15
 		resources = {
-			aluminium = 3
-			rubber = 1
+			aluminium = 8
+			rubber = 4
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -845,8 +845,8 @@ equipments = {
 		air_defence = 7
 		weight = 6		
 		resources = {
-			aluminium = 2
-			rubber = 1
+			aluminium = 8
+			rubber = 4
 		}
 
 		module_slots = {
@@ -1320,8 +1320,8 @@ equipments = {
 		naval_strike_targetting = 7.5
 		build_cost_ic = 15
 		resources = {
-			aluminium = 3
-			rubber = 1
+			aluminium = 8
+			rubber = 4
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1456,8 +1456,8 @@ equipments = {
 		fuel_consumption = 0
 		build_cost_ic = 20
 		resources = {
-			aluminium = 3
-			rubber = 1
+			aluminium = 10
+			rubber = 5
 		}
 
 		module_slots = {
@@ -2043,8 +2043,8 @@ equipments = {
 		naval_strike_targetting = 5
 		build_cost_ic = 20
 		resources = {
-			aluminium = 4
-			rubber = 1
+			aluminium = 10
+			rubber = 5
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2213,8 +2213,8 @@ equipments = {
 		fuel_consumption = 0
 		build_cost_ic = 30
 		resources = {
-			aluminium = 4
-			rubber = 2
+			aluminium = 12
+			rubber = 6
 		}
 
 		module_slots = {
@@ -2791,8 +2791,8 @@ equipments = {
 		naval_strike_targetting = 4.5
 		build_cost_ic = 30
 		resources = {
-			aluminium = 5
-			rubber = 2
+			aluminium = 12
+			rubber = 6
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {

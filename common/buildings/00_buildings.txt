@@ -103,29 +103,32 @@ buildings = {
 	### Factory Buildings ###
 	industrial_complex = {
 		show_on_map = 6
-		base_cost = 10800
-		base_cost_conversion = 9000
+		base_cost = 11500
+		base_cost_conversion = 10000
 		general_production = 1
 		icon_frame = 1
+		tags = { civilian_factories }
 		value = 5
 		infrastructure_construction_effect = yes
+		damage_factor = 2
 		level_cap = {
 			shares_slots = yes
-			state_max = 20
+			state_max = 99
 		}
 	}
 	arms_factory = {
 		show_on_map = 6
-		base_cost = 7200
-		base_cost_conversion = 4000
+		base_cost = 8400
+		base_cost_conversion = 5700
 		military_production = 1
-		disabled_in_dmz = yes
 		icon_frame = 2
+		tags = { military_factories }
 		value = 8
 		infrastructure_construction_effect = yes
+		damage_factor = 2
 		level_cap = {
 			shares_slots = yes
-			state_max = 20
+			state_max = 99
 		}
 	}
 	infrastructure = {
@@ -476,17 +479,6 @@ buildings = {
 		disabled_in_dmz = yes
 		only_display_if_exists = yes
 		special_icon = GFX_specialization_nuclear
-		#state_damage_modifier = { conscription_exemptions_granted }
-		#construction_speed_factor = {
-		#	trigger = {
-		#		OR = {
-		#			state = 56
-		#			state = 59
-		#			state = 64
-		#		}
-		#	}
-		#	factor = 10
-		#}
 		level_cap = {
 			province_max = 1
 			state_max = 1
@@ -561,7 +553,7 @@ buildings = {
 		need_detection = yes
 		detecting_intel_type = army # change?
 		only_display_if_exists = yes
-		special_icon = GFX_specialization_magical
+		special_icon = GFX_specialization_nuclear
 		level_cap = {
 			province_max = 1
 			state_max = 1

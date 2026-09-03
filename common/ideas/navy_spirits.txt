@@ -54,13 +54,6 @@ ideas = {
 				convoy_raiding_efficiency_factor = 0.5
 			}
 			
-			ai_will_do = {
-				factor = 1.5
-				modifier = {
-					tag = GER
-					factor = 5
-				}
-			}
 		}
 		base_strike_academy_spirit = {
 			ledger = navy
@@ -68,30 +61,12 @@ ideas = {
 			modifier = {
 				sortie_efficiency = 0.1
 			}
-			ai_will_do = {
-				factor = 1.5
-				modifier = {
-					tag = JAP
-					factor = 5
-				}
-			}
 		}
 		best_of_the_best_naval_academy_spirit = {
 			ledger = navy
 			modifier = {
 				navy_org_factor = 0.05
 				navy_anti_air_attack_factor = 0.05
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					tag = USA
-					factor = 5
-				}
-				modifier = {
-					tag = ENG
-					factor = 5
-				}
 			}
 		}
 		naval_academy_scholarships_spirit = {
@@ -153,17 +128,6 @@ ideas = {
 				experience_gain_navy_unit_factor = 0.05
 				navy_fuel_consumption_factor = -0.2
 			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					tag = GER
-					factor = 5
-				}
-				modifier = {
-					tag = JAP
-					factor = 5
-				}
-			}
 		}
 		naval_refit_yards_spirit = {
 			ledger = navy
@@ -185,17 +149,6 @@ ideas = {
 			modifier = {
 				naval_has_potf_in_combat_attack = 0.025
 				naval_has_potf_in_combat_defense = 0.025
-			}
-			ai_will_do = {
-				factor = 1.5
-				modifier = {
-					tag = USA
-					factor = 5
-				}
-				modifier = {
-					tag = ENG
-					factor = 5
-				}
 			}
 		}
 		trade_interdiction_navy_spirit = {
@@ -235,13 +188,6 @@ ideas = {
 				naval_torpedo_screen_penetration_factor = 0.1
 				naval_torpedo_hit_chance_factor = 0.05
 			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					tag = GER
-					factor = 5
-				}
-			}
 		}
 		night_fighting_spirit = {
 			ledger = navy
@@ -270,21 +216,6 @@ ideas = {
 			modifier = {
 				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
 				naval_damage_factor = 0.05
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					tag = JAP
-					factor = 5
-				}
-				modifier = {
-					tag = USA
-					factor = 5
-				}
-				modifier = {
-					tag = ENG
-					factor = 5
-				}
 			}
 		}
 		surface_raiders_spirit = {

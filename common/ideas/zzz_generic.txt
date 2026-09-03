@@ -1,0 +1,123 @@
+ideas = {
+	country = {
+		nonplayerablenation = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = nonplayerablenation
+			modifier = {
+				political_power_gain = -999
+				consumer_goods_expected_value = 999
+				production_speed_industrial_complex_factor = -999
+				production_speed_arms_factory_factor = -999
+				local_resources_factor = -999
+				production_factory_max_efficiency_factor = -990
+				production_factory_start_efficiency_factor = -999
+				production_factory_efficiency_gain_factor = -999
+				industrial_capacity_factory = -99
+				min_export = -1.00
+			}
+		}
+	}
+	country = {
+		volunteer_corps_focus = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_volunteer_expedition_bonus
+			modifier = {
+				send_volunteer_divisions_required = -1.0
+				send_volunteer_size = 1
+				send_volunteers_tension = -1.0
+			}
+		}
+	}
+	hidden_ideas = {
+	continuous_naval_production = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_dockyard = 0.2
+			}
+		}
+	continuous_air_production = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}	
+			removal_cost = -1
+			equipment_bonus = {
+				small_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				cv_small_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				small_plane_cas_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				cv_small_plane_cas_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				small_plane_naval_bomber_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				cv_small_plane_naval_bomber_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				medium_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				medium_plane_fighter_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				medium_plane_scout_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10	
+				}
+				large_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				large_plane_maritime_patrol_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				guided_missile_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}		
+		}
+	}
+}

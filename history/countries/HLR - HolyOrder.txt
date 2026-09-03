@@ -2,7 +2,9 @@ capital = 425
 set_technology ={
 	starting_industry = 1
 }
-
+add_ideas = {
+	nonplayerablenation
+}
 set_research_slots = 0
 
 set_convoys = 0
@@ -20,7 +22,4 @@ set_politics = {
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
-}
-
-add_ideas = {
 }

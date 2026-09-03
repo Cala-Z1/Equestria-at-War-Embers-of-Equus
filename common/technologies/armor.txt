@@ -740,9 +740,6 @@ technologies = {
 		}
 		
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_tanks_med"
-			}		
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 			
@@ -1165,9 +1162,6 @@ technologies = {
 			assembly_line_production = 1
 		}
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_tanks_heavy"
-			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		research_cost = 2.2

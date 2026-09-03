@@ -18,9 +18,7 @@ leader_traits = {
 				reliability = 0.1
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	### MUSSOLINI ###
@@ -363,9 +361,7 @@ leader_traits = {
 		naval_coordination = 0.2
 		army_breakthrough_against_minor_factor = 0.3
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	BBA_ALB_fascist_lawyer = { 
@@ -375,9 +371,7 @@ leader_traits = {
 		consumer_goods_expected_value = -0.02
 		puppet_cost_factor = -0.4
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	} 
 
 	ITA_head_of_the_national_committee = { 
@@ -385,9 +379,7 @@ leader_traits = {
 		
 		war_support_factor = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 
@@ -851,27 +843,6 @@ leader_traits = {
 		stability_factor = 0.1
 		political_advisor_cost_factor = -0.1
 	}
-
-	elected_regency_council_pro_axis = { #Regency Council (pro axis)
-		name = elected_regency_council
-
-		random = no
-		political_power_factor = 0.05
-		stability_factor = 0.1
-		political_advisor_cost_factor = -0.1
-		fascism_acceptance = 50
-	}
-
-	elected_regency_council_pro_allies = { #Regency Council (pro allies)
-		name = elected_regency_council
-
-		random = no
-		political_power_factor = 0.05
-		stability_factor = 0.1
-		political_advisor_cost_factor = -0.1
-		democratic_acceptance = 50
-	}
-
 	the_bloody_professor_regency_council = { #Regency Council (led by Aleksandar Tsankov)
 		random = no
 		master_ideology_drift = 0.1
@@ -995,9 +966,7 @@ leader_traits = {
 		war_support_factor = -0.05
 		stability_factor = 0.1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	tenacious_negotiator = {
@@ -1011,9 +980,7 @@ leader_traits = {
 		political_power_factor = 0.10
 		stability_weekly = 0.001
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	technocrat = {
@@ -1021,9 +988,7 @@ leader_traits = {
 		
 		production_speed_industrial_complex_factor = 0.1
 		research_speed_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	liberal_journalist = {
@@ -1032,18 +997,14 @@ leader_traits = {
 		democratic_drift = 0.05
 		political_power_factor = 0.05
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 
 	education_reformer = {
 		sprite = 13
 	
 		research_speed_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	voice_of_restraint = {
@@ -1053,9 +1014,7 @@ leader_traits = {
 		democratic_drift = 0.05
 		stability_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	gran_carabinero = { # Hundred Thousand Sons of Negrín!
@@ -1066,9 +1025,7 @@ leader_traits = {
 		stability_factor = 0.05
 		conscription = 0.005
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	la_pasionaria = {
@@ -1079,9 +1036,7 @@ leader_traits = {
 		war_support_factor = 0.1
 		stability_factor = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	social_revolutionary = {
@@ -1092,9 +1047,7 @@ leader_traits = {
 		political_power_factor = 0.1
 		war_support_factor = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	revolutionary_culture_minister = {
@@ -1104,9 +1057,7 @@ leader_traits = {
 		communism_drift = 0.1
 		political_power_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	nkvd_rezident = {
@@ -1118,9 +1069,7 @@ leader_traits = {
 		drift_defence_factor = 0.20
 		stability_factor = -0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	traditionalist_theorist = {
@@ -1130,9 +1079,7 @@ leader_traits = {
 		neutrality_drift = 0.05
 		political_power_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	falangist_industrialist = {
@@ -1203,9 +1150,7 @@ leader_traits = {
 		sprite = 13
 		local_resources_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	administrative_genius = {
@@ -1213,9 +1158,7 @@ leader_traits = {
 		sprite = 13
 		consumer_goods_expected_value = -0.03
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	efficient_sociopath = {
 	   random = no
@@ -1224,9 +1167,7 @@ leader_traits = {
 		foreign_subversive_activites = -0.10
 		stability_factor = -0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	corrupt_kleptocrat = {
 		  random = no
@@ -1254,7 +1195,7 @@ leader_traits = {
 		army_morale_factor = 0.15
 		dig_in_speed_factor = 0.25
 		targeted_modifier = {
-			tag = SOV
+			tag = STG
 			attack_bonus_against = 0.2
 			defense_bonus_against = 0.2
 		}
@@ -1278,9 +1219,7 @@ leader_traits = {
 		sprite = 13
 		war_support_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	imperial_connections = {
@@ -1294,9 +1233,7 @@ leader_traits = {
 		army_chief_cost_factor = -0.25
 		navy_chief_cost_factor = -0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	silent_mule = {
@@ -1304,9 +1241,7 @@ leader_traits = {
 		sprite = 13
 		political_power_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	baron_of_terror = {
@@ -1315,9 +1250,7 @@ leader_traits = {
 		foreign_subversive_activites = -0.15
 		non_core_manpower = 0.01
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	compassionate_commoner = {
@@ -1325,9 +1258,7 @@ leader_traits = {
 		sprite = 13
 		opinion_gain_monthly_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	backroom_windbag = {
@@ -1335,9 +1266,7 @@ leader_traits = {
 		political_power_factor = 0.02
 		drift_defence_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	smooth_talking_con_man = {
@@ -1345,9 +1274,7 @@ leader_traits = {
 		sprite = 13
 		trade_opinion_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	ideological_groupie = {
@@ -1367,9 +1294,7 @@ leader_traits = {
 		production_speed_coastal_bunker_factor = 0.1
 		production_speed_anti_air_building_factor = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	war_profiteer = {
@@ -1378,9 +1303,7 @@ leader_traits = {
 		production_speed_arms_factory_factor = 0.05
 		production_speed_dockyard_factor = 0.05
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	lieutenant_of_industry = {
@@ -1390,9 +1313,7 @@ leader_traits = {
 		production_speed_infrastructure_factor = 0.05
 		production_speed_synthetic_refinery_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	finance_graduate = {
@@ -1400,9 +1321,7 @@ leader_traits = {
 		random = yes
 		consumer_goods_expected_value = -0.02
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	armaments_aficionado = {
@@ -1411,9 +1330,7 @@ leader_traits = {
 		conversion_cost_civ_to_mil_factor = -0.08
 		# civ_to_mil_industry_conversion_rate = -1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	quartermaster_trainee = {
@@ -1434,9 +1351,7 @@ leader_traits = {
 		sprite = 13
 		stability_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	anti_democrat = {
@@ -1446,27 +1361,21 @@ leader_traits = {
 		democratic_drift = -0.02
 		stability_factor = 0.10
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	little_rocket_man = {
 		random = no
 		sprite = 14
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	nuclear_enthusiast = {
 		random = no
 		sprite = 14
 		specialization_nuclear_speed_factor = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	### END BRITISH TRADE UNION MINISTER TRAITS ###
@@ -1480,9 +1389,7 @@ leader_traits = {
 		army_morale_factor = 0.1
 		experience_gain_air_factor = 0.03
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	council_communist = {
 		random = no
@@ -1492,9 +1399,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	resistance_banker = {
@@ -1506,9 +1411,7 @@ leader_traits = {
 		compliance_growth_on_our_occupied_states = -0.1
 		resistance_growth_on_our_occupied_states = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	colonial_communist = {
@@ -1519,9 +1422,7 @@ leader_traits = {
 		weekly_manpower = 250
 		communism_drift = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	genial_anti_revolutionary = {
 	
@@ -1531,9 +1432,7 @@ leader_traits = {
 		political_power_factor = 0.1
 		stability_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	red_army_organizer = { # Trotsky's trait if invited to join the Mexican government. Combines effects of Genius Army Organizer and Communist Revolutionary
@@ -1541,9 +1440,7 @@ leader_traits = {
 		army_org_factor = 0.12
 		communism_drift = 0.1
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 
 	shadow_of_calles = {
@@ -1554,9 +1451,7 @@ leader_traits = {
 		stability_weekly = 0.001
 		political_power_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	social_reformer = {
@@ -1566,9 +1461,7 @@ leader_traits = {
 		democratic_drift = 0.01
 		stability_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	syncretic_revanchist = {
 		random = no
@@ -1578,9 +1471,7 @@ leader_traits = {
 		generate_wargoal_tension = -0.5
 		justify_war_goal_time = -0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	ambitious_union_boss = {
@@ -1590,9 +1481,7 @@ leader_traits = {
 		communism_drift = 0.1
 		consumer_goods_expected_value = -0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	the_black_prince = {
@@ -1605,9 +1494,7 @@ leader_traits = {
 		special_forces_attack_factor = 0.05
 		special_forces_defence_factor = 0.05
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	exiled_revolutionary = {
@@ -1615,9 +1502,7 @@ leader_traits = {
 		subversive_activites_upkeep = -0.5
 		drift_defence_factor = 0.3
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	economic_reformer = {
@@ -1709,9 +1594,7 @@ leader_traits = {
 		random = no
 		production_speed_infrastructure_factor = 0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	strongman_of_san_luis_potosi = { #Saturnino Cedillo
@@ -1719,9 +1602,7 @@ leader_traits = {
 		army_morale_factor = 0.05
 		political_power_factor = 0.10
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}		
 
 	hawk = {
@@ -1729,9 +1610,7 @@ leader_traits = {
 		sprite = 13
 		war_support_factor = 0.1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	propaganda_expert = {
@@ -1739,9 +1618,7 @@ leader_traits = {
 		war_support_factor = 0.10 
 		war_support_weekly = 0.001
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	revolutionary_general = { #Francisco José Mugica
@@ -1754,51 +1631,39 @@ leader_traits = {
 		economy_cost_factor = -0.25
 		theorist_cost_factor = -0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	fascist_militia_leader = { #Nicolás Rodríguez Carrasco, probably others too could be used for random fascist leaders
 		random = no
 		war_support_factor = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	cristero_general = { #Jesús Degollado Guízar
 		random = no
 		conscription = 0.01
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	primate_of_mexico = { # Luis María Martínez
 		random = no
 		stability_factor = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	el_jefe_maximo = { #Plutarco Calles
 		random = no
 		political_advisor_cost_factor = -0.25
 		political_power_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	protector_of_the_campesinos = { #communist Cardenas (land reformer)
 		random = no
 		production_speed_industrial_complex_factor = 0.1
 		production_speed_infrastructure_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	refounder_of_mexico = { # democratic Cardenas
@@ -1806,9 +1671,7 @@ leader_traits = {
 		
 		stability_factor = 0.05
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}		
 
 	the_gentleman_president = { #Manuel Avila Camacho
@@ -1816,18 +1679,14 @@ leader_traits = {
 		stability_factor = 0.05
 		improve_relations_maintain_cost_factor = -0.5
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	conservative_nationalist = { #Antonio de Oliveira Salazar - Vanilla
 		random = no
 		stability_factor = 0.1
 		production_speed_infrastructure_factor = 0.2
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	conservative_nationalist_lar = { #Antonio de Oliveira Salazar - LAR 
@@ -1835,17 +1694,13 @@ leader_traits = {
 		stability_weekly = 0.005
 		production_speed_infrastructure_factor = 0.2
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	the_silver_president = { #Juan Andreu
 		random = no
 		consumer_goods_expected_value = -0.05
 		fascism_acceptance = 50
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	the_dean_of_mexican_marxism = { #Vicente Lombardo
@@ -1854,9 +1709,7 @@ leader_traits = {
 		stability_factor = 0.05
 		industrial_capacity_factory = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	staunch_stalinist = { #Dionisio Encina
@@ -1864,9 +1717,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.1
 		drift_defence_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	devoted_trotskyist = { #Hernan Laborde Devoted Trotkyist
@@ -1874,9 +1725,7 @@ leader_traits = {
 		war_support_factor = 0.05
 		subversive_activites_upkeep = -0.25
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}	
 
 	defeated_and_subjugated = {
@@ -1965,9 +1814,7 @@ leader_traits = {
 		random = no
 		political_power_factor = 0.3
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	GER_Goring_T3 = {
 		random = no
@@ -1980,18 +1827,14 @@ leader_traits = {
 		
 		production_speed_air_base_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	GER_Goebbels = {
 		random = no
 		sprite = 13
 		
-		ai_will_do = {
-			factor = 10
-		}
+
 	}
 	GER_Goring_T = {  
 		random = no
@@ -2001,26 +1844,20 @@ leader_traits = {
 		army_bonus_air_superiority_factor = 0.05
 		air_cas_present_factor = 0.2
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	warrior_code = {
 		random = no
 		ai_call_ally_desire_factor = -40
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	emperor_showa = {
 		random = no
 		stability_factor = 0.6 #FOR THE EMPERAH
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	sour_loser = {
@@ -2029,9 +1866,7 @@ leader_traits = {
 		war_support_weekly = 0.0025
 		stability_weekly = 0.0025
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	triumphant_will = {
@@ -2040,32 +1875,12 @@ leader_traits = {
 		surrender_limit = 0.1
 		political_power_factor = 0.1 
 	}
-
-	imperial_sanction = {
-		random = no
-
-		targeted_modifier = {
-			tag = CHI
-			generate_wargoal_tension_against = 0.75
-		}
-		targeted_modifier = {
-			tag = PRC
-			generate_wargoal_tension_against = 0.75
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	ww_one_trauma = {
 		random = no
 		ai_call_ally_desire_factor = 10
 			war_support_weekly = -0.001
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	stout_defender = { # This particular trait will make the AI heavily prioritize defensive warfare, rarely, if ever, attacking out of fortified locations
@@ -2073,9 +1888,7 @@ leader_traits = {
 		ai_focus_aggressive_factor = -1
 		max_dig_in = 1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	warmonger = {
@@ -2084,17 +1897,13 @@ leader_traits = {
 		max_dig_in = -1
 		war_support_weekly = 0.001
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	general_tag = {
 		random = no
 		political_power_factor = -0.01
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	inexperienced_imperialist = {
@@ -2103,9 +1912,7 @@ leader_traits = {
 		stability_factor = 0.05
 		justify_war_goal_time = -0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	spirit_of_genghis = {
@@ -2113,9 +1920,7 @@ leader_traits = {
 		cavalry_attack_factor = 0.05
 		war_support_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	indomitable_perseverance = { # Ground units get 4 more Morale 
@@ -2123,9 +1928,7 @@ leader_traits = {
 		sprite = 5
 		army_morale_factor = 0.04
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	figurehead_president = {
@@ -2234,7 +2037,7 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.05
 		targeted_modifier = {
-			tag = SOV
+			tag = STG
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}
@@ -2244,9 +2047,7 @@ leader_traits = {
 		random = no
 		stability_weekly = 0.005
 		political_power_gain = 0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 #ai_focus_defense_factor
@@ -2257,100 +2058,43 @@ leader_traits = {
 #ai_focus_naval_factor
 #ai_focus_naval_air_factor
 #ai_focus_aviation_factor 
-	
-	dislikes_germany = {
-		random = no
-		ai_strategy = {
-			type = antagonize
-			id = "GER"			
-			value = 100
-		}
-		targeted_modifier = {	
-			tag = GER
-			attack_bonus_against = 0.05
-			defense_bonus_against = 0.05
-		}
-		targeted_modifier = {	
-			tag = ITA
-			attack_bonus_against = 0.05
-			defense_bonus_against = 0.05
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	dislikes_japan = {
-		random = no
-		ai_strategy = {
-			type = antagonize
-			id = "GER"			
-			value = 100
-		}
-		targeted_modifier = {	
-			tag = JAP
-			attack_bonus_against = 0.05
-			defense_bonus_against = 0.05
-		}
-		targeted_modifier = {	
-			tag = MAN
-			attack_bonus_against = 0.05
-			defense_bonus_against = 0.05
-		}
-		
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+
 	
 	one_central_soviet = {
 		random = no
 		political_power_gain = 0.2
 		stability_weekly = 0.01
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	many_a_soviet = {
 		random = no
 		subversive_activites_upkeep = -0.4
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	tenacious_defender = {
 		random = no
 		max_dig_in = 2
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	exiled = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	political_prisoner = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	assassination_survivor = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 		
 	}
 
@@ -2360,17 +2104,13 @@ leader_traits = {
 		research_speed_factor = 0.05
 		political_power_factor = -0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	stalins_puppet = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	production_manager = {
@@ -2380,9 +2120,7 @@ leader_traits = {
 		local_resources_factor = 0.05 
 		production_speed_buildings_factor = 0.05 
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	capitalist = {
@@ -2393,9 +2131,7 @@ leader_traits = {
 		industrial_capacity_dockyard = 0.05
 		production_factory_max_efficiency_factor = 0.05
 		
-		ai_will_do = {
-			factor = 10
-		}
+
 	}
 	
 	union_man = {
@@ -2403,18 +2139,14 @@ leader_traits = {
 		political_power_factor = 0.20
 		industrial_capacity_factory = -0.02
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	political_dancer = {
 		random = no
 		political_power_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	staunch_constitutionalist = {
@@ -2423,9 +2155,7 @@ leader_traits = {
 		political_power_factor = 0.05
 		industrial_capacity_factory = -0.01
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	cornered_fox = {
@@ -2434,9 +2164,7 @@ leader_traits = {
 		army_morale_Factor = 0.08
 		ai_focus_defense_factor = 0.4
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	permanent_revolutionary = {
@@ -2445,9 +2173,7 @@ leader_traits = {
 		justify_war_goal_time = 0.15
 		subversive_activites_upkeep = -0.3
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	triumphant_revolutionary = {
 		random = no
@@ -2455,9 +2181,7 @@ leader_traits = {
 		subversive_activites_upkeep = -0.5
 		drift_defence_factor = 0.15
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	great_leader = {
@@ -2466,9 +2190,7 @@ leader_traits = {
 		stability_factor = 0.05 
 		political_power_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	first_lady = {
@@ -2488,9 +2210,7 @@ leader_traits = {
 		political_power_factor = -0.5
 		stability_factor = -0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	unpopular_monarch = {
@@ -2498,9 +2218,7 @@ leader_traits = {
 		political_power_factor = -0.3
 		stability_factor = -0.2
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	socialite_connections = {
@@ -2509,18 +2227,14 @@ leader_traits = {
 		economy_cost_factor = -0.25
 		industrial_capacity_factory = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	wallis_fancy_title = {
 		random = no
 		neutrality_drift = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	inexperienced_monarch = {
@@ -2534,18 +2248,14 @@ leader_traits = {
 		army_chief_cost_factor = 0.25
 		navy_chief_cost_factor = 0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	headstrong = {
 		random = no
 		political_power_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	popular_queen = {
@@ -2554,9 +2264,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	heels_nipper = {
@@ -2573,9 +2281,7 @@ leader_traits = {
 		army_chief_cost_factor = -0.25
 		navy_chief_cost_factor = -0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	snuggler = {
@@ -2586,9 +2292,7 @@ leader_traits = {
 		neutrality_drift = 0.05
 		consumer_goods_expected_value = -0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	face_licker = {
@@ -2598,18 +2302,14 @@ leader_traits = {
 		war_support_factor = 0.05
 		conscription = 0.01
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	stammer = {
 		random = no
 		political_power_factor = -0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	humble = {
@@ -2617,9 +2317,7 @@ leader_traits = {
 		neutrality_drift = 0.05
 		consumer_goods_expected_value = -0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	british_bulldog = {
@@ -2627,27 +2325,21 @@ leader_traits = {
 		war_support_factor = 0.1
 		political_power_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	chamberlain_appeaser = {
 		random = no
 		war_support_factor = -0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	rearmer = {
 		random = no
 		industrial_capacity_factory = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	conservative_grandee = {
@@ -2655,9 +2347,7 @@ leader_traits = {
 		political_power_factor = 0.05
 		political_advisor_cost_factor = -0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	famous_aviator = {
@@ -2671,9 +2361,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	friend_of_churchill = {
@@ -2682,9 +2370,7 @@ leader_traits = {
 		political_power_factor = -0.05
 		stability_factor = -0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	### IDEA TRAITS ###
@@ -2698,9 +2384,7 @@ leader_traits = {
 		stability_factor = 0.05
 		war_support_weekly = 0.001
 		stability_weekly = 0.001
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	
 	democratic_reformer = {
@@ -2712,9 +2396,7 @@ leader_traits = {
 		stability_weekly = 0.001
 		stability_factor = 0.1
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	staunch_traditionalist = {
 		random = no
@@ -2722,9 +2404,7 @@ leader_traits = {
 		sprite = 13
 		neutrality_drift = 0.1
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	
 	fascist_demagogue = {
@@ -2736,9 +2416,7 @@ leader_traits = {
 		war_support_weekly = 0.001
 		stability_weekly = 0.001
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	fascist_demagogue_japan = {
 		random = no
@@ -2748,18 +2426,14 @@ leader_traits = {
 		stability_factor = 0.05
 		stability_weekly = 0.001
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	
 	popular_figurehead = {
 		sprite = 13
 		stability_factor = 0.15
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	silent_workhorse = {
@@ -2767,9 +2441,7 @@ leader_traits = {
 		sprite = 13
 		political_power_factor = 0.15
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	prince_of_terror = {
@@ -2778,9 +2450,7 @@ leader_traits = {
 		foreign_subversive_activites = -0.3
 		non_core_manpower = 0.02
 		compliance_gain = 0.02
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	compassionate_gentleman = {
@@ -2795,9 +2465,7 @@ leader_traits = {
 		army_chief_cost_factor = -0.25
 		navy_chief_cost_factor = -0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	backroom_backstabber = {
@@ -2805,9 +2473,7 @@ leader_traits = {
 		local_resources_factor = 0.1
 		min_export = -0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	smooth_talking_charmer = {
@@ -2817,9 +2483,7 @@ leader_traits = {
 		local_resources_factor = 0.10
 		min_export = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	smooth_talking_charmer_2 = {
 		random = yes
@@ -2828,9 +2492,7 @@ leader_traits = {
 		local_resources_factor = 0.1
 		min_export = 0.10
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	ideological_crusader = {
@@ -2840,9 +2502,7 @@ leader_traits = {
 		defensive_war_stability_factor = 0.15
 		surrender_limit = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	tough_negotiator = {
 		random = no
@@ -2850,9 +2510,7 @@ leader_traits = {
 		political_power_factor = 0.1
 		min_export = -0.10
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	fortification_engineer = {
@@ -2863,9 +2521,7 @@ leader_traits = {
 		production_speed_anti_air_building_factor = 0.2
 		max_dig_in = 1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	iron_fisted_brute = {
@@ -2877,9 +2533,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	financial_expert = {
@@ -2887,9 +2541,7 @@ leader_traits = {
 		random = yes
 		consumer_goods_expected_value = -0.04
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 
 	chinese_expert = {
@@ -2918,9 +2570,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.05
 		
-		ai_will_do = {
-			factor = 10
-		}
+
 	}
 	malenkov_industrialist = {
 		sprite = 10
@@ -2930,9 +2580,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.05
 		
-		ai_will_do = {
-			factor = 10
-		}
+
 	}
 	
 	captain_of_industry = {
@@ -2946,9 +2594,7 @@ leader_traits = {
 		
 		local_resources_factor = 0.05
 		
-		ai_will_do = {
-			factor = 10
-		}
+
 	}
 
 	industrial_planner = {
@@ -2960,9 +2606,7 @@ leader_traits = {
 		conversion_cost_civ_to_mil_factor = -0.05
 		industrial_capacity_factory = 0.01
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	GERminister_of_armament_and_war_production = {
@@ -3051,9 +2695,7 @@ leader_traits = {
 		production_speed_rail_way_factor = 0.2
 		production_speed_buildings_factor = 0.05
 		max_dig_in = 1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	econ_interventionist = {
@@ -3066,9 +2708,7 @@ leader_traits = {
 		production_factory_max_efficiency_factor = -0.05
 		consumer_goods_expected_value = 0.03
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	committed_pacifist = {
 		sprite = 10
@@ -3081,9 +2721,7 @@ leader_traits = {
 		production_speed_arms_factory_factor = -0.15
 		consumer_goods_expected_value = -0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	guns_over_butter_advocate = {
@@ -3093,9 +2731,7 @@ leader_traits = {
 		production_speed_arms_factory_factor = 0.2
 		production_speed_dockyard_factor = 0.2
 		production_speed_industrial_complex_factor = -0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	central_planner = {
@@ -3104,9 +2740,7 @@ leader_traits = {
 		#industrial_capacity_factory = 0.05
 		#industrial_capacity_dockyard = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	free_marketer = {
 		random = no
@@ -3114,9 +2748,7 @@ leader_traits = {
 		#industrial_capacity_dockyard = 0.05
 		#industrial_capacity_dockyard = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	rocket_scientist = {
@@ -3124,18 +2756,14 @@ leader_traits = {
 		sprite = 14
 		sp_tag_rocket_speed_factor = 0.1
 		sp_tag_jet_speed_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	nuclear_scientist = {
 		random = no
 		sprite = 14
 		specialization_nuclear_speed_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	research_coordinator = {
 		random = no
@@ -3143,9 +2771,7 @@ leader_traits = {
 		special_project_speed_factor = 0.15
 		research_speed_factor = 0.15
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	military_theorist = {
@@ -3215,9 +2841,7 @@ leader_traits = {
 		
 		
 		
-		ai_will_do = {
-			factor = 10
-		}
+
 	}
 	
 	mass_assault_expert = {
@@ -3253,9 +2877,7 @@ leader_traits = {
 		experience_gain_army = 0.05
 		planning_speed = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	dive_bomber = {
@@ -3527,9 +3149,7 @@ leader_traits = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 
@@ -3541,9 +3161,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	Myasishchev_manufacturer = {
@@ -3558,9 +3176,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	Kochyerigin_manufacturer = {
 		random = no
@@ -3572,9 +3188,7 @@ leader_traits = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	Tumansky_manufacturer = {
 		random = no
@@ -3588,9 +3202,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	morane_saulnier_manufacturer = {
@@ -3603,9 +3215,7 @@ leader_traits = {
 		
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	levasseur_manufacturer = {
@@ -3617,18 +3227,14 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 		##############################################################
 	aircraft_manufacturer = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	light_aircraft_manufacturer = {
@@ -3642,9 +3248,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	escort_aircraft_manufacturer = {
 		random = no
@@ -3656,9 +3260,7 @@ leader_traits = {
 			    maximum_speed = 0.1 air_range = 1 
 			}
 		}	
-		ai_will_do = {
-			factor = 10
-		}
+
 	}
 	
 	CAS_manufacturer = {
@@ -3672,9 +3274,7 @@ leader_traits = {
 			}		
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	medium_aircraft_manufacturer = {
@@ -3702,16 +3302,12 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	medium_aircraft_manufacturer_2 = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	heavy_aircraft_manufacturer = {
@@ -3723,9 +3319,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	naval_aircraft_manufacturer = {
@@ -3739,22 +3333,16 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	jet_concern = {
 		random = no
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	naval_strike_aircraft_manufacturer = {
 		random = no
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	medium_aircraft_manufacturer_2 = {
@@ -3773,9 +3361,7 @@ leader_traits = {
 				reliability = 0.2
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	heavy_aircraft_manufacturer_2 = {
@@ -3788,9 +3374,7 @@ leader_traits = {
 				air_bombing = 0.05
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	ship_producer_mass = {
@@ -3813,9 +3397,7 @@ leader_traits = {
 	
 	construction_concern = {
 		random = no
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 
@@ -3823,172 +3405,102 @@ leader_traits = {
 	COM_mass_production = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	army_ordnance_trait = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	amphi_tank_manufacturer_trait = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	quality_trait = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	sensible_trait = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	offensive_trait = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	vickers_trait = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	vauxhall_trait = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	Leyland_trait = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	fowler_trait = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	hoi_tank_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 	td_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 	converted_steelworks = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 	moving_pillbox_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 
 	fast_tank_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 	cruiser_tank_concern = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 	
 	medium_tank_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 	
 	armored_car_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 
 	infantry_tank_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 
 
 	heavy_tank_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 	tank_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 	
 	ansaldo_tank_manufacturer = {
 		random = no
-
-		ai_will_do {
-			factor = 1
-		}
 	}
 	#################### From New Zealand NF Mod
 	local_tank_manufacturer = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}	
+	
 		equipment_bonus = {
 			armor = {
 				reliability = 0.08
@@ -3999,9 +3511,7 @@ leader_traits = {
 	basic_tank_manufacturer = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}	
+	
 		equipment_bonus = {
 			armor = {
 				build_cost_ic = -0.07 
@@ -4030,9 +3540,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	USA_pacific_fleet_naval_manufacturer = {
 		random = no
@@ -4061,9 +3569,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	USA_atlantic_fleet_naval_manufacturer = {
 		random = no
@@ -4084,9 +3590,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	USA_raiding_fleet_naval_manufacturer = {
 		random = no
@@ -4105,9 +3609,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	atlantic_fleet_naval_manufacturer = { 
@@ -4129,9 +3631,7 @@ leader_traits = {
 			#}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	german_atlantic_fleet_naval_manufacturer = { 
@@ -4156,9 +3656,7 @@ leader_traits = {
 			#}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	mediterranean_naval_manufacturer = {
@@ -4172,9 +3670,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}	
 		
 	battlefleet_designer = { #armored carriers, slightly buffed cap ships
@@ -4191,9 +3687,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 		battlefleet_med_designer = { #armored carriers, slightly buffed cap ships
@@ -4210,9 +3704,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	raiding_fleet_naval_manufacturer = {
@@ -4234,9 +3726,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	convoy_escort_naval_manufacturer = {
@@ -4251,9 +3741,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	ansaldo_navy_manufacturer = {
@@ -4271,9 +3759,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	crda_manufacturer = { 
 		random = no
@@ -4285,9 +3771,7 @@ leader_traits = {
 			
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	naval_manufacturer = {
 		random = no
@@ -4306,9 +3790,7 @@ leader_traits = {
 				sub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.1
 			}
 		}	
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	artillery_manufacturer = {
@@ -4342,17 +3824,13 @@ leader_traits = {
 				   ap_attack = 0.05
 				}
 		}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	mechanized_equipment_manufacturer = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	
@@ -4363,9 +3841,7 @@ leader_traits = {
 					breakthrough = 0.05 soft_attack = 0.1 defense = 0.05 
 				}
 			}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	infantry_equipment_producer_mass = {
@@ -4376,9 +3852,7 @@ leader_traits = {
 				build_cost_ic = -0.16 instant = yes 
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	support_equipment_producer_mass = {
@@ -4389,9 +3863,7 @@ leader_traits = {
 				build_cost_ic = -0.16 instant = yes 
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	motorised_equipment_producer_quality = {
@@ -4410,9 +3882,7 @@ leader_traits = {
 				build_cost_ic = 0.1  instant = yes
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	artillery_producer_defense = {
@@ -4436,9 +3906,7 @@ leader_traits = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	support_equipment_manufacturer = {
@@ -4450,9 +3918,7 @@ leader_traits = {
 				
 			}
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	motorized_equipment_manufacturer = {
@@ -4468,179 +3934,135 @@ leader_traits = {
 				soft_attack = 0.1 hardness = 0.05 
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	GER_refinery_concern = {
 		random = no
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 
 	GER_medium_tank_manufacturer = {
 		random = no
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	GER_motorized_equipment_manufacturer = {
 		random = no
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	GER_mechanized_equipment_manufacturer = {
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	GER_messerschmitt_manufacturer = {
 		random = no
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	GER_junkers_manufacturer = {
 		random = no
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	GER_focke_wulf_manufacturer = {
 		random = no
 
-		ai_will_do = {
-			factor = 1
-		}		
+		
 	}
 
 	GER_heinkel_manufacturer = {			
 		random = no
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	GER_henschel_manufacturer = {
 
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 
 	GER_ckd_tank_manufacturer = {
 	
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 
 	GER_Krupp_tank_manufacturer = {
 	
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 	
 	GER_artillery_manufacturer = {
 	
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 	
 	GER_infantry_manufacturer = {
 	
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}	
 
 	GER_nibelungenwerke_tank_manufacturer = {
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 
 	GER_vomag_tank_manufacturer = {
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 
 	GER_MAN_tank_manufacturer = {
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 
 	GER_henschel_tank_manufacturer = {
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 
 	GER_porsche_tank_manufacturer = {
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 	alfa_tank_manufacturer = {
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 	armoured_car_manufacturer = {
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 	terni_tank_manufacturer = {
 		random = no 
 
-		ai_will_do = {
-			factor = 1
-		}	
+	
 	}
 	trait_industrial_specialization = {
 		random = no
@@ -4654,81 +4076,59 @@ leader_traits = {
 		production_speed_buildings_factor = 0.05
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.05
-		ai_will_do = {
-			factor = 10
-		}
+
 	}
 	industrial_research_trait = {
 		random = no
 		# research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 	synth_research_trait = {
 		random = no
 		 # research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 	aircraft_research_trait = {
 		random = no
 		 # research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 	naval_research_trait = {
 		random = no
 		 # research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 	tank_research_trait = {
 		random = no
 		 # research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 	willy_guy = {
 		sprite = 14
 		random = no
 		 # research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 	porsche_guy = {
 		sprite = 14
 		random = no
 		 # research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 	materiel_research_trait = {
 		random = no
 		# research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 	artillery_research_trait = {
 		random = no
 		# research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 	motorized_research_trait = {
 		random = no
 		# research_speed_factor = 0.01
-		ai_will_do = {
-			factor = 5
-		}
+
 	}
 
 	construction_company = {
@@ -4736,9 +4136,7 @@ leader_traits = {
 
 		production_speed_buildings_factor = 0.1
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 
 	construction_company = {
@@ -4746,57 +4144,43 @@ leader_traits = {
 
 		production_speed_buildings_factor = 0.1
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}	
 
 	construction_company_BUL = {
 		random = no
 	
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	
 	industrial_concern_BUL = {
 		random = no
 	
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 
 	refinery_concern = {
 		random = no
 		production_speed_synthetic_refinery_factor = 0.15
 		production_speed_synthetic_rubber_refinery_factor = 0.15
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	electronics_concern_ast = {
 		random = no
 		sprite = 10
 		research_speed_factor = 0.04
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	electronics_concern = {
 		random = no
 		research_speed_factor = 0.04
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	electronics_developer = {
 		random = no
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	### Military Minister Traits
@@ -4809,9 +4193,7 @@ leader_traits = {
 		planning_speed = 0.15
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_chief_planning_2 = { # 
@@ -4821,9 +4203,7 @@ leader_traits = {
 		experience_gain_army = 0.05
 
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_chief_planning_3 = { # 
@@ -4832,18 +4212,14 @@ leader_traits = {
 		planning_speed = 0.25
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 
 	army_chief_defensive_1 = { # +5 Defensive efficiency
 		sprite = 9
 		army_defence_factor = 0.06
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_chief_defensive_2 = { # +10 Defensive efficiency
@@ -4851,9 +4227,7 @@ leader_traits = {
 		army_defence_factor = 0.08
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_chief_defensive_3 = { # +15 Defensive efficiency
@@ -4861,9 +4235,7 @@ leader_traits = {
 		army_defence_factor = 0.1
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	army_chief_offensive_1 = { # +5 Offensive efficiency
@@ -4871,36 +4243,28 @@ leader_traits = {
 		army_attack_factor = 0.04
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_chief_offensive_2 = { # +10 Offensive efficiency
 		sprite = 7
 		army_attack_factor = 0.06
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_chief_offensive_3 = { # +15 Offensive efficiency
 		sprite = 7
 		army_attack_factor = 0.08
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	army_chief_old_guard = { # Rate at which field experience is gained decreases by 10%
 		sprite = 5 # Should not need sprite, should mostly be secondary
 		experience_gain_army_factor = -0.1
 		political_power_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	army_schorner_jack_of_all_trades = {
@@ -4922,9 +4286,7 @@ leader_traits = {
 		experience_gain_army_unit_factor = 0.04
 		experience_gain_army = 0.08
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_chief_drill_2 = { # Decreases training time for ground units
@@ -4932,9 +4294,7 @@ leader_traits = {
 		experience_gain_army_unit_factor = 0.06
 		experience_gain_army = 0.08
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_chief_drill_3 = { # Decreases training time for ground units
@@ -4942,9 +4302,7 @@ leader_traits = {
 		experience_gain_army_unit_factor = 0.08
 		experience_gain_army = 0.08
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -4953,27 +4311,21 @@ leader_traits = {
 		experience_gain_army_factor = 0.08
 
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_chief_reform_2 = { # Rate at which field experience is gained increases by 10%
 		sprite = 5
 		experience_gain_army_factor = 0.12
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_chief_reform_3 = { # Rate at which field experience is gained increases by 15%
 		sprite = 5
 		experience_gain_army_factor = 0.16
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -4983,9 +4335,7 @@ leader_traits = {
 		coordination_bonus = 0.025
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_chief_organizational_2 = { # Ground units get 8 more Organization
@@ -4993,9 +4343,7 @@ leader_traits = {
 		army_org_factor = 0.1
 		coordination_bonus = 0.04
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_chief_organizational_3 = { # Ground units get 12 more Organization
@@ -5003,9 +4351,7 @@ leader_traits = {
 		army_org_factor = 0.125
 		coordination_bonus = 0.05
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5014,9 +4360,7 @@ leader_traits = {
 		army_morale_factor = 0.06
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_chief_morale_2 = { # Ground units get 8 more Morale
@@ -5024,9 +4368,7 @@ leader_traits = {
 		army_morale_factor = 0.1
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_chief_morale_3 = { # Ground units get 12 more Morale
@@ -5034,18 +4376,14 @@ leader_traits = {
 		army_morale_factor = 0.12
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	army_high_command_maneuver_1 = { # Ground units move 5% faster
 		sprite = 5
 		army_speed_factor = 0.04
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_high_command_maneuver_2 = { # Ground units move 10% faster
@@ -5053,9 +4391,7 @@ leader_traits = {
 		army_speed_factor = 0.06
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_high_command_maneuver_3 = { # Ground units move 15% faster
@@ -5063,9 +4399,7 @@ leader_traits = {
 		army_speed_factor = 0.08
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5074,9 +4408,7 @@ leader_traits = {
 		army_speed_factor = 0.07
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_chief_maneuver_2 = { # Ground units move 10% faster
@@ -5084,9 +4416,7 @@ leader_traits = {
 		army_speed_factor = 0.1
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_chief_maneuver_3 = { # Ground units move 15% faster
@@ -5094,9 +4424,7 @@ leader_traits = {
 		army_speed_factor = 0.13
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5105,9 +4433,7 @@ leader_traits = {
 		dig_in_speed_factor = 0.2
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_entrenchment_2 = { # Ground units entrench 8% faster
@@ -5115,9 +4441,7 @@ leader_traits = {
 		dig_in_speed_factor = 0.25
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_entrenchment_3 = { # Ground units entrench 12% faster
@@ -5125,9 +4449,7 @@ leader_traits = {
 		dig_in_speed_factor = 0.3
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5141,9 +4463,7 @@ leader_traits = {
 		mechanized_defence_factor = 0.04
 		experience_gain_army = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_armored_2 = { # +8 armor efficiency
@@ -5155,9 +4475,7 @@ leader_traits = {
 		mechanized_attack_factor = 0.06
 		mechanized_defence_factor = 0.06
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_armored_3 = { # +12 armor efficiency
@@ -5169,9 +4487,7 @@ leader_traits = {
 		mechanized_attack_factor = 0.08
 		mechanized_defence_factor = 0.08
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5180,9 +4496,7 @@ leader_traits = {
 		experience_gain_artillery_combat_factor = 0.1
 		army_artillery_defence_factor = 0.08
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_artillery_2 = { # +8 artillery efficiency
@@ -5190,9 +4504,7 @@ leader_traits = {
 		experience_gain_artillery_combat_factor = 0.15
 		army_artillery_defence_factor = 0.12
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_artillery_3 = { # +12 artillery efficiency
@@ -5200,9 +4512,7 @@ leader_traits = {
 		experience_gain_artillery_combat_factor = 0.2
 		army_artillery_defence_factor = 0.16
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5212,9 +4522,7 @@ leader_traits = {
 		army_infantry_defence_factor = 0.04
 
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_infantry_2 = { # +8 infantry efficiency
@@ -5223,9 +4531,7 @@ leader_traits = {
 		army_infantry_defence_factor = 0.08
 
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_infantry_3 = { # +12 infantry efficiency
@@ -5234,9 +4540,7 @@ leader_traits = {
 		army_infantry_defence_factor = 0.12
 		
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5245,9 +4549,7 @@ leader_traits = {
 		army_strength_factor = 0.04
 		experience_gain_army_unit_factor = 0.04
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_commando_2 = { # +15 paratrooper/marine/mountain efficiency
@@ -5256,9 +4558,7 @@ leader_traits = {
 		army_strength_factor = 0.06
 		experience_gain_army_unit_factor = 0.06
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_commando_3 = { # +2 paratrooper/marine/mountain efficiency
@@ -5266,9 +4566,7 @@ leader_traits = {
 		army_strength_factor = 0.08
 		experience_gain_army_unit_factor = 0.08
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5278,9 +4576,7 @@ leader_traits = {
 		breakthrough_factor = 0.08
 		
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_cavalry_2 = { # +8 cavalry/motorized efficiency
@@ -5289,9 +4585,7 @@ leader_traits = {
 		breakthrough_factor = 0.1
 	
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_cavalry_3 = { # +12 cavalry/motorized efficiency
@@ -5299,9 +4593,7 @@ leader_traits = {
 		army_strength_factor = -0.05
 		breakthrough_factor = 0.12
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5309,27 +4601,21 @@ leader_traits = {
 		sprite = 5
 		army_morale_factor = 0.04
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_regrouping_2 = { # Org regenerates 8% faster
 		sprite = 5
 		army_morale_factor = 0.07
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_regrouping_3 = { # Org regenerates 12% faster
 		sprite = 5
 		army_morale_factor = 0.1	
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5338,9 +4624,7 @@ leader_traits = {
 		enemy_army_bonus_air_superiority_factor = -0.11
 		cas_damage_reduction = 0.02
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_concealment_2 = { # Ground units take less damage from air attacks
@@ -5348,9 +4632,7 @@ leader_traits = {
 		enemy_army_bonus_air_superiority_factor = -0.13
 		cas_damage_reduction = 0.05
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_concealment_3 = { # Ground units take less damage from air attacks
@@ -5358,9 +4640,7 @@ leader_traits = {
 		enemy_army_bonus_air_superiority_factor = -0.15
 		cas_damage_reduction = 0.08
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	army_logistics_1 = {  # Ground units suffer 4% less attrition
@@ -5368,9 +4648,7 @@ leader_traits = {
 		supply_consumption_factor = -0.04
 		attrition = -0.04
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	army_logistics_2 = {  # Ground units suffer 8% less attrition
@@ -5378,9 +4656,7 @@ leader_traits = {
 		supply_consumption_factor = -0.06
 		attrition = -0.08
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	army_logistics_3 = {  # Ground units suffer 12% less attrition
@@ -5388,18 +4664,14 @@ leader_traits = {
 		supply_consumption_factor = -0.08
 		attrition = -0.12
 		experience_gain_army = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	air_chief_reform_1 = {  # Rate at which air experience is gained increases by 5%
 		sprite = 5
 		experience_gain_air_factor = 0.1
 	
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_chief_reform_2 = {  # Rate at which air experience is gained increases by 10%
@@ -5407,18 +4679,14 @@ leader_traits = {
 		experience_gain_air_factor = 0.15
 
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_chief_reform_3 = {  # Rate at which air experience is gained increases by 15%
 		sprite = 5
 		experience_gain_air_factor = 0.2
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5426,27 +4694,21 @@ leader_traits = {
 		sprite = 1
 		air_accidents_factor = -0.05
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_chief_safety_2 = {  # Rate of air accidents reduced by 10%
 		sprite = 1
 		air_accidents_factor = -0.1
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_chief_safety_3 = {  # Rate of air accidents reduced by 15%
 		sprite = 1
 		air_accidents_factor = -0.15
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	air_chief_old_guard = {
@@ -5454,36 +4716,28 @@ leader_traits = {
 		experience_gain_air_factor = -0.1
 		political_power_factor = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_chief_night_operations_1 = {
 		sprite = 1
 		air_night_penalty = -0.3
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_chief_night_operations_2 = { 
 		sprite = 1
 		air_night_penalty = -0.4
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_chief_night_operations_3 = { 
 		sprite = 1
 		air_night_penalty = -0.5
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5491,27 +4745,21 @@ leader_traits = {
 		sprite = 2
 		army_bonus_air_superiority_factor = 0.075
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_chief_ground_support_2 = {  # Air superiority impact on land units improved by 10%
 		sprite = 2
 		army_bonus_air_superiority_factor = 0.125
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_chief_ground_support_3 = {  # Air superiority impact on land units improved by 15%
 		sprite = 2
 		army_bonus_air_superiority_factor = 0.175
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5521,9 +4769,7 @@ leader_traits = {
 		air_range_factor = 0.08
 		air_weather_penalty = -0.2
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_chief_all_weather_2 = {  # +10 bad weather air efficiency
@@ -5531,9 +4777,7 @@ leader_traits = {
 		air_range_factor = 0.1
 		air_weather_penalty = -0.25
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_chief_all_weather_3 = {  # +15 bad weather air efficiency
@@ -5541,9 +4785,7 @@ leader_traits = {
 		air_range_factor = 0.12
 		air_weather_penalty = -0.3
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 
@@ -5551,27 +4793,21 @@ leader_traits = {
 		sprite = 1
 		air_ace_generation_chance_factor = 0.3
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_air_combat_training_2 = {  # Chance of ace generating is increased by 10%
 		sprite = 1
 		air_ace_generation_chance_factor = 0.4
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_air_combat_training_3 = {  # Chance of ace generating is increased by 15%
 		sprite = 1
 		air_ace_generation_chance_factor = 0.5
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	# Guesstimation of what % increased efficiency might look like
@@ -5580,9 +4816,7 @@ leader_traits = {
 		naval_strike_attack_factor = 0.04
 		naval_strike_targetting_factor = 0.02
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_naval_strike_2 = { # Naval Strike mission efficiency increased by 8%
@@ -5590,9 +4824,7 @@ leader_traits = {
 		naval_strike_attack_factor = 0.06
 		naval_strike_targetting_factor = 0.04
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_naval_strike_3 = { # Naval Strike mission efficiency increased by 12%
@@ -5600,9 +4832,7 @@ leader_traits = {
 		naval_strike_attack_factor = 0.08
 		naval_strike_targetting_factor = 0.06
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5611,9 +4841,7 @@ leader_traits = {
 		air_intercept_efficiency  = 0.1
 		industry_repair_factor = 0.1
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_bomber_interception_2 = { # Bomber Interception mission efficiency increased by 8%
@@ -5621,9 +4849,7 @@ leader_traits = {
 		air_intercept_efficiency  = 0.15
 		industry_repair_factor = 0.15
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_bomber_interception_3 = { # Bomber Interception mission efficiency increased by 12%
@@ -5631,9 +4857,7 @@ leader_traits = {
 		air_intercept_efficiency  = 0.2
 		industry_repair_factor = 0.2
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5645,9 +4869,7 @@ leader_traits = {
 		air_agility_factor = 0.04
 		
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_air_superiority_2 = { # Air Superiority mission efficiency increased by 8%
@@ -5658,9 +4880,7 @@ leader_traits = {
 		air_agility_factor = 0.04
 		
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_air_superiority_3 = { # Air Superiority mission efficiency increased by 12%
@@ -5672,9 +4892,7 @@ leader_traits = {
 	
 		
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5685,9 +4903,7 @@ leader_traits = {
 		ground_attack_factor = 0.07
 		
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_close_air_support_2 = { # Close Air Support mission efficiency increased by 8%
@@ -5695,9 +4911,7 @@ leader_traits = {
 		experience_gain_air = 0.05
 		ground_attack_factor = 0.1
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_close_air_support_3 = { # Close Air Support mission efficiency increased by 12%
@@ -5706,9 +4920,7 @@ leader_traits = {
 		ground_attack_factor = 0.15
 		
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5720,9 +4932,7 @@ leader_traits = {
 			
 			
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_strategic_bombing_2 = { # Strategic Bombing mission efficiency increased by 8%
@@ -5732,9 +4942,7 @@ leader_traits = {
 		air_bombing_targetting = 0.05
 		
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_strategic_bombing_3 = { # Strategic Bombing mission efficiency increased by 12%
@@ -5743,36 +4951,28 @@ leader_traits = {
 		air_strategic_bomber_bombing_factor = 0.1
 		air_bombing_targetting = 0.08
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	air_tactical_bombing_1 = { # Tactical Bombing mission efficiency increased
 		sprite = 2
 		air_cas_present_factor = 0.2
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_tactical_bombing_2 = { # Tactical Bombing mission efficiency increased
 		sprite = 2
 		air_cas_present_factor = 0.25
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	air_tactical_bombing_3 = { # Tactical Bombing mission efficiency increased
 		sprite = 2
 		air_cas_present_factor = 0.3
 		experience_gain_air = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5782,9 +4982,7 @@ leader_traits = {
 		extra_paratrooper_supply_grace = 12
 		paradrop_organization_factor = 0.1
 		paratrooper_aa_defense = 0.1
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	air_airborne_2 = { # Paratrooper drop efficiency increased by 8%
@@ -5793,9 +4991,7 @@ leader_traits = {
 		extra_paratrooper_supply_grace = 24
 		paradrop_organization_factor = 0.2
 		paratrooper_aa_defense = 0.2
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	air_airborne_3 = { # Paratrooper drop efficiency increased by 12%
 		sprite = 1
@@ -5804,9 +5000,7 @@ leader_traits = {
 		paradrop_organization_factor = 0.3
 		paratrooper_aa_defense = 0.3
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5867,9 +5061,7 @@ leader_traits = {
 		navy_screen_attack_factor = 0.06
 		navy_screen_defence_factor = 0.06
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	navy_chief_decisive_battle_2 = {
@@ -5879,9 +5071,7 @@ leader_traits = {
 		navy_screen_attack_factor = 0.08
 		navy_screen_defence_factor = 0.08
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	navy_chief_decisive_battle_3 = {
@@ -5891,9 +5081,7 @@ leader_traits = {
 		navy_screen_attack_factor = 0.1
 		navy_screen_defence_factor = 0.1
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5901,27 +5089,21 @@ leader_traits = {
 		sprite = 3
 		convoy_raiding_efficiency_factor = 0.35
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	navy_chief_commerce_raiding_2 = {
 		sprite = 3
 		convoy_raiding_efficiency_factor = 0.5
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	navy_chief_commerce_raiding_3 = {
 		sprite = 3
 		convoy_raiding_efficiency_factor = 0.65
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	navy_chief_old_guard = {
@@ -5929,63 +5111,49 @@ leader_traits = {
 		experience_gain_navy_factor = -0.1
 		political_power_factor = 0.1
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	navy_chief_reform_1 = {
 		sprite = 3
 		experience_gain_navy_factor = 0.05
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	navy_chief_reform_2 = {
 		sprite = 3
 		experience_gain_navy_factor = 0.1
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	navy_chief_reform_3 = {
 		sprite = 3
 		experience_gain_navy_factor = 0.15
 		
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	navy_chief_maneuver_1 = { # Naval units move 5% faster
 		sprite = 3
 		naval_speed_factor = 0.06
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	navy_chief_maneuver_2 = { # Naval units move 10% faster
 		sprite = 3
 		naval_speed_factor = 0.08
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	navy_chief_maneuver_3 = { # Naval units move 15% faster
 		sprite = 3
 		naval_speed_factor = 0.1
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -5993,27 +5161,21 @@ leader_traits = {
 		sprite = 4
 		navy_submarine_detection_factor = 0.1
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	navy_anti_submarine_2 = {
 		sprite = 4
 		navy_submarine_detection_factor = 0.15
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	navy_anti_submarine_3 = {
 		sprite = 4
 		navy_submarine_detection_factor = 0.2
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -6021,27 +5183,21 @@ leader_traits = {
 		sprite = 3
 		navy_anti_air_attack_factor = 0.12
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	navy_naval_air_defense_2 = {
 		sprite = 3
 		navy_anti_air_attack_factor = 0.16
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	navy_naval_air_defense_3 = {
 		sprite = 3
 		navy_anti_air_attack_factor = 0.2
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -6049,27 +5205,21 @@ leader_traits = {
 		sprite = 6
 		navy_max_range_factor = 0.15
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	navy_fleet_logistics_2 = {
 		sprite = 6
 		navy_max_range_factor = 0.2
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	navy_fleet_logistics_3 = {
 		sprite = 6
 		navy_max_range_factor = 0.25
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 	
 	
@@ -6078,9 +5228,7 @@ leader_traits = {
 		amphibious_invasion = 0.07
 		naval_invasion_penalty = -0.02
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	navy_amphibious_assault_2 = {
@@ -6088,9 +5236,7 @@ leader_traits = {
 		amphibious_invasion = 0.12
 		naval_invasion_penalty = -0.04
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	
 	navy_amphibious_assault_3 = {
@@ -6098,9 +5244,7 @@ leader_traits = {
 		amphibious_invasion = 0.16
 		naval_invasion_penalty = -0.06
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 
 
@@ -6109,9 +5253,7 @@ leader_traits = {
 		navy_submarine_attack_factor = 0.06
 		navy_submarine_defence_factor = 0.06
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	navy_submarine_2 = {
@@ -6119,9 +5261,7 @@ leader_traits = {
 		navy_submarine_attack_factor = 0.08
 		navy_submarine_defence_factor = 0.08
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 
 	navy_submarine_3 = {
@@ -6130,9 +5270,7 @@ leader_traits = {
 		navy_submarine_defence_factor = 0.1
 		convoy_raiding_efficiency_factor = 0.2
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 
 
@@ -6141,9 +5279,7 @@ leader_traits = {
 		navy_capital_ship_attack_factor = 0.07
 		navy_capital_ship_defence_factor = 0.07
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	navy_capital_ship_2 = {
@@ -6151,9 +5287,7 @@ leader_traits = {
 		navy_capital_ship_attack_factor = 0.1
 		navy_capital_ship_defence_factor = 0.1
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 
 	navy_capital_ship_3 = {
@@ -6161,9 +5295,7 @@ leader_traits = {
 		navy_capital_ship_attack_factor = 0.13
 		navy_capital_ship_defence_factor = 0.13
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 
 
@@ -6172,9 +5304,7 @@ leader_traits = {
 		navy_screen_attack_factor = 0.07
 		navy_screen_defence_factor = 0.07
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	navy_screen_2 = {
@@ -6182,9 +5312,7 @@ leader_traits = {
 		navy_screen_attack_factor = 0.1
 		navy_screen_defence_factor = 0.1
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 
 	navy_screen_3 = {
@@ -6192,36 +5320,28 @@ leader_traits = {
 		navy_screen_attack_factor = 0.13
 		navy_screen_defence_factor = 0.13
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 
 	navy_carrier_1 = {
 		sprite = 3
 		sortie_efficiency = 0.1
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	navy_carrier_2 = {
 		sprite = 3
 		sortie_efficiency = 0.15
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 
 	navy_carrier_3 = {
 		sprite = 3
 		sortie_efficiency = 0.2
 		experience_gain_navy = 0.05
-		ai_will_do = {
-			factor = 3
-		}
+
 	}
 
 	r_hess = {
@@ -6238,9 +5358,7 @@ leader_traits = {
 		random = no		
 		fascism_acceptance = 70
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	anti_communist = {
@@ -6248,9 +5366,7 @@ leader_traits = {
 		communism_acceptance = -50
 		communism_drift = -0.01
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	camarilla_leader = {
@@ -6264,18 +5380,14 @@ leader_traits = {
 		army_chief_cost_factor = -0.25
 		navy_chief_cost_factor = -0.25
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	hedonist = {
 		random = no
 		stability_factor = -0.05
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	
 	staunch_monarchist = {
@@ -6284,9 +5396,7 @@ leader_traits = {
 		sprite = 13
 		neutrality_drift = 0.1
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	
 	
@@ -6309,9 +5419,7 @@ leader_traits = {
 	efr_butcher = {
 		random = no 
 		compliance_gain = 0.05
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	
 	efr_military_govenor = {
@@ -6319,9 +5427,7 @@ leader_traits = {
 		 conscription_factor = 0.15
 		production_speed_arms_factory_factor = 0.1
 
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 
 	####malacu caluga####
@@ -6332,9 +5438,7 @@ leader_traits = {
 		overlord_trade_cost_factor = -0.35
 		cic_construction_boost = 0.15
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	captain_of_industry_manchu = {
 		sprite = 10
@@ -6346,9 +5450,7 @@ leader_traits = {
 		production_speed_synthetic_rubber_refinery_factor = 0.05
 		local_resources_factor = 0.1
 		
-		ai_will_do = {
-			factor = 10
-		}
+
 	}
 	Machu_economist = {
 		sprite = 13
@@ -6361,9 +5463,7 @@ leader_traits = {
 		
 		stability_weekly = -0.002
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	propaganda_machine = {
 		sprite = 13
@@ -6373,9 +5473,7 @@ leader_traits = {
 		war_support_weekly = 0.002
 		weekly_manpower = 500
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	leader_of_kuangtung ={
 		sprite = 13
@@ -6386,9 +5484,7 @@ leader_traits = {
 		war_support_factor = 0.15
 		fascism_drift = 0.1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	minister_of_trans_and_rcc_envoy = {
@@ -6398,9 +5494,7 @@ leader_traits = {
 		extra_trade_to_target_factor = 0.25
 		cic_construction_boost = 0.25
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	Loyalist = {
@@ -6414,9 +5508,7 @@ leader_traits = {
 		stability_weekly = 0.003
 		#custom_modifier_tooltip =communist_manchu_advisor_removal_2
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	cofonder_of_concorida_association = {
 		#stability_weekly = 0.004
@@ -6426,9 +5518,7 @@ leader_traits = {
 		democratic_drift = 0.05
 		#custom_modifier_tooltip =communist_manchu_advisor_removal_1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 	}
 	spirits_and_tobacoo_monopoly = {
@@ -6436,9 +5526,7 @@ leader_traits = {
 		custom_modifier_tooltip = fucking_workers
 		stability_weekly = 0.001
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	Opium_drug_lord = {
 		sprite = 13
@@ -6451,9 +5539,7 @@ leader_traits = {
 		stability_weekly = -0.0015
 		weekly_manpower = -350
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	ambasador_to_japan = {
 		resistance_target  = -0.050
@@ -6463,9 +5549,7 @@ leader_traits = {
 		encryption_factor  = -0.500
 		intel_network_gain_factor  = -0.250
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	puiy_spirit ={
@@ -6486,9 +5570,7 @@ leader_traits = {
 		custom_modifier_tooltip = the_devil
 		stability_weekly = -0.002
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	japan_manchuria_cute_ambassadress = {
 		sprite = 13
@@ -6501,9 +5583,7 @@ leader_traits = {
 
 		political_power_gain = 0.15
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	################
 	#
@@ -6514,9 +5594,7 @@ leader_traits = {
 		stability_factor = 0.1
 		political_power_factor = -0.1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_wang_9 = {
 		sprite = 13
@@ -6524,9 +5602,7 @@ leader_traits = {
 		stability_factor = -0.1
 		political_power_factor = -0.1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_wang_8 = {
 		sprite = 13
@@ -6534,9 +5610,7 @@ leader_traits = {
 		stability_factor = 0.0
 		political_power_factor = 0.0
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_wang_7 = {
 		sprite = 13
@@ -6544,9 +5618,7 @@ leader_traits = {
 		stability_factor = 0.05
 		political_power_factor = 0.05
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	#################
 	RCC_wang_over_the_party_1 = {
@@ -6556,9 +5628,7 @@ leader_traits = {
 		political_power_factor = 0.15
 		party_popularity_stability_factor = -0.1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_wang_over_the_party_2 = {
 		sprite = 13
@@ -6567,9 +5637,7 @@ leader_traits = {
 		political_power_factor = 0.25
 		party_popularity_stability_factor = -0.15
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	####################
 	RCC_wang_one_with_party = {
@@ -6579,9 +5647,7 @@ leader_traits = {
 		political_power_factor = 0.05
 		party_popularity_stability_factor = 0.1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_wang_one_with_party_2 = {
 		sprite = 13
@@ -6590,9 +5656,7 @@ leader_traits = {
 		political_power_factor = 0.1
 		party_popularity_stability_factor = 0.15
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	#####################
 	RCC_wang_left_red_hunter_1 = {
@@ -6604,9 +5668,7 @@ leader_traits = {
 		communism_acceptance = -25
 		democratic_acceptance = -15
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_wang_left_red_hunter_2= {
 		sprite = 13
@@ -6617,9 +5679,7 @@ leader_traits = {
 		communism_acceptance = -25
 		democratic_acceptance = -20
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	#################
 	RCC_wang_terror_1 = {
@@ -6629,9 +5689,7 @@ leader_traits = {
 		communism_drift = -0.04
 		communism_acceptance = -40
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_wang_terror_2 = {
 		sprite = 13
@@ -6640,9 +5698,7 @@ leader_traits = {
 		communism_drift = -0.04
 		communism_acceptance = -50
 
-		ai_will_do = {
-			factor = 1
-		}
+
    }
    #################
    RCC_wang_the_one_and_only = {
@@ -6667,9 +5723,7 @@ leader_traits = {
 		political_power_gain = 0.2
 		stability_weekly = 0.001
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	RCC_propaganda = {
@@ -6680,9 +5734,7 @@ leader_traits = {
 		fascism_drift = 0.05
 		weekly_manpower = 500
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	RCC_yuan_backroom_backstaber = {
@@ -6691,9 +5743,7 @@ leader_traits = {
 		local_resources_factor = 0.15
 		min_export = -0.15
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 
@@ -6704,9 +5754,7 @@ leader_traits = {
 		consumer_goods_expected_value = -0.01
 		min_export = 0.10
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	RCC_yuan_prince_of_terror = {
@@ -6719,9 +5767,7 @@ leader_traits = {
 		non_core_manpower = 0.01
 		compliance_gain = -0.01
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	RCC_yuan_prince_of_heart = {
@@ -6734,9 +5780,7 @@ leader_traits = {
 		non_core_manpower = 0.01
 		compliance_gain = 0.01
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_cap_production = {
 		sprite = 13
@@ -6745,9 +5789,7 @@ leader_traits = {
 		production_factory_max_efficiency_factor = 0.02
 		industrial_capacity_factory = 0.05
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_yuan_agriculture = {
 		sprite = 13
@@ -6755,9 +5797,7 @@ leader_traits = {
 		consumer_goods_expected_value = -0.02
 		local_resources_factor = 0.08
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_yuan_minister_of_education = {
 		sprite = 13
@@ -6768,9 +5808,7 @@ leader_traits = {
 		stability_factor = 0.05
 
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	RCC_minister_of_the_navy = {
@@ -6784,9 +5822,7 @@ leader_traits = {
 		industrial_capacity_dockyard = 0.1
 
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	war_industrialist_rcc ={
 
@@ -6795,9 +5831,7 @@ leader_traits = {
 		production_speed_arms_factory_factor = 0.05
 
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	captain_of_industry_rcc ={
@@ -6806,9 +5840,7 @@ leader_traits = {
 		production_speed_industrial_complex_factor = 0.1
 
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_minister_of_the_justice = {
 		sprite = 12
@@ -6818,9 +5850,7 @@ leader_traits = {
 		stability_weekly = 0.002
 		stability_factor = 0.1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	RCC_minister_of_the_military = {
@@ -6834,9 +5864,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.075
 		production_speed_industrial_complex_factor = -0.1
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_minister_of_propaganda = {
 		sprite = 12
@@ -6849,9 +5877,7 @@ leader_traits = {
 		weekly_manpower = -750
 
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	RCC_minister_of_agriculture= {
 		sprite = 12
@@ -6861,9 +5887,7 @@ leader_traits = {
 		local_resources_factor = 0.05
 		weekly_manpower = 500
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 
@@ -6882,9 +5906,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		monthly_population = -0.5
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	SLO_zatko_trait = {
 		random = no
@@ -6893,9 +5915,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.15
 		political_power_cost = 0.25
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	SLO_karvas_trait = {
 		random = no
@@ -6904,9 +5924,7 @@ leader_traits = {
 		production_factory_max_efficiency_factor = 0.075
 		production_speed_arms_factory_factor = 0.1
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	unwavering = {
 		random = no
@@ -6916,9 +5934,7 @@ leader_traits = {
 		sprite = 13
 		stability_weekly = -0.0015
 		
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	reynaud_trait = {
 		sprite = 10
@@ -6926,33 +5942,25 @@ leader_traits = {
 		production_speed_buildings_factor = 0.05
 		production_factory_max_efficiency_factor = 0.025
 		
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	brown_trait = {
 		sprite = 10
 		random = yes
 		industrial_capacity_factory = 0.05
 		production_factory_max_efficiency_factor = 0.025
-		ai_will_do = {
-			factor = 2
-		}
+
 	}
 	frachon_trait = {
 		random = yes
 		sprite = 13
 		stability_weekly = 0.004
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	gamelin_trait = { 
 		sprite = 5
 		political_power_gain = 0.15
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	air_production = {
 		sprite = 14
@@ -7075,9 +6083,7 @@ leader_traits = {
 		industrial_capacity_factory = -0.1
 		industrial_capacity_dockyard = -0.1
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	spr_ini_united_2 = {
 		random = no
@@ -7086,9 +6092,7 @@ leader_traits = {
 		industrial_capacity_factory = -0.05
 		industrial_capacity_dockyard = -0.05
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}	
 	spr_ini_united_3 = {
 		random = no
@@ -7098,9 +6102,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.05
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}	
 	spr_ini_united_4 = {
 		random = no
@@ -7111,9 +6113,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	spr_AKC_company = {
 		random = no
@@ -7123,9 +6123,7 @@ leader_traits = {
 		cic_construction_boost_factor = 0.1
 
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	spr_AKC_company_1 = {
 		random = no
@@ -7135,9 +6133,7 @@ leader_traits = {
 		cic_construction_boost_factor = 0.2
 
 		
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 	construction_company_spr = {
 		random = no

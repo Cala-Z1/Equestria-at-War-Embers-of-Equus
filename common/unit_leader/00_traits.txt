@@ -162,7 +162,7 @@ leader_traits = {
 			factor = 1
 			modifier = {
 				factor = 3
-				owner = { tag = NIM }
+				owner = { tag = STG }
 			}
 			modifier = {
 				FROM = { has_idea = best_of_the_best_spirit }

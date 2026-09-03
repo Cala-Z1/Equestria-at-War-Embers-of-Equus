@@ -367,7 +367,3 @@ sound = {
 	name = "eqc_Move_009"
 	file = "EQC/EQC_Moving_09.wav"
 }
-sound = {
-	name = "eqc_Move_010"
-	file = "EQC/EQC_Moving_010.wav"
-}

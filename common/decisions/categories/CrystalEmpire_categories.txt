@@ -18,6 +18,16 @@ CRY_crystal_heart_decisions = {
 		tag = CRY
 	}
 }
+CRY_bop_decsions_cat = {
+	icon = GFX_Crystal_Court_Consolidation
+	priority = 7
+	allowed = {
+		tag = CRY
+	}
+	visible = {
+		tag = CRY
+	}
+}
 CRY_on_map_decisions = {
 	icon = GFX_decision_category_generic_political_actions
 	priority = 8

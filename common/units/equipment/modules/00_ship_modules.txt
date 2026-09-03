@@ -19,10 +19,6 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 4
 		}
-		multiply_stats = {
-			
-		}
-
 		critical_parts = { damaged_light_guns }
 	}
 	sub_missile_launcher = {

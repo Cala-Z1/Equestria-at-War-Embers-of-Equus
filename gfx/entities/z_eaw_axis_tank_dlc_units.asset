@@ -22,14 +22,6 @@ entity = {
 	clone = "ITA_light_tank_destroyer_brigade_1_entity"
 	name = "WNG_light_tank_destroyer_brigade_1_entity"
 }
-
-entity = {
-	clone = "ITA_mechanized_entity"
-	name = "WNG_mechanized_entity"
-	
-	attach = { 	name = "infantry"			infantry = "wingbardian_infantry_entity" }
-}
-
 entity = {
 	clone = "ITA_medium_armor_1_entity"
 	name = "WNG_medium_armor_1_entity"

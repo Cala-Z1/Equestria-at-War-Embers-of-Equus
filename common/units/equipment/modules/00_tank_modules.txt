@@ -1586,10 +1586,6 @@ equipment_modules = {
 			reliability = -0.025
 		}
 		xp_cost = 0
-		can_convert_from = {
-			module_category = tank_aa_main_armament
-			convert_cost_ic = 2
-		}
 	}
 	tank_auto_cannon_2 = {
 		abbreviation = "ac2"
@@ -1606,10 +1602,6 @@ equipment_modules = {
 			reliability = -0.025
 		}
 		xp_cost = 0
-		can_convert_from = {
-			module_category = tank_aa_main_armament
-			convert_cost_ic = 2
-		}
 	}
 	tank_anti_air_cannon = {
 		abbreviation = "aa1"

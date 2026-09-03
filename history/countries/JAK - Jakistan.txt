@@ -3,25 +3,55 @@
 set_technology ={
 	starting_industry = 1
 }
-
 set_research_slots = 5
-
 set_convoys = 150
-
 set_popularities = {
-	democratic = 6
-	fascism = 74
-	communism = 15
-	neutrality = 5
+	democratic = 30
+	fascism = 70
+	communism = 0
+	neutrality = 0
 }
-
 set_politics = {
-
 	ruling_party = fascism
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
 }
-
-add_ideas = {
+set_power_balance = {
+	id = JAK_starting_bop
 }
+activate_mission = JAK_actual_civil_war
+add_ideas = {
+	low_economic_mobilisation
+	limited_conscription
+	limited_exports
+}
+recruit_character = JAK_prince_bradford
+recruit_character = JAK_khan_bradford
+recruit_character = JAK_communist_remnants
+recruit_character = JAK_garrin_korai
+recruit_character = JAK_changeling_commander
+recruit_character = JAK_changeling_commander2
+recruit_character = JAK_maihov_kerz
+recruit_character = JAK_yakkenkova
+recruit_character = JAK_alastair
+recruit_character = JAK_ingville
+recruit_character = JAK_nora
+recruit_character = JAK_archibald
+recruit_character = JAK_yemina
+recruit_character = JAK_gunnel
+recruit_character = JAK_grimhorn
+recruit_character = JAK_ylva
+recruit_character = JAK_not_a_jak
+recruit_character = JAK_next_in_line
+recruit_character = JAK_dougal_khan
+recruit_character = JAK_irvine
+recruit_character = JAK_heroi
+recruit_character = JAK_skychief_agnes
+recruit_character = JAK_finbar
+recruit_character = JAK_boomer
+recruit_character = JAK_star_mountain
+recruit_character = JAK_fash_advisor_1
+recruit_character = JAK_sm_advisor_1
+recruit_character = JAK_sm_advisor_2
+recruit_character = JAK_sm_advisor_3

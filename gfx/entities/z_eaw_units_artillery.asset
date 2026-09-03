@@ -21,7 +21,7 @@ entity = {
 	scale = 1
 	
 	attach = { name = artillery			artillery = "EQS_artillery_gun_entity" }
-	attach = { name = infantry			infantry = "EQS_infantry_2_entity" }
+	attach = { name = infantry			infantry = "NLR_infantry_2_entity" }
 }
 
 entity = {
@@ -60,7 +60,7 @@ entity = {
 entity = {
 	clone = "EQS_artillery_entity"
 	name = "CRY_artillery_entity"
-	attach = { name = infantry			infantry = "CRY_infantry_2_entity" }
+	attach = { name = infantry			infantry = "NLR_infantry_2_entity" }
 }
 
 entity = {

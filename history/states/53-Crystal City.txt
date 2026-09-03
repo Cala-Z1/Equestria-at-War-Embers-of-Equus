@@ -24,10 +24,5 @@ state={
 		1007.1.1.3 = {
 			owner = HLR
 		}
-
-	}
-
-	resources={
-		crystals=600
 	}
 }

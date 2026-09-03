@@ -41,5 +41,5 @@ create_country_leader = {
 		freedom_level = 0.35
 	}
 add_ideas = {
-
+	volunteer_corps_focus
 }

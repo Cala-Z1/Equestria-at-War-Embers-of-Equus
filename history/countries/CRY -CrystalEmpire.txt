@@ -71,6 +71,7 @@ add_ideas = {
 	CRY_five_year_plan
 	closed_market
 	Sombra_Scare
+	volunteer_corps_focus
 }
 ## 5 YEAR PLAN ##
 add_dynamic_modifier = {

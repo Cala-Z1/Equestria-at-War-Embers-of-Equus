@@ -34,7 +34,7 @@ resources = {
 		cic = 0.033
 		convoys = 0.01
 	} 
-		crystals = {
+	crystals = {
 		icon_frame = 7
 		cic = 0.033
 		convoys = 0.01

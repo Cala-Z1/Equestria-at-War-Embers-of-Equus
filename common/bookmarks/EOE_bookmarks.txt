@@ -6,25 +6,45 @@ bookmarks = {
 		picture = "GFX_bookmark_zebrica"
 		default_country = "GRI"
 		default = yes
-		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
 		# Majors
-		"EQS" = { history = "EQS_1007_1_1" }
-		"CHN" = { history = "CHN_1007_1_1" }
-		"RCT" = { history = "RCT_1007_1_1" }
-		"HIP" = { history = "HIP_1007_1_1" }
-		"GRI" = { history = "GRI_1007_1_1" }
- 		"WNG" = { history = "WNG_1007_1_1" }
-		"FAT" = { history = "FAT_1007_1_1" }
-		"JER" = { history = "JER_1007_1_1" }
+		"EQS" = { history = "EQS_1007_1_1" 
+					ideology = democratic
+	}
+		"CHN" = { history = "CHN_1007_1_1"
+					ideology = fascism
+	}
+		"RCT" = { history = "RCT_1007_1_1" 
+					ideology = democratic
+	}
+		"HIP" = { history = "HIP_1007_1_1" 
+					ideology = democratic
+	}
+		"GRI" = { history = "GRI_1007_1_1" 
+					ideology = fascism
+	}
+ 		"WNG" = { history = "WNG_1007_1_1" 
+					ideology = fascism
+	}
+		"FAT" = { history = "FAT_1007_1_1" 
+					ideology = democratic
+	}
+		"JER" = { history = "JER_1007_1_1" 
+					ideology = democratic
+	}
 		
 		# Minors
-		"OLE" = { history = "OLE_1007_1_1" minor = yes}
-		"YAK" = { history = "YAK_1007_1_1" minor = yes}
-		"JAK" = { history = "JAK_1007_1_1" minor = yes}
-		"PLB" = { history = "PLB_1007_1_1" minor = yes}
-		"GRF" = { history = "GRF_1007_1_1" minor = yes}
-		"STG" = { history = "STG_1007_1_1" minor = yes}
+		"OLE" = { history = "OLE_1007_1_1" minor = yes ideology = fascism }
+		"YAK" = { history = "YAK_1007_1_1" minor = yes ideology = democratic }
+		"JAK" = { history = "JAK_1007_1_1" minor = yes ideology = fascism }
+		"PLB" = { history = "PLB_1007_1_1" minor = yes ideology = fascism }
+		"GRF" = { history = "GRF_1007_1_1" minor = yes ideology = fascism }
+		"STG" = { history = "STG_1007_1_1" minor = yes ideology = communism }
 		"CRY" = {
+			ideology = democratic
 		ideas = {
 			equestrian_overlord
 			crystal_buff
@@ -37,11 +57,11 @@ bookmarks = {
 		}
 		 history = "CRY_1007_1_1" minor = yes
 		}
-		"EQC" = { history = "EQC_1007_1_1" minor = yes}
-		"MCW" = { history = "MCW_1007_1_1" minor = yes}
-		"KIR" = { history = "KIR_1007_1_1" minor = yes}
-		"ABY" = { history = "ABY_1007_1_1" minor = yes}
-		"SDL" = { history = "SDL_1007_1_1" minor = yes}
+		"EQC" = { history = "EQC_1007_1_1" minor = yes ideology = democratic}
+		"MCW" = { history = "MCW_1007_1_1" minor = yes ideology = democratic}
+		"KIR" = { history = "KIR_1007_1_1" minor = yes ideology = democratic}
+		"ABY" = { history = "ABY_1007_1_1" minor = yes ideology = democratic}
+		"SDL" = { history = "SDL_1007_1_1" minor = yes ideology = democratic} 
 	}
 	bookmark = {
 		name = "EOE_EQUUS_ONLY"
@@ -49,11 +69,15 @@ bookmarks = {
 		date = 1007.1.1.2
 		picture = "GFX_bookmark_equus"
 		default_country = "EQS"
-		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}		
 		# Majors
-		"EQS" = { history = "EQS_1007_1_1" }
-		"CHN" = { history = "CHN_1007_1_1" }
+		"EQS" = { history = "EQS_1007_1_1" ideology = democratic}
+		"CHN" = { history = "CHN_1007_1_1" ideology = fascism}
 		"CRY" = {
+			ideology = democratic
 		ideas = {
 			equestrian_overlord
 			crystal_buff
@@ -66,13 +90,13 @@ bookmarks = {
 		}
 		 history = "CRY_1007_1_1" 
 		}
-		"STG" = { history = "STG_1007_1_1" }
- 		"OLE" = { history = "OLE_1007_1_1" }
-		"PLB" = { history = "PLB_1007_1_1" }
+		"STG" = { history = "STG_1007_1_1" ideology = communism}
+ 		"OLE" = { history = "OLE_1007_1_1" ideology = fascism}
+		"PLB" = { history = "PLB_1007_1_1" ideology = fascism}
 		# Minors
-		"YAK" = { history = "YAK_1007_1_1" minor = yes}
-		"JAK" = { history = "JAK_1007_1_1" minor = yes}
-		"GRF" = { history = "GRF_1007_1_1" minor = yes}
+		"YAK" = { history = "YAK_1007_1_1" minor = yes ideology = democratic}
+		"JAK" = { history = "JAK_1007_1_1" minor = yes ideology = fascism}
+		"GRF" = { history = "GRF_1007_1_1" minor = yes ideology = fascism}
 	}
 	bookmark = {
 		name = "EOE_GRIFFONIA_ONLY"
@@ -80,20 +104,23 @@ bookmarks = {
 		date = 1007.1.1.3
 		picture = "GFX_bookmark_griffonia"
 		default_country = "GRI"
-		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}		
 		# Majors
-		"FAT" = { history = "FAT_1007_1_1" }
-		"GRI" = { history = "GRI_1007_1_1" }
-		"WNG" = { history = "WNG_1007_1_1" }
-		"RCT" = { history = "RCT_1007_1_1" }
-		"HIP" = { history = "HIP_1007_1_1" }
- 		"EQC" = { history = "EQC_1007_1_1" }
-		"JER" = { history = "JER_1007_1_1" }
-		"MCW" = { history = "MCW_1007_1_1" }		
+		"FAT" = { history = "FAT_1007_1_1" ideology = democratic}
+		"GRI" = { history = "GRI_1007_1_1" ideology = fascism}
+		"WNG" = { history = "WNG_1007_1_1" ideology = fascism}
+		"RCT" = { history = "RCT_1007_1_1" ideology = democratic}
+		"HIP" = { history = "HIP_1007_1_1" ideology = democratic}
+ 		"EQC" = { history = "EQC_1007_1_1" ideology = democratic}
+		"JER" = { history = "JER_1007_1_1" ideology = democratic}
+		"MCW" = { history = "MCW_1007_1_1" ideology = fascism}		
 
 		# Minors
-		"KIR" = { history = "KIR_1007_1_1" minor = yes}
-		"ABY" = { history = "ABY_1007_1_1" minor = yes}
-		"SDL" = { history = "SDL_1007_1_1" minor = yes}
+		"KIR" = { history = "KIR_1007_1_1" minor = yes ideology = democratic}
+		"ABY" = { history = "ABY_1007_1_1" minor = yes ideology = democratic}
+		"SDL" = { history = "SDL_1007_1_1" minor = yes ideology = democratic}
 	}
 }
