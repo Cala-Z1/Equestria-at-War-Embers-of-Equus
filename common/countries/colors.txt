@@ -94,3 +94,7 @@ LNS = {
 	color = rgb {120 78 78}
 	color_ui = rgb {120 78 78}
 }
+CTL = {
+	color = rgb { 119 119 255 }
+	color_ui = rgb { 119 119 255 }
+}

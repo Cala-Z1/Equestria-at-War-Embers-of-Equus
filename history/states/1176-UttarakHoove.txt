@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = OLE
-		add_core_of = OLE
+		owner = CTL
+		add_core_of = CTL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
