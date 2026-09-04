@@ -9,8 +9,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = WNG
-		add_core_of = WNG
+		owner = HLR
+		add_core_of = HLR
 		buildings = {
 			infrastructure = 1
 			20286 = {
@@ -20,13 +20,6 @@ state={
 		victory_points = {
 			20286 1
 		}
-		1007.1.1.2 = {
-			owner = HLR
-		}
-		1007.1.1.3 = {
-			owner = WNG
-		}
-
 	}
 	buildings_max_level_factor=1.000
 }

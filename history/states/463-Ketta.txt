@@ -11,8 +11,8 @@ state={
 	buildings_max_level_factor=1.00
 
 	history={
-		owner = MCW
-		add_core_of = MCW
+		owner = CTH
+		add_core_of = CTH
 
 		victory_points = { 1937 20 }
 		victory_points = { 2225 5 }
@@ -29,7 +29,7 @@ state={
 			owner = HLR
 		}
 		1007.1.1.3 = {
-			owner = MCW
+			owner = CTH
 		}
 
 	}
