@@ -591,3 +591,199 @@ propaganda_efforts = {
 		}
 	}
 }
+operations = {
+	add_convoy = {
+		name = "Fix Convoy Bug"
+        icon = generic_naval
+        allowed = {
+             always =yes
+         }
+        days_remove = 10
+        cost = 0
+		priority = 100
+        complete_effect = {
+            add_manpower = 1
+            add_equipment_to_stockpile = {
+                type = convoy_1
+                amount = 1
+            }
+        }
+        
+         remove_effect = {
+            add_manpower = -1
+            add_equipment_to_stockpile = {
+                type = convoy_1
+                amount = -1
+            }
+         }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	supply_buildup_cancel = {
+		icon = generic_construction
+		available = {
+			
+		}
+		visible = {
+			has_decision = supply_buildup
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			remove_decision = supply_buildup
+		}
+	}
+	supply_buildup = {
+		icon = generic_construction
+		available = {
+			
+		}
+		visible = {
+		}
+		fire_only_once = no
+		days_remove = -1
+		cost = 0
+		modifier = {
+			production_speed_rail_way_factor = 0.4
+			production_speed_supply_node_factor = 0.4
+			production_speed_naval_base_factor = 0.4
+			consumer_goods_expected_value = 0.05
+		}
+		ai_will_do = {
+			base = 0
+		}
+		remove_effect = {
+		}
+		complete_effect = {
+		}
+	}
+}
+war_measures = {
+	women_in_the_workforce = {
+		icon = generic_industry
+		allowed = {
+			always = yes
+			NOT = { tag = STG }
+		}
+		available = {
+			has_war = yes			
+			OR = {
+				has_idea = war_economy
+				has_idea = tot_economic_mobilisation
+				has_idea = AST_war_economy
+			}
+			OR = {
+				AND = {
+					has_government = democratic
+					has_war_support > 0.79
+				}
+				AND = {
+					has_government = communism
+					has_war_support > 0.79
+				}
+				AND = {
+					has_government = fascism
+					OR = {
+						has_war_support > 0.79
+					}
+				}
+				AND = {
+					has_government = neutrality
+					has_war_support > 0.84
+					has_stability > 0.7
+				}
+			}
+		}
+		visible = {
+			has_war = yes
+		}
+		cost = 100
+		days_remove = -1
+		remove_trigger = {
+			has_war = no
+		}
+		modifier = {
+			conscription = 0.01
+			stability_factor = -0.05
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					tag = CHN
+				}
+				set_country_flag = CHN_women_in_the_workforce
+			}
+			if = {
+				limit = {
+				   has_government = fascism				   
+				}
+				add_stability = -0.1 
+			}
+		}
+	}
+	navy_xp_to_mastery = {
+		icon = generic_prepare_civil_war		
+		available = {			
+		}		
+		visible = {		
+		}		
+		custom_cost_trigger = {
+			has_navy_experience > 100
+		}
+		custom_cost_text = navy_xp_more_than_100
+		days_remove = 30
+		days_re_enable = 120
+		
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+		  add_mastery = {
+				amount = 60
+				folder = naval
+			
+			}
+		    hidden_effect = {
+				navy_experience = -100
+			}
+		}		
+	}
+	war_bonds_cancel = {
+		icon = generic_industry
+		available = {
+			has_war = yes
+		}
+		visible = {
+			has_decision = war_bonds
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			remove_decision = war_bonds
+		}
+	}
+	war_bonds = {
+		icon = generic_industry
+		available = {
+			has_war = yes
+		}
+		visible = {
+		}
+		fire_only_once = no
+		days_remove = -1
+		cost = 0
+		modifier = {
+			political_power_gain = -0.5
+			industrial_capacity_dockyard = 0.075
+			industrial_capacity_factory = 0.075
+			war_support_weekly = -0.002
+		}
+		remove_effect = {
+		}
+		complete_effect = {
+		}
+	}
+}

@@ -9,7 +9,7 @@ state={
 	history={
 		owner = ABY
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			15878 = {
 				naval_base = 1
 

@@ -9,7 +9,7 @@ state={
 		add_claim_by = HIP
 		add_core_of = HIP
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 
 		}
 		victory_points = {

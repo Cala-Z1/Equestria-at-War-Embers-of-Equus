@@ -9,7 +9,7 @@ state={
 		buildings = {
 			dockyard = 3
 			industrial_complex = 2
-			infrastructure = 4
+			infrastructure = 6
 			18499 = {
 				bunker = 1
 			}

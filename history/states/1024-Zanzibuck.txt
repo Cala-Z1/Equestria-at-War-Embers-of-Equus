@@ -14,7 +14,7 @@ state={
 		add_core_of = HLR
 		add_core_of = HLR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			20073 = { naval_base = 2 }
 			air_base = 1
 		}

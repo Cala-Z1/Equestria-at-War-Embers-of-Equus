@@ -18,7 +18,7 @@ state={
 		victory_points = { 12115 1 }
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			fuel_silo = 1
 		}
 		1007.1.1.2 = {

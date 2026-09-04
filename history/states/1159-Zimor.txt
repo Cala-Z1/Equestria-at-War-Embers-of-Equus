@@ -11,7 +11,7 @@ state={
 		owner = HLR
 		add_core_of = HLR
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
 			13368 = { naval_base = 1 }			
 		}
 		victory_points = { 13368 1 }

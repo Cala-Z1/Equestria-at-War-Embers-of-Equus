@@ -13,7 +13,7 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
 			2140={
 				naval_base = 1
 			}

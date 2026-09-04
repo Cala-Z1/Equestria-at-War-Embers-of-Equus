@@ -13,7 +13,7 @@ state={
 		owner = JER
 		add_core_of = JER
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
 			2581={
 				naval_base = 1
 			}

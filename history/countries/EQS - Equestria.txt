@@ -23,12 +23,6 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-create_country_leader = {
-	name = "Celestia and Luna"
-	desc = " "
-	picture = "GFX_CelestiaLuna"
-	ideology = harmonic_theocracy
-}
 # create_faction_from_template = faction_template_United_Ponies_Alliance
 # add_to_faction = CRY
 # add_to_faction = STG
@@ -41,3 +35,4 @@ create_country_leader = {
 add_ideas = {
 	volunteer_corps_focus
 }
+recruit_character = EQS_CelestiaLuna

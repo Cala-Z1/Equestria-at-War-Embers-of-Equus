@@ -11,7 +11,7 @@ state={
 		add_core_of = HIP
 		buildings = {
 			industrial_complex = 1
-			infrastructure = 2
+			infrastructure = 4
 		}
 		1007.1.1.2 = {
 			owner = HLR

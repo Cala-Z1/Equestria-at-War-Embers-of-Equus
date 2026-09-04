@@ -14,7 +14,7 @@ state={
 		add_core_of = HIP
 		
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			dockyard = 1
 			air_base = 3
 

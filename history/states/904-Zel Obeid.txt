@@ -7,7 +7,7 @@ state={
 		add_core_of = HLR
 		add_claim_by = HLR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}	
 		victory_points = { 19663 3 }
 	}

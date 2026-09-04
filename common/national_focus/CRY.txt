@@ -1171,6 +1171,7 @@
 			add_to_variable = {
 				CRY_research_speed_factor_variable = -0.05
 			}
+			custom_effect_tooltip = tab_tt
 			swap_ideas = {
 				add_idea = Sombra_Scare_idea_2
 				remove_idea = Sombra_Scare
@@ -1191,6 +1192,7 @@
 				id = CRY_balamce_of_power
 				value = 0.25
 			}
+			custom_effect_tooltip = tab_tt
 			add_days_mission_timeout = {
 				mission = Sombra_Scare_3
 				days = 60

@@ -1,4 +1,4 @@
-﻿Capital = 775
+﻿Capital = 537
  #Starting Tech
 set_technology ={
 	starting_industry = 1

@@ -135,6 +135,7 @@ guiTypes = {
 				maxWidth = 30
 				maxHeight = 30
 				format = center
+				hide = yes
 			}			
 			instantTextboxType = {
 				name = "owner"
@@ -450,7 +451,7 @@ guiTypes = {
 				max_slots_horizontal = 7
 				max_slots_vertical = 1
 			}
-			}	
+		}	
 		buttonType = {
 			name = "close_button"
 			position = { x = -15 y = 13 }

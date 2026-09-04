@@ -12,7 +12,12 @@
  convert_military_complexes:0 "Convert Military Complexes"
  Declaration_of_Neutrality:0 "Declaration of Neutrality"
  Increased_luxuries:0 "Massive Propaganda Investments"
-
+ supply_buildup_cancel:0 "Cancel New Supply Routes Rush"
+ supply_buildup:0 "Rush New Supply Routes"
+ navy_xp_to_mastery:0 "Formalize Naval Experience"
+ navy_xp_to_mastery_desc:0 "The lessons of war must be recorded, analyzed, and transformed into lasting military expertise."
+ navy_xp_more_than_100:0 "£navy_experience  Navy Experience: §Y-100§!"
+ navy_xp_more_than_100_blocked:0 "£navy_experience  Navy Experience: §R-100§!"
 # ── CRY # ── Defualt Decisions ────────────────────────────────────────────────────────────
  
  Sombra_Scare_Missons:0 "Sombra Scare Missions"

@@ -16,7 +16,7 @@ state={
 		victory_points = { 9946 10 }
 		victory_points = { 4557 3 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
 

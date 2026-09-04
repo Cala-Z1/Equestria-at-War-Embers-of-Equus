@@ -8,7 +8,7 @@ state={
 		owner = HLR
 		
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
 			16762 = {
 				naval_base = 1

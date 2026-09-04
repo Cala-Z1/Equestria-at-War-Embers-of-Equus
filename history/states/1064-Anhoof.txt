@@ -7,7 +7,7 @@ state={
 		owner = KIR
 		add_core_of = KIR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
 		}

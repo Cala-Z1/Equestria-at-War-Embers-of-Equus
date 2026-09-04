@@ -6,7 +6,7 @@ state={
 		owner = HIP
 		add_core_of = HIP
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
 		}
 		1007.1.1.2 = {
 			owner = HLR

@@ -11,7 +11,7 @@ state={
 		owner = CTL
 		add_core_of = CTL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
 

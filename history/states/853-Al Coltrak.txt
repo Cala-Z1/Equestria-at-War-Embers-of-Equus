@@ -7,7 +7,7 @@ state={
 		owner = SDL
 		add_core_of = SDL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			arms_factory = 1
 
 		}

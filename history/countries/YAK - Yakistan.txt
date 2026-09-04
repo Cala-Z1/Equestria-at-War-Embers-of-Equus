@@ -20,7 +20,6 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-activate_mission = JAK_actual_civil_war
 add_ideas = {
 	low_economic_mobilisation
 	limited_conscription

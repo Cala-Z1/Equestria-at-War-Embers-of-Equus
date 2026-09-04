@@ -22,8 +22,6 @@ replace_path="common/occupation_laws"
 replace_path="common/special_projects"
 replace_path="common/collections"
 replace_path="common/scientist_traits"
-replace_path="common/intelligence_agencies"
-replace_path="common/intelligence_agency_upgrades"
 replace_path="common/medals"
 
 # === GROUP 3 - COMMENTED OUT FOR TESTING ===

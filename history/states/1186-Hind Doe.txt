@@ -11,7 +11,7 @@ state={
 		owner = CTL
 		add_core_of = CTL
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
 
 		}
 		victory_points = {

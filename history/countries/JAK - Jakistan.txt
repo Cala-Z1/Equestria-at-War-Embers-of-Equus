@@ -20,7 +20,6 @@ set_politics = {
 set_power_balance = {
 	id = JAK_starting_bop
 }
-activate_mission = JAK_actual_civil_war
 add_ideas = {
 	low_economic_mobilisation
 	limited_conscription

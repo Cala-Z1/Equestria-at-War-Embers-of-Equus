@@ -9,7 +9,7 @@ state={
 		owner = CTH
 		add_core_of = CTH
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 		victory_points = {
 			13393 3

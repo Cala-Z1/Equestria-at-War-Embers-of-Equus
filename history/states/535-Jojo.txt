@@ -16,7 +16,7 @@ state={
 		add_core_of = WNG
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 
 			9055 = {
 				naval_base = 1

@@ -9,7 +9,7 @@ state={
 		owner = HIP
 		add_core_of = HIP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			anti_air_building = 1
 			18736 = { naval_base = 2 }
 		}
