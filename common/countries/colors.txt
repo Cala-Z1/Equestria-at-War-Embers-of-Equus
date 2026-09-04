@@ -98,3 +98,7 @@ CTL = {
 	color = rgb { 119 119 255 }
 	color_ui = rgb { 119 119 255 }
 }
+BAN = {
+	color = rgb {50 33 26}
+	color_ui = rgb {50 33 26}
+}

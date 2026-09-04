@@ -28,8 +28,6 @@ create_country_leader = {
 	desc = " "
 	picture = "GFX_CelestiaLuna"
 	ideology = harmonic_theocracy
-	traits = {
-	}
 }
 # create_faction_from_template = faction_template_United_Ponies_Alliance
 # add_to_faction = CRY

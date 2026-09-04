@@ -9,16 +9,19 @@ state={
 	history={
 		owner = CTL
 		add_core_of = CTL
+		1007.1.1.2 = {
+			owner = HLR
+		}
+		1007.1.1.3 = {
+			owner = CTL
+		}
+
 		buildings = {
 			infrastructure = 0
 
 		}
 		victory_points={
 			3249 3
-		}
-
-		1007.1.1.3 = {
-			owner = HLR
 		}
 
 	}
