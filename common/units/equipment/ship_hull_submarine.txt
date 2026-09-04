@@ -449,14 +449,6 @@ equipments = {
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit #TODO_Manu: Could have a new Torpedo module for Midget Subs with lower stats
-			rear_1_custom_slot = { #TODO_Manu: Potentially delete, this can cause Subs with 0 attack
-				allowed_module_categories = {
-					ship_radar
-					ship_sub_snorkel
-					
-					
-				}
-			}
 		}
 
 		default_modules = {

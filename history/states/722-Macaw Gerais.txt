@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = MCW
-		add_core_of = MCW
+		owner = CTH
+		add_core_of = CTH
 		buildings = {
 			infrastructure = 2
 			18822 = {
@@ -23,7 +23,7 @@ state={
 			owner = HLR
 		}
 		1007.1.1.3 = {
-			owner = MCW
+			owner = CTH
 		}
 
 	}

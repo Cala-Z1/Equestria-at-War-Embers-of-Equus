@@ -58,7 +58,7 @@ bookmarks = {
 		 history = "CRY_1007_1_1" minor = yes
 		}
 		"EQC" = { history = "EQC_1007_1_1" minor = yes ideology = democratic}
-		"MCW" = { history = "MCW_1007_1_1" minor = yes ideology = democratic}
+		"CTH" = { history = "MCW_1007_1_1" minor = yes ideology = democratic}
 		"KIR" = { history = "KIR_1007_1_1" minor = yes ideology = democratic}
 		"ABY" = { history = "ABY_1007_1_1" minor = yes ideology = democratic}
 		"SDL" = { history = "SDL_1007_1_1" minor = yes ideology = democratic} 
@@ -116,7 +116,7 @@ bookmarks = {
 		"HIP" = { history = "HIP_1007_1_1" ideology = democratic}
  		"EQC" = { history = "EQC_1007_1_1" ideology = democratic}
 		"JER" = { history = "JER_1007_1_1" ideology = democratic}
-		"MCW" = { history = "MCW_1007_1_1" ideology = fascism}		
+		"CTH" = { history = "MCW_1007_1_1" ideology = fascism}		
 
 		# Minors
 		"KIR" = { history = "KIR_1007_1_1" minor = yes ideology = democratic}

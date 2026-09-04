@@ -8,20 +8,13 @@ state={
 		oil=50
 	}
 	history={
-		owner = WNG
-		add_core_of = WNG
+		owner = HLR
+		add_core_of = HLR
 		buildings = {
 			infrastructure = 0
 			13368 = { naval_base = 1 }			
 		}
 		victory_points = { 13368 1 }
-		1007.1.1.2 = {
-			owner = HLR
-		}
-		1007.1.1.3 = {
-			owner = WNG
-		}
-
 	}
 	state_category = rural
 	manpower = 409724
