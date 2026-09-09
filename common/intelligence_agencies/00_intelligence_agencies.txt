@@ -7,3 +7,123 @@ intelligence_agency = {
 	
 	default = { always = yes } 
 }
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_fat
+	names = { "NRIM" } # Nationaler Republikaner Intelligenz Macht
+	
+	default = { tag = FAT }
+	available = { original_tag = FAT }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_gri
+	names = { "MfÖS" } # Ministerium für Öffentliche Sicherheit
+	
+	default = { tag = GRI }
+	available = { original_tag = GRI }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_jer
+	names = { "La Chouette" }
+	
+	default = { tag = JER }
+	available = { original_tag = JER }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_wng
+	names = { "SIM" }
+	
+	default = { tag = WNG }
+	available = { original_tag = WNG }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_hlq
+	names = { "Abwehr" }
+	
+	default = { tag = HLQ }
+	available = { original_tag = HLQ }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_lns
+	names = { "ORPO" }
+	
+	default = { tag = LNS }
+	available = { original_tag = LNS }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_rct
+	names = { "OHS" } # Office of Harmonic Services
+	
+	default = { tag = RCT }
+	available = { original_tag = RCT }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_ole
+	names = { "KEK" } # Kuninkaallinen Etsivä Keskuspoliisi (Royal Detective Central Police)
+	
+	default = { tag = OLE }
+	available = { original_tag = OLE }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_yak
+	names = { "Juyilkhai Clan" }
+	
+	default = { tag = YAK }
+	available = { original_tag = YAK }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_yak
+	names = { "Juyilkhai Clan" }
+	
+	default = { tag = JAK }
+	available = { original_tag = JAK }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_eqs
+	names = { "S.M.I.L.E." } # Secret Monster Intelligence League of Equestria
+	
+	default = { tag = EQS }
+	available = { original_tag = EQS }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_cry
+	names = { "DDS" } # Double Diamond Service
+	
+	default = { tag = CRY }
+	available = { original_tag = CRY }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_stg
+	names = { "SKVD" } # Severyanian Commissariat/Committee for Internal Affairs
+	
+	default = { tag = STG }
+	available = { original_tag = STG }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_tur
+	names = { "Polar Etterretningsforening" } # Polar Intelligence Association
+	
+	default = { tag = PLB }
+	available = { original_tag = PLB }
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_chn
+	names = { "VOPS" } # Vesalipolis Office of Public Safety
+	
+	default = { tag = CHN }
+	available = { original_tag = CHN }
+}
