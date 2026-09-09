@@ -20,11 +20,6 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-add_ideas = {
-	low_economic_mobilisation
-	limited_conscription
-	limited_exports
-}
 recruit_character = YAK_prince_rutherford
 recruit_character = YAK_khan_koletiv
 recruit_character = YAK_fergus
@@ -57,4 +52,8 @@ recruit_character = YAK_commie_advisor_2
 recruit_character = YAK_transitional_council
 recruit_character = YAK_felix_rainfeather
 recruit_character = YAK_kari
-recruit_character = YAK_hamdiya
+add_ideas = {
+	low_economic_mobilisation
+	limited_conscription
+	limited_exports
+}

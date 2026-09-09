@@ -10,11 +10,25 @@ entity = { #TODO GTD custom magic facility building entities and models? current
 }
 entity = { #TODO GTD custom magic facility building entities and models? currently using nuclear's
 	name = "building_EQS_magical_facility"
-	clone = "building_naval_facility"
+	clone = "building_nuclear_facility"
 
 	default_state = "idle"
 }
-
+entity = {
+	name = "building_synthetic_rubber_refinery"
+	clone = "building_synthetic_refinery"	
+	locator = { name = "damage_locator_01"	position = { 0.4 0.4 -0.1 } }
+	locator = { name = "damage_locator_02"	position = { -1.4 0.2 0.2 } }
+	locator = { name = "damage_locator_03"	position = { -0.0 0.5 -1.2 } }
+	default_state = "idle"
+	state = { name = "idle" 
+	}
+	state = { name = "damaged" 
+		event = { time = 0.1 node="damage_locator_01" particle = "building_damaged_particle" }
+		event = { time = 0.1 node="damage_locator_02" particle = "building_damaged_particle" }
+		event = { time = 0.1 node="damage_locator_03" particle = "building_damaged_particle" }
+	}
+}
 entity = { #TODO GTD custom magic facility building entities and models? currently using nuclear's
 	name = "building_magical_facility_destroyed"
 	clone = "building_nuclear_facility_destroyed"
@@ -26,14 +40,6 @@ entity = { #TODO GTD custom magic facility building entities and models? current
 		event = { time = 0.1 node="fire2" particle = "ship_damaged_smoke_particle" }
 	}
 }
-
-entity = { #Prevent error from dummy spawn
-	name = "building_dummy_spawn"
-	clone = "building_landmark_spawn"
-	
-	default_state = "idle"
-}
-
 entity = { #TODO GTD need custom model?
 	name = "building_synthetic_crystal_refinery"
 	clone = "building_synthetic_refinery"

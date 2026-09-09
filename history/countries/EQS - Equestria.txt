@@ -29,10 +29,12 @@ set_politics = {
 # add_to_faction = EQC
 	set_autonomy = {
 		target = CRY
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_dominion
 		freedom_level = 0.35
 	}
+
+	recruit_character = EQS_CelestiaLuna
+
 add_ideas = {
 	volunteer_corps_focus
 }
-recruit_character = EQS_CelestiaLuna

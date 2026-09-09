@@ -20,11 +20,6 @@ set_politics = {
 set_power_balance = {
 	id = JAK_starting_bop
 }
-add_ideas = {
-	low_economic_mobilisation
-	limited_conscription
-	limited_exports
-}
 recruit_character = JAK_prince_bradford
 recruit_character = JAK_khan_bradford
 recruit_character = JAK_communist_remnants
@@ -53,4 +48,8 @@ recruit_character = JAK_star_mountain
 recruit_character = JAK_fash_advisor_1
 recruit_character = JAK_sm_advisor_1
 recruit_character = JAK_sm_advisor_2
-recruit_character = JAK_sm_advisor_3
+add_ideas = {
+	low_economic_mobilisation
+	limited_conscription
+	limited_exports
+}
