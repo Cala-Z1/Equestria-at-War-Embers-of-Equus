@@ -369,6 +369,7 @@ technologies = {
 	mechanical_charging = {
 		enable_equipment_modules = {
 			mechanical_charging
+			tank_petrol_electric_engine
 		}
 		path = {
 			leads_to_tech = austerity_transmission
@@ -411,10 +412,6 @@ technologies = {
 			reliability = 0.04
 			maximum_speed = 0.04
 		}
-		path = {
-			leads_to_tech = engine_tech_4
-			research_cost_coeff = 1
-		}
 		research_cost = 1
 		start_year = 1015
 		folder = {
@@ -432,7 +429,7 @@ technologies = {
 			tank_riveted_armor
 		}
 		path = {
-			leads_to_tech = armour_sloping
+			leads_to_tech = armor_sloping
 			research_cost_coeff = 1
 		}
 		path = {
@@ -451,7 +448,7 @@ technologies = {
 			armor_skirts
 		}
 		path = {
-			leads_to_tech = armour_tech_2
+			leads_to_tech = armor_tech_3
 			research_cost_coeff = 1
 		}
 		research_cost = 0.5
@@ -465,13 +462,13 @@ technologies = {
 			tank_upgrade
 		}
 	}
-	armour_tech_2 = {
+	armor_tech_3 = {
 		enable_equipment_modules = {
 			tank_welded_armor
 			compact_design
 		}
 		path = {
-			leads_to_tech = armour_tech_3
+			leads_to_tech = armor_tech_4
 			research_cost_coeff = 1
 		}
 		research_cost = 0.5
@@ -481,7 +478,7 @@ technologies = {
 			position = { x = 6 y = @1011 }
 		}
 	}
-	armour_tech_3 = {
+	armor_tech_4 = {
 		enable_equipment_modules = {
 			tank_cast_armor
 		}
@@ -492,12 +489,12 @@ technologies = {
 			position = { x = 6 y = @1012 }
 		}
 	}
-	armour_sloping = {
+	armor_sloping = {
 		enable_equipment_modules = {
 		unsloped_armor
 		}
 		path = {
-	    leads_to_tech = armour_sloping2
+	    leads_to_tech = armor_sloping2
 	   	research_cost_coeff = 1
 		}
 		research_cost = 0.5
@@ -511,14 +508,14 @@ technologies = {
             tank_upgrade      
 		}
 	}							
-	armour_sloping2 = {	
+	armor_sloping2 = {	
 		enable_equipment_modules = {
 			rounded_armor
 		}
 		path = {	  
 		}
 		path = {
-			  leads_to_tech = armour_sloping3
+			  leads_to_tech = armor_sloping3
 	   		  research_cost_coeff = 1
 		}
 		research_cost = 0.5
@@ -537,12 +534,12 @@ technologies = {
             
 		}
 	}
-	armour_sloping3 = {
+	armor_sloping3 = {
 		enable_equipment_modules = {
 			sloped_armor
 		}
 		path = {
-	    	leads_to_tech = armour_sloping4
+	    	leads_to_tech = armor_sloping4
 	   		research_cost_coeff = 1
 		}
 		research_cost = 0.5
@@ -557,7 +554,7 @@ technologies = {
             
 		}
 	}
-	armour_sloping4 = {
+	armor_sloping4 = {
 		enable_equipment_modules = {
 			advanced_sloped_armor
 		}
