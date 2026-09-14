@@ -29,6 +29,7 @@
 # With you by my side
 # I can win
 Capital = 344
+oob = "CrystalEmpire"
 set_technology ={
 	starting_industry = 1
 	electronic_mechanical_engineering = 1
@@ -38,14 +39,25 @@ set_technology ={
 	artillery1 = 1
 	gw_pack_artillery = 1
 	infantry_weapons = 1
+	gwtank_chassis = 1
+	gw_suspensions = 1
+	armor_tech_1 = 1
+	motorised_infantry = 1
+	armored_car1 = 1
+	armored_car2 = 1
+	small_gun = 1
+	automatic_gun = 1
+	automatic_gun2 = 1
+	armor_sloping = 1
+	tech_support = 1
+	infantry_weapons1 = 1
+	basic_train = 1
 }
 add_breakthrough_progress = {
 	specialization = specialization_magical
 	value = 0.7
 }
-set_power_balance = {
-	id = CRY_balamce_of_power 
-}
+set_power_balance = { id = CRY_balamce_of_power }
 set_research_slots = 4
 set_convoys = 300
 set_popularities = {
@@ -74,44 +86,85 @@ add_ideas = {
 	volunteer_corps_focus
 }
 ## 5 YEAR PLAN ##
-add_dynamic_modifier = {
-	modifier = Five_Year_Plan
+add_dynamic_modifier = { modifier = Five_Year_Plan }
+set_variable = { CRY_production_speed_arms_factory_factor_variable = -0.4 }
+set_variable = { CRY_research_speed_factor_variable = 0.1 }
+set_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.1 }
+set_variable = { CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02 }
+set_variable = { CRY_five_year_plan_resources_gain_efficiency_variable = -0.10 }
+set_variable = { CRY_five_year_plan_cap_variable = 0 }
+set_variable = { CRY_five_year_plan_base_variable = 0 }
+set_variable = { CRY_five_year_plan_gain_variable = 0 }
+set_variable = { CRY_five_year_plan_output_variable = 0 }
+## Stockpile ## 
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 2000
+	producer = CRY
 }
-set_variable = {
-	CRY_production_speed_arms_factory_factor_variable = -0.4
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 8900
+	producer = CRY
 }
-set_variable = {
-	CRY_research_speed_factor_variable = 0.1
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+	amount = 100
+	producer CRY
 }
-set_variable = {
-	CRY_production_speed_industrial_complex_factor_variable = 0.1
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_1
+	amount = 50
+	producer = EQS
 }
-set_variable = {
-	CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
+add_equipment_to_stockpile = {
+	type = artillery_equipment_1
+	amount = 250
+	producer = CRY
 }
-set_variable = {
-	CRY_five_year_plan_resources_gain_efficiency_variable = -0.10
+add_equipment_to_stockpile = {
+	type = radio_equipment_1 
+	amount = 222
+	producer = CRY
 }
-set_variable = {
-	CRY_five_year_plan_cap_variable = 0
+add_equipment_to_stockpile = {
+	type = special_equipment_1
+	amount = 150
+	producer = EQS
 }
-set_variable = {
-	CRY_five_year_plan_base_variable = 0
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 874 
+	producer = CRY
 }
-set_variable = {
-	CRY_five_year_plan_gain_variable = 0
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 550
+	producer = CRY
 }
-set_variable = {
-	CRY_five_year_plan_output_variable = 0
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 17
+	producer = EQS
+}
+add_equipment_to_stockpile = {
+	type = heavy_artillery_equipment_1
+	amount = 500
+	producer = EQS
 }
 recruit_character = CRY_princess_mi_amore_cadenza
-recruit_character = CRY_Crystal_Court
+recruit_character = CRY_arctic_lily
 recruit_character = CRY_general_shining_armor
 recruit_character = CRY_Obsidian_Limelight
 recruit_character = CRY_spike
 recruit_character = CRY_trade_guy
+recruit_character = CRY_shadow_stone
+recruit_character = CRY_take_off_cry
+recruit_character = CRY_sweet_snow
+recruit_character = CRY_martini
 set_rule = {
 	can_generate_female_aces = yes
 	can_generate_female_unit_leaders  = yes
 	can_generate_female_country_leaders = yes
+	can_send_volunteers = yes
 }

@@ -1,6 +1,6 @@
 characters={
 	EQS_CelestiaLuna = {
-		name = "Celestia and Luna"
+	name = "Celestia and Luna"
 	portraits = {
 		civilian = {
 			large = "GFX_CelestiaLuna"
@@ -10,6 +10,6 @@ country_leader = {
 	desc = "CelestiaLuna_desc"
 	ideology = alicornrule
 	expire = "1999.1.1.1"
-}
+		}
 	}
 }

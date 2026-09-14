@@ -48,6 +48,10 @@ spriteTypes = {
 		name = "GFX_advanced_medium_tank_chassis_medium"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/medium_t23b.dds"
 	}
+	spriteType = {
+		name = "GFX_super_heavy_tank_chassis_1941_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/designer/generic/superheavy_is4.dds"
+	}
 	SpriteType = {
 		name = "GFX_modern_medium_tank_chassis_medium"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/generic/mbt_amx3.dds"

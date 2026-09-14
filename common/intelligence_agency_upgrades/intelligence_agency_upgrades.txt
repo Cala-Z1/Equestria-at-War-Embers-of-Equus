@@ -131,13 +131,8 @@ branch_intelligence = {
 		level = {
 			modifier = {
 				agency_upgrade_time = -0.15
-				custom_modifier_tooltip = agenct_exp_gain
 			}
-			complete_effect = {
-				unlock_decision_category_tooltip = lar_local_recruitment
-			}
-		}
-		
+		}	
 	}
 }
 

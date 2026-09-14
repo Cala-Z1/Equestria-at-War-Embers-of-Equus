@@ -170,6 +170,13 @@ ideas = {
 			}
 			traits = { war_industrialist }
 		}
+		CRY_ArtotzkaReptov = {
+			picture = GFX_CRY_ArtotzkaReptov
+			allowed = {
+				tag = CRY
+			}
+			traits = { armaments_organizer }
+		}
 		Mistmane = {
 			picture = GFX_Mistmane
 			allowed = {

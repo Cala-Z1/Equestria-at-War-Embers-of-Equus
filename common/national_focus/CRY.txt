@@ -1087,8 +1087,12 @@
 		y = 1
 		completion_reward = { 
 		CRY = {
-			add_country_leader_trait = crystal_administrator
-		 }
+			CRY_princess_mi_amore_cadenza = {
+				add_trait = {
+					trait = crystal_administrator
+				}
+			}
+		  }
 		}
 	}
 	focus = {
@@ -1414,9 +1418,11 @@
 		completion_reward = {
      		set_country_flag = CRY_sombra_purged
 			custom_effect_tooltip = CRY_Strike_at_Sombra_Supporters_tt
+			custom_override_tooltip = {
 			remove_ideas = Sombra_Scare 
 			remove_ideas = Sombra_Scare_idea_2
 			}
+		}
 	}
 	focus = {
 		id = Crystal_Court_Consolidation
@@ -1431,7 +1437,17 @@
 		x = 18
 		y = 8
 		completion_reward = {
-			promote_character = CRY_Crystal_Court
+			country_event = {id = crycom.2 days = 1}
+			custom_effect_tooltip = tab_tt 
+			promote_character = CRY_arctic_lily
+			custom_effect_tooltip = Crystal_Court_Consolidation_tt
+			custom_override_tooltip = {
+				set_political_party = {
+				ideology = communism
+				popularity = 20
+				}
+			}
+			custom_effect_tooltip = tab_tt
 			retire_character = CRY_general_shining_armor
 		 }
 	}
@@ -1447,7 +1463,18 @@
 		}
 		x = 22
 		y = 8
-		completion_reward = { }
+		completion_reward = {
+			CRY_princess_mi_amore_cadenza = {
+				add_trait = {
+					trait = capitalist
+				}
+				add_trait = {
+					trait = resource_industrialist
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			remove_ideas = CRY_ArtotzkaReptov
+		}
 	}
 	focus = {
 		id = Vist_To_Stalliongrad

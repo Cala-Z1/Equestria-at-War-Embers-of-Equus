@@ -14,7 +14,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_queens_tower_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -41,7 +41,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -69,7 +69,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_canterlot_castle_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -96,7 +96,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_mount_aris_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -122,7 +122,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_griffenheim_parliament_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = { province_max = 1 }
 		always_shown = yes
 		drawn_at_distance = yes
@@ -149,7 +149,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_griffenheim_palace_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -175,7 +175,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_cothon_colthage_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -202,7 +202,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -228,7 +228,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_yak_statues_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -254,7 +254,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -281,7 +281,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -307,7 +307,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -335,7 +335,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -361,7 +361,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -413,7 +413,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_storm_kings_palace_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -440,7 +440,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_pyramid_of_the_sphinx_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -467,7 +467,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_home_of_griffons_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -493,7 +493,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -520,7 +520,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -546,7 +546,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -572,7 +572,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -598,7 +598,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -624,7 +624,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -650,7 +650,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -676,7 +676,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -702,7 +702,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -728,7 +728,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -754,7 +754,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -780,7 +780,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_zonnis_tomb_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -805,7 +805,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_pyramid_of_the_sphinx_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -831,7 +831,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -860,7 +860,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_landmark_KTZ_katown_pyramid_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -889,7 +889,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_landmark_KTZ_zebtropa_dam_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -917,7 +917,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small
+		special_icon = GFX_tokyo_imperial_palace_icon_small
 		level_cap = {
 			province_max = 1
 		}
@@ -947,7 +947,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}
@@ -974,7 +974,7 @@ buildings = {
 		spawn_point = landmark_spawn
 		repair_speed_factor = @landmark_repair_speed_factor
 		only_display_if_exists = yes
-		special_icon = GFX_palace_of_the_soviets_icon_small # TO CHANGE
+		special_icon = GFX_tokyo_imperial_palace_icon_small # TO CHANGE
 		level_cap = {
 			province_max = 1
 		}

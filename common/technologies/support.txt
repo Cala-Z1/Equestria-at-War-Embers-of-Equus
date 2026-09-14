@@ -61,82 +61,6 @@ technologies = {
 			factor = 6
 		}
 	}
-	#scout
-	
-	scout_plane1 = {
-
-		enable_equipments = {
-			scout_plane_equipment_1
-		}
-
-		path = {
-			leads_to_tech = scout_plane2
-			research_cost_coeff = 1
-		}
-		allow_branch = { has_dlc = "La Resistance" }
-		research_cost = 1.4
-		start_year = 1007
-		folder = {
-			name = support_folder
-			position = { x = 2 y = @1009 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_scout_plane
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = yes
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 2000
-			}
-		}
-		special_project_specialization = { specialization_air }
-	}
-	
-	scout_plane2 = {
-
-		enable_equipments = {
-			scout_plane_equipment_2
-		}
-		
-		research_cost = 1.4
-		start_year = 1011
-		folder = {
-			name = support_folder
-			position = { x = 2 y = @1012 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_scout_plane
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = yes
-				factor = 2
-			}
-			modifier = {
-				has_war = yes
-				factor = 1.5
-			}
-			modifier = {
-				
-				factor = 2000
-			}
-		}
-		special_project_specialization = { specialization_air }
-	}	
 	######## Engineers 
 	tech_engineers = {
 
@@ -198,10 +122,6 @@ technologies = {
 		}		
 		path = {
 			leads_to_tech = tech_engineers3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tech_dozer
 			research_cost_coeff = 1
 		}
 	
@@ -656,9 +576,6 @@ technologies = {
 				add = no
 			}
 		}
-		enable_subunits = {
-			
-		}		
 		path = {
 			leads_to_tech = tech_military_police3
 			research_cost_coeff = 1
@@ -830,10 +747,6 @@ technologies = {
 			leads_to_tech = tech_maintenance_company4
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = fug
-			research_cost_coeff = 1
-		}
 
 		research_cost = 1
 		start_year = 1013
@@ -852,30 +765,6 @@ technologies = {
 		
 		}
 	}
-	fug = {
-
-	    enable_equipment_modules = {
-			easy_maintenance
-		}
-			
-		
-		research_cost = 1.5
-		start_year = 1014
-		folder = {
-			name = support_folder
-			position = { x = 6 y = @1014 }
-		}
-		
-		categories = {
-			tank_upgrade
-			support_tech
-			
-		}
-				
-		ai_will_do = {
-			factor = 8
-		}
-	}	
 	tech_maintenance_company4 = {
 
 		maintenance_company = {

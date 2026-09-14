@@ -5,6 +5,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CRY/Cadence.tga"
+				small = "gfx/interface/ideas/Advisors/CRY/CRY_princess_cadence.dds"
 			}
 		}
 		advisor = {
@@ -14,7 +15,7 @@ characters = {
 				has_completed_focus = Crystal_Court_Consolidation
 			}
 			available = {
-				has_completed_focus = Crystal_Court_Consolidation
+				always = yes
 			}
 			traits = { popular_figurehead }
 		}
@@ -25,26 +26,27 @@ characters = {
 		}
 		gender = female
 	}
-	CRY_Crystal_Court = {
-		name = Crystal_court
-		portraits = {
-			civilian = {
-				large = "gfx/leader/CRY/Crystal_Court.dds"
+	CRY_arctic_lily={
+		name=CRY_arctic_lily
+		portraits={
+			civilian={
+				large = "gfx/leaders/CRY/ArcticLily.tga"
 			}
 		}
-		country_leader = {
-			ideology = conservatism
-			desc = "POLITICS_Crystal_Court_DESC"
+		country_leader={
+			ideology = leninism
 			expire = "1965.1.1.1"
-			traits = { popular_figurehead }
+			id = -1
+			traits = {indisposed_political_scientist}
 		}
+		gender = female
 	}
 	# Advisors #
 	CRY_Obsidian_Limelight = {
-		name = Obsidian_Limelight
+		name = CRY_obsidian_limelight
 		portraits = {
 			civilian = {
-				large = "gfx/leader/CRY/Advisor/ObsidianLimelight.dds"
+				small = "gfx/interface/ideas/Advisors/CRY/CRY_obsidian_limelight.dds"
 			}
 		}
 		advisor = {
@@ -56,7 +58,12 @@ characters = {
 		}
 	}
 	CRY_spike = {
-		name = CRY_spike
+		name = spike
+		portraits={
+			civilian = {
+				small =  "gfx/interface/ideas/Advisors/CRY/CRY_spike.dds"
+			}
+		}
 		advisor = {
 			slot = political_advisor
 			allowed  = {
@@ -65,11 +72,6 @@ characters = {
 				traits  = { JAP_hiroshi_oshima_trait }
 				cost  = 100.000
 			}
-		portraits={
-			civilian = {
-				large = "gfx/leader/CRY/Advisor/ObsidianLimelight.dds"
-			}
-		}
 	}
 	CRY_trade_guy = {
 		name = CRY_trade_guy
@@ -81,13 +83,94 @@ characters = {
 				traits  = { backroom_backstabber }
 			}
 		}
+	CRY_shadow_stone = {
+		name = CRY_shadow_stone
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/Advisors/CRY/CRY_shadow_stone.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = CRY_shadow_stone
+			ledger = army
+			cost = 100
+			allowed = {
+				original_tag = CRY
+			}
+			traits = { military_theorist }
+		}
+	}
+	CRY_take_off_cry = {
+		name = take_off_cry
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/Advisors/CRY/CRY_take_off.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = take_off_cry
+			cost = 100
+			allowed = {
+				original_tag = CRY
+			}
+			traits = { air_air_superiority_2 }
+		}
+	}
+	CRY_martini = {
+		name = martini
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/Advisors/CRY/CRY_martini.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = martini
+			cost = 100
+			allowed = {
+				original_tag = CRY
+			}
+			traits = { air_strategic_bombing_2 }
+			modifier = {
+			    air_accidents_factor = 0.07
+			}
+		}
+	}
+	CRY_sweet_snow = {
+		name = CRY_sweet_snow
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/Advisors/CRY/CRY_sweet_snow.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = CRY_sweet_snow
+			cost = 100			
+			allowed = {
+				original_tag = CRY
+			}
+			traits = {
+				navy_chief_commerce_raiding_2
+			}
+		}
+	}
 	CRY_general_shining_armor = {
         name = CRY_Shining_Armor
         portraits = {
             army = {
                 large = "gfx/leaders/CRY/ShiningArmour.tga"
             }
+			civilian = {
+				small =  "gfx/interface/ideas/Advisors/CRY/CRY_shining_armour.dds"
+			}
         }
+		advisor = {
+			slot = army_chief
+			traits = { army_chief_offensive_3 }
+		}
   		corps_commander = {
 			desc = "POLITICS_Shining_Armor_DESC"
 			traits = { 
@@ -103,7 +186,7 @@ characters = {
 				panzer_leader
 			 }
 			skill = 8
-            attack_skill = 10
+            attack_skill = 9
             defense_skill = 5
             planning_skill = 7
             logistics_skill = 7

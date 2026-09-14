@@ -6,6 +6,12 @@ set_rule = {
 }
 set_technology ={
 	starting_industry = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	heavy_antiair = 1
+	heavy_artillery1 = 1
+	field_gun = 1
+	basic_train = 1
 }
 set_research_slots = 7
 set_convoys = 1000
@@ -23,17 +29,16 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-# create_faction_from_template = faction_template_United_Ponies_Alliance
-# add_to_faction = CRY
-# add_to_faction = STG
-# add_to_faction = EQC
+ create_faction_from_template = faction_template_United_Ponies_Alliance
+ add_to_faction = CRY
+ add_to_faction = STG
+ add_to_faction = EQC
 	set_autonomy = {
 		target = CRY
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.35
 	}
-
-	recruit_character = EQS_CelestiaLuna
+recruit_character = EQS_CelestiaLuna
 
 add_ideas = {
 	volunteer_corps_focus

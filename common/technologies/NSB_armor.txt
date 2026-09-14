@@ -33,6 +33,10 @@ technologies = {
 			tank_heavy_casemate_turret
 			tank_design_simplification
 			tank_cheap_materials
+			additional_machine_guns
+			wet_ammo_storage
+			extra_ammo_storage
+			smoke_launchers
 		}
 		enable_equipments = {
 			light_tank_chassis_0
@@ -178,6 +182,21 @@ technologies = {
 		path = {
 			leads_to_tech = advanced_heavy_tank_chassis
 			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = super_heavy_tank_chassis_1941
+			research_cost_coeff = 1
+		}
+	}
+	super_heavy_tank_chassis_1941 = {
+		enable_equipments = {
+			super_heavy_tank_chassis_1941
+		}
+		research_cost = 2
+		start_year = 1012
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 11 y = @1011 }
 		}
 	}
 	advanced_heavy_tank_chassis = {
@@ -391,6 +410,7 @@ technologies = {
     austerity_transmission = {
 		enable_equipment_modules = {
 			austerity_powertrain
+			easy_maintenance
 		}
 		path = {
 			leads_to_tech = transmission_upgrade

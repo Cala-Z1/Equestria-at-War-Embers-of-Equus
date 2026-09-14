@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = { 
+				limit = {always = yes}
+				country_event = {id = startup_idea.1}
+			}
+		}
+	}
+}

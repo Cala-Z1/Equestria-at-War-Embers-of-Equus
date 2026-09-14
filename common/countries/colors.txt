@@ -47,8 +47,8 @@ CTH = {
 	color_ui = rgb { 213 235 198 }
 }
 WNG = {
-	color = rgb { 132 0 170 }
-	color_ui = rgb { 132 0 170 }
+	color = rgb { 77 52 115 }
+	color_ui = rgb { 77 52 115 }
 }
 JER = {
 	color = rgb { 84 104 181 }

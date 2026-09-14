@@ -1,5 +1,20 @@
 ideas = {
 	country = {
+		startingprodution = {
+			allowed = {
+				always = no 
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = startingprodution
+			modifier = {
+				production_factory_start_efficiency_factor = 1
+			}
+		}
+	}
+	country = {
 		nonplayerablenation = {
 			allowed = {
 				always = no
@@ -118,6 +133,226 @@ ideas = {
 					build_cost_ic = -0.10
 				}
 			}		
+		}
+	}
+	tank_research = { 			
+		generic_tank_research = {
+			picture = generic_tank_manufacturer_1	
+			allowed = {
+				always = yes
+			}			
+			cost = 100			
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = { tank_research_trait }
+		}
+	}
+	naval_manufacturer = { 	
+		designer = yes	
+		generic_naval_manufacturer = {			
+			picture = generic_naval_manufacturer_1
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
+				}
+				NOT = {
+					AND = {
+						has_dlc = "Together for Victory"
+					}
+				}
+			}			
+			cost = 150
+			traits = { naval_manufacturer }
+		}
+	}
+	aircraft_manufacturer = { 	
+		designer = yes	
+		generic_light_aircraft_manufacturer = {			
+			picture = generic_air_manufacturer_1
+			allowed = {				NOT = {
+					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
+				}
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+				}
+			}			
+			cost = 150
+			traits = { light_aircraft_manufacturer }
+		}	
+		generic_medium_aircraft_manufacturer = {
+			
+			picture = generic_air_manufacturer_3
+
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
+				}
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+				}
+			}		
+			cost = 150
+			traits = { medium_aircraft_manufacturer }
+		}	
+		generic_heavy_aircraft_manufacturer = {
+			picture = generic_air_manufacturer_2			
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
+				}
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+				}
+			}			
+			cost = 150
+			traits = { heavy_aircraft_manufacturer }
+		}		
+		generic_naval_aircraft_manufacturer = {		
+			picture = generic_naval_manufacturer_2
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
+				}
+			}
+			
+			cost = 150
+			traits = { naval_aircraft_manufacturer }
+		}
+	}
+	naval_research = { 		
+		generic_naval_research = {			
+			picture = generic_naval_manufacturer_1
+			allowed = {
+				always = yes
+			}			
+			cost = 100			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			traits = { naval_research_trait } 
+		}
+	}
+	aircraft_research = { 		
+		generic_aircraft_research = {		
+			picture = generic_air_manufacturer_1
+			allowed = {
+				always = yes
+			}			
+			cost = 100			
+			research_bonus = { air_equipment = 0.15 }
+			traits = { aircraft_research_trait }
+		}		
+	}
+	industrial_research = {		
+      generic_electronics_concern = {			
+			picture = generic_electronics_concern_1
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+				}
+			}		
+			cost = 100			
+			research_bonus = {
+				electronics = 0.15
+			}		
+			traits = { electronics_concern }
+		}
+		generic_industrial_research = {			
+			picture = generic_industrial_concern_1
+			allowed = {
+				always = yes
+			}
+			cost = 100			
+			research_bonus = {industry = 0.15}  
+            traits = { industrial_research_trait }
+		}
+	}	
+	industrial_concern = {	
+		generic_industrial_concern = {			
+			picture = generic_industrial_concern_1
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+				}
+			}			
+			cost = 150
+			traits = { industrial_concern }
+		}
+	}
+	materiel_manufacturer = {	
+		designer = yes	
+		generic_motorized_equipment_manufacturer = {
+			picture = generic_motorized_equipment_manufacturer_3
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
+				}
+			}			
+			cost = 150
+			modifier = { materiel_manufacturer_cost_factor = -0.5 }
+			traits = { motorized_equipment_manufacturer }
+		}		
+		generic_infantry_equipment_manufacturer = {			
+			picture = generic_infantry_equipment_manufacturer_2
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
+				}
+			}			
+			cost = 150
+			modifier = { materiel_manufacturer_cost_factor = -0.5 }
+			traits = { infantry_equipment_manufacturer }
+		}		
+		generic_artillery_manufacturer = {	
+			picture = generic_artillery_manufacturer_2
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
+				}
+			}			
+			cost = 150
+			modifier = { materiel_manufacturer_cost_factor = -0.5 }
+			traits = { artillery_manufacturer }
+		}
+	}
+    materiel_research = {		
+		generic_motorized_equipment_research = {			
+			picture = generic_motorized_equipment_manufacturer_3
+			allowed = {
+				always = yes
+			}		
+			cost = 100			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			traits = { motorized_research_trait }
+		}	
+		generic_infantry_equipment_research = {			
+			picture = generic_infantry_equipment_manufacturer_2
+			allowed = {
+				always = yes
+			}			
+			cost = 100		
+			research_bonus = { infantry_weapons = 0.15 } 
+			traits = { materiel_research_trait }			
+		}
+		generic_artillery_research = {			
+			picture = generic_artillery_manufacturer_2
+			allowed = {
+				always = yes				
+			}			
+			cost = 100			
+			research_bonus = {
+				cat_artillery = 0.15
+			}
+			traits = { artillery_research_trait }
 		}
 	}
 }

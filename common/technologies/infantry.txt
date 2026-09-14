@@ -832,7 +832,7 @@ technologies = {
 		start_year = 1013
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1013 }
+			position = { x = -6 y = @1013 }
 		}
 		path = {
 			leads_to_tech = infantry_at4
@@ -868,7 +868,7 @@ technologies = {
 		start_year = 1015
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1015 }
+			position = { x = -6 y = @1015 }
 		}
 		
 		categories = {

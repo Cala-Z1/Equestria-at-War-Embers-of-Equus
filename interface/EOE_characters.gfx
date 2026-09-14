@@ -3,13 +3,21 @@ spriteTypes = {
 		name = "GFX_CelestiaLuna"
 		texturefile = "gfx/leaders/EQS/CelestiaLuna.tga"
 	}
+# ── CRY Characters ────────────────────────────────────────────────────────────
 	spriteType = {
 		name = GFX_Cadence
 		texturefile = "gfx/leaders/CRY/Cadence.tga"
 	}
-# ── CRY Characters ────────────────────────────────────────────────────────────
 	spriteType = {
-		name = GFX_Mistmane
-		texturefile = "gfx/leaders/CRY/Advisor/Mistmane.tga"
+		name = GFX_idea_Mistmane
+		textureFile = "gfx/interface/ideas/Advisors/CRY/CRY_mistmane.tga"
+	}
+	spriteType = {
+		name = GFX_idea_Erich_Von_Talonitz
+		textureFile = "gfx/interface/ideas/Advisors/CRY/CRY_eric.dds"
+	}
+	spriteType = {
+		name = GFX_idea_CRY_ArtotzkaReptov
+		textureFile = "gfx/interface/ideas/Advisors/CRY/CRY_ArstotzkaReptov.dds"
 	}
 }

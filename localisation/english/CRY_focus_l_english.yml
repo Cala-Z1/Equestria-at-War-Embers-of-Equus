@@ -167,7 +167,7 @@
  laissez_faire_tt:0 "Y If the Referendum path was chosen: !Adds G6 W  Civilian Factories to the Crystal Heartland -----------------------------------\nY If the Subordination path was chosen: !Adds G3 W  Civilian Factories to the Crystal Heartland\n Reduces Civilian Factory Construction Speed by R-20%!"
  
  Social_Welfare_tt:0 "Y If the Referendum path was chosen: !Adds G9 W  Military Factories to the Crystal Heartland -----------------------------------\nY If the Subordination path was chosen: !Adds G4 W  Military Factories to the Crystal Heartland\n Reduces Military Factory Construction Speed by R-20% !"
- The_New_Crystal_Order_tt:0 "Y If the Referendum path was chosen: !Adds G4 W  Military Factories \nY If the Subordination path was chosen: !Modify "
+ The_New_Crystal_Order_tt:0 "Y If the Referendum path was chosen: !Adds G4 W  Military Factories \n-----------------------------------\nY If the Subordination path was chosen: !Modify "
  
  civ_construction_corps_tt:0 "Adds G+5% !Base Efficiency Base to YFire Year Plan! if YStrike at Sombra Supporters:! is completed an additional G+5%! will be added"
  
@@ -196,5 +196,7 @@
  civ_heart_district_tt:0 "Modify YFire Year Plan! by: \n Military Factory Building Speed: G+15%! \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: R-10%!"
 
  civ_trade_empire_tt:0 "Adds G+15%! Resource Gain Efficiency to: YFive Year Plan!"
+
+ Crystal_Court_Consolidation_tt:0 "Adds R20%! Commusim Support"
 
  tab_tt:0 "-----------------------------------\n"

@@ -1489,10 +1489,6 @@ technologies = {
 	}
 #improved scout plane cordination
 	siege_artillery2 = {
-		dependencies = {
-			scout_plane1 = 1
-		}
-		
 		artillery_siege_support = {	
 			fort = {
 				attack = 0.1

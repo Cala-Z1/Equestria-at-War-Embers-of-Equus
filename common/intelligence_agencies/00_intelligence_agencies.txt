@@ -1,14 +1,5 @@
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_generic_1
-	names = { "Intelligence Agency" }
-	
-	available = { always = yes }
-	
-	default = { always = yes } 
-}
-intelligence_agency = {
-	
 	picture = GFX_intelligence_agency_logo_fat
 	names = { "NRIM" } # Nationaler Republikaner Intelligenz Macht
 	
@@ -41,7 +32,7 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_hlq
+	picture = GFX_intelligence_agency_logo_generic_1
 	names = { "Abwehr" }
 	
 	default = { tag = HLQ }
@@ -49,7 +40,7 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_lns
+	picture = GFX_intelligence_agency_logo_generic_1
 	names = { "ORPO" }
 	
 	default = { tag = LNS }
@@ -65,7 +56,7 @@ intelligence_agency = {
 }
 intelligence_agency = {
 
-	picture = GFX_intelligence_agency_logo_ole
+	picture = GFX_intelligence_agency_logo_generic_1
 	names = { "KEK" } # Kuninkaallinen Etsivä Keskuspoliisi (Royal Detective Central Police)
 	
 	default = { tag = OLE }
@@ -97,7 +88,7 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_cry
+	picture = GFX_intelligence_agency_logo_eqs
 	names = { "DDS" } # Double Diamond Service
 	
 	default = { tag = CRY }

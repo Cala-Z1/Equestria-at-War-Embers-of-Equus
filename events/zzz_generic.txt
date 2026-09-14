@@ -1,0 +1,10 @@
+add_namespace = startup_idea
+country_event = {
+	id = startup_idea.1
+	title = "Hidden Startup Event"
+	desc = "This fires silently to add the timed idea."
+	hidden = yes
+	trigger = { always = yes }
+	immediate = { add_timed_idea = {idea = startingprodution days = 3 } }
+	option = { name = "ok" }
+}

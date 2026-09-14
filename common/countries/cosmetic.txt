@@ -1,0 +1,8 @@
+CRY_SOMIMP = {
+	color = rgb {138 36 78}
+	color_ui = rgb {138 36 78}
+}
+CRY_DEM = {
+	color = rgb { 213 166 240 }
+	color_ui = rgb { 213 166 240 }
+}
