@@ -1,5 +1,5 @@
 ideas = {
-	country = {
+	hidden_ideas = {
 		startingprodution = {
 			allowed = {
 				always = no 
@@ -11,8 +11,8 @@ ideas = {
 			picture = startingprodution
 			modifier = {
 				production_factory_start_efficiency_factor = 1
-			}
-		}
+			}	
+		}			
 	}
 	country = {
 		nonplayerablenation = {

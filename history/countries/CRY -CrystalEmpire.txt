@@ -110,7 +110,7 @@ add_equipment_to_stockpile = {
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
 	amount = 100
-	producer CRY
+	producer = CRY
 }
 add_equipment_to_stockpile = {
 	type = anti_tank_equipment_1

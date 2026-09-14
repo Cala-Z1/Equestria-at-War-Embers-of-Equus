@@ -42,9 +42,6 @@ country_event = { ## Communist Crystal Ponies # Elections
 		leave_faction = no
 		hidden_effect = {
 			random_list = { 50 = { add_political_power = 50 } 50 = { add_political_power = 100 } }
-			country_event = {
-				id = crycom.9 hours = 3
-			}
 		}
 	}
 	option = {
