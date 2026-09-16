@@ -12,9 +12,7 @@ ideas = {
 			modifier = {
 				production_factory_start_efficiency_factor = 1
 			}	
-		}			
-	}
-	country = {
+		}	
 		nonplayerablenation = {
 			allowed = {
 				always = no
@@ -39,7 +37,7 @@ ideas = {
 				industrial_capacity_factory = -99
 				min_export = -1.00
 			}
-		}
+		}		
 	}
 	country = {
 		volunteer_corps_focus = {

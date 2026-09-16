@@ -4,7 +4,7 @@ country_event = {
 	title = "Hidden Startup Event"
 	desc = "This fires silently to add the timed idea."
 	hidden = yes
-	trigger = { always = yes }
+	is_triggered_only = yes
 	immediate = { add_timed_idea = {idea = startingprodution days = 3 } }
 	option = { name = "ok" }
 }

@@ -2,8 +2,12 @@ on_actions = {
 	on_startup = {
 		effect = {
 			every_country = { 
-				limit = {always = yes}
-				country_event = {id = startup_idea.1}
+				limit = {
+					always = yes
+					NOT = {has_country_flag = startup_idea_fired}
+			}
+				country_event = {id = startup_idea.1 days = 0}
+				set_country_flag = startup_idea_fired
 			}
 		}
 	}
