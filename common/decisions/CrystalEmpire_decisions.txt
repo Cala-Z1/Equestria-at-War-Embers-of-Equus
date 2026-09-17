@@ -1,4 +1,4 @@
-Sombra_Scare_Missons = {
+CRY_crisis_management_system_cat = {
 	Sombra_Scare_1 = {
 		days_remove = 1
 		available = {has_completed_focus = Find_The_Sombra_Supporters}
@@ -57,97 +57,358 @@ Sombra_Scare_Missons = {
 			add_research_slot = 1
 			add_political_power = 150
 		} 
-		timeout_effect = { 
-
-		}
+		timeout_effect = {}
 	}
-}
-CRY_on_map_decisions = {
-	CRY_on_map_decisions_1 = {
-		icon = oppression
+	CRY_crystal_faire_celebration = {
+		icon = GFX_CRY_Crystalling_on_map_icon
+		available = {has_completed_focus = The_Crystal_Fair}
+		state_target = yes
+		targets = {344}
+		target_root_trigger = { tag = CRY } 
+		target_trigger = {
+			FROM = {
+				onwer = CRY 
+			}
+		}
+		cost = 100
+		fire_only_once = yes
 		on_map_mode = map_and_decisions_view
-		fire_only_once = yes
-		available = {
-			tag = CRY
-		}
-		visible = {
-			has_completed_focus = The_Grand_Festival
-		}
-		state_target = yes
-		targets = {343}
-		days_remove = 120
-		cost = 50
 		complete_effect = {
-			343 = {
-				add_state_modifier = {
-					modifier = { production_speed_industrial_complex_factor = 0.1 }
+			add_to_variable = {CRY_crisis_level = -10}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_Crystal_fair_tt
+			custom_override_tooltip = {
+				CRY = {
+					add_dynamic_modifier = {
+						modifier = CRY_crystal_fair_building_speed
+						days = 150
+					}
+				}
+				EQS = {
+					add_dynamic_modifier = {
+						modifier = CRY_crystal_fair_building_speed
+						days = 150
+					}
 				}
 			}
 		}
 	}
-	CRY_on_map_decisions_2 = {
-		icon = oppression
-		on_map_mode = map_only
-		fire_only_once = yes
-		available = {
-			tag = CRY
-		}
-		visible = {
-			has_completed_focus = The_Grand_Festival
-		}
-		state_target = yes
-		targets = {318}
-		days_remove = 120
-		cost = 50
-		complete_effect = {
-			318 = {
-				add_state_modifier = {
-					modifier = { production_speed_industrial_complex_factor = 0.1 }
-				}
+	CRY_succesful_Crystalling = { 
+		icon = GFX_CRY_Crystalling_on_map_icon
+		target_trigger = {
+			FROM = {
+				is_fully_controlled_by = ROOT
 			}
 		}
-	}
-	CRY_on_map_decisions_3 = {
-		icon = oppression
+		target_root_trigger = { tag = CRY } 
+		state_target = yes
 		on_map_mode = map_only
-		fire_only_once = yes
-		available = {
-			tag = CRY
+		fire_only_once = yes 
+		available = {								
+			custom_trigger_tooltip = {
+				tooltip = CRY_not_doing_more_than_two_tt		
+					check_variable = {
+					var = currently_doing_var
+					value < 2
+					compare = less_than
+				}
+			}			
 		}
 		visible = {
-			has_completed_focus = The_Grand_Festival
-		}
-		state_target = yes
-		targets = {139}
-		days_remove = 120
-		cost = 50
-		complete_effect = {
-			139 = {
-				add_state_modifier = {
-					modifier = { production_speed_industrial_complex_factor = 0.1 }
-				}
+			has_dynamic_modifier = {
+				modifier = CRY_Crystalling_modifier
 			}
 		}
-	}
-	CRY_on_map_decisions_4 = {
-		icon = oppression
-		on_map_mode = map_only
-		fire_only_once = yes
-		available = {
-			tag = CRY
+		cancel_trigger = {
+			NOT = { FROM = { is_fully_controlled_by = ROOT } }
 		}
-		visible = {
-			has_completed_focus = The_Grand_Festival
+		cancel_effect = {
 		}
-		state_target = yes
-		targets = {324}
-		days_remove = 120
-		cost = 50
+		days_remove = 45
+		custom_cost_text = decision_cost_PP_50
+		custom_cost_trigger = {
+			ROOT = {
+				has_political_power > 49
+			}
+		}
+		modifier = {
+		}
 		complete_effect = {
-			324 = {
-				add_state_modifier = {
-					modifier = { production_speed_industrial_complex_factor = 0.1 }
+			hidden_effect = {
+				add_political_power = -50
+			}
+			add_to_variable = { currently_doing_var = 1 }
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = steel
+							amount > 300
+						}
+					}
 				}
+				add_to_temp_variable = { extra_cgs_counter = 0.02 }
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = steel
+							amount > 1
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.01 }
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = aluminium
+							amount > 100
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.02 }
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = aluminium
+							amount > 1
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.01 }
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = tungsten
+							amount > 140
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.02 }
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = tungsten
+							amount > 1
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.01 }
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = chromium
+							amount > 400
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.02 }
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = chromium
+							amount > 1
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.01 }
+			}
+			add_to_temp_variable = { extra_cgs_counter = 0.02 }
+			custom_effect_tooltip = USA_modify_main_spirit_tt
+			add_to_variable = {
+				var = CRY_five_year_plan_consumer_goods_expected_value_variable
+				value = extra_cgs_counter
+				tooltip = consumer_goods_tooltip
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = crystals
+							amount > 300
+						}
+					}
+				}
+				add_resource = {
+					type = crystals
+					amount = 40
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = crystals
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = crystals
+					amount = 20
+					state = FROM
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = steel
+							amount > 300
+						}
+					}
+				}
+				add_resource = {
+					type = steel
+					amount = 40
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = steel
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = steel
+					amount = 20
+					state = FROM
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = aluminium
+							amount > 100
+						}
+					}
+				}
+				add_resource = {
+					type = aluminium
+					amount = 30
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = aluminium
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = aluminium
+					amount = 15
+					state = FROM
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = tungsten
+							amount > 140
+						}
+					}
+				}
+				add_resource = {
+					type = tungsten
+					amount = 30
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = tungsten
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = tungsten
+					amount = 15
+					state = FROM
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = chromium
+							amount > 400
+						}
+					}
+				}
+				add_resource = {
+					type = chromium
+					amount = 30
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = chromium
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = chromium
+					amount = 15
+					state = FROM
+				}
+			}
+			add_to_variable = { 
+				var = CRY_new_deal_help 
+				value = 1
+				tooltip = USA_new_deal_help_increase_tt
+			}
+			FROM = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1 
+					instant_build = yes 
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			CRY_decrease_crisis_level_by_5 = yes 
+			CRY_update_ui_effect = yes
+			custom_effect_tooltip = USA_lower_crisis_level_by_5_tt
+			hidden_effect = {
+				add_to_variable = { USA_succesful_WPA_program_var = 1 }
+				add_to_variable = { currently_doing_var = -1 }
 			}
 		}
 	}

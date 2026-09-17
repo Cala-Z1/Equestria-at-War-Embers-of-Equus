@@ -543,7 +543,29 @@
 		}
 		x = 33
 		y = 8
-		completion_reward = { }
+		completion_reward = {
+			64 = {
+				add_building_construction = {
+					type = infrastructure 
+					instant_build = yes
+					level = 3
+				}
+			}
+			55 = {
+				add_building_construction = {
+					type = infrastructure 
+					instant_build = yes
+					level = 3
+				}
+			}
+			77 = {
+				add_building_construction = {
+					type = infrastructure 
+					instant_build = yes
+					level = 3
+				}
+			}
+		 }
 	}
 	focus = {
 		id = civ_workforce_mobilisation
@@ -557,7 +579,32 @@
 		}
 		x = 37
 		y = 8
-		completion_reward = { }
+		completion_reward = { 
+			add_power_balance_value = {
+				id = CRY_balamce_of_power
+				value = 0.25
+			}
+			add_to_variable = {
+				CRY_five_year_plan_resources_gain_efficiency_variable = -0.15
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = civ_workforce_mobilisation_tt
+			custom_effect_tooltip = tab_tt
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					instant_build = yes
+					level = 2
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					instant_build = yes
+					level = 2
+				}
+			}
+		}
 	}
 	focus = {
 		id = civ_industrial_complex
@@ -610,6 +657,8 @@
 				CRY_production_speed_arms_factory_factor_variable = 0.6
 			}
 			custom_effect_tooltip = civ_second_push_tt
+			custom_effect_tooltip = tab_tt
+			add_research_slot = 1
 		 }
 	}
 	focus = {
@@ -1086,13 +1135,15 @@
 		x = 21
 		y = 1
 		completion_reward = { 
-		CRY = {
-			CRY_princess_mi_amore_cadenza = {
+			if = {
+				limit = {
+					Has_country_leader = {character = CRY_princess_mi_amore_cadenza}
+				}
 				add_trait = {
+					character = CRY_princess_mi_amore_cadenza
 					trait = crystal_administrator
 				}
 			}
-		  }
 		}
 	}
 	focus = {
@@ -1106,6 +1157,9 @@
 		y = 1
 		completion_reward = {
 			custom_effect_tooltip = The_Crystalling_Anniversary_tt
+			custom_override_tooltip = {
+			add_dynamic_modifier = {modifier = CRY_Crystalling_modifier}
+			}
 		 }
 	}
 	focus = {

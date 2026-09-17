@@ -1,0 +1,25 @@
+spriteTypes = {	
+	### Basic assets ###		
+	spriteType = {
+		name = "GFX_USA_crisis_meter"
+		texturefile = "gfx/interface/crisis_system/USA_crisis_meter.dds"
+		legacy_lazy_load = no
+		noOfFrames = 21
+	}
+	spriteType = {
+		name = "GFX_USA_crisis_needle"
+		texturefile = "gfx/interface/crisis_system/USA_crisis_needle.dds"
+		legacy_lazy_load = no
+		noOfFrames = 21
+	}
+	spriteType = {
+		name = "GFX_USA_crisis_bg"
+		texturefile = "gfx/interface/crisis_system/USA_crisis_bg.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_usa_wpa_icon_scriptedgui"
+		texturefile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+	}
+}
+

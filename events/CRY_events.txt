@@ -1,7 +1,6 @@
 add_namespace = crycom
 country_event = { ## Communist Crystal Ponies # Elections
 	id = crycom.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event crycom.2"}
 	title = crycom.2.t
 	desc = crycom.2.d
 	picture = GFX_event_crystal_city
@@ -15,7 +14,6 @@ country_event = { ## Communist Crystal Ponies # Elections
 }
 country_event = { ## Communist Crystal Ponies # Elections
 	id = crycom.3
-	immediate = {log = "[GetDateText]: [Root.GetName]: event crycom.3"}
 	title = crycom.3.t
 	desc = { text = crycom.3.d_yes_com
 		trigger = {
@@ -64,6 +62,7 @@ country_event = { ## Communist Crystal Ponies # Elections
 			ideology = democratic
 			size = civ_war_size
 		}
+		D01 = {load_oob = "CrystalEmpireCivilwar"}
 		set_cosmetic_tag = CRY_SOMIMP
 		add_threat = 10
 		leave_faction = no

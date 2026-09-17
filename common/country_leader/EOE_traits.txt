@@ -2,11 +2,44 @@ leader_traits = {
 	crystal_administrator = {
 		random = no
 		stability_factor = 0.1
-		army_attack_against_major_factor = 0.05
+		army_attack_against_major_factor = -0.05
 		army_armor_attack_factor = 0.1
-		army_defence_factor = -0.05
+		army_defence_factor = 0.10
 	}
-	popular_figurehead = {
-		stability_factor = 0.15
+	army_CombinedArms_1 = { 
+		sprite = 8
+		motorized_attack_factor = 0.05
+		motorized_defence_factor = 0.05
+		mechanized_attack_factor = 0.05
+		mechanized_defence_factor = 0.05
+	}
+	army_CombinedArms_2 = {
+		sprite = 8
+		motorized_attack_factor = 0.1
+		motorized_defence_factor = 0.1
+		mechanized_attack_factor = 0.1
+		mechanized_defence_factor = 0.1
+	}
+	army_CombinedArms_3 = {
+		sprite = 8
+		motorized_attack_factor = 0.15
+		motorized_defence_factor = 0.15
+		mechanized_attack_factor = 0.15
+		mechanized_defence_factor = 0.15
+	}
+	army_chief_entrenchment_1 = {
+		sprite = 5
+		max_dig_in = 3
+		mobilization_speed = -0.02
+	}
+	army_chief_entrenchment_2 = {
+		sprite = 5
+		max_dig_in = 5
+		mobilization_speed = -0.04
+	}
+	army_chief_entrenchment_3 = {
+		sprite = 5
+		max_dig_in = 7
+		mobilization_speed = -0.06
 	}
 }

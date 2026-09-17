@@ -215,58 +215,6 @@ characters={
 		}
 		gender = female
 	}
-	YAK_Yona={
-		name=YAK_Yona
-		can_be_captured = no
-		portraits={
-			army={
-				large="gfx/leaders/YAK/Yona.tga"
-				small="GFX_idea_YAK_Yona"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = YAK_Yona
-			allowed = {
-				original_tag = YAK
-			}
-			available = {
-				OR = {
-					has_government = democratic
-					has_completed_focus = YAK_exchange_with_equestria
-				}
-				NOT = {
-					has_country_flag = YAK_yona_and_rutherford_running_away
-				}
-			}
-			traits = {
-				YAK_friendship_school_student
-			}
-			on_add = {
-				owner = {
-					multiply_variable = {
-						YAK_request_equestrian_aid_intensification_cost = 0.5
-					}
-					add_power_balance_value = {
-						id = YAK_starting_bop
-						value = 0.1
-					}
-				}
-			}
-			on_remove = {
-				owner = {
-					multiply_variable = {
-						YAK_request_equestrian_aid_intensification_cost = 2
-					}
-					add_power_balance_value = {
-						id = YAK_starting_bop
-						value = -0.1
-					}
-				}
-			}
-		}
-		gender = female
-	}
 	YAK_ancietus_rainfeather = { # from New Aquila
 		
 		name=YAK_ancietus_rainfeather

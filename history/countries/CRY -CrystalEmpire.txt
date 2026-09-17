@@ -96,6 +96,14 @@ set_variable = { CRY_five_year_plan_cap_variable = 0 }
 set_variable = { CRY_five_year_plan_base_variable = 0 }
 set_variable = { CRY_five_year_plan_gain_variable = 0 }
 set_variable = { CRY_five_year_plan_output_variable = 0 }
+### Crisis Minigame ### 
+add_dynamic_modifier = { modifier = CRY_crisis_level_modifier }
+set_variable = { CRY_crisis_level_stab_var = -0.6 }
+set_variable = { CRY_crisis_level = 60 }
+set_variable = { CRY_crisis_name = 1 }
+set_variable = { great_depression_var = 3 } 
+CRY_update_ui_effect = yes
+CRY_great_depression_level_set_idea = yes
 ## Stockpile ## 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0

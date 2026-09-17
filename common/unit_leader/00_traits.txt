@@ -718,12 +718,10 @@ leader_traits = {
 		field_marshal_modifier = {
 			max_planning = 0.1
 		}
-		
 		slot = army_chief
 		specialist_advisor_trait = army_chief_planning_1
 		expert_advisor_trait = army_chief_planning_2
-		genius_advisor_trait = army_chief_planning_3
-		
+		genius_advisor_trait = army_chief_planning_3	
 		ai_will_do = {
 			factor = 1
 		}

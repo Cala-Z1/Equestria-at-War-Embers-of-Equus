@@ -9,3 +9,25 @@ Five_Year_Plan = {
 	production_factory_efficiency_gain_factor = CRY_five_year_plan_gain_variable
 	industrial_capacity_factory = CRY_five_year_plan_output_variable
 }
+CRY_crisis_level_modifier = {
+	stability_factor = CRY_crisis_level_stab_var
+}
+CRY_crystal_fair_building_speed = {
+	production_speed_buildings_factor = 0.15
+	stability_weekly = 0.0020
+	stability_factor = 0.1
+	political_power_gain 0.15
+}
+CRY_Crystalling_modifier = {
+    political_power_factor = CRY_political_power_factor_var
+    political_power_gain = CRY_political_power_gain_var
+    consumer_goods_expected_value = CRY_consumer_goods_factor_var
+    research_speed_factor = CRY_research_speed_factor_var 
+    stability_factor = CRY_stability_factor_var
+    stability_weekly = CRY_stability_weekly_var
+    production_speed_infrastructure_factor = CRY_production_speed_infrastructure_factor_var
+    production_speed_industrial_complex_factor = CRY_production_speed_industrial_complex_factor_var
+    production_cost_industrial_complex_factor = CRY_production_cost_industrial_complex_factor_var
+    production_speed_arms_factory_factor = CRY_production_speed_arms_factory_factor_var
+    local_resources_factor = CRY_local_resources_factor_var	
+}

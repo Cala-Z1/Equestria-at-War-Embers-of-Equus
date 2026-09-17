@@ -5184,22 +5184,6 @@
 		}
 	}
 	icon = {
-		name = "Hippone 1"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					tag = HIE
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = fascist
-				}
-			}
-		}
-	}
-	icon = {
 		name = "Hippone - Communist"
 		available = 
 		{
@@ -5211,22 +5195,6 @@
 				OR = {
 					has_global_flag = eawarmyicons_ideology_check_disabled
 					has_government = communism
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Hippone 2"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIE
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = fascist
 				}
 			}
 		}
@@ -5268,228 +5236,6 @@
 				OR = {
 					has_global_flag = eawarmyicons_tag_check_disabled
 					original_tag = HIP
-				}
-		}
-	}
-	icon = {
-		name = "Hippogrifia 4"
-		available = 
-		{
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIP
-				}
-		}
-	}
-	icon = {
-		name = "Hippogriffia - Communist"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIP
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = communist
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Hippogriffia - Monbol"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIP
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = communist
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Hippogriffia - Posadist"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIP
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = communist
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Hippogriffia - Posadist Social Harmonism"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIP
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = communist
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Hippogriffia - Posadist Hard Line"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIP
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = communist
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Hippogriffia - Posadist Anarchist"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIP
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = communist
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Hippogriffia - National Communism"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIP
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = fascist
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Hippogriffia - SIR"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HIP
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = democratic
-					has_government = neutrality
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Haymirite Malikate - Supremacist"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HMR
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = fascism
-					has_government = neutrality
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Uusi Hirvimaa / Tanikama"
-		available = 
-		{
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HRV
-				}
-		}
-	}
-	icon = {
-		name = "Uusi Hirvimaa / Tanikama - Harmonic"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HRV
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = democratic
-				}
-			}
-		}
-	}
-	icon = {
-		name = "Qaylidi Dervishes"
-		available = 
-		{
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = HYE
-				}
-		}
-	}
-	icon = {
-		name = "Ice Dragon Tribe"
-		available = 
-		{
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = IDT
-				}
-		}
-	}
-	icon = {
-		name = "Maglibing"
-		available = 
-		{
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = IST
-				}
-		}
-	}
-	icon = {
-		name = "Khamrin"
-		available = 
-		{
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = KHM
 				}
 		}
 	}
@@ -5856,22 +5602,6 @@
 		}
 	}
 	icon = {
-		name = "Klugetown - Communist"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = KLG
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = communist
-				}
-			}
-		}
-	}
-	icon = {
 		name = "Lan Kir Militarchy"
 		available = 
 		{
@@ -5939,22 +5669,6 @@
 					has_global_flag = eawarmyicons_tag_check_disabled
 					original_tag = MSH
 				}
-		}
-	}
-	icon = {
-		name = "Macigena - Communist"
-		available = 
-		{
-			AND = {
-				OR = {
-					has_global_flag = eawarmyicons_tag_check_disabled
-					original_tag = MSH
-				}
-				OR = {
-					has_global_flag = eawarmyicons_ideology_check_disabled
-					has_government = communist
-				}
-			}
 		}
 	}
 	icon = {
