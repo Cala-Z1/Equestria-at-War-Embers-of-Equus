@@ -84,6 +84,7 @@ add_ideas = {
 	closed_market
 	Sombra_Scare
 	volunteer_corps_focus
+	CRY_great_depression_1_law
 }
 ## 5 YEAR PLAN ##
 add_dynamic_modifier = { modifier = Five_Year_Plan }

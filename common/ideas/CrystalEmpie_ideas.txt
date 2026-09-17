@@ -63,6 +63,179 @@ ideas = {
 		}
 	}
 	country = {
+		CRY_great_depression_1_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.50
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_2_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.45
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_3_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.40
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_4_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.35
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_5_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.30
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_6_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.25
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_7_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.20
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_8_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.15
+				stability_factor = -0.10
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_9_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.10
+				stability_factor = -0.15
+				political_power_gain = -0.1
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_9_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = -0.20
+				political_power_gain = -0.2
+				power_balance_weekly = -0.010
+			}
+		}
+	}
+	country = {
+		CRY_great_depression_10_law = {
+			allowed = {
+				always = no
+			}
+			available = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_CRY_depression
+			modifier = {
+				stability_factor = -0.20
+				political_power_gain = -0.2
+				power_balance_weekly = -0.010
+			}
+		}
+	}
+	country = {
 		Sombra_Scare = {
 			allowed = {
 				always = no

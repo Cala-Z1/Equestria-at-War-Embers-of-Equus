@@ -67,7 +67,7 @@ CRY_crisis_management_system_cat = {
 		target_root_trigger = { tag = CRY } 
 		target_trigger = {
 			FROM = {
-				onwer = CRY 
+				owner = CRY 
 			}
 		}
 		cost = 100
@@ -147,7 +147,7 @@ CRY_crisis_management_system_cat = {
 						}
 					}
 				}
-				add_to_temp_variable = { extra_cgs_counter = 0.02 }
+				add_to_temp_variable = { extra_cgs_counter = 0.002 }
 			}
 			else_if = {
 				limit = {
@@ -158,7 +158,7 @@ CRY_crisis_management_system_cat = {
 						}
 					}
 				}				
-				add_to_temp_variable = { extra_cgs_counter = 0.01 }
+				add_to_temp_variable = { extra_cgs_counter = 0.001 }
 			}
 			if = {
 				limit = {
@@ -169,7 +169,7 @@ CRY_crisis_management_system_cat = {
 						}
 					}
 				}				
-				add_to_temp_variable = { extra_cgs_counter = 0.02 }
+				add_to_temp_variable = { extra_cgs_counter = 0.002 }
 			}
 			else_if = {
 				limit = {
@@ -180,7 +180,7 @@ CRY_crisis_management_system_cat = {
 						}
 					}
 				}				
-				add_to_temp_variable = { extra_cgs_counter = 0.01 }
+				add_to_temp_variable = { extra_cgs_counter = 0.001 }
 			}
 			if = {
 				limit = {
@@ -191,7 +191,7 @@ CRY_crisis_management_system_cat = {
 						}
 					}
 				}				
-				add_to_temp_variable = { extra_cgs_counter = 0.02 }
+				add_to_temp_variable = { extra_cgs_counter = 0.002 }
 			}
 			else_if = {
 				limit = {
@@ -202,7 +202,7 @@ CRY_crisis_management_system_cat = {
 						}
 					}
 				}				
-				add_to_temp_variable = { extra_cgs_counter = 0.01 }
+				add_to_temp_variable = { extra_cgs_counter = 0.001 }
 			}
 			if = {
 				limit = {
@@ -213,7 +213,7 @@ CRY_crisis_management_system_cat = {
 						}
 					}
 				}				
-				add_to_temp_variable = { extra_cgs_counter = 0.02 }
+				add_to_temp_variable = { extra_cgs_counter = 0.002 }
 			}
 			else_if = {
 				limit = {
@@ -224,9 +224,9 @@ CRY_crisis_management_system_cat = {
 						}
 					}
 				}				
-				add_to_temp_variable = { extra_cgs_counter = 0.01 }
+				add_to_temp_variable = { extra_cgs_counter = 0.001 }
 			}
-			add_to_temp_variable = { extra_cgs_counter = 0.02 }
+			add_to_temp_variable = { extra_cgs_counter = 0.002 }
 			custom_effect_tooltip = USA_modify_main_spirit_tt
 			add_to_variable = {
 				var = CRY_five_year_plan_consumer_goods_expected_value_variable

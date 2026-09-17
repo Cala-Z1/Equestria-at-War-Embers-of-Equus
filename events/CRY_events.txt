@@ -1,4 +1,5 @@
 add_namespace = crycom
+add_namespace = CRY_depression
 country_event = { ## Communist Crystal Ponies # Elections
 	id = crycom.2
 	title = crycom.2.t
@@ -74,5 +75,390 @@ country_event = { ## Communist Crystal Ponies # Elections
 			add_popularity = { ideology = democratic popularity = 0.3 }
 			save_event_target_as = dem_CRY
 		}
+	}
+}
+###############################################
+# SOMBRA APPROACHES EVENTS (3 events)
+# Fire on timeline, raise great_depression_var
+###############################################
+# Event 1 - Early whispers (fires ~90 days in)
+country_event = {
+	id = CRY_depression.1
+	title = CRY_depression.1.t
+	desc = CRY_depression.1.d
+	picture = GFX_event_sombra_shadow
+	is_triggered_only = yes
+	trigger = {
+		tag = CRY
+		NOT = { has_country_flag = CRY_sombra_event_1_fired }
+	}
+	immediate = {
+		set_country_flag = CRY_sombra_event_1_fired
+	}
+	option = {
+		name = CRY_depression.1.a # "We must not panic"
+		add_to_variable = { great_depression_var = 3 }
+		add_war_support = 0.05
+		add_stability = -0.03
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.4 days = 120 } # Queue first buff/debuff event
+	}
+}
+# Event 2 - Sombra's shadow grows (fires ~180 days in)
+country_event = {
+	id = CRY_depression.2
+	title = CRY_depression.2.t
+	desc = CRY_depression.2.d
+	picture = GFX_event_sombra_shadow
+	is_triggered_only = yes
+
+	trigger = {
+		tag = CRY
+		NOT = { has_country_flag = CRY_sombra_event_2_fired }
+	}
+	immediate = {
+		set_country_flag = CRY_sombra_event_2_fired
+	}
+	option = {
+		name = CRY_depression.2.a # "The Heart will protect us"
+		add_to_variable = { great_depression_var = 4 }
+		add_stability = -0.05
+		CRY_update_ui_effect = yes
+		custom_effect_tooltip = CRY_depression_rising_tt
+	}
+}
+# Event 3 - Sombra at the gates (fires ~300 days in)
+country_event = {
+	id = CRY_depression.3
+	title = CRY_depression.3.t
+	desc = CRY_depression.3.d
+	picture = GFX_event_sombra_shadow
+	is_triggered_only = yes
+
+	trigger = {
+		tag = CRY
+		NOT = { has_country_flag = CRY_sombra_event_3_fired }
+	}
+
+	immediate = {
+		set_country_flag = CRY_sombra_event_3_fired
+	}
+	option = {
+		name = CRY_depression.3.a # "Prepare for the worst"
+		add_to_variable = { great_depression_var = 4 }
+		add_stability = -0.07
+		# Apply war support based on depression level
+		if = {
+			limit = { check_variable = { great_depression_var < 6 } }
+			add_war_support = 0.10 # Low depression = ponies rally
+		}
+		else_if = {
+			limit = { check_variable = { great_depression_var < 9 } }
+			add_war_support = 0.05
+		}
+		else = {
+			add_war_support = -0.05 # High depression = despair
+		}
+		CRY_update_ui_effect = yes
+	}
+}
+###############################################
+# OUTCOME EVENTS (5 events)
+# Determined by CRY_new_deal_help + great_depression_var
+# Buff = civ speed + stability + Five Year Plan bonuses
+# Debuff = mil speed - stability/war support + Five Year Plan penalties
+###############################################
+
+# Event 4 - First economic assessment (fires after event 1, ~210 days)
+country_event = {
+	id = CRY_depression.4
+	title = CRY_depression.4.t
+	desc = CRY_depression.4.d
+	picture = GFX_event_crystal_heart
+	is_triggered_only = yes
+
+	trigger = { tag = CRY }
+
+	immediate = {
+		# Calculate outcome score: new_deal_help (primary) + depression modifier (secondary)
+		set_temp_variable = { CRY_outcome_score = CRY_new_deal_help }
+		# Depression penalty: high depression reduces score
+		set_temp_variable = { CRY_depression_penalty = great_depression_var }
+		divide_temp_variable = { CRY_depression_penalty = 3 }
+		subtract_from_temp_variable = { CRY_outcome_score = CRY_depression_penalty }
+	}
+
+	# Good outcome (score >= 8)
+	option = {
+		name = CRY_depression.4.a_good
+		trigger = { check_variable = { CRY_outcome_score >= 8 } }
+		custom_effect_tooltip = CRY_good_outcome_tt
+		add_stability = 0.05
+		# Five Year Plan - civ construction bonus
+		add_to_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.05 }
+		add_to_variable = { CRY_five_year_plan_base_variable = 0.02 }
+		add_to_variable = { CRY_five_year_plan_gain_variable = 0.01 }
+		CRY_decrease_crisis_level_by_5 = yes
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.5 days = 120 }
+	}
+
+	# Mediocre outcome (score 4-7)
+	option = {
+		name = CRY_depression.4.a_ok
+		trigger = {
+			check_variable = { CRY_outcome_score >= 4 }
+			check_variable = { CRY_outcome_score < 8 }
+		}
+		custom_effect_tooltip = CRY_ok_outcome_tt
+		add_stability = 0.02
+		add_to_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.02 }
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.5 days = 120 }
+	}
+
+	# Bad outcome (score < 4)
+	option = {
+		name = CRY_depression.4.a_bad
+		trigger = { check_variable = { CRY_outcome_score < 4 } }
+		custom_effect_tooltip = CRY_bad_outcome_tt
+		add_stability = -0.05
+		add_war_support = -0.05
+		# Five Year Plan - mil focus instead
+		add_to_variable = { CRY_production_speed_arms_factory_factor_variable = 0.05 }
+		add_to_variable = { CRY_five_year_plan_consumer_goods_expected_value_variable = 0.05 }
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.5 days = 120 }
+	}
+}
+
+# Event 5 - Crystal Fair production drive
+country_event = {
+	id = CRY_depression.5
+	title = CRY_depression.5.t
+	desc = CRY_depression.5.d
+	picture = GFX_event_crystal_heart
+	is_triggered_only = yes
+
+	trigger = { tag = CRY }
+
+	immediate = {
+		set_temp_variable = { CRY_outcome_score = CRY_new_deal_help }
+		set_temp_variable = { CRY_depression_penalty = great_depression_var }
+		divide_temp_variable = { CRY_depression_penalty = 3 }
+		subtract_from_temp_variable = { CRY_outcome_score = CRY_depression_penalty }
+	}
+
+	option = {
+		name = CRY_depression.5.a_good
+		trigger = { check_variable = { CRY_outcome_score >= 8 } }
+		add_stability = 0.07
+		add_war_support = 0.05
+		add_to_variable = { CRY_five_year_plan_output_variable = 0.05 }
+		add_to_variable = { CRY_five_year_plan_resources_gain_efficiency_variable = 0.05 }
+		CRY_decrease_crisis_level_by_10 = yes
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.6 days = 150 }
+	}
+
+	option = {
+		name = CRY_depression.5.a_ok
+		trigger = {
+			check_variable = { CRY_outcome_score >= 4 }
+			check_variable = { CRY_outcome_score < 8 }
+		}
+		add_stability = 0.03
+		add_to_variable = { CRY_five_year_plan_output_variable = 0.02 }
+		CRY_decrease_crisis_level_by_5 = yes
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.6 days = 150 }
+	}
+
+	option = {
+		name = CRY_depression.5.a_bad
+		trigger = { check_variable = { CRY_outcome_score < 4 } }
+		add_stability = -0.07
+		add_war_support = -0.08
+		add_to_variable = { CRY_production_speed_arms_factory_factor_variable = 0.08 }
+		add_to_variable = { CRY_five_year_plan_consumer_goods_expected_value_variable = 0.08 }
+		add_to_variable = { CRY_crisis_level = 10 }
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.6 days = 150 }
+	}
+}
+
+# Event 6 - Midpoint reckoning
+country_event = {
+	id = CRY_depression.6
+	title = CRY_depression.6.t
+	desc = CRY_depression.6.d
+	picture = GFX_event_crystal_heart
+	is_triggered_only = yes
+
+	trigger = { tag = CRY }
+
+	immediate = {
+		set_temp_variable = { CRY_outcome_score = CRY_new_deal_help }
+		set_temp_variable = { CRY_depression_penalty = great_depression_var }
+		divide_temp_variable = { CRY_depression_penalty = 3 }
+		subtract_from_temp_variable = { CRY_outcome_score = CRY_depression_penalty }
+	}
+
+	option = {
+		name = CRY_depression.6.a_good
+		trigger = { check_variable = { CRY_outcome_score >= 8 } }
+		add_stability = 0.08
+		add_war_support = 0.08
+		add_to_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.08 }
+		add_to_variable = { CRY_research_speed_factor_variable = 0.03 }
+		add_to_variable = { CRY_five_year_plan_cap_variable = 0.05 }
+		CRY_decrease_crisis_level_by_10 = yes
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.7 days = 150 }
+	}
+
+	option = {
+		name = CRY_depression.6.a_ok
+		trigger = {
+			check_variable = { CRY_outcome_score >= 4 }
+			check_variable = { CRY_outcome_score < 8 }
+		}
+		add_stability = 0.04
+		add_war_support = 0.03
+		add_to_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.04 }
+		CRY_decrease_crisis_level_by_5 = yes
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.7 days = 150 }
+	}
+
+	option = {
+		name = CRY_depression.6.a_bad
+		trigger = { check_variable = { CRY_outcome_score < 4 } }
+		add_stability = -0.08
+		add_war_support = -0.10
+		add_to_variable = { CRY_production_speed_arms_factory_factor_variable = 0.10 }
+		add_to_variable = { CRY_five_year_plan_consumer_goods_expected_value_variable = 0.10 }
+		add_to_variable = { CRY_crisis_level = 15 }
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.7 days = 150 }
+	}
+}
+
+# Event 7 - Final push before Sombra
+country_event = {
+	id = CRY_depression.7
+	title = CRY_depression.7.t
+	desc = CRY_depression.7.d
+	picture = GFX_event_crystal_heart
+	is_triggered_only = yes
+
+	trigger = { tag = CRY }
+
+	immediate = {
+		set_temp_variable = { CRY_outcome_score = CRY_new_deal_help }
+		set_temp_variable = { CRY_depression_penalty = great_depression_var }
+		divide_temp_variable = { CRY_depression_penalty = 3 }
+		subtract_from_temp_variable = { CRY_outcome_score = CRY_depression_penalty }
+	}
+
+	option = {
+		name = CRY_depression.7.a_good
+		trigger = { check_variable = { CRY_outcome_score >= 8 } }
+		add_stability = 0.10
+		add_war_support = 0.10
+		add_to_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.10 }
+		add_to_variable = { CRY_five_year_plan_base_variable = 0.05 }
+		add_to_variable = { CRY_five_year_plan_gain_variable = 0.03 }
+		add_to_variable = { CRY_five_year_plan_cap_variable = 0.05 }
+		add_to_variable = { CRY_five_year_plan_output_variable = 0.08 }
+		CRY_decrease_crisis_level_by_10 = yes
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.8 days = 120 }
+	}
+
+	option = {
+		name = CRY_depression.7.a_ok
+		trigger = {
+			check_variable = { CRY_outcome_score >= 4 }
+			check_variable = { CRY_outcome_score < 8 }
+		}
+		add_stability = 0.05
+		add_war_support = 0.05
+		add_to_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.05 }
+		add_to_variable = { CRY_five_year_plan_output_variable = 0.03 }
+		CRY_decrease_crisis_level_by_5 = yes
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.8 days = 120 }
+	}
+
+	option = {
+		name = CRY_depression.7.a_bad
+		trigger = { check_variable = { CRY_outcome_score < 4 } }
+		add_stability = -0.10
+		add_war_support = -0.12
+		add_to_variable = { CRY_production_speed_arms_factory_factor_variable = 0.12 }
+		add_to_variable = { CRY_five_year_plan_consumer_goods_expected_value_variable = 0.12 }
+		add_to_variable = { CRY_crisis_level = 20 }
+		CRY_update_ui_effect = yes
+		country_event = { id = CRY_depression.8 days = 120 }
+	}
+}
+
+# Event 8 - Final reckoning
+country_event = {
+	id = CRY_depression.8
+	title = CRY_depression.8.t
+	desc = CRY_depression.8.d
+	picture = GFX_event_crystal_heart
+	is_triggered_only = yes
+
+	trigger = { tag = CRY }
+
+	immediate = {
+		set_temp_variable = { CRY_outcome_score = CRY_new_deal_help }
+		set_temp_variable = { CRY_depression_penalty = great_depression_var }
+		divide_temp_variable = { CRY_depression_penalty = 3 }
+		subtract_from_temp_variable = { CRY_outcome_score = CRY_depression_penalty }
+	}
+
+	option = {
+		name = CRY_depression.8.a_good
+		trigger = { check_variable = { CRY_outcome_score >= 8 } }
+		custom_effect_tooltip = CRY_final_good_tt
+		add_stability = 0.15
+		add_war_support = 0.15
+		add_to_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.12 }
+		add_to_variable = { CRY_research_speed_factor_variable = 0.05 }
+		add_to_variable = { CRY_five_year_plan_resources_gain_efficiency_variable = 0.10 }
+		add_to_variable = { CRY_five_year_plan_output_variable = 0.10 }
+		CRY_decrease_crisis_level_by_10 = yes
+		CRY_update_ui_effect = yes
+	}
+
+	option = {
+		name = CRY_depression.8.a_ok
+		trigger = {
+			check_variable = { CRY_outcome_score >= 4 }
+			check_variable = { CRY_outcome_score < 8 }
+		}
+		custom_effect_tooltip = CRY_final_ok_tt
+		add_stability = 0.07
+		add_war_support = 0.07
+		add_to_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.06 }
+		add_to_variable = { CRY_five_year_plan_output_variable = 0.05 }
+		CRY_decrease_crisis_level_by_5 = yes
+		CRY_update_ui_effect = yes
+	}
+
+	option = {
+		name = CRY_depression.8.a_bad
+		trigger = { check_variable = { CRY_outcome_score < 4 } }
+		custom_effect_tooltip = CRY_final_bad_tt
+		add_stability = -0.15
+		add_war_support = -0.15
+		add_to_variable = { CRY_production_speed_arms_factory_factor_variable = 0.15 }
+		add_to_variable = { CRY_five_year_plan_consumer_goods_expected_value_variable = 0.15 }
+		add_to_variable = { CRY_crisis_level = 25 }
+		CRY_update_ui_effect = yes
 	}
 }

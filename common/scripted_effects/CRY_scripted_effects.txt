@@ -210,13 +210,653 @@ CRY_decrease_crisis_level_by_5 = {
 	}
 }
 #placeholder
-CRY_clear_economic_idea_1 = {}
-CRY_clear_economic_idea_2 = {}
-CRY_clear_economic_idea_3 = {}
-CRY_clear_economic_idea_4 = {}
-CRY_clear_economic_idea_5 = {}
-CRY_clear_economic_idea_6 = {}
-CRY_clear_economic_idea_7 = {}
-CRY_clear_economic_idea_8 = {}
-CRY_clear_economic_idea_9 = {}
-CRY_clear_economic_idea_10 = {}
+CRY_clear_economic_idea_1 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_2_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_2_law
+			add_idea = CRY_great_depression_1_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_3_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_3_law
+			add_idea = CRY_great_depression_1_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_4_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_4_law
+			add_idea = CRY_great_depression_1_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_5_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_5_law
+			add_idea = CRY_great_depression_1_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_6_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_6_law
+			add_idea = CRY_great_depression_1_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_7_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_7_law
+			add_idea = CRY_great_depression_1_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_1_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_9_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_9_law
+			add_idea = CRY_great_depression_1_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_10_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_10_law
+			add_idea = CRY_great_depression_1_law
+		}
+	}
+}
+CRY_clear_economic_idea_2 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_1_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_1_law
+			add_idea = CRY_great_depression_2_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_3_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_3_law
+			add_idea = CRY_great_depression_2_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_4_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_4_law
+			add_idea = CRY_great_depression_2_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_5_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_5_law
+			add_idea = CRY_great_depression_2_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_6_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_6_law
+			add_idea = CRY_great_depression_2_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_7_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_7_law
+			add_idea = CRY_great_depression_2_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_2_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_9_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_9_law
+			add_idea = CRY_great_depression_2_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_10_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_10_law
+			add_idea = CRY_great_depression_2_law
+		}
+	}
+}
+CRY_clear_economic_idea_3 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_1_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_1_law
+			add_idea = CRY_great_depression_3_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_2_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_2_law
+			add_idea = CRY_great_depression_3_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_4_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_4_law
+			add_idea = CRY_great_depression_3_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_5_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_5_law
+			add_idea = CRY_great_depression_3_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_6_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_6_law
+			add_idea = CRY_great_depression_3_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_7_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_7_law
+			add_idea = CRY_great_depression_3_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_3_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_9_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_9_law
+			add_idea = CRY_great_depression_3_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_10_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_10_law
+			add_idea = CRY_great_depression_3_law
+		}
+	}
+}
+CRY_clear_economic_idea_4 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_1_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_1_law
+			add_idea = CRY_great_depression_4_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_2_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_2_law
+			add_idea = CRY_great_depression_4_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_3_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_3_law
+			add_idea = CRY_great_depression_4_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_5_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_5_law
+			add_idea = CRY_great_depression_4_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_6_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_6_law
+			add_idea = CRY_great_depression_4_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_7_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_7_law
+			add_idea = CRY_great_depression_4_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_4_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_9_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_9_law
+			add_idea = CRY_great_depression_4_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_10_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_10_law
+			add_idea = CRY_great_depression_4_law
+		}
+	}
+}
+CRY_clear_economic_idea_5 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_1_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_1_law
+			add_idea = CRY_great_depression_5_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_2_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_2_law
+			add_idea = CRY_great_depression_5_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_3_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_3_law
+			add_idea = CRY_great_depression_5_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_4_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_4_law
+			add_idea = CRY_great_depression_5_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_6_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_6_law
+			add_idea = CRY_great_depression_5_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_7_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_7_law
+			add_idea = CRY_great_depression_5_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_5_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_9_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_9_law
+			add_idea = CRY_great_depression_5_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_10_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_10_law
+			add_idea = CRY_great_depression_5_law
+		}
+	}
+}
+CRY_clear_economic_idea_6 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_1_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_1_law
+			add_idea = CRY_great_depression_6_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_2_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_2_law
+			add_idea = CRY_great_depression_6_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_3_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_3_law
+			add_idea = CRY_great_depression_6_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_4_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_4_law
+			add_idea = CRY_great_depression_6_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_5_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_5_law
+			add_idea = CRY_great_depression_6_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_7_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_7_law
+			add_idea = CRY_great_depression_6_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_6_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_9_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_9_law
+			add_idea = CRY_great_depression_6_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_10_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_10_law
+			add_idea = CRY_great_depression_6_law
+		}
+	}
+}
+CRY_clear_economic_idea_7 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_1_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_1_law
+			add_idea = CRY_great_depression_7_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_2_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_2_law
+			add_idea = CRY_great_depression_7_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_3_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_3_law
+			add_idea = CRY_great_depression_7_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_4_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_4_law
+			add_idea = CRY_great_depression_7_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_5_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_5_law
+			add_idea = CRY_great_depression_7_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_6_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_6_law
+			add_idea = CRY_great_depression_7_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_7_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_9_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_9_law
+			add_idea = CRY_great_depression_7_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_10_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_10_law
+			add_idea = CRY_great_depression_7_law
+		}
+	}
+}
+CRY_clear_economic_idea_8 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_1_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_1_law
+			add_idea = CRY_great_depression_8_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_2_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_2_law
+			add_idea = CRY_great_depression_8_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_3_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_3_law
+			add_idea = CRY_great_depression_8_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_4_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_4_law
+			add_idea = CRY_great_depression_8_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_5_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_5_law
+			add_idea = CRY_great_depression_8_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_6_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_6_law
+			add_idea = CRY_great_depression_8_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_7_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_7_law
+			add_idea = CRY_great_depression_8_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_9_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_9_law
+			add_idea = CRY_great_depression_8_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_10_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_10_law
+			add_idea = CRY_great_depression_8_law
+		}
+	}
+}
+CRY_clear_economic_idea_9 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_1_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_1_law
+			add_idea = CRY_great_depression_9_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_2_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_2_law
+			add_idea = CRY_great_depression_9_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_3_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_3_law
+			add_idea = CRY_great_depression_9_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_4_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_4_law
+			add_idea = CRY_great_depression_9_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_5_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_5_law
+			add_idea = CRY_great_depression_9_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_6_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_6_law
+			add_idea = CRY_great_depression_9_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_7_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_7_law
+			add_idea = CRY_great_depression_9_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_9_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_9_law
+		}
+	}
+}
+CRY_clear_economic_idea_10 = {
+	if = {
+		limit = { has_idea = CRY_great_depression_1_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_1_law
+			add_idea = CRY_great_depression_10_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_2_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_2_law
+			add_idea = CRY_great_depression_10_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_3_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_3_law
+			add_idea = CRY_great_depression_10_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_4_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_4_law
+			add_idea = CRY_great_depression_10_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_5_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_5_law
+			add_idea = CRY_great_depression_10_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_6_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_6_law
+			add_idea = CRY_great_depression_10_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_7_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_7_law
+			add_idea = CRY_great_depression_10_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_8_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_8_law
+			add_idea = CRY_great_depression_10_law
+		}
+	}
+	else_if = {
+		limit = { has_idea = CRY_great_depression_9_law }
+		swap_ideas = {
+			remove_idea = CRY_great_depression_9_law
+			add_idea = CRY_great_depression_10_law
+		}
+	}
+}

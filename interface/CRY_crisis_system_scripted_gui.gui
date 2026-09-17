@@ -65,14 +65,14 @@ guiTypes = {
 		buttonType = {
 			name = "USA_crisis_refresh_ui_button"
 			spriteType = "GFX_command_power"
-			position = { x = 185 y = 148 }
+			position = { x = 480 y = -65 }
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
 		instantTextBoxType = {
 			name = "crisis_text"
-			position = { x = 65 y = @PARANOIA_TEXT_Y }
-			font = "Arial12"
+			position = { x = 55 y = @PARANOIA_TEXT_Y }
+			font = "hoi_16mbs"
 			text = "CRY_crisis_value_text"
 			format = center
 			maxWidth = 400
