@@ -35,8 +35,8 @@ JAK = {
 	color_ui = rgb { 100 150 193 }
 }
 HLR = {
-	color = rgb { 100 100 100 }
-	color_ui = rgb { 100 100 100 }
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 KIR = {
 	color = rgb { 237 45 0 }
@@ -51,8 +51,8 @@ WNG = {
 	color_ui = rgb { 77 52 115 }
 }
 JER = {
-	color = rgb { 84 104 181 }
-	color_ui = rgb { 84 104 181 }
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 57 113 228 }
 }
 HIP = {
 	color = rgb { 129 227 238 }
@@ -79,8 +79,8 @@ FAT = {
 	color_ui = rgb { 50 141 131 }
 }
 RCT = {
-	color = rgb { 63 161 111 }
-	color_ui = rgb { 63 161 111 }
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 67 127 63 }
 }
 HLQ = {
 	color = rgb {143 132 121}

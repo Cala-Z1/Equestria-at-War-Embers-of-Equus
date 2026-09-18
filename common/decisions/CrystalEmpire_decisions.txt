@@ -412,4 +412,325 @@ CRY_crisis_management_system_cat = {
 			}
 		}
 	}
-}
+	CRY_Grand_festival = { 
+		icon = GFX_CRY_Grand_festival
+		target_trigger = {
+			FROM = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+		target_root_trigger = { tag = CRY } 
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		fire_only_once = yes 
+		available = {								
+			custom_trigger_tooltip = {
+				tooltip = CRY_not_doing_more_than_two_tt		
+					check_variable = {
+					var = currently_doing2_var
+					value < 2
+					compare = less_than
+				}
+			}			
+			has_completed_focus = The_Grand_Festival
+		}
+		cancel_trigger = {
+			NOT = { FROM = { is_fully_controlled_by = ROOT } }
+		}
+		cancel_effect = {
+		}
+		days_remove = 45
+		custom_cost_text = decision_cost_PP_100
+		custom_cost_trigger = {
+			ROOT = {
+				has_political_power > 99
+			}
+		}
+		modifier = {
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -100
+			}
+			add_to_variable = { currently_doing2_var = 1 }
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = steel
+							amount > 300
+						}
+					}
+				}
+				add_to_temp_variable = { extra_cgs_counter = 0.002 }
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = steel
+							amount > 1
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.001 }
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = aluminium
+							amount > 100
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.002 }
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = aluminium
+							amount > 1
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.001 }
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = tungsten
+							amount > 140
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.002 }
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = tungsten
+							amount > 1
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.001 }
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = chromium
+							amount > 400
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.002 }
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = chromium
+							amount > 1
+						}
+					}
+				}				
+				add_to_temp_variable = { extra_cgs_counter = 0.001 }
+			}
+			add_to_temp_variable = { extra_cgs_counter = 0.002 }
+			custom_effect_tooltip = USA_modify_main_spirit_tt
+			add_to_variable = {
+				var = CRY_five_year_plan_consumer_goods_expected_value_variable
+				value = extra_cgs_counter
+				tooltip = consumer_goods_tooltip
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = crystals
+							amount > 300
+						}
+					}
+				}
+				add_resource = {
+					type = crystals
+					amount = 40
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = crystals
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = crystals
+					amount = 20
+					state = FROM
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = steel
+							amount > 300
+						}
+					}
+				}
+				add_resource = {
+					type = steel
+					amount = 40
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = steel
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = steel
+					amount = 20
+					state = FROM
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = aluminium
+							amount > 100
+						}
+					}
+				}
+				add_resource = {
+					type = aluminium
+					amount = 30
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = aluminium
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = aluminium
+					amount = 15
+					state = FROM
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = tungsten
+							amount > 140
+						}
+					}
+				}
+				add_resource = {
+					type = tungsten
+					amount = 30
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = tungsten
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = tungsten
+					amount = 15
+					state = FROM
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = chromium
+							amount > 400
+						}
+					}
+				}
+				add_resource = {
+					type = chromium
+					amount = 30
+					state = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						has_resources_amount = {
+							resource = chromium
+							amount > 1
+						}
+					}
+				}
+				add_resource = {
+					type = chromium
+					amount = 15
+					state = FROM
+				}
+			}
+			FROM = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1 
+					instant_build = yes 
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = USA_lower_depression_level_by_1_tt
+			hidden_effect = {
+    			if = {
+        			limit = {
+            			check_variable = {
+                		var = great_depression_var
+                		value > 1
+            			}
+       			 	}
+       				 add_to_variable = {
+            			great_depression_var = -1
+       				 }
+       				 add_to_variable = {
+            			currently_doing2_var = -1
+       				 }
+				CRY_great_depression_level_set_idea = yes
+   				 }
+    			else = {
+       				add_to_variable = {
+            		currently_doing2_var = -1
+       			 }
+   			 	}
+			}	
+		}
+	}	
+}`

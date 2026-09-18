@@ -49,6 +49,7 @@ bookmarks = {
 			equestrian_overlord
 			crystal_buff
 			CRY_five_year_plan
+			CRY_great_depression_1_law
 		}
 		focuses = {
 			The_Crystal_Fair
@@ -82,6 +83,7 @@ bookmarks = {
 			equestrian_overlord
 			crystal_buff
 			CRY_five_year_plan
+			CRY_great_depression_1_law
 		}
 		focuses = {
 			The_Crystal_Fair

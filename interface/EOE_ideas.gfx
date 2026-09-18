@@ -39,4 +39,44 @@ spriteTypes = {
         name = GFX_idea_closed_market
         textureFile = "gfx/interface/ideas/CRY/CRY_old_dignity.dds"
     }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_1_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_2_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_3_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_4_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_5_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_6_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_7_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_8_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_9_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
+    spriteType = {
+        name = GFX_idea_CRY_great_depression_10_law
+        textureFile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
+    }
 }

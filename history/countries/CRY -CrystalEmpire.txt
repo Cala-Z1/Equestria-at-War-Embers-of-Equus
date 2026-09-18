@@ -72,7 +72,7 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-set_war_support = 0.3
+set_war_support = 0.1
 set_stability = 0.22
 add_ideas = closed_economy
 add_ideas = volunteer_only
