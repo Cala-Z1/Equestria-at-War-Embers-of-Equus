@@ -67,7 +67,7 @@ CRY_crisis_management_system_cat = {
 		target_root_trigger = { tag = CRY } 
 		target_trigger = {
 			FROM = {
-				owner = CRY 
+				onwer = CRY 
 			}
 		}
 		cost = 100
@@ -78,6 +78,7 @@ CRY_crisis_management_system_cat = {
 			custom_effect_tooltip = tab_tt
 			custom_effect_tooltip = CRY_Crystal_fair_tt
 			custom_override_tooltip = {
+				news_event = { id = news.4 days = 1 }
 				CRY = {
 					add_dynamic_modifier = {
 						modifier = CRY_crystal_fair_building_speed

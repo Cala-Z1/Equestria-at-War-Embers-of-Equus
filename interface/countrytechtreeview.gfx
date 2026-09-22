@@ -92,9 +92,11 @@ spriteType = {
 
 
 	## EAW ## 
-
-
-
+	SpriteType = {
+		name = "GFX_generic_folder_tab"
+		textureFile = "gfx/interface/techtree/techtree_magic_tab.dds"
+		noOfFrames = 2
+	}
 	## BASE GAME ##
 
 

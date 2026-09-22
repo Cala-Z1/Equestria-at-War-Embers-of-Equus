@@ -50,8 +50,8 @@ NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_LIMIT = 100                -- When looki
 NDefines.NMilitary.PLAN_EXECUTE_BALANCED_LIMIT = 50                -- When looking for an attack target, this score limit is required in the battle plan to consider province for attack
 NDefines.NMilitary.PLAN_EXECUTE_RUSH = 25                       -- When looking for an attack target, this score limit is required in the battle plan to consider province for attack
 NDefines.NOperatives.MAX_OPERATIVE_SLOT_FROM_AGENCY_UPGRADES = 0	-- max operative slots gained from upgrades
-NDefines.NOperatives.AGENCY_UPGRADE_PER_OPERATIVE_SLOT = 0
-NDefines.NOperatives.BECOME_SPYMASTER_PP_COST = 999
+NDefines.NOperatives.AGENCY_UPGRADE_PER_OPERATIVE_SLOT = 5
+NDefines.NOperatives.BECOME_SPYMASTER_PP_COST = 100
 ---------------------------------------------------------------
 NDefines.NTrade.ANTI_MONOPOLY_TRADE_FACTOR = -1			-- was -100 | This is added to the factor value when anti-monopoly threshold is exceeded; cucks Soviets/Japan often if the value is vanilla
 NDefines.NTrade.BASE_LAND_TRADE_RANGE = 350	
@@ -78,7 +78,7 @@ NDefines.NDiplomacy.LL_TO_PUPPET_AUTONOMY_DAILY_BASE = 0		-- If overlord lend le
 NDefines.NDiplomacy.LL_TO_PUPPET_AUTONOMY_DAILY_FACTOR = 0     -- If overlord lend leases equipment to puppet of higher tech level as they have, puppet losses autonomy
 ---------------------------------------------------------------
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 4                   --HARSHEST 
-NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1  --was 2
+NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 2  --was 2
 NDefines.NPolitics.ARMY_LEADER_MAX_COST = 100				-- max cost BEFORE modifiers
 NDefines.NPolitics.NAVY_LEADER_MAX_COST = 100				-- max cost BEFORE modifiers
 ---------------------------------------------------------------
@@ -350,13 +350,9 @@ NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.5                --Vanilla 0.8
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.0
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.70	-- Vanilla 0,75
 NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 0
-
 NDefines.NGame.MISSION_REMOVE_FROM_INTERFACE_DEFAULT=7
-
 NDefines.NDeployment.BASE_DEPLOYMENT_TRAINING = 2.5
-
 NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 3
-
 NDefines.NAir.EXPERIENCE_SCALE_ATTACK_LOGISTICS_NO_TRUCK_CONSUMERS = 0.0001 -- How much country experinence gained by attacking consumers who aren't motorized
 NDefines.NAir.EXPERIENCE_SCALE_ATTACK_LOGISTICS_NODE_AND_TRAINS = 0.0002    -- How much country experinence gained by attacking node/trains
 NDefines.NAir.EXPERIENCE_SCALE_ATTACK_LOGISTICS_TRUCKS = 0.0002             -- How much country experinence gained by attacking trucks
@@ -373,22 +369,17 @@ NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DISRUPTION_MIN_DAMAGE_FACTOR = 0.1 -- Mu
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_MAX_DISRUPTION_DAMAGE_TO_CONSIDER = 15.0 -- see above
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DIRECT_DISRUPTION_DAMAGE_FACTOR = 0.01 -- Disruption damage to supply throughput done by bombing damage, not dependant on killing trains which also causes diruption.
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.3 -- max trucks we can destroy in one instance of a logistics strike
-
-
 NDefines.NGame.MISSION_REMOVE_FROM_INTERFACE_DEFAULT=7
-
 NDefines.NDeployment.BASE_DEPLOYMENT_TRAINING = 2.5
-
 NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 3
-
 NDefines.NCountry.MAX_PROPAGANDA_WAR_SUPPORT_IMPACT = 0		-- Max total penalty from operative performing the propaganda mission in a country
 NDefines.NCountry.PROPAGANDA_STABILITY_DAILY_DECAY = 0.002		-- Amount of stability recovered daily from propaganda effort
 NDefines.NCountry.INTEL_FROM_ALLIANCE_FACTOR = 1 --was 0.6
 NDefines.NOperatives.OPERATIVE_BASE_BOOST_IDEOLOGY = 0				-- Base amount of daily ideology drift provoked by an operative
 NDefines.NOperatives.PROPAGANDA_COUNTRY_STACKING_FACTOR = 0.2
 NDefines.NOperatives.PROPAGANDA_OPERATIVE_STACKING_FACTOR = 0.2
-NDefines.NOperatives.AGENCY_CREATION_DAYS = 999						-- Number of days needed to create an intelligence agency
-NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 999
+NDefines.NOperatives.AGENCY_CREATION_DAYS = 30					-- Number of days needed to create an intelligence agency
+NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 0
 NDefines.NOperatives.AGENCY_UPGRADE_DAYS = 90						-- Number of days needed to upgrade an intelligence agency
 NDefines.NOperatives.BASE_COUNTER_INTELLIGENCE_RATING = 0.5						-- Number of days needed to upgrade an intelligence agency
 NDefines.NOperatives.BECOME_SPYMASTER_PP_COST = 0					-- Number of political power used to become Spy Master

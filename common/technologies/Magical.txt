@@ -1,0 +1,82 @@
+technologies = {
+	### MAGIC INF ###
+	magical_weapons = {
+		enable_equipments = {
+			magical_equipment_1
+		}
+		enable_subunits = {
+			magical_infantry
+			magical_motorized
+		}
+		military_police = {
+			suppression_factor = 0.1
+		}
+		path = {
+			leads_to_tech = magical_weapons1
+			research_cost_coeff = -1
+		}
+		on_research_complete = { }
+		research_cost = 2
+		start_year = 1010
+		folder = {
+			name = Magical_folder
+			position = { x = 4 y = 6 }
+		}
+		categories = {
+			infantry_weapons
+			magical_tech
+		}
+		special_project_specialization = { specialization_land specialization_magical }
+	}
+	magical_weapons1 = {
+		enable_equipments = {
+			magical_equipment_2
+		}
+		dependencies = {
+			magical_weapons = 1
+		}
+		research_cost = 2
+		start_year = 1013
+		folder = {
+			name = Magical_folder
+			position = { x = 1 y = 1 }
+		}
+		on_research_complete = { }
+		categories = {
+			infantry_weapons
+			magical_tech
+		}
+		special_project_specialization = { specialization_land specialization_magical }
+	}
+	### MAGIC ART ###	
+	SP_magical_anti_tank = {
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_magical_anti_tank
+			}
+		}
+		enable_subunits = {
+			Magical_anti_tank_brigade
+		}
+		enable_equipments = {
+			magical_anit_tank_equipment_1
+		}
+		is_special_project_tech = yes
+		research_cost = 1
+		start_year = 1010
+		path = {
+			leads_to_tech = Magcial_anti_tank_1
+			research_cost_coeff = -1
+		}
+		folder = {
+			name = Magical_folder
+			position = { x =  1 y =  1}
+		}
+		categories = {
+			artillery
+			magical_tech
+		}
+	}
+	Magcial_anti_tank_1 = {
+	}
+}

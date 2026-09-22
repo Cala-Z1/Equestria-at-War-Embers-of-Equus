@@ -66,3 +66,45 @@ sp_alicorn_slayer_gun = {
 		}
 	}
 }
+	sp_magical_anti_tank = {
+	specialization = specialization_magical
+	icon = GFX_sp_alicorn_slayer_gun
+	project_tags = sp_tag_magical
+	available = {
+		from = {has_tech = antitankT}
+	}
+	resource_cost = {
+		resources = { 
+			crystals = 15
+		}
+	}
+	complexity = sp_complexity.medium
+	prototype_time = sp_time.prototype.medium
+	breakthrough_cost = {
+		specialization_magical = 1
+	}
+	generic_prototype_rewards = {
+		sp_magical_generic_reward_scientist_xp_1
+		sp_magical_generic_reward_scientist_xp_2
+		sp_magical_generic_reward_scientist_xp_3
+		sp_magical_generic_reward_major_progress_1
+		sp_magical_generic_reward_major_progress_2
+		sp_magical_generic_reward_major_progress_3
+		sp_magical_generic_reward_test_failure_1
+		sp_magical_generic_reward_test_failure_2
+		sp_magical_generic_reward_test_failure_3
+		sp_magical_generic_reward_magical_tech_1
+		sp_magical_generic_reward_magical_tech_2
+		sp_magical_generic_reward_magical_tech_3
+		sp_magical_generic_reward_resource_scarcity
+		sp_magical_generic_reward_critical_failure
+	}
+	project_output = {
+		country_effects = {
+			set_technology = {
+				SP_magical_anti_tank = 1
+				popup = no
+			}			
+		}
+	}
+}

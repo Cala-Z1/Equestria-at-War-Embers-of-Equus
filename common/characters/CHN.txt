@@ -1,0 +1,17 @@
+characters = {
+	CHN_queen_chrysalis={
+		name = CHN_queen_chrysalis
+		portraits = {
+			civilian = {
+				large= "GFX_ChrysalisPortrait"
+			}
+		}
+		country_leader={
+			desc= "POLITICS_CHRYSALIS_DESC"
+			ideology = nazism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+		gender = female
+	}
+}

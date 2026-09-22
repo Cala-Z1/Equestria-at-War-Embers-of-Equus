@@ -1,5 +1,5 @@
 faction_template_United_Ponies_Alliance = {
 	name = "United Ponies Alliance"
 	icon = GFX_faction_icon_united_ponies_alliance
-	manifest = 
+	manifest = faction_manifest_defense_of_democracy
 }

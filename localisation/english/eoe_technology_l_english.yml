@@ -1,4 +1,6 @@
 ﻿l_english:
+ 
+ SUBUNIT_BONUS_HEADER: "$ICON$ $NAME|H$:"
 
 ## Projects ## 
   sp_alicorn_slayer_gun:0 "Project Dawnbreaker"

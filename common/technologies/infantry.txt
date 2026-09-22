@@ -11,53 +11,6 @@ technologies = {
 	@1015 = 19
 	@1016 = 21
 	@1017 = 23
-	
-	### MAGIC ###
-		magical_weapons = {
-		enable_equipments = {
-			magical_equipment_1
-		}
-		enable_subunits = {
-			magical_infantry
-			magical_motorized
-		}
-		military_police = {
-			suppression_factor = 0.1
-		}
-		on_research_complete = { }
-		research_cost = 2
-		start_year = 1010
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 6 }
-		}
-		categories = {
-			infantry_weapons
-			magical_tech
-		}
-		special_project_specialization = { specialization_land specialization_magical }
-	}
-	magical_weapons1 = {
-		enable_equipments = {
-			magical_equipment_2
-		}
-		dependencies = {
-			magical_weapons = 1
-		}
-		research_cost = 2
-		start_year = 1013
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1011 }
-		}
-		on_research_complete = { }
-		categories = {
-			infantry_weapons
-			magical_tech
-		}
-		special_project_specialization = { specialization_land specialization_magical }
-	}
-	
 	#HMG+MORTAR equipment
 	
 	support_weapons = {
@@ -358,7 +311,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = magical_weapons
 			research_cost_coeff = 1
 		}
 		
@@ -377,11 +329,7 @@ technologies = {
 			factor = 100
 		}
 	}
-	
-	
-	
 	infantry_weapons2 = {
-
 		category_all_infantry = {
 			soft_attack = 0.045
 			max_strength = 0.5
@@ -392,7 +340,6 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		path = {
-			leads_to_tech = magical_weapons1
 			research_cost_coeff = 1
 		}	
 		research_cost = 1.4
@@ -400,10 +347,7 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1009 }
-		}
-		
-		
-		
+		}						
 		categories = {
 			infantry_weapons
 		}
@@ -776,7 +720,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1007 }
+			position = { x = 3 y = @1007 }
 		}
 		
 		categories = {
@@ -790,7 +734,6 @@ technologies = {
 	}
 	
 	infantry_at2 = {
-
 		category_all_infantry = {
 			hard_attack = 0.14
 			ap_attack = 0.25
@@ -800,13 +743,11 @@ technologies = {
 		start_year = 1011
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1011 }
-		}
-		
+			position = { x = 3 y = @1011 }
+		}	
 		categories = {
 			infantry_weapons
-		}
-		
+		}		
 		ai_will_do = {
 			factor = 5
 			

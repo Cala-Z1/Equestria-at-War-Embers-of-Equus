@@ -35,7 +35,6 @@ bookmarks = {
 		"JER" = { history = "JER_1007_1_1" 
 					ideology = democratic
 	}
-		
 		# Minors
 		"OLE" = { history = "OLE_1007_1_1" minor = yes ideology = fascism }
 		"YAK" = { history = "YAK_1007_1_1" minor = yes ideology = democratic }
@@ -119,7 +118,6 @@ bookmarks = {
  		"EQC" = { history = "EQC_1007_1_1" ideology = democratic}
 		"JER" = { history = "JER_1007_1_1" ideology = democratic}
 		"CTH" = { history = "MCW_1007_1_1" ideology = fascism}		
-
 		# Minors
 		"KIR" = { history = "KIR_1007_1_1" minor = yes ideology = democratic}
 		"ABY" = { history = "ABY_1007_1_1" minor = yes ideology = democratic}

@@ -2,7 +2,6 @@ version="1"
 tags={
 	"Map"
 }
-#=== GROUP 1 and 2 - restored ===
 replace_path="common/ideas"
 replace_path="common/on_actions"
 replace_path="common/scripted_effects"
@@ -23,8 +22,6 @@ replace_path="common/special_projects"
 replace_path="common/collections"
 replace_path="common/scientist_traits"
 replace_path="common/medals"
-
-# === GROUP 3 - COMMENTED OUT FOR TESTING ===
 replace_path="common/units"
 replace_path="common/units/names_divisions"
 replace_path="common/units/names_ships"
@@ -39,8 +36,6 @@ replace_path="common/military_industrial_organization/organizations/policies"
 replace_path="common/military_industrial_organization/policies"
 replace_path="common/technologies"
 replace_path="common/technology_sharing"
-
-# === UNCHANGED ===
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_peace"

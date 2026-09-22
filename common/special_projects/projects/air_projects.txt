@@ -14,11 +14,6 @@ sp_air_bouncing_bomb = {
 	breakthrough_cost = {
 		specialization_air = 1
 	}
-	
-	resource_cost = {
-
-	}
-
 	prototype_time = sp_time.prototype.medium
 	
 	complexity = sp_complexity.medium
@@ -160,11 +155,6 @@ sp_air_earthshaker_bomb = {
 	breakthrough_cost = {
 		specialization_air = 1
 	}
-	
-	resource_cost = {
-
-	}
-	
 	prototype_time = sp_time.prototype.medium
 	
 	complexity = sp_complexity.medium
@@ -576,11 +566,6 @@ sp_air_helicopter = {
 		enable_equipments = {
 			helicopter_equipment_1 
 		}
-
-		enable_subunits = { 
-			helicopter_brigade
-		}
-
 		enable_equipment_modules = {
 			limit = {
 				has_dlc = "Gotterdammerung"

@@ -364,7 +364,7 @@ sp_land_super_heavy_railway_gun = {
 		country_effects = {
 			if = {
 				limit = {
-					original_tag = GER
+					original_tag = GRI
 				}
 				create_railway_gun = {
 					equipment = super_heavy_railway_gun_equipment_1
@@ -597,22 +597,6 @@ sp_land_multi_charge_large_caliber_gun = {
 						add_breakthrough_progress = {
 							specialization = specialization_land
 							value = sp_breakthrough_progress.low
-						}
-					}
-
-					scientist_effects = {
-						else_if = {
-							limit = {
-								NOT = { has_trait = scientist_trait_bright }
-							}
-							random_list = {
-								80 = {
-									#No effect
-								}
-								20 = {
-									add_scientist_trait = scientist_trait_bright
-								}
-							}
 						}
 					}
 				}

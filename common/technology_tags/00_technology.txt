@@ -337,6 +337,9 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
+	Magical_folder = {
+		ledger = army
+	}
 	special_forces_doctrine_folder = {
 		available = {
 			has_dlc = "Arms Against Tyranny"

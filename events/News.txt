@@ -1,0 +1,165 @@
+add_namespace = news
+add_namespace = city
+news_event = { # Fall of Shire
+	id = city.1
+	title = city.1.t
+	desc = city.1.d
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = city.1
+	}
+}
+news_event = { # CRYSTAL FAIR
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_crystal_fair
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = news.4.a
+		trigger = {
+			NOT = {
+				original_tag = CRY
+				has_government = fascism
+			}
+		}
+	}
+	option = {
+		name = news.4.b
+		trigger = { original_tag = CRY }
+	}
+	option = {
+		name = news.4.c
+		trigger = { has_government = fascism }
+
+	}
+}
+news_event = { #friendship games
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_friendship_games
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		EQS = {
+			exists = yes
+			is_subject = no
+			has_war = no
+		}
+	}
+	option = {
+		name = news.1.a
+		trigger = { 
+			NOT = { 
+				tag = CHN
+				tag = LNS
+			}
+			OR = {
+				TAG = EQS
+				is_in_faction_with = EQS
+				is_subject_of = EQS
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { 
+			OR = {
+				TAG = CHN 
+				tag = LNS
+			}
+		}
+	}
+	option = {
+		name = news.1.c
+		trigger = { 
+			NOT = { 
+				TAG = CHN 
+				TAG = EQS
+				tag = LNS
+				is_in_faction_with = EQS
+				is_subject_of = EQS 
+			} 
+		}
+	}
+}
+news_event = { # Summer sun celebration
+	id = news.301
+	title = news.301.t
+	desc = {
+		text = news.301.d
+	}
+	picture = GFX_news_summer_sun
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = news.301.a
+		trigger = {
+			OR = {
+				original_tag = EQS
+				original_tag = STG
+				is_in_faction_with = EQS
+				is_subject_of = EQS
+			}
+		}
+	}
+	option = {
+		name = news.301.b
+		trigger = { original_tag = CHN }
+	}
+	option = {
+		name = news.301.c
+		trigger = {  
+			NOT = {
+				original_tag = EQS
+				original_tag = STG				
+				is_subject_of = EQS
+				original_tag = CHN
+				original_tag = ABY
+			}
+		}
+	}
+	option = {
+		name = news.301.g
+		trigger = {
+			original_tag = ABY
+		}
+	}
+}
+news_event = { # Daring DO
+	id = news.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news.16"}
+	title = news.16.t
+	desc = news.16.d
+	picture = GFX_news_event_daring_doo
+	major = yes
+	trigger = {
+		3 = { is_controlled_by = EQS }
+		country_exists = EQS
+		EQS = { has_war = no }
+	}
+	is_triggered_only = yes
+	option = {
+		name = news.16.a
+		trigger = {
+			NOT = { TAG = STG }
+			NOT = { TAG = CHN }
+		}
+	}
+	option = {
+		name = news.16.b
+		trigger = {
+			TAG = STG
+		}
+	}
+	option = {
+		name = news.16.c
+		trigger = {
+			TAG = CHN
+		}
+	}
+}

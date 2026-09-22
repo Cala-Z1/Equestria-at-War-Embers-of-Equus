@@ -22,7 +22,7 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-
+recruit_character = CHN_queen_chrysalis
 add_ideas = {
 	volunteer_corps_focus
 }

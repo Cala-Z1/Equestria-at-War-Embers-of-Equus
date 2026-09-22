@@ -1941,7 +1941,7 @@ entity = {
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		scale = 1.0
 		
-		attach = { 	name = "vehicle"			vehicle = "Zebra_motorized_vehicle_entity" }
+		attach = { 	name = "vehicle"			vehicle = "HUN_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "african_gfx_infantry_2_entity" }
 	}
 
@@ -4227,7 +4227,7 @@ entity = {
 	state = { name = "idle"				animation = "idle05"		animation_blend_time = 0.3 animation_speed = 0.7 chance = 4 	looping = no next_state = "idle" }
 	state = { name = "training"			animation = "training" 		animation_blend_time = 0.0 animation_speed = 1.0 looping = no 	next_state = "training" }
 	
-	attach = { 	name = "kit1"	Spine2 = "LingSniperRifle" }
+	attach = { 	name = "kit1"	Spine2 = "CHN_kit_entity" }
 	
 	scale = 0.8
 				
@@ -8841,7 +8841,7 @@ entity = {
 }
 
 entity = {
-	clone = "WNG_mechanized_entity"
+	clone = "Gryphon_motorized_entity"
 	name = "FAL_mechanized_entity"
 	attach = { 	name = "infantry"			infantry = "FAL_infantry_2_entity" }
 }
@@ -8938,7 +8938,7 @@ entity = {
 }
 
 entity = {
-	clone = "WNG_mechanized_entity"
+	clone = "Gryphon_motorized_entity"
 	name = "YAN_mechanized_entity"
 	attach = { 	name = "infantry"			infantry = "FAL_infantry_2_entity" }
 }
@@ -9033,7 +9033,7 @@ entity = {
 }
 
 entity = {
-	clone = "WNG_mechanized_entity"
+	clone = "Gryphon_motorized_entity"
 	name = "TAL_mechanized_entity"
 	attach = { 	name = "infantry"			infantry = "TAL_infantry_2_entity" }
 }
@@ -9223,7 +9223,7 @@ entity = {
 }
 
 entity = {
-	clone = "WNG_mechanized_entity"
+	clone = "Gryphon_motorized_entity"
 	name = "SIC_mechanized_entity"
 	attach = { 	name = "infantry"			infantry = "SIC_infantry_2_entity" }
 }
@@ -9318,7 +9318,7 @@ entity = {
 }
 
 entity = {
-	clone = "WNG_mechanized_entity"
+	clone = "Gryphon_motorized_entity"
 	name = "GFS_mechanized_entity"
 	attach = { 	name = "infantry"			infantry = "GFS_infantry_2_entity" }
 }
@@ -9413,7 +9413,7 @@ entity = {
 }
 
 entity = {
-	clone = "WNG_mechanized_entity"
+	clone = "Gryphon_motorized_entity"
 	name = "TSV_mechanized_entity"
 	attach = { 	name = "infantry"			infantry = "TSV_infantry_2_entity" }
 }
@@ -9508,7 +9508,7 @@ entity = {
 }
 
 entity = {
-	clone = "WNG_mechanized_entity"
+	clone = "Gryphon_motorized_entity"
 	name = "CYA_mechanized_entity"
 	attach = { 	name = "infantry"			infantry = "CYA_infantry_2_entity" }
 }

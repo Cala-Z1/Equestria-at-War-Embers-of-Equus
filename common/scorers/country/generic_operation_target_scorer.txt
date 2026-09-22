@@ -80,10 +80,7 @@ ai_generic_operation_target_scorer  = {
 			# we got tokens to spend
 			modifier = {
 				FROM = {
-					has_operation_token = {
-						tag = PREV
-						token = token_resistance_contacts
-					}
+
 				}
 				factor = 4.0
 			}

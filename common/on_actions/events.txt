@@ -1,0 +1,27 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = { 
+					FROM = { state = 132}
+					NOT = {has_global_flag = Shire_fallen_flag}
+				}
+				set_global_flag = Shire_fallen_flag
+				news_event = News.1
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			EQS = {
+				save_global_event_target_as = equestria
+					country_event = { id = equestria.1 hours = 15 }
+					country_event = { id = news.301 days = 171 }
+					country_event = { id = equestria.183 days = 547 }
+					news_event = { id = news.16 days = 200 random_hours = 960 } #days to hours applied
+					set_country_flag = { flag = celestia_evil_meter value = 0 }
+					country_event = { id = equestria.170 days = 30 random_hours = 17280 } #days to hours applied
+			}
+		}
+	}
+}
