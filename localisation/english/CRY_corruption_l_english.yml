@@ -26,7 +26,6 @@
  # ── Decision tooltips ────────────────────────────────────────────────────────
  CRY_not_doing_more_than_two_tt:0 "The government can sustain no more than §Y2 Celebration programs§! simultaneously."
  USA_modify_main_spirit_tt: "Modify the §YFive Year Plan§! by:"
- consumer_goods_tooltip:0 "Consumer Goods: §Y$RIGHT|%$§!\n"
  USA_new_deal_help_increase_tt:0 "£wpa_small_icon Increases §YTotal Relief Efforts§! by §G1§!\n\n"
  USA_lower_crisis_level_by_10_tt:0 "§YCorruption Level§! is reduced by §G10%§!\n\n"
  USA_lower_crisis_level_by_5_tt:0 "§YCorruption Level§! is reduced by §G5%§!\n\n"

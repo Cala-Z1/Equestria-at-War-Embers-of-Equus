@@ -31,3 +31,9 @@ CRY_Crystalling_modifier = {
     production_speed_arms_factory_factor = CRY_production_speed_arms_factory_factor_var
     local_resources_factor = CRY_local_resources_factor_var	
 }
+CRY_Sombra_Scarce_modifier = {
+	stability_factor = CRY_Sombra_stability_factor
+	stability_weekly = CRY_Sombra_stability_weekly
+	weekly_manpower = CRY_sombra_weekly_manpower
+	power_balance_weekly = CRY_sombra_power_balance_weekly
+}

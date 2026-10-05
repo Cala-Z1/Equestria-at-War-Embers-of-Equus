@@ -105,6 +105,12 @@ set_variable = { CRY_crisis_name = 1 }
 set_variable = { great_depression_var = 3 } 
 CRY_update_ui_effect = yes
 CRY_great_depression_level_set_idea = yes
+## Sombra Scare
+add_dynamic_modifier = { modifier = CRY_Sombra_Scarce_modifier}
+set_variable = {CRY_Sombra_stability_factor = 0}
+set_variable = {CRY_Sombra_stability_weekly = -0.002}
+set_variable = {CRY_sombra_weekly_manpower = -10000}
+set_variable = {CRY_sombra_power_balance_weekly = -0.01}
 ## Stockpile ## 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0

@@ -11,7 +11,7 @@
 	continuous_focus_position = { x = 2000 y = 1500 }
 	focus = {
 		id = ind_1
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		x = 40
 		y = 0
@@ -819,7 +819,43 @@
 		}
 		x = 45
 		y = 1
-		completion_reward = { }
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = Strike_at_Sombra_Supporters
+				}
+				custom_effect_tooltip = ind_right_sombra_tt
+				add_to_variable = {great_depression_var = 1}
+				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.2}
+				add_to_variable = {CRY_production_speed_industrial_complex_factor_variable = -0.1}
+				add_to_variable = {CRY_Sombra_stability_factor = 0.15}
+				custom_effect_tooltip = tab_tt
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex 
+						level = 4
+						instant_build = yes 
+					}
+				}
+			}
+			else = {
+				custom_effect_tooltip = ind_right_tt				
+				add_to_variable = {great_depression_var = 2}
+				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.1}
+				add_to_variable = {CRY_production_speed_industrial_complex_factor_variable = -0.2}
+				add_to_variable = {CRY_Sombra_stability_factor = 0.1}
+				custom_effect_tooltip = tab_tt
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex 
+						level = 2
+						instant_build = yes 
+					}
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = change_tt 
+		 }
 	}
 	focus = {
 		id = mfac_foundry_network
@@ -830,7 +866,45 @@
 		}
 		x = 45
 		y = 3
-		completion_reward = { }
+		completion_reward = {
+			add_to_variable = {
+				CRY_crisis_level = 10
+				tooltip = CRY_crisis_level_up_tt
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_cap_variable = 0.05
+				tooltip = CRY_five_year_cap_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_gain_variable = -0.10
+				tooltip = CRY_five_year_growth_tt
+			}
+			custom_effect_tooltip = tab_tt
+			if = {
+				limit = {
+					has_completed_focus = Subordination
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}				
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}						
+				}
+			}
+			else = {
+				custom_effect_tooltip = ties_completed_tt
+			}
+		 }
 	}
 	focus = {
 		id = mfac_crystal_armour_division
@@ -841,7 +915,57 @@
 		}
 		x = 42
 		y = 4
-		completion_reward = { }
+		completion_reward = { 
+			if = {		
+				limit = {check_variable = {great_depression_var < 3 }}
+				add_to_variable = {great_depression_var = 2}
+				custom_effect_tooltip = mfac_crystal_armour_division_1_tt
+				custom_effect_tooltip = tab_tt
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.1
+				}
+				custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				CRY_five_year_plan_consumer_goods_expected_value_variable = -0.015
+				tooltip = consumer_goods_tooltip
+			}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = mfac_crystal_armour_division_tt
+				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.2}
+				add_to_variable = {CRY_production_speed_industrial_complex_factor_variable = -0.2}
+			}
+			else_if = {
+				limit = {check_variable = {great_depression_var > 2}}
+				custom_effect_tooltip = mfac_crystal_armour_division_2_tt
+				custom_effect_tooltip = tab_tt
+				add_popularity = {
+					ideology = communism
+					popularity = 0.15
+				}
+				custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				CRY_five_year_plan_consumer_goods_expected_value_variable = -0.015
+				tooltip = consumer_goods_tooltip
+			}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = mfac_crystal_armour_division_tt
+				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.2}
+				add_to_variable = {CRY_production_speed_industrial_complex_factor_variable = -0.2}				
+			}
+			else = {
+				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.2}
+				add_to_variable = {CRY_production_speed_industrial_complex_factor_variable = -0.2}
+			}
+			custom_effect_tooltip = tab_tt
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 4 
+					instant_build = yes 
+				}
+			}
+		}
 	}
 	focus = {
 		id = mfac_enchanted_arms
@@ -852,7 +976,43 @@
 		}
 		x = 44
 		y = 4
-		completion_reward = { }
+		completion_reward = {
+			add_manpower = 100000
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_factory_pp_result
+			tooltip = CRY_factory_pp_result
+    			set_temp_variable = {
+       				 CRY_factory_pp = num_of_factories
+    				}
+    			multiply_temp_variable = {
+        			CRY_factory_pp = 7
+    				}
+   				 add_political_power = CRY_factory_pp
+			custom_effect_tooltip = tab_tt
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 1500
+				producer = CRY
+				}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 3000
+				producer = CRY
+				}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 1000
+				producer = CRY
+			}
+			custom_effect_tooltip = tab_tt
+				345 = {
+					remove_building = {
+						type = arms_factory
+						level = 2
+						instant_build = yes 
+					}
+			}
+		}
 	}
 	focus = {
 		id = mfac_northern_arsenal
@@ -863,7 +1023,56 @@
 		}
 		x = 49
 		y = 4
-		completion_reward = { }
+		completion_reward = {
+			add_to_variable = {
+				CRY_crisis_level = 10
+				tooltip = CRY_crisis_level_up_tt
+			}
+			custom_effect_tooltip = tab_tt 
+			add_power_balance_value = {
+				id = CRY_balamce_of_power
+				value = -0.25
+			}
+			custom_effect_tooltip = tab_tt 
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes 
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes 
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes 
+				}
+			}
+			custom_effect_tooltip = tab_tt 
+			if = {
+				limit = {
+					has_completed_focus = The_New_Crystal_Order
+				}
+				add_to_variable = {
+					CRY_five_year_plan_cap_variable = 0.05
+					tooltip = CRY_five_year_cap_tt
+				}
+				add_to_variable = {
+					CRY_five_year_plan_consumer_goods_expected_value_variable = -0.02
+					tooltip = consumer_goods_tooltip
+				}
+			}
+			else = {
+				custom_effect_tooltip = mfac_northern_arsenal_tt
+			}				
+		}
 	}
 	focus = {
 		id = mfac_military_pact
@@ -877,7 +1086,58 @@
 		}
 		x = 45
 		y = 5
-		completion_reward = { }
+		completion_reward = {
+			add_to_variable = {
+				great_depression_var = 1
+				tooltip = CRY_depression_level_up_tt
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_resources_gain_efficiency_variable = 0.15
+				tooltip = CRY_five_year_growth_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_base_variable = 0.10
+				tooltip = CRY_five_year_base_tt
+			}
+			if = {
+				limit ={
+					check_variable = {great_depression_var < 5}
+				}
+				add_to_variable = {
+					CRY_five_year_plan_cap_variable = 0.05
+					tooltip = CRY_five_year_cap_tt
+				}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = mfac_military_pact_tt			
+			}
+			else = {
+				custom_effect_tooltip = mfac_military_pact_dep_tt
+			}
+			custom_effect_tooltip = tab_tt
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}	
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex 
+					level = 2
+					instant_build = yes
+				}
+			}				
+		 }
 	}
 	focus = {
 		id = mfac_guard_equipment
@@ -891,7 +1151,85 @@
 		}
 		x = 43
 		y = 5
-		completion_reward = { }
+		completion_reward = { 
+			custom_effect_tooltip = mfac_guard_equipment_tt
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				great_depression_var = 1
+				tooltip = CRY_depression_level_up_tt
+			}
+			custom_effect_tooltip = tab_tt
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 1500
+				producer = CRY
+				}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 10000
+				producer = CRY
+				}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_2
+				amount = 1500
+				producer = CRY
+			}
+			add_equipment_to_stockpile = {
+				type = radio_equipment_1 
+				amount = 500
+				producer = CRY
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1 
+				amount = 500
+				producer = CRY
+			}
+			if = {
+				limit = {
+					check_variable = {great_depression_var > 5}
+				}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 500
+				producer = CRY
+				}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 5000
+				producer = CRY
+				}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_2
+				amount = 650
+				producer = CRY
+			}
+			add_equipment_to_stockpile = {
+				type = radio_equipment_1 
+				amount = 350
+				producer = CRY
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1 
+				amount = 350
+				producer = CRY
+			}				
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				CRY_production_speed_arms_factory_factor_variable = -0.10
+				tooltip = CRY_production_speed_arms_factory_factor_variable_tt 
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				CRY_research_speed_factor_variable = 0.05
+				tooltip = CRY_research_speed_factor_variable_tt
+			}
+			custom_effect_tooltip = tab_tt
+			add_power_balance_value = {
+				id = CRY_balamce_of_power
+				value = 0.25
+			}
+		}
 	}
 	focus = {
 		id = mfac_siege_works
@@ -902,7 +1240,57 @@
 		}
 		x = 49
 		y = 5
-		completion_reward = { }
+		completion_reward = { 
+			add_tech_bonus = {
+				name = cry_ind_1
+				bonus = 1
+				uses = 2
+				category = industry
+			}
+			custom_effect_tooltip = tab_tt
+			add_research_slot = 1
+			custom_effect_tooltip = tab_tt
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 1
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt			
+			add_to_variable = {
+				CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
+				tooltip = consumer_goods_tooltip
+			}
+			custom_effect_tooltip = tab_tt
+			add_resource = {
+				type = steel 
+				amount = 200
+				state = 152
+			}
+		}
 	}
 	focus = {
 		id = mfac_refined_alloys
@@ -913,18 +1301,35 @@
 		}
 		x = 42
 		y = 6
-		completion_reward = { }
+		completion_reward = { 
+				add_resource = {
+					type = tungsten
+					amount = 150
+					state = 152
+				}
+				add_resource = {
+					type = chromium
+					amount = 150
+					state = 152
+				}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = mfac_refined_alloys_tt
+			add_to_variable = {CRY_five_year_plan_resources_gain_efficiency_variable = 0.1}
+		}
 	}
 	focus = {
 		id = mfac_mass_production
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 5
 		prerequisite = {
-			focus = mfac_guard_equipment focus = mfac_military_pact
+			focus = mfac_guard_equipment 
+			focus = mfac_military_pact
 		}
 		x = 44
 		y = 6
-		completion_reward = { }
+		completion_reward = {
+			add_ideas = CRY_mass_production
+		 }
 	}
 	focus = {
 		id = mfac_ammo_stockpile
@@ -1230,9 +1635,13 @@
 				CRY_research_speed_factor_variable = -0.05
 			}
 			custom_effect_tooltip = tab_tt
-			swap_ideas = {
-				add_idea = Sombra_Scare_idea_2
-				remove_idea = Sombra_Scare
+			add_to_variable = {CRY_Sombra_stability_factor = 0.05}
+			add_to_variable = {CRY_Sombra_stability_weekly = 0.0005}
+			add_to_variable = {CRY_sombra_weekly_manpower = 5000}
+			custom_effect_tooltip = Empire_Reborn_variables_tt
+			add_to_variable = {
+				CRY_sombra_power_balance_weekly = 0.005
+				tooltip = CRY_crystal_renewal_tt
 			}
 		}
 	}
@@ -1474,7 +1883,7 @@
 			custom_effect_tooltip = CRY_Strike_at_Sombra_Supporters_tt
 			custom_override_tooltip = {
 			remove_ideas = Sombra_Scare 
-			remove_ideas = Sombra_Scare_idea_2
+			remove_dynamic_modifier = { modifier = CRY_Sombra_Scarce_modifier }
 			}
 		}
 	}

@@ -9,11 +9,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/CRY/polictal/goal_winter_sun.dds"
 	}
 	spriteType = {
-		name = gen
+		name = Placeholder
 		textureFile = "gfx/interface/goals/CRY/polictal/goal_winter_sun.dds"
 	}
 	spriteType = {
-		name = gen_shine
+		name = Placeholder_shine
 		textureFile = "gfx/interface/goals/CRY/polictal/goal_winter_sun.dds"
 	}
 

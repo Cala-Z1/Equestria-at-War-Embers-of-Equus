@@ -158,47 +158,50 @@
  mastery_of_rocketry_desc:0 "Crystal-tipped rockets, enchanted for guidance and penetrating force, represent the next leap in aerial and anti-air warfare. A research programme to master this technology will put the Crystal Empire ahead of rivals who are still catching up with conventional aviation."
 
 # ── ToolTips ─────────────────────────────────────────────────────────────────
-  ind_left_tt:0 "Adds Y+2%! Consumer Goods and G+10%! Civilian Factory Building speed \n ifY Strike at Sombra Supporters:! is completed then add G+5%! more civilian factory building speed" 
-
+ ind_left_tt:0 "Adds Y+2%! Consumer Goods and G+10%! Civilian Factory Construction speed \n ifY Strike at Sombra Supporters:! is completed then add G+5%! more civilian factory Construction speed" 
  Vist_To_Stalliongrad_tt:0 "If the focus YTies to Equestria! is completed Give GEQS! the rights to all resources in YCrytal Mountains!"
-
-  civ_mining_expansion_tt:0 "Adds G+10%! Resource Gain Efficiency \n ifY Strike at Sambra Supporters:! is completed then add G+10%! Resource Gain Efficiency"
-
+ civ_mining_expansion_tt:0 "Adds G+10%! Resource Gain Efficiency \n ifY Strike at Sombra Supporters:! is completed then add G+10%! Resource Gain Efficiency"
  laissez_faire_tt:0 "Y If the Referendum path was chosen: !Adds G6 W  Civilian Factories to the Crystal Heartland -----------------------------------\nY If the Subordination path was chosen: !Adds G3 W  Civilian Factories to the Crystal Heartland\n Reduces Civilian Factory Construction Speed by R-20%!"
- 
  Social_Welfare_tt:0 "Y If the Referendum path was chosen: !Adds G9 W  Military Factories to the Crystal Heartland -----------------------------------\nY If the Subordination path was chosen: !Adds G4 W  Military Factories to the Crystal Heartland\n Reduces Military Factory Construction Speed by R-20% !"
  The_New_Crystal_Order_tt:0 "Y If the Referendum path was chosen: !Adds G4 W  Military Factories \n-----------------------------------\nY If the Subordination path was chosen: !Modify "
- 
  civ_construction_corps_tt:0 "Adds G+5% !Base Efficiency Base to YFire Year Plan! if YStrike at Sombra Supporters:! is completed an additional G+5%! will be added"
- 
  civ_growth_tt:0 "-----------------------------------\n Adds G+15%! Efficiency Growth to YFive Year Plan!"
-
  civ_power_grid_tt:0 "-----------------------------------\n Adds G+5%! Efficiency Cap, and removes R-15%! Production Efficiency Growth to: YFive Year Plan!"
- 
- civ_economic_zone_tt:0 "-----------------------------------\n Adds G+15%! Military Factory Building Speed, and Y+2%! Consumer Goods to: YFive Year Plan!"
-
+ civ_economic_zone_tt:0 "-----------------------------------\n Adds G+15%! Military Factory Construction speed, and Y+2%! Consumer Goods to: YFive Year Plan!"
  civ_agricultural_reform_tt:0 "-----------------------------------\n Adds G+2.5%! Factory Output, and G+2.5%! Production Efficiency Cap to: YFive Year Plan!"
- 
- civ_export_market_tt:0 "Adds G+10%! Factory Output, and G+5%! Production Efficiency Cap to: YFive Year Plan! \n If YStrike at Sombra Supporters! is completed add G+15%! Military Factory Building Speed"
- 
+ civ_export_market_tt:0 "Adds G+10%! Factory Output, and G+5%! Production Efficiency Cap to: YFive Year Plan! \n If YStrike at Sombra Supporters! is completed add G+15%! Military Factory Construction speed"
  civ_industrial_academy_tt:0 "Adds G+5%! Research Speed to: YFive Year Plan!"
-
- civ_artisan_works_tt:0 "Adds G+10%! Civilian Factory Building Speed to: YFive Year Plan!"
-
- civ_second_push_tt:0 "Modify YFire Year Plan! by: \n  Military Building Speed: G+60%! \n  Civilian Building Speed: R-50%!"
- 
- civ_heart_economy_tt:0 "Modify YFive Year Plan! by: \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: G+10%! \n Production Output: G+15%! \n Military Factory Building Speed: G+10%!"
-
+ civ_artisan_works_tt:0 "Adds G+10%! Civilian Factory Construction speed to: YFive Year Plan!"
+ civ_second_push_tt:0 "Modify YFire Year Plan! by: \n  Military Factory Construction speed: G+60%! \n  Civilian Factory Construction speed: R-50%!"
+ civ_heart_economy_tt:0 "Modify YFive Year Plan! by: \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: G+10%! \n Production Output: G+15%! \n Military Factory Construction speed: G+10%!"
  civ_industrial_complex_tt:0 "Modify YFive Year Plan! by: \n Consumer Goods: Y-10%!"
-
  civ_northern_development_tt:0 "Adds R-10%! Resource Gain Efficiency, and G+5%! Factory Output to: YFive Year Plan!"
-
- civ_heart_district_tt:0 "Modify YFire Year Plan! by: \n Military Factory Building Speed: G+15%! \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: R-10%!"
-
+ civ_heart_district_tt:0 "Modify YFire Year Plan! by: \n Military Factory Construction speed: G+15%! \n Production Efficiency Cap: G+5%! \n Production Efficiency Growth: R-10%!"
  civ_trade_empire_tt:0 "Adds G+15%! Resource Gain Efficiency to: YFive Year Plan!"
-
+ consumer_goods_tooltip:0 "Consumer Goods: §Y$RIGHT|%$§!\n"
+ CRY_five_year_cap_tt:0 "Production Efficiency Cap: $RIGHT|+=0%$§!§!"
+ CRY_five_year_growth_tt:0 "Production Efficiency Growth: $RIGHT|+=0%$§!§!"
+ CRY_five_year_base_tt:0 "Production Efficiency Base: $RIGHT|+=0%$§!§!"
+ CRY_research_speed_factor_variable_tt:0 "Research Speed: $RIGHT|+=0%$§!§!"
+ CRY_production_speed_arms_factory_factor_variable_tt:0 "Military Factory Construction speed: $RIGHT|+=0%$§!§!"
+ CRY_crisis_level_up_tt:0 "Increase Shadow Corruption by: $RIGHT|-0$§!§!"
+ CRY_five_year_plan_tt:0 "§YFive Year Plan Gains§!:\n"
+ mfac_northern_arsenal_tt:0 "if §BA New Crystal Order§! is completed this focus will grant §YFive Year Plan\n §!Production Efficiency Cap: §G5%§!\n Consumer Goods: §Y-2%§!"
+ CRY_factory_pp_result:0 "§YGain§!: §G+7§! Political Power for every factory owned.\n§YCurrent:§!"
+ mfac_guard_equipment_tt:0 "If §YCyrstal Ponies Depression Level§!: is greater than §Y5§! this focus will grant additional equipment"
+ ties_completed_tt:0 "This focus will §Yadd§! §G4§! Military Factories in a random core state if §GTies to Equestria§! is completed"
+ change_tt:0 "This focus effects will §Gimprove§! if §RSkrike Sombra Supporters§! is completed"
+ mfac_military_pact_dep_tt:0 "If §YCyrstal Ponies Depression Level§!: is less than §Y5§! this focus will grant §YFive Year Plan\n §!Production Efficiency Cap: §G5%§!"
+ mfac_military_pact_tt:0 "If §YCyrstal Ponies Depression Level§!: is greater than §Y5§! this focus will lose Production Efficiency Cap: §G5%§!"
+ ind_right_tt:0 "§YCyrstal Ponies Depression Level§! is increased by §R2§!\n $tab_tt$ §YFive Year Plan Gains§!:\n Civilian Factory Construction speed: §R-20%§!\n Military Factory Construction speed: §G+10%§!\n $tab_tt$ §YSombra Scare Gains§!:\n Stablity: §G+10%§!"
+ ind_right_sombra_tt:0 "§YCyrstal Ponies Depression Level§! is increased by §R1§!\n\n §YFive Year Plan Gains§!:\n Civilian Factory Construction speed: §R-10%§!\n Military Factory Construction speed: §G+20%§!\n\n§YSombra Scare Gains§!:\n Stablity: §G+15%§!"
+ mfac_crystal_armour_division_1_tt:0 "If §YCyrstal Ponies Depression Level§!: is greater than §Y2§! this focus will grant §G15%§! Communism support instead"
+ mfac_crystal_armour_division_2_tt:0 "If §YCyrstal Ponies Depression Level§!: is less than §Y3§! this focus will grant §G10%§! democratic support instead"
+ mfac_crystal_armour_division_tt:0 "§YFive Year Plan Gains§!:\n Civilian Factory Construction speed: §R-20%§!\n Military Factory Construction speed: §G+20%§!"
+ mfac_refined_alloys_tt:0 "§YFive Year Plan Gains§!:\n Resource Efficiency Gain: §G+10%§!"
+ Empire_Reborn_variables_tt:0 "§YSombra Scare Gains§!:\n Stablity: §G+5%§!\n Weekly Stablity: §G+0.05%§!\n Weekly Ponypower: §G+5000§!\n $tab_tt$"
+ CRY_crystal_renewal_tt:0 "Every Week The §YCrystal Empire's Soul§! moves §Y$RIGHT|%$§! towards the side of §YShadow of Sombra§!"
  Crystal_Court_Consolidation_tt:0 "Adds R20%! Commusim Support"
-
  civ_workforce_mobilisation_tt:0 "Adds R-15%! Resource Gain Efficiency to: YFive Year Plan!"
-
+ CRY_depression_level_up_tt:0 "§YCyrstal Ponies Depression Level§! is increased by $RIGHT|-0$§!§!"
  tab_tt:0 "-----------------------------------\n"
