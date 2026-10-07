@@ -14,9 +14,9 @@ focus_tree = {
 	focus = {
 		id = CHN_Destroy_Thorax_Resistance
 		icon = generic_political_pressure
-		x = 16
-		y = -9
-		cost = 10
+		x = 20
+		y = -10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
@@ -31,15 +31,14 @@ focus_tree = {
 	focus = {
 		id = CHN_Consolidate_Queen_Chrysalis_s_Rule
 		icon = generic_political_pressure
-		x = 16
-		y = -8
-		cost = 10
+		x = 20
+		y = -9
+		cost = 5
 		prerequisite = { focus = CHN_Destroy_Thorax_Resistance }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_Consolidate_Queen_Chrysalis_s_Rule"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -50,14 +49,13 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_9
 		icon = generic_political_pressure
-		x = 32
-		y = -9
-		cost = 10
+		x = 39
+		y = -10
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_9"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -70,13 +68,12 @@ focus_tree = {
 		icon = generic_political_pressure
 		x = 0
 		y = -9
-		cost = 10
+		cost = 5
 		prerequisite = { focus = CHN_Civ_Greed focus = CHN_Early_IC }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_Autarky"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -87,14 +84,13 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_11
 		icon = generic_political_pressure
-		x = 50
-		y = -9
-		cost = 10
+		x = 29
+		y = -4
+		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_11"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -105,15 +101,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_12
 		icon = generic_political_pressure
-		x = 64
-		y = -9
-		cost = 10
+		x = 51
+		y = -4
+		cost = 2
 		mutually_exclusive = { focus = CHN_focus_13 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_12"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -124,15 +119,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_13
 		icon = generic_political_pressure
-		x = 62
-		y = -9
-		cost = 10
+		x = 47
+		y = -4
+		cost = 2
 		mutually_exclusive = { focus = CHN_focus_12 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_13"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -143,17 +137,17 @@ focus_tree = {
 	focus = {
 		id = CHN_THE_SWARM
 		icon = generic_political_pressure
-		x = 41
-		y = -8
-		cost = 10
+		x = 49
+		y = -9
+		cost = 5
 		prerequisite = { focus = CHN_focus_9 }
 		mutually_exclusive = { focus = CHN_PANZA }
 		mutually_exclusive = { focus = CHN_SPECIALISE_IN_BOTH }
+		mutually_exclusive = { focus = CHN_The_Queen_Guard }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_THE_SWARM"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -164,17 +158,17 @@ focus_tree = {
 	focus = {
 		id = CHN_PANZA
 		icon = generic_political_pressure
-		x = 23
-		y = -8
-		cost = 10
+		x = 29
+		y = -9
+		cost = 5
 		prerequisite = { focus = CHN_focus_9 }
 		mutually_exclusive = { focus = CHN_THE_SWARM }
 		mutually_exclusive = { focus = CHN_SPECIALISE_IN_BOTH }
+		mutually_exclusive = { focus = CHN_The_Queen_Guard }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_PANZA"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -185,16 +179,15 @@ focus_tree = {
 	focus = {
 		id = CHN_IC
 		icon = generic_political_pressure
-		x = 5
+		x = 6
 		y = -8
-		cost = 10
+		cost = 5
 		prerequisite = { focus = CHN_Autarky }
 		mutually_exclusive = { focus = CHN_Civs }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_IC"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -207,13 +200,12 @@ focus_tree = {
 		icon = generic_political_pressure
 		x = 1
 		y = -10
-		cost = 10
+		cost = 5
 		mutually_exclusive = { focus = CHN_Civ_Greed }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_Early_IC"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -226,13 +218,12 @@ focus_tree = {
 		icon = generic_political_pressure
 		x = -1
 		y = -10
-		cost = 10
+		cost = 5
 		mutually_exclusive = { focus = CHN_Early_IC }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_Civ_Greed"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -243,16 +234,15 @@ focus_tree = {
 	focus = {
 		id = CHN_Civs
 		icon = generic_political_pressure
-		x = -5
+		x = -6
 		y = -8
-		cost = 10
+		cost = 5
 		prerequisite = { focus = CHN_Autarky }
 		mutually_exclusive = { focus = CHN_IC }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_Civs"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -263,34 +253,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_20
 		icon = generic_political_pressure
-		x = -6
+		x = -10
 		y = -6
-		cost = 10
+		cost = 5
 		prerequisite = { focus = CHN_focus_23 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_20"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_21
-		icon = generic_political_pressure
-		x = -4
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_26 }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_21"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -301,15 +271,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_23
 		icon = generic_political_pressure
-		x = -6
+		x = -10
 		y = -7
-		cost = 10
+		cost = 5
 		prerequisite = { focus = CHN_Civs }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_23"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -320,15 +289,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_24
 		icon = generic_political_pressure
-		x = -6
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_20 }
+		x = -11
+		y = -4
+		cost = 5
+		prerequisite = { focus = CHN_focus_125 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_24"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -339,15 +307,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_25
 		icon = generic_political_pressure
-		x = -4
+		x = -6
 		y = -7
-		cost = 10
+		cost = 5
 		prerequisite = { focus = CHN_Civs }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_25"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -358,15 +325,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_26
 		icon = generic_political_pressure
-		x = -4
+		x = -6
 		y = -6
-		cost = 10
+		cost = 5
 		prerequisite = { focus = CHN_focus_25 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_26"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -375,17 +341,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_29
+		id = CHN_Rubber
 		icon = generic_political_pressure
-		x = 4
+		x = 13
 		y = -7
-		cost = 10
+		cost = 5
 		prerequisite = { focus = CHN_IC }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_29"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -396,34 +361,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_31
 		icon = generic_political_pressure
-		x = 4
+		x = 13
 		y = -6
-		cost = 10
-		prerequisite = { focus = CHN_focus_29 }
+		cost = 5
+		prerequisite = { focus = CHN_Rubber }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_31"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_32
-		icon = generic_political_pressure
-		x = -8
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_20 }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_32"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -434,15 +379,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_33
 		icon = generic_political_pressure
-		x = -8
-		y = -4
-		cost = 10
-		prerequisite = { focus = CHN_focus_32 }
+		x = -13
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_focus_40 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_33"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -451,56 +395,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_34
-		icon = generic_political_pressure
-		x = -5
-		y = -4
-		cost = 10
-		prerequisite = { focus = CHN_focus_21 }
-		prerequisite = { focus = CHN_focus_24 }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_34"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_35
-		icon = generic_political_pressure
-		x = 4
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_31 }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_35"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_36
+		id = CHN_add_industry
 		icon = generic_political_pressure
 		x = 6
 		y = -7
-		cost = 10
+		cost = 5
 		prerequisite = { focus = CHN_IC }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_36"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -509,55 +413,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_37
+		id = CHN_Domestic_focus
 		icon = generic_political_pressure
-		x = 6
-		y = -6
-		cost = 10
-		prerequisite = { focus = CHN_focus_36 }
+		x = -2
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_Civs focus = CHN_IC }
+		mutually_exclusive = { focus = CHN_Intergated_Econmies }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_37"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_38
-		icon = generic_political_pressure
-		x = 6
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_37 }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_38"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_39
-		icon = generic_political_pressure
-		x = 8
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_37 }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_39"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -568,15 +434,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_40
 		icon = generic_political_pressure
-		x = 8
-		y = -4
-		cost = 10
-		prerequisite = { focus = CHN_focus_39 }
+		x = -13
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_Civs }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_40"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -585,37 +450,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_41
+		id = Unite_The_Nations
 		icon = generic_political_pressure
-		x = 5
-		y = -4
-		cost = 10
-		prerequisite = { focus = CHN_focus_35 }
-		prerequisite = { focus = CHN_focus_38 }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_41"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = Unite_The_Nation
-		icon = generic_political_pressure
-		x = 16
-		y = -7
-		cost = 10
+		x = 20
+		y = -8
+		cost = 5
 		prerequisite = { focus = CHN_Consolidate_Queen_Chrysalis_s_Rule }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus Unite_The_Nation"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -628,13 +472,12 @@ focus_tree = {
 		icon = generic_political_pressure
 		x = 0
 		y = -3
-		cost = 10
-		prerequisite = { focus = CHN_focus_34 focus = CHN_focus_41 }
+		cost = 2
+		prerequisite = { focus = CHN_focus_111 focus = CHN_focus_112 focus = CHN_focus_113 focus = CHN_focus_115 focus = CHN_focus_119 focus = CHN_focus_24 focus = CHN_focus_92 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_54"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -645,55 +488,17 @@ focus_tree = {
 	focus = {
 		id = CHN_SPECIALISE_IN_BOTH
 		icon = generic_political_pressure
-		x = 32
-		y = -8
-		cost = 10
+		x = 36
+		y = -9
+		cost = 5
 		prerequisite = { focus = CHN_focus_9 }
 		mutually_exclusive = { focus = CHN_PANZA }
 		mutually_exclusive = { focus = CHN_THE_SWARM }
+		mutually_exclusive = { focus = CHN_The_Queen_Guard }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_SPECIALISE_IN_BOTH"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_56
-		icon = generic_political_pressure
-		x = 36
-		y = -6
-		cost = 10
-		prerequisite = { focus = CHN_SPECIALISE_IN_BOTH focus = CHN_THE_SWARM }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_56"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_57
-		icon = generic_political_pressure
-		x = 28
-		y = -6
-		cost = 10
-		prerequisite = { focus = CHN_PANZA focus = CHN_SPECIALISE_IN_BOTH }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_57"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -704,15 +509,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_59
 		icon = generic_political_pressure
-		x = 25
-		y = -7
-		cost = 10
+		x = 31
+		y = -8
+		cost = 5
 		prerequisite = { focus = CHN_PANZA }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_59"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -723,15 +527,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_60
 		icon = generic_political_pressure
-		x = 23
-		y = -7
-		cost = 10
+		x = 29
+		y = -8
+		cost = 5
 		prerequisite = { focus = CHN_PANZA }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_60"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -742,15 +545,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_61
 		icon = generic_political_pressure
-		x = 39
-		y = -7
-		cost = 10
+		x = 47
+		y = -8
+		cost = 5
 		prerequisite = { focus = CHN_THE_SWARM }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_61"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -759,37 +561,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_62
+		id = CHN_focus_64e
 		icon = generic_political_pressure
-		x = 36
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_56 }
-		prerequisite = { focus = CHN_THE_SWARM }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_62"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_64
-		icon = generic_political_pressure
-		x = 33
-		y = -7
-		cost = 10
+		x = 37
+		y = -8
+		cost = 5
 		prerequisite = { focus = CHN_SPECIALISE_IN_BOTH }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_64"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -798,37 +579,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_66
+		id = CHN_focus_67e
 		icon = generic_political_pressure
-		x = 28
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_57 }
-		prerequisite = { focus = CHN_PANZA }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_66"
-			# TODO: add effects
-		}
-
-		ai_will_do = {
-			base = 1
-		}
-	}
-
-	focus = {
-		id = CHN_focus_67
-		icon = generic_political_pressure
-		x = 41
-		y = -7
-		cost = 10
+		x = 49
+		y = -8
+		cost = 5
 		prerequisite = { focus = CHN_THE_SWARM }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_67"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -837,17 +597,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_68
+		id = CHN_focus_68e
 		icon = generic_political_pressure
-		x = 31
-		y = -7
-		cost = 10
+		x = 35
+		y = -8
+		cost = 5
 		prerequisite = { focus = CHN_SPECIALISE_IN_BOTH }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_68"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -856,18 +615,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_69
+		id = CHN_Heavy_Fighter
 		icon = generic_political_pressure
-		x = 52
-		y = -8
-		cost = 10
+		x = 31
+		y = -3
+		cost = 5
 		prerequisite = { focus = CHN_focus_11 }
-		mutually_exclusive = { focus = CHN_focus_70 }
+		mutually_exclusive = { focus = CHN_Small_fighter }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_69"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -876,18 +634,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_70
+		id = CHN_Small_fighter
 		icon = generic_political_pressure
-		x = 48
-		y = -8
-		cost = 10
+		x = 27
+		y = -3
+		cost = 5
 		prerequisite = { focus = CHN_focus_11 }
-		mutually_exclusive = { focus = CHN_focus_69 }
+		mutually_exclusive = { focus = CHN_Heavy_Fighter }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_70"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -896,18 +653,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_71
+		id = CHN_CAS_71
 		icon = generic_political_pressure
-		x = 54
-		y = -7
-		cost = 10
-		prerequisite = { focus = CHN_focus_69 }
-		mutually_exclusive = { focus = CHN_focus_72 }
+		x = 33
+		y = -2
+		cost = 5
+		prerequisite = { focus = CHN_Heavy_Fighter }
+		mutually_exclusive = { focus = CHN_AIR_superiroty }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_71"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -916,18 +672,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_72
+		id = CHN_AIR_superiroty
 		icon = generic_political_pressure
-		x = 52
-		y = -7
-		cost = 10
-		prerequisite = { focus = CHN_focus_69 }
-		mutually_exclusive = { focus = CHN_focus_71 }
+		x = 31
+		y = -2
+		cost = 5
+		prerequisite = { focus = CHN_Heavy_Fighter }
+		mutually_exclusive = { focus = CHN_CAS_71 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_72"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -936,18 +691,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_73
+		id = CHN_Air_superiorty_73
 		icon = generic_political_pressure
-		x = 48
-		y = -7
-		cost = 10
-		prerequisite = { focus = CHN_focus_70 }
-		mutually_exclusive = { focus = CHN_focus_74 }
+		x = 27
+		y = -2
+		cost = 5
+		prerequisite = { focus = CHN_Small_fighter }
+		mutually_exclusive = { focus = CHN_CAS }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_73"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -956,18 +710,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHN_focus_74
+		id = CHN_CAS
 		icon = generic_political_pressure
-		x = 46
-		y = -7
-		cost = 10
-		prerequisite = { focus = CHN_focus_70 }
-		mutually_exclusive = { focus = CHN_focus_73 }
+		x = 25
+		y = -2
+		cost = 5
+		prerequisite = { focus = CHN_Small_fighter }
+		mutually_exclusive = { focus = CHN_Air_superiorty_73 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_74"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -978,15 +731,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_75
 		icon = generic_political_pressure
-		x = 46
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_73 focus = CHN_focus_74 }
+		x = 25
+		y = -1
+		cost = 5
+		prerequisite = { focus = CHN_Air_superiorty_73 focus = CHN_CAS }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_75"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -997,15 +749,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_76
 		icon = generic_political_pressure
-		x = 54
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_71 focus = CHN_focus_72 }
+		x = 33
+		y = -1
+		cost = 5
+		prerequisite = { focus = CHN_CAS_71 focus = CHN_AIR_superiroty }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_76"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -1016,16 +767,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_77
 		icon = generic_political_pressure
-		x = 52
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_71 focus = CHN_focus_72 }
-		mutually_exclusive = { focus = CHN_focus_78 }
+		x = 31
+		y = -1
+		cost = 5
+		prerequisite = { focus = CHN_CAS_71 focus = CHN_AIR_superiroty }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_77"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -1036,16 +785,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_78
 		icon = generic_political_pressure
-		x = 48
-		y = -5
-		cost = 10
-		prerequisite = { focus = CHN_focus_73 focus = CHN_focus_74 }
-		mutually_exclusive = { focus = CHN_focus_77 }
+		x = 27
+		y = -1
+		cost = 5
+		prerequisite = { focus = CHN_Air_superiorty_73 focus = CHN_CAS }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_78"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -1056,15 +803,15 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_80
 		icon = generic_political_pressure
-		x = 50
-		y = -4
-		cost = 10
+		x = 29
+		y = 0
+		cost = 5
 		prerequisite = { focus = CHN_focus_77 focus = CHN_focus_78 }
+		prerequisite = { focus = CHN_focus_1218 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_80"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -1075,15 +822,14 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_82
 		icon = generic_political_pressure
-		x = 21
-		y = -7
-		cost = 10
+		x = 27
+		y = -8
+		cost = 5
 		prerequisite = { focus = CHN_PANZA }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_82"
-			# TODO: add effects
 		}
 
 		ai_will_do = {
@@ -1094,15 +840,1303 @@ focus_tree = {
 	focus = {
 		id = CHN_focus_83
 		icon = generic_political_pressure
-		x = 43
-		y = -7
-		cost = 10
+		x = 51
+		y = -8
+		cost = 5
 		prerequisite = { focus = CHN_THE_SWARM }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_83"
-			# TODO: add effects
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_JAK
+		icon = generic_political_pressure
+		x = 24
+		y = -7
+		cost = 2
+		prerequisite = { focus = Unite_The_Nations }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_JAK"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_Olenia
+		icon = generic_political_pressure
+		x = 20
+		y = -7
+		cost = 2
+		prerequisite = { focus = Unite_The_Nations }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_Olenia"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_Imabear9
+		icon = generic_political_pressure
+		x = 16
+		y = -7
+		cost = 2
+		prerequisite = { focus = Unite_The_Nations }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_Imabear9"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_63
+		icon = generic_political_pressure
+		x = -13
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_33 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_63"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_64
+		icon = generic_political_pressure
+		x = 23
+		y = -5
+		cost = 2
+		prerequisite = { focus = CHN_focus_71 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_64"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_65
+		icon = generic_political_pressure
+		x = 16
+		y = -6
+		cost = 2
+		prerequisite = { focus = CHN_Imabear9 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_65"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_67
+		icon = generic_political_pressure
+		x = 17
+		y = -5
+		cost = 2
+		prerequisite = { focus = CHN_focus_65 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_67"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_68
+		icon = generic_political_pressure
+		x = 19
+		y = -5
+		cost = 2
+		prerequisite = { focus = CHN_focus_70 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_68"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_69
+		icon = generic_political_pressure
+		x = 21
+		y = -5
+		cost = 2
+		prerequisite = { focus = CHN_focus_70 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_69"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_70
+		icon = generic_political_pressure
+		x = 20
+		y = -6
+		cost = 2
+		prerequisite = { focus = CHN_Olenia }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_70"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_71
+		icon = generic_political_pressure
+		x = 24
+		y = -6
+		cost = 2
+		prerequisite = { focus = CHN_JAK }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_71"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_72
+		icon = generic_political_pressure
+		x = 25
+		y = -5
+		cost = 2
+		prerequisite = { focus = CHN_focus_71 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_72"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_74
+		icon = generic_political_pressure
+		x = 39
+		y = -5
+		cost = 2
+		prerequisite = { focus = CHN_focus_100e focus = CHN_focus_81 focus = CHN_focus_85 focus = CHN_focus_97 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_74"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_75e
+		icon = generic_political_pressure
+		x = 48
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_67e }
+		prerequisite = { focus = CHN_focus_61 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_75e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_wha
+		icon = generic_political_pressure
+		x = 50
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_83 }
+		prerequisite = { focus = CHN_focus_67e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_wha"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_77e
+		icon = generic_political_pressure
+		x = 38
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_64e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_77e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_100e
+		icon = generic_political_pressure
+		x = 49
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_wha }
+		prerequisite = { focus = CHN_focus_75e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_100"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_79e
+		icon = generic_political_pressure
+		x = 34
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_68e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_79e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_80e
+		icon = generic_political_pressure
+		x = 36
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_64e }
+		prerequisite = { focus = CHN_focus_68e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_80e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_81
+		icon = generic_political_pressure
+		x = 36
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_focus_77e }
+		prerequisite = { focus = CHN_focus_80e }
+		prerequisite = { focus = CHN_focus_79e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_81"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_83e
+		icon = generic_political_pressure
+		x = 30
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_59 }
+		prerequisite = { focus = CHN_focus_60 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_83e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_84e
+		icon = generic_political_pressure
+		x = 28
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_60 }
+		prerequisite = { focus = CHN_focus_82 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_84e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_85
+		icon = generic_political_pressure
+		x = 29
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_focus_83e }
+		prerequisite = { focus = CHN_focus_84e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_85"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_The_Queen_Guard
+		icon = generic_political_pressure
+		x = 42
+		y = -9
+		cost = 5
+		prerequisite = { focus = CHN_focus_9 }
+		mutually_exclusive = { focus = CHN_THE_SWARM }
+		mutually_exclusive = { focus = CHN_SPECIALISE_IN_BOTH }
+		mutually_exclusive = { focus = CHN_PANZA }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_The_Queen_Guard"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_90
+		icon = generic_political_pressure
+		x = 43
+		y = -8
+		cost = 5
+		prerequisite = { focus = CHN_The_Queen_Guard }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_90"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_93
+		icon = generic_political_pressure
+		x = 41
+		y = -8
+		cost = 5
+		prerequisite = { focus = CHN_The_Queen_Guard }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_93"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_94
+		icon = generic_political_pressure
+		x = 44
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_90 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_94"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_95
+		icon = generic_political_pressure
+		x = 42
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_90 }
+		prerequisite = { focus = CHN_focus_93 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_95"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_96
+		icon = generic_political_pressure
+		x = 40
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_focus_93 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_96"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_97
+		icon = generic_political_pressure
+		x = 42
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_focus_94 }
+		prerequisite = { focus = CHN_focus_95 }
+		prerequisite = { focus = CHN_focus_96 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_97"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_99
+		icon = generic_political_pressure
+		x = 37
+		y = -4
+		cost = 5
+		prerequisite = { focus = CHN_focus_74 }
+		mutually_exclusive = { focus = CHN_focus_100 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_99"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_100
+		icon = generic_political_pressure
+		x = 41
+		y = -4
+		cost = 5
+		prerequisite = { focus = CHN_focus_74 }
+		mutually_exclusive = { focus = CHN_focus_99 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_100"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_Intergated_Econmies
+		icon = generic_political_pressure
+		x = 2
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_Civs focus = CHN_IC }
+		mutually_exclusive = { focus = CHN_Domestic_focus }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_Intergated_Econmies"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_105
+		icon = generic_political_pressure
+		x = 13
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_31 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_105"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_119
+		icon = generic_political_pressure
+		x = 6
+		y = -4
+		cost = 5
+		prerequisite = { focus = CHN_focus_120e focus = CHN_focus_121e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_119"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_120
+		icon = generic_political_pressure
+		x = 11
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_focus_94e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_120"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_91
+		icon = generic_political_pressure
+		x = 9
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_focus_94e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_91"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_92
+		icon = generic_political_pressure
+		x = 10
+		y = -4
+		cost = 5
+		prerequisite = { focus = CHN_focus_118e focus = CHN_focus_119e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_92"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_93e
+		icon = generic_political_pressure
+		x = 5
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_add_industry }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_93e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_94e
+		icon = generic_political_pressure
+		x = 10
+		y = -7
+		cost = 5
+		prerequisite = { focus = CHN_IC }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_94e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_96e
+		icon = generic_political_pressure
+		x = 7
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_add_industry }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_96e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_105e
+		icon = generic_political_pressure
+		x = 3
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_Intergated_Econmies }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_105e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_106
+		icon = generic_political_pressure
+		x = 1
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_Intergated_Econmies }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_106"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_107
+		icon = generic_political_pressure
+		x = 2
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_106 }
+		prerequisite = { focus = CHN_focus_105e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_107"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_108
+		icon = generic_political_pressure
+		x = -1
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_Domestic_focus }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_108"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_109
+		icon = generic_political_pressure
+		x = -3
+		y = -6
+		cost = 5
+		prerequisite = { focus = CHN_Domestic_focus }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_109"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_110
+		icon = generic_political_pressure
+		x = -2
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_108 }
+		prerequisite = { focus = CHN_focus_109 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_110"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_111
+		icon = generic_political_pressure
+		x = -7
+		y = -4
+		cost = 5
+		prerequisite = { focus = CHN_focus_123 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_111"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_112
+		icon = generic_political_pressure
+		x = -5
+		y = -4
+		cost = 5
+		prerequisite = { focus = CHN_focus_122 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_112"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_113
+		icon = generic_political_pressure
+		x = -9
+		y = -4
+		cost = 5
+		prerequisite = { focus = CHN_focus_124 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_113"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_114
+		icon = generic_political_pressure
+		x = 3
+		y = -4
+		cost = 2
+		prerequisite = { focus = CHN_focus_107 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_114"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_115
+		icon = generic_political_pressure
+		x = 0
+		y = -4
+		cost = 5
+		prerequisite = { focus = CHN_focus_107 focus = CHN_focus_110 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_115"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_116
+		icon = generic_political_pressure
+		x = 15
+		y = -5
+		cost = 2
+		prerequisite = { focus = CHN_focus_65 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_116"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_118e
+		icon = generic_political_pressure
+		x = 11
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_120 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_118e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_119e
+		icon = generic_political_pressure
+		x = 9
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_91 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_119e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_120e
+		icon = generic_political_pressure
+		x = 5
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_93e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_120e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_121e
+		icon = generic_political_pressure
+		x = 7
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_96e }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_121e"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_122
+		icon = generic_political_pressure
+		x = -5
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_26 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_122"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_123
+		icon = generic_political_pressure
+		x = -7
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_26 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_123"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_124
+		icon = generic_political_pressure
+		x = -9
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_20 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_124"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_125
+		icon = generic_political_pressure
+		x = -11
+		y = -5
+		cost = 5
+		prerequisite = { focus = CHN_focus_20 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_125"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_Look_towards_griffonia
+		icon = generic_political_pressure
+		x = 20
+		y = -4
+		cost = 2
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_Look_into_griffonia"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_1218
+		icon = generic_political_pressure
+		x = 29
+		y = -2
+		cost = 10
+		prerequisite = { focus = CHN_focus_11 }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_1218"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_1220
+		icon = generic_political_pressure
+		x = 38
+		y = -3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_1220"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_1221
+		icon = generic_political_pressure
+		x = 36
+		y = -3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_1221"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_1222
+		icon = generic_political_pressure
+		x = 36
+		y = -2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_1222"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_1223
+		icon = generic_political_pressure
+		x = 38
+		y = -2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_1223"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_1224
+		icon = generic_political_pressure
+		x = 40
+		y = -3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_1224"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_1225
+		icon = generic_political_pressure
+		x = 40
+		y = -2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_1225"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_1226
+		icon = generic_political_pressure
+		x = 42
+		y = -3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_1226"
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = CHN_focus_1227
+		icon = generic_political_pressure
+		x = 42
+		y = -2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CHN_focus_1227"
 		}
 
 		ai_will_do = {
