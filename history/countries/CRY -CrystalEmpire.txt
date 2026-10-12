@@ -97,6 +97,7 @@ set_variable = { CRY_five_year_plan_cap_variable = 0 }
 set_variable = { CRY_five_year_plan_base_variable = 0 }
 set_variable = { CRY_five_year_plan_gain_variable = 0 }
 set_variable = { CRY_five_year_plan_output_variable = 0 }
+set_variable = {industrial_surplus = 0 }
 ### Crisis Minigame ### 
 add_dynamic_modifier = { modifier = CRY_crisis_level_modifier }
 set_variable = { CRY_crisis_level_stab_var = -0.6 }

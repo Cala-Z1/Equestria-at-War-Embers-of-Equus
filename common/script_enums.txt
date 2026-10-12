@@ -340,12 +340,8 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_chassis_1
 	heavy_tank_chassis_2
 	heavy_tank_chassis_3
-	modern_tank_chassis_1
 	super_heavy_tank_chassis_1
 	super_heavy_tank_flame_chassis
-	modern_tank_aa_chassis	
-	modern_tank_artillery_chassis
-	modern_tank_destroyer_chassis
 	light_tank_aa_chassis_1934
 	light_tank_aa_chassis_1936
 	light_tank_aa_chassis_1937
@@ -634,9 +630,6 @@ script_enum_equipment_bonus_type = {
 	super_heavy_tank_rocket_chassis_1942
 	super_heavy_tank_rocket_chassis_1944
 	super_heavy_tank_rocket_chassis_1
-	modern_tank_aa_chassis_1
-	modern_tank_artillery_chassis_1
-	modern_tank_destroyer_chassis_1
 	light_tank_rocket_chassis_1946
 	light_tank_flame_chassis_1946
 	light_tank_amphibious_chassis_1946
@@ -684,7 +677,7 @@ script_enum_equipment_bonus_type = {
 	light_tank_chassis
 	heavy_tank_chassis
 	light_tank_equipment
-	modern_tank_chassis
+	
 	medium_tank_rocket_chassis
 	heavy_tank_rocket_chassis
 	super_heavy_tank_amphibious_chassis

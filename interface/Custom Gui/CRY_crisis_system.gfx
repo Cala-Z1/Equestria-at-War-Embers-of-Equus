@@ -21,5 +21,9 @@ spriteTypes = {
 		name = "GFX_usa_wpa_icon_scriptedgui"
 		texturefile = "gfx/interface/BOP/CRY/CRY_crystal_heart.dds"
 	}
+	spriteType = {
+		name = "GFX_CRY_surplus_background"
+		texturefile = "gfx/interface/crisis_system/CRY_Five_year_background.dds"
+	}
 }
 

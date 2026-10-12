@@ -1,0 +1,8 @@
+scripted_gui = {
+	CRY_surplus_gui = {
+		context_type = decision_category
+		window_name = "CRY_surplus_gui_window"
+		properties = {	
+		}
+	}
+}

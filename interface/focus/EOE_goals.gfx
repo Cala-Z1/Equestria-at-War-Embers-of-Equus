@@ -170,4 +170,24 @@ spriteTypes = {
 		name = GFX_Crystal_Court_Consolidation_shine
 		textureFile = "gfx/interface/goals/CRY/polictal/goal_cry_fearwar.dds"
 	}
+	spriteType = {
+		name = GFX_goal_EQS_TNO_crystal_heart
+		textureFile = "gfx/interface/goals/CRY/ind_right/EQS_TNO_crystal_heart.tga"
+	}
+	spriteType = {
+		name = GFX_goal_EQS_TNO_crystal_heart_shine 
+		textureFile = "gfx/interface/goals/CRY/ind_right/EQS_TNO_crystal_heart.tga"
+	}
+	spriteType = {
+		name = GFX_goal_cry_forts
+		textureFile = "gfx/interface/goals/CRY/ind_right/goal_cry_forts.dds"
+	}
+	spritetype = {
+		name = GFX_goal_cry_factory
+		textureFile = "gfx/interface/goals/CRY/goal_cry_factory.dds"
+	}
+	spritetype = {
+		name = GFX_goal_cry_factory_shine
+		textureFile = "gfx/interface/goals/CRY/goal_cry_factory.dds"
+	}
 }

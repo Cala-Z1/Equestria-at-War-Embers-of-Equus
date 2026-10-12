@@ -422,7 +422,7 @@ CRY_crisis_management_system_cat = {
 		}
 		target_root_trigger = { tag = CRY } 
 		state_target = yes
-		on_map_mode = map_and_decisions_view
+		on_map_mode = map_only
 		fire_only_once = yes 
 		available = {								
 			custom_trigger_tooltip = {
@@ -734,4 +734,265 @@ CRY_crisis_management_system_cat = {
 			}	
 		}
 	}	
-}`
+}
+CRY_Five_year_plan_cat = {
+	Crystal_industral_Surplus_1 = {
+		icon = generic_construction
+		custom_cost_text = surplus_cost_1_tt
+		custom_cost_trigger = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 1
+       			compare = greater_than_or_equals
+			}			
+		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 1
+       			compare = greater_than_or_equals
+			}
+	 	}
+	 	complete_effect = {
+			add_timed_idea = {
+				idea = Crystal_industral_Surplus_1
+				days = 120
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -1
+				tooltip = industrial_surplus_down_tt
+	 		}	
+		}
+	}
+	Crystal_industral_Surplus_2 = {
+		icon = generic_construction
+		custom_cost_text = surplus_cost_1_tt
+		custom_cost_trigger = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 1
+       			compare = greater_than_or_equals
+			}			
+		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 1
+       			compare = greater_than_or_equals
+			}
+	 	}
+	 	complete_effect = {
+			add_timed_idea = {
+				idea = Crystal_industral_Surplus_2
+				days = 120
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -1
+				tooltip = industrial_surplus_down_tt
+	 		}	
+		}
+	}
+	Crystal_industral_Surplus_3 = {
+		icon = generic_construction
+		custom_cost_text = surplus_cost_1_tt
+		custom_cost_trigger = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 1
+       			compare = greater_than_or_equals
+			}			
+		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 1
+       			compare = greater_than_or_equals
+			}
+	 	}
+	 	complete_effect = {
+			add_timed_idea = {
+				idea = Crystal_industral_Surplus_3
+				days = 120
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -1
+				tooltip = industrial_surplus_down_tt
+	 		}	
+		}
+	}
+	Crystal_industral_Surplus_4 = {
+		icon = generic_construction
+		custom_cost_text = surplus_cost_1_tt
+		custom_cost_trigger = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 1
+       			compare = greater_than_or_equals
+			}			
+		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 1
+       			compare = greater_than_or_equals
+			}
+	 	}
+	 	complete_effect = {
+			add_timed_idea = {
+				idea = Crystal_industral_Surplus_4
+				days = 120
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -1
+				tooltip = industrial_surplus_down_tt
+	 		}	
+		}
+	}
+	Crystal_industral_Surplus_5 = {
+		icon = generic_construction
+		custom_cost_text = surplus_cost_2_tt
+		custom_cost_trigger = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 2
+       			compare = greater_than_or_equals
+			}			
+		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 2
+       			compare = greater_than_or_equals
+			}
+	 	}
+	 	complete_effect = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex 
+					level = 2
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -2
+				tooltip = industrial_surplus_down_2_tt
+	 		}	
+		}
+	}
+	Crystal_industral_Surplus_6 = {
+		icon = generic_construction
+		custom_cost_text = surplus_cost_2_tt
+		custom_cost_trigger = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 2
+       			compare = greater_than_or_equals
+			}			
+		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 2
+       			compare = greater_than_or_equals
+			}
+	 	}
+	 	complete_effect = {
+			custom_effect_tooltip = tab_tt
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory  
+					level = 4
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -2
+				tooltip = industrial_surplus_down_2_tt
+	 		}	
+		}
+	}
+	Crystal_industral_Surplus_7 = {
+		icon = generic_construction
+		custom_cost_text = surplus_cost_2_tt
+		custom_cost_trigger = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 2
+       			compare = greater_than_or_equals
+			}			
+		}
+		available = {
+		OR = {
+			has_completed_focus = civ_heart_district
+			has_completed_focus = mfac_northern_arms
+		}
+			check_variable = {
+				var = industrial_surplus
+        		value = 2
+       			compare = greater_than_or_equals
+			}
+	 	}
+	 	complete_effect = {
+			add_resource = {
+				type = steel 
+				amount = 100
+				state = 344
+			}
+			add_resource = {
+				type = chromium 
+				amount = 150
+				state = 344
+			}
+			add_resource = {
+				type = Crystals 
+				amount = 150
+				state = 344
+			}		
+			add_resource = {
+				type = tungsten
+				amount = 100
+				state = 344
+			}					
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -2
+				tooltip = industrial_surplus_down_2_tt
+	 		}	
+		}
+	}
+	Crystal_industral_Surplus_8 = {
+		icon = generic_construction
+		custom_cost_text = surplus_cost_3_tt
+		custom_cost_trigger = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 3
+       			compare = greater_than_or_equals
+			}			
+		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+        		value = 3
+       			compare = greater_than_or_equals
+			}
+	 	}
+	 	complete_effect = {	
+			add_timed_idea = {
+				idea = Crystal_industral_Surplus_8	
+				days = 120
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -3
+				tooltip = industrial_surplus_down_3_tt
+	 		}	
+		}
+	}
+}

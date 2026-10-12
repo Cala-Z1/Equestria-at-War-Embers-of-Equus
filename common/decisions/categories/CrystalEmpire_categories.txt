@@ -19,3 +19,14 @@ CRY_crisis_management_system_cat = {
 	 }
 	priority = 120
 }
+CRY_Five_year_plan_cat = {
+	icon = {generic_construction}
+	scripted_gui = CRY_surplus_gui
+	allowed = {
+		tag = CRY
+	}
+	visible = {
+		tag = CRY 
+	}
+	priority = 2
+}

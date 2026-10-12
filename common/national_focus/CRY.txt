@@ -11,7 +11,7 @@
 	continuous_focus_position = { x = 2000 y = 1500 }
 	focus = {
 		id = ind_1
-		icon = Placeholder
+		icon = GFX_goal_cry_factory
 		cost = 5
 		x = 40
 		y = 0
@@ -40,7 +40,7 @@
 	## LEFT SIDE IND ##
 	focus = {
 		id = ind_left
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_cry_factory_cel
 		cost = 5
 		prerequisite = {
 			focus = ind_1
@@ -51,34 +51,44 @@
 		x = 35
 		y = 1
 		completion_reward = { 
-			custom_effect_tooltip = ind_left_tt
+			add_to_variable = {
+				great_depression_var = -1
+				tooltip = CRY_depression_down_up_tt
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_somabra_scare_tt
+			add_to_variable = {
+				CRY_Sombra_stability_factor = -0.1
+				tooltip = CRY_somabra_scare_Stab_tt
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
+				tooltip = consumer_goods_tooltip
+			}
+			add_to_variable = {
+				CRY_production_speed_industrial_complex_factor_variable = 0.1
+				tooltip = CRY_production_speed_civ_factory_factor_variable_tt
+			}
 			if = {
 				limit = {
 					has_completed_focus = Strike_at_Sombra_Supporters
 				}
 				add_to_variable = {
 					CRY_production_speed_industrial_complex_factor_variable = 0.05
-				}
-				add_to_variable = {
-					CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
-				}
-				add_to_variable = {
-					CRY_production_speed_industrial_complex_factor_variable = 0.1
+					tooltip = CRY_production_speed_civ_factory_factor_variable_tt
 				}
 			}
 			else = {
-				add_to_variable = {
-					CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
-				}
-				add_to_variable = {
-					CRY_production_speed_industrial_complex_factor_variable = 0.1
-				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = change_tt
 			}
 		}
 	}
 	focus = {
 		id = civ_mining_expansion
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_zebra_crystal
 		prerequisite = {
 			focus = ind_left
 		}
@@ -89,40 +99,35 @@
 		x = 32
 		y = 2
 		completion_reward = { 
-			custom_effect_tooltip = civ_mining_expansion_tt
+			add_resource = {
+				type = crystals
+				amount = 150
+				state = 98
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+				add_to_variable = {
+					CRY_five_year_plan_resources_gain_efficiency_variable = 0.1
+					tooltip =  CRY_five_year_resource_tt
+				}
 			if = {
 				limit = {
 					has_completed_focus = Strike_at_Sombra_Supporters
 				}
 				add_to_variable = {
-					CRY_five_year_plan_resources_gain_efficiency_variable = 0.1
-				}
-				custom_effect_tooltip = tab_tt
-				add_resource = {
-					type = crystals
-					amount = 150
-					state = 98
-				}
-				add_to_variable = {
-					CRY_five_year_plan_resources_gain_efficiency_variable = 0.1
+					CRY_five_year_plan_resources_gain_efficiency_variable = 0.2
+					tooltip = CRY_five_year_resource_tt
 				}
 			}
 			else = {
 				custom_effect_tooltip = tab_tt
-				add_resource = {
-					type = crystals
-					amount = 150
-					state = 98
-				}
-				add_to_variable = {
-					CRY_five_year_plan_resources_gain_efficiency_variable = 0.1
-				}
+				custom_effect_tooltip = change_tt
 			}
 		}
 	}
 	focus = {
 		id = civ_artisan_works
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_air_production
 		prerequisite = {
 			focus = ind_left
 		}
@@ -147,16 +152,17 @@
 					instant_build = yes
 				}
 			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
 			add_to_variable = {
 				CRY_production_speed_industrial_complex_factor_variable = 0.1
+				tooltip = CRY_production_speed_civ_factory_factor_variable_tt
 			}
-			custom_effect_tooltip = tab_tt
-			custom_effect_tooltip = civ_artisan_works_tt
 		 }
 	}
 	focus = {
 		id = civ_construction_corps
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_lau_construction
 		prerequisite = {
 			focus = civ_artisan_works focus = civ_mining_expansion
 		}
@@ -182,7 +188,7 @@
 	}
 	focus = {
 		id = civ_growth
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_GER_prioritize_the_four_year_plan
 		cost = 5
 		prerequisite = {
 			focus = civ_construction_corps
@@ -200,15 +206,17 @@
 					instant_build = yes
 				}
 			}
-			custom_effect_tooltip = civ_growth_tt
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
 			add_to_variable = {
 				CRY_five_year_plan_gain_variable = 0.15
+				tooltip = CRY_five_year_growth_tt
 			}
 		 }
 	}
 	focus = {
 		id = civ_power_grid
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_JAP_expand_coal_islands
 		cost = 5
 		prerequisite = {
 			focus = civ_construction_corps
@@ -226,19 +234,22 @@
 					instant_build = yes
 				}
 			}
-			custom_effect_tooltip = civ_power_grid_tt
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
 			add_to_variable = {
 				CRY_five_year_plan_cap_variable = 0.05
+				tooltip = CRY_five_year_cap_tt
 			}
 			add_to_variable = {
 				CRY_five_year_plan_gain_variable = -0.15
+				tooltip = CRY_five_year_growth_tt
 			}
 			
 		}
 	}
 	focus = {
 		id = civ_economic_zone
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_cry_engineering
 		cost = 5
 		prerequisite = {
 			focus = civ_power_grid focus = civ_growth
@@ -283,18 +294,21 @@
 					instant_build = yes
 				}
 			}
-			add_to_variable = {
-				CRY_production_speed_arms_factory_factor_variable = 0.15
-			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
 			add_to_variable = {
 				CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02
+				tooltip = consumer_goods_tooltip
 			}
-			custom_effect_tooltip = civ_economic_zone_tt
+			add_to_variable = {
+				CRY_production_speed_arms_factory_factor_variable = 0.15
+				tooltip = CRY_production_speed_arms_factory_factor_variable_tt
+			}
 		 }
 	}
 	focus = {
 		id = civ_agricultural_reform
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_cry_com_agriculture
 		cost = 5
 		prerequisite = {
 			focus = civ_mining_expansion
@@ -339,18 +353,21 @@
 				amount = -280
 				state = 64
 			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
 			add_to_variable = {
 				CRY_five_year_plan_output_variable = 0.025
+				tooltip = CRY_five_year_output_tt
 			}
 			add_to_variable = {
 				CRY_five_year_plan_cap_variable = 0.025
+				tooltip = CRY_five_year_cap_tt
 			}
-			custom_effect_tooltip = civ_agricultural_reform_tt
 		 }
 	}
 	focus = {
 		id = civ_export_market
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_RAJ_issue_bonds_on_the_stock_market
 		cost = 5
 		prerequisite = {
 			focus = civ_artisan_works
@@ -362,35 +379,40 @@
 				limit = {
 					has_completed_focus = Strike_at_Sombra_Supporters
 				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = CRY_five_year_plan_tt
 				add_to_variable = { 
 					CRY_production_speed_arms_factory_factor_variable = 0.15
+					tooltip = CRY_production_speed_arms_factory_factor_variable_tt
 				}
 				add_to_variable = {
 					CRY_five_year_plan_cap_variable = 0.05
+					tooltip = CRY_five_year_cap_tt
 				}
 				add_to_variable = {
 					CRY_five_year_plan_output_variable = 0.10
-				}
-				random_core_state = {
-					add_building_construction = {
-						type = industrial_complex
-						level = 3
-						instant_build = yes
-					}
-				}
-				random_core_state = {
-					add_building_construction = {
-						type = industrial_complex
-						level = 3
-						instant_build = yes
-					}
-				}
-				random_core_state = {
-					add_building_construction = {
-						type = industrial_complex
-						level = 3
-						instant_build = yes
-					}
+					tooltip = CRY_five_year_output_tt
 				}
 			}
 			else = {
@@ -414,21 +436,25 @@
 						level = 3
 						instant_build = yes
 					}
-				}	
+				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = CRY_five_year_plan_tt	
 				add_to_variable = {
 					CRY_five_year_plan_cap_variable = 0.05
+					tooltip = CRY_five_year_cap_tt
 				}
 				add_to_variable = {
 					CRY_five_year_plan_output_variable = 0.10
+					tooltip = CRY_five_year_output_tt
 				}				
 			}
 			custom_effect_tooltip = tab_tt
-			custom_effect_tooltip = civ_export_market_tt
+			custom_effect_tooltip = change_tt
 		 }
 	}
 	focus = {
 		id = civ_industrial_academy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_cryacademy
 		cost = 5
 		prerequisite = {
 			focus = civ_economic_zone
@@ -451,13 +477,12 @@
 			add_to_variable = {
 				CRY_research_speed_factor_variable = 0.05
 			}
-			custom_effect_tooltip = tab_tt
 			custom_effect_tooltip = civ_industrial_academy_tt
 		}
 	}
 	focus = {
 		id = civ_production_surge
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_AFG_a_modern_economy
 		cost = 5
 		prerequisite = {
 			focus = civ_industrial_academy
@@ -465,12 +490,17 @@
 		x = 35
 		y = 7
 		completion_reward = {
+			add_to_variable = {
+				industrial_surplus = 2
+				tooltip = industrial_surplus_up_2_tt
+			}
+			custom_effect_tooltip = tab_tt
 			add_ideas = low_economic_mobilisation
 		}
 	}
 	focus = {
 		id = civ_heart_district
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_crystal_heart_cry
 		cost = 5
 		prerequisite = {
 			focus = civ_agricultural_reform
@@ -488,11 +518,17 @@
 				CRY_five_year_plan_gain_variable = 0.10
 			}
 			custom_effect_tooltip = civ_heart_district_tt
+			custom_effect_tooltip = tab_tt
+			unlock_decision_tooltip = {
+				decision = Crystal_industral_Surplus_7
+        		show_effect_tooltip = yes
+        		show_modifiers = yes
+			}
 		 }
 	}
 	focus = {
 		id = civ_northern_development
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_cry_train
 		cost = 5
 		prerequisite = {
 			focus = civ_export_market
@@ -522,18 +558,20 @@
 				}
 			}
 			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
 			add_to_variable = {
 				CRY_five_year_plan_output_variable = 0.05
+				tooltip = CRY_five_year_output_tt
 			}
 			add_to_variable = {
 				CRY_five_year_plan_resources_gain_efficiency_variable = -0.10
+				tooltip = CRY_five_year_growth_tt
 			}
-			custom_effect_tooltip = civ_northern_development_tt
 		 }
 	}
 	focus = {
 		id = civ_city_expansion
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_SLC_Public_Works_Projects
 		cost = 5
 		prerequisite = {
 			focus = civ_heart_district
@@ -569,7 +607,7 @@
 	}
 	focus = {
 		id = civ_workforce_mobilisation
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_BAT_demwork
 		cost = 5
 		prerequisite = {
 			focus = civ_production_surge
@@ -580,35 +618,36 @@
 		x = 37
 		y = 8
 		completion_reward = { 
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					instant_build = yes
+					level = 2
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					instant_build = yes
+					level = 2
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_resources_gain_efficiency_variable = -0.15
+				tooltip = CRY_five_year_resource_tt
+			}
+			custom_effect_tooltip = tab_tt
 			add_power_balance_value = {
 				id = CRY_balamce_of_power
 				value = 0.25
-			}
-			add_to_variable = {
-				CRY_five_year_plan_resources_gain_efficiency_variable = -0.15
-			}
-			custom_effect_tooltip = tab_tt
-			custom_effect_tooltip = civ_workforce_mobilisation_tt
-			custom_effect_tooltip = tab_tt
-			random_core_state = {
-				add_building_construction = {
-					type = arms_factory
-					instant_build = yes
-					level = 2
-				}
-			}
-			random_core_state = {
-				add_building_construction = {
-					type = arms_factory
-					instant_build = yes
-					level = 2
-				}
 			}
 		}
 	}
 	focus = {
 		id = civ_industrial_complex
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_consumer_goods
 		cost = 5
 		prerequisite = {
 			focus = civ_city_expansion focus = civ_workforce_mobilisation
@@ -639,7 +678,7 @@
 	}
 	focus = {
 		id = civ_second_push
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_SLC_Well_Paid_Work_For_Compliance
 		cost = 5
 		prerequisite = {
 			focus = civ_industrial_complex
@@ -650,6 +689,11 @@
 		x = 35
 		y = 10
 		completion_reward = {
+			add_to_variable = {
+				industrial_surplus = 3
+				tooltip = industrial_surplus_up_3_tt
+			}
+			custom_effect_tooltip = tab_tt
 			add_to_variable = {
 				CRY_production_speed_industrial_complex_factor_variable = -0.5
 			}
@@ -663,7 +707,7 @@
 	}
 	focus = {
 		id = civ_economic_supremacy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_BAT_synthetic_crystals
 		cost = 5
 		prerequisite = {
 			focus = civ_second_push
@@ -671,12 +715,20 @@
 		mutually_exclusive = {
 			focus = civ_trade_empire
 		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+				value = 1
+       			compare = greater_than_or_equals
+			}
+		}
 		mutually_exclusive = {
 			focus = civ_heart_economy
 		}
 		x = 35
 		y = 11
 		completion_reward = {
+			custom_effect_tooltip = civ_heart_economy_a_tt
 			random_core_state = {
 				add_building_construction = {
 					type = industrial_complex
@@ -712,12 +764,17 @@
 					level = 6
 					instant_build = yes
 				}
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -1
+				tooltip = industrial_surplus_down_tt
 			}
 		 }
 	}
 	focus = {
 		id = civ_trade_empire
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_KTZ_a_trade_with_the_world
 		cost = 5
 		prerequisite = {
 			focus = civ_second_push
@@ -725,15 +782,20 @@
 		mutually_exclusive = {
 			focus = civ_economic_supremacy
 		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+				value = 1
+       			compare = greater_than_or_equals
+			}
+		}
 		mutually_exclusive = {
 			focus = civ_heart_economy
 		}		
 		x = 38
 		y = 11
 		completion_reward = { 
-			add_to_variable = {
-				CRY_five_year_plan_resources_gain_efficiency_variable = 0.15
-			}
+			custom_effect_tooltip = civ_heart_economy_a_tt
 			add_tech_bonus = {
 				name = ind_4
 				bonus = 4
@@ -771,12 +833,21 @@
 				state = 344
 			}
 			custom_effect_tooltip = tab_tt
-			custom_effect_tooltip = civ_trade_empire_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_resources_gain_efficiency_variable = 0.15
+				tooltip = CRY_five_year_resource_tt
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -1
+				tooltip = industrial_surplus_down_tt
+			}
 		}
 	}
 	focus = {
 		id = civ_heart_economy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_chn_economic_plan
 		cost = 5
 		prerequisite = {
 			focus = civ_second_push
@@ -784,12 +855,20 @@
 		mutually_exclusive = {
 			focus = civ_economic_supremacy
 		}
+		available = {
+			check_variable = {
+				var = industrial_surplus
+				value = 1
+       			compare = greater_than_or_equals
+			}
+		}
 		mutually_exclusive = {
 			focus = civ_trade_empire
 		}	
 		x = 32
 		y = 11
 		completion_reward = {
+			custom_effect_tooltip = civ_heart_economy_a_tt
 			add_to_variable = {
 				CRY_five_year_plan_cap_variable = 0.05
 			}
@@ -803,13 +882,18 @@
 				CRY_production_speed_arms_factory_factor_variable = 0.10
 			}
 			custom_effect_tooltip = civ_heart_economy_tt
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -1
+				tooltip = industrial_surplus_down_tt
+			}
 		 }
 	}
 	
 	## RIGHT SIDE IND ##
 	focus = {
 		id = ind_right
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_sombra_factory
 		cost = 5
 		prerequisite = {
 			focus = ind_1
@@ -854,12 +938,15 @@
 				}
 			}
 			custom_effect_tooltip = tab_tt
+			CRY_update_ui_effect =yes
+			CRY_great_depression_level_set_idea = yes
+			custom_effect_tooltip = tab_tt
 			custom_effect_tooltip = change_tt 
 		 }
 	}
 	focus = {
 		id = mfac_foundry_network
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_zebra_factory
 		cost = 5
 		prerequisite = {
 			focus = ind_right
@@ -904,11 +991,13 @@
 			else = {
 				custom_effect_tooltip = ties_completed_tt
 			}
+			custom_effect_tooltip = tab_tt
+			CRY_update_ui_effect =yes
 		 }
 	}
 	focus = {
 		id = mfac_crystal_armour_division
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_indy_tanks_across_the_border
 		cost = 5
 		prerequisite = {
 			focus = ind_right
@@ -965,11 +1054,14 @@
 					instant_build = yes 
 				}
 			}
+			custom_effect_tooltip = tab_tt
+			CRY_update_ui_effect =yes
+			CRY_great_depression_level_set_idea = yes
 		}
 	}
 	focus = {
 		id = mfac_enchanted_arms
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_SLC_Small_Arms_And_Small_Arms
 		cost = 5
 		prerequisite = {
 			focus = mfac_foundry_network
@@ -1016,7 +1108,7 @@
 	}
 	focus = {
 		id = mfac_northern_arsenal
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_cry_com_industry
 		cost = 5
 		prerequisite = {
 			focus = mfac_foundry_network
@@ -1071,12 +1163,14 @@
 			}
 			else = {
 				custom_effect_tooltip = mfac_northern_arsenal_tt
-			}				
+			}	
+			custom_effect_tooltip = tab_tt
+			CRY_update_ui_effect =yes			
 		}
 	}
 	focus = {
 		id = mfac_military_pact
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_EQS_ED_artefacts_of_power
 		cost = 5
 		prerequisite = {
 			focus = mfac_enchanted_arms
@@ -1113,6 +1207,7 @@
 			custom_effect_tooltip = mfac_military_pact_tt			
 			}
 			else = {
+				custom_effect_tooltip = tab_tt
 				custom_effect_tooltip = mfac_military_pact_dep_tt
 			}
 			custom_effect_tooltip = tab_tt
@@ -1136,12 +1231,15 @@
 					level = 2
 					instant_build = yes
 				}
-			}				
+			}		
+			custom_effect_tooltip = tab_tt
+			CRY_update_ui_effect =yes
+			CRY_great_depression_level_set_idea = yes		
 		 }
 	}
 	focus = {
 		id = mfac_guard_equipment
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_EQS_ED_crystalline_shells
 		cost = 5
 		prerequisite = {
 			focus = mfac_enchanted_arms
@@ -1220,6 +1318,7 @@
 				tooltip = CRY_production_speed_arms_factory_factor_variable_tt 
 			}
 			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
 			add_to_variable = {
 				CRY_research_speed_factor_variable = 0.05
 				tooltip = CRY_research_speed_factor_variable_tt
@@ -1229,11 +1328,14 @@
 				id = CRY_balamce_of_power
 				value = 0.25
 			}
+			custom_effect_tooltip = tab_tt
+			CRY_update_ui_effect =yes
+			CRY_great_depression_level_set_idea = yes
 		}
 	}
 	focus = {
 		id = mfac_siege_works
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_cry_eqs_tech_share
 		cost = 5
 		prerequisite = {
 			focus = mfac_northern_arsenal
@@ -1294,7 +1396,7 @@
 	}
 	focus = {
 		id = mfac_refined_alloys
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_TBK_AF_steel_factory
 		cost = 5
 		prerequisite = {
 			focus = mfac_crystal_armour_division
@@ -1319,7 +1421,7 @@
 	}
 	focus = {
 		id = mfac_mass_production
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_BAT_A_Titan_Of_Industry_And_Productivity
 		cost = 5
 		prerequisite = {
 			focus = mfac_guard_equipment 
@@ -1333,7 +1435,7 @@
 	}
 	focus = {
 		id = mfac_ammo_stockpile
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = mfac_siege_works
@@ -1343,11 +1445,66 @@
 		}
 		x = 50
 		y = 6
-		completion_reward = { }
+		completion_reward = {
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_output_variable = 0.15
+				tooltip = CRY_five_year_output_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_cap_variable = 0.025
+				tooltip = CRY_five_year_cap_tt
+			}
+			add_to_variable = {
+			CRY_five_year_plan_base_variable = .05
+			tooltip = CRY_five_year_base_tt
+			}
+			custom_effect_tooltip = tab_tt
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 2 
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory 
+					level = 2 
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			if = {
+				limit = {
+					check_variable = {CRY_crisis_level < 35} 
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
+						instant_build = yes
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
+						instant_build = yes
+					}
+				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = crisis_level_civ_lose_tt
+			}
+			else = {
+				custom_effect_tooltip = crisis_level_civ_gain_tt
+			}
+		 }
 	}
 	focus = {
 		id = mfac_research_development
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_cry_innovation
 		cost = 5
 		prerequisite = {
 			focus = mfac_siege_works
@@ -1357,44 +1514,221 @@
 		}
 		x = 48
 		y = 6
-		completion_reward = { }
+		completion_reward = { 
+			add_tech_bonus = {
+				name = armor_1
+				bonus = 1.5
+				uses = 1 
+				category = armor 
+			}
+			add_tech_bonus = {
+				name = cry_ind_1
+				bonus = 2
+				uses = 1
+				category = industry
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_research_speed_factor_variable = 0.10
+				tooltip = CRY_research_speed_factor_variable_tt
+			}
+			custom_effect_tooltip = tab_tt
+			if = {
+				limit = {
+					check_variable = {CRY_crisis_level < 35} 
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
+						instant_build = yes
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
+						instant_build = yes
+					}
+				}
+				custom_effect_tooltip = tab_tt
+				add_ideas = limited_conscription
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = crisis_level_civ_lose_tt
+			}
+			else = {
+				add_ideas = limited_conscription
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = crisis_level_civ_gain_tt
+			}
+		}
 	}
 	focus = {
 		id = mfac_engineering_corps
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
-			focus = mfac_research_development focus = mfac_ammo_stockpile
+			focus = mfac_research_development 
+			focus = mfac_ammo_stockpile
 		}
 		x = 49
 		y = 7
-		completion_reward = { }
+		completion_reward = {
+			add_to_variable = {
+				great_depression_var = 2
+				tooltip = CRY_depression_level_up_tt
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				CRY_crisis_level = -20
+				tooltip = CRY_crisis_level_down_tt
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = { 
+				CRY_five_year_plan_output_variable = 0.075
+				tooltip = CRY_five_year_output_tt
+			}
+			custom_effect_tooltip = tab_tt
+			add_ideas = partial_economic_mobilisation
+			custom_effect_tooltip = tab_tt
+CRY_update_ui_effect =yes
+			CRY_great_depression_level_set_idea = yes
+		 }
 	}
 	focus = {
 		id = mfac_advanced_weapons
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = mfac_engineering_corps
 		}
 		x = 47
 		y = 8
-		completion_reward = { }
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = operation_Break_Shadow
+					check_variable = {
+						var = great_depression_var
+						value = 2
+       					compare = less_than_or_equals
+					}
+				}
+				add_to_variable = {
+					industrial_surplus = 3
+					tooltip = industrial_surplus_up_3_tt
+				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = mfac_advanced_weapons_both_tt
+				custom_effect_tooltip = tab_tt
+				random_core_state = {
+					add_building_construction = {
+						type = arms_factory 
+						level = 4
+						instant_build = yes 
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = arms_factory 
+						level = 4
+						instant_build = yes 
+					}
+				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = CRY_five_year_plan_tt
+				add_to_variable = {
+					CRY_five_year_plan_resources_gain_efficiency_variable = 0.05
+					tooltip = CRY_five_year_resource_tt
+				}
+				custom_effect_tooltip = tab_tt
+				add_resource = {
+					type = crystals
+					amount = 100
+					state =  344
+				}
+			}
+			else_if = {
+				limit = {has_completed_focus = operation_Break_Shadow}
+				custom_effect_tooltip = mfac_advanced_weapons_shadow_tt
+				custom_effect_tooltip = tab_tt
+				add_resource = {
+					type = crystals
+					amount = 100
+					state =  344
+				}				
+			}
+			else_if = {
+				limit = {					
+					check_variable = {
+						var = great_depression_var
+						value = 2
+       					compare = less_than_or_equals
+					}
+				}
+				add_to_variable = {
+					industrial_surplus = 2
+					tooltip = industrial_surplus_up_2_tt
+				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = mfac_advanced_weapons_depression_tt
+				custom_effect_tooltip = tab_tt
+				random_core_state = {
+					add_building_construction = {
+						type = arms_factory 
+						level = 4
+						instant_build = yes 
+					}
+				}
+				random_core_state = {
+					add_building_construction = {
+						type = arms_factory 
+						level = 4
+						instant_build = yes 
+					}
+				}
+			}
+			else = {
+				add_to_variable = {
+					industrial_surplus = 2
+					tooltip = industrial_surplus_up_2_tt
+				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = mfac_advanced_weapons_none_tt
+			}
+			custom_effect_tooltip = tab_tt
+			add_research_slot = 1
+			custom_effect_tooltip = tab_tt
+			CRY_update_ui_effect =yes
+			CRY_great_depression_level_set_idea = yes
+		 }
 	}
 	focus = {
 		id = mfac_war_economy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = mfac_engineering_corps
 		}
+		available = {
+			has_war = yes 
+		} 
 		x = 50
 		y = 8
-		completion_reward = { }
+		completion_reward = { 
+			add_to_variable = {
+				industrial_surplus = 2
+				tooltip = industrial_surplus_up_2_tt
+			}
+			custom_effect_tooltip = tab_tt
+			add_ideas = war_economy 
+		}
 	}
 	focus = {
 		id = mfac_siege_corps
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = mfac_advanced_weapons
@@ -1404,22 +1738,67 @@
 		}
 		x = 45
 		y = 9
-		completion_reward = { }
+		completion_reward = {
+			add_to_variable = {
+				industrial_surplus = 1
+				tooltip = industrial_surplus_up_tt
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_consumer_goods_expected_value_variable = -0.05
+				tooltip = consumer_goods_tooltip
+			}
+			add_to_variable = {
+				CRY_five_year_plan_cap_variable = 0.1
+				tooltip = CRY_five_year_cap_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_gain_variable = -0.05
+				tooltip = CRY_five_year_growth_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_base_variable = -0.05
+				tooltip = CRY_five_year_base_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_resources_gain_efficiency_variable = -0.15
+				tooltip = CRY_five_year_resource_tt
+			}
+		 }
 	}
 	focus = {
 		id = mfac_production_surge
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = mfac_war_economy
 		}
 		x = 49
 		y = 9
-		completion_reward = { }
+		completion_reward = {
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_output_variable = 0.15
+				tooltip = CRY_five_year_output_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_gain_variable = 0.15
+				tooltip = CRY_five_year_growth_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_cap_variable = 0.025
+				tooltip = CRY_five_year_cap_tt
+			}
+			add_to_variable = {
+				CRY_production_speed_arms_factory_factor_variable = 0.15
+				tooltip = CRY_production_speed_arms_factory_factor_variable_tt
+			}
+		 }
 	}
 	focus = {
 		id = mfac_imperial_arsenal
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = mfac_advanced_weapons
@@ -1429,55 +1808,94 @@
 		}
 		x = 47
 		y = 9
-		completion_reward = { }
+		completion_reward = { 
+			add_to_variable = {
+				industrial_surplus = 1
+				tooltip = industrial_surplus_up_tt
+			}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_output_variable = 0.15
+				tooltip = CRY_five_year_output_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_gain_variable = 0.05
+				tooltip = CRY_five_year_growth_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_resources_gain_efficiency_variable = -0.20
+				tooltip = CRY_five_year_resource_tt
+			}
+		}
 	}
 	focus = {
 		id = mfac_northern_arms
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {
 			focus = mfac_imperial_arsenal
 		}
 		cost = 5
 		x = 47
 		y = 10
-		completion_reward = { }
+		completion_reward = { 
+    		unlock_decision_tooltip = {
+        	decision = Crystal_industral_Surplus_7
+        	show_effect_tooltip = yes
+        	show_modifiers = yes
+    		}
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_resources_gain_efficiency_variable = 0.05
+				tooltip = CRY_five_year_resource_tt
+			}			
+		}
 	}
 	focus = {
 		id = mfac_armoured_manufacturing
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = mfac_siege_corps
 		}
 		x = 45
 		y = 10
-		completion_reward = { }
+		completion_reward = { 
+			#ADD armor idea here
+		}
 	}
 	focus = {
 		id = mfac_strike_force_equipment
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
+		mutually_exclusive = { focus = mfac_mass_enchantment }
 		prerequisite = {
 			focus = mfac_armoured_manufacturing
 		}
 		x = 44
 		y = 11
-		completion_reward = { }
+		completion_reward = { 
+
+		}
 	}
 	focus = {
 		id = mfac_mass_enchantment
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
+		mutually_exclusive = { focus = mfac_strike_force_equipment }
 		prerequisite = {
 			focus = mfac_armoured_manufacturing
 		}
 		x = 46
 		y = 11
-		completion_reward = { }
+		completion_reward = { 
+
+		}
 	}
 	focus = {
 		id = mfac_military_supremacy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder 
 		cost = 5
 		prerequisite = {
 			focus = mfac_northern_arms
@@ -1488,21 +1906,75 @@
 	}
 	focus = {
 		id = mfac_fortress_network
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_cry_forts
 		cost = 5
 		prerequisite = {
 			focus = mfac_northern_arms
 		}
 		x = 50
 		y = 11
-		completion_reward = { }
+		completion_reward = {
+			343 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+        			instant_build = yes
+        			province = 509		
+				}
+				add_building_construction = {
+        			type = bunker
+        			level = 2
+        			instant_build = yes
+        			province = 6503		
+				}
+			}
+			139 = {
+				add_building_construction = {
+        			type = bunker
+        			level = 2
+        			instant_build = yes
+        			province = 11259		
+				}
+				add_building_construction = {
+        			type = bunker
+        			level = 2
+        			instant_build = yes
+        			province = 6220		
+				}
+				add_building_construction = {
+        			type = bunker
+        			level = 2
+        			instant_build = yes
+        			province = 10448		
+				}
+				add_building_construction = {
+        			type = bunker
+        			level = 2
+        			instant_build = yes
+        			province = 13309		
+				}
+				add_building_construction = {
+        			type = bunker
+        			level = 2
+        			instant_build = yes
+        			province = 12437		
+				}
+				add_building_construction = {
+        			type = bunker
+        			level = 2
+        			instant_build = yes
+        			province = 11277	
+				}
+			}
+		 }
 	}
 	focus = {
 		id = mfac_total_war
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
-			focus = mfac_strike_force_equipment focus = mfac_mass_enchantment
+			focus = mfac_strike_force_equipment 
+			focus = mfac_mass_enchantment
 		}
 		x = 45
 		y = 12
@@ -1510,14 +1982,61 @@
 	}
 	focus = {
 		id = mfac_crystal_war_machine
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_EQS_TNO_crystal_heart
 		cost = 5
+		available = {
+			has_war = yes
+			check_variable = {
+				var = industrial_surplus
+				value = 2
+       			compare = greater_than_or_equals
+			}
+		}
 		prerequisite = {
-			focus = mfac_military_supremacy focus = mfac_fortress_network focus = mfac_total_war
+			focus = mfac_military_supremacy 
+			focus = mfac_fortress_network 
+			focus = mfac_total_war
 		}
 		x = 47
 		y = 13
-		completion_reward = { }
+		completion_reward = {
+			custom_effect_tooltip = civ_heart_economy_b_tt
+			add_ideas = tot_economic_mobilisation
+			custom_effect_tooltip = tab_tt
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes  
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes  
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes  
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes  
+				}
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				industrial_surplus = -2
+			}
+			custom_effect_tooltip = industrial_surplus_down_2_tt
+		 }
 	}
 	## POL ##
 	focus = {
@@ -1527,6 +2046,12 @@
 		x = 20
 		y = 0
 		completion_reward = { 
+		    unlock_decision_tooltip = {
+        		decision = CRY_crystal_faire_celebration
+        		show_effect_tooltip = yes
+        		show_modifiers = yes
+    		}	
+			custom_effect_tooltip = tab_tt		
 			add_political_power = 150
 		}
 	}
@@ -1561,7 +2086,11 @@
 		x = 19
 		y = 1
 		completion_reward = {
-			custom_effect_tooltip = The_Crystalling_Anniversary_tt
+		    unlock_decision_tooltip = {
+        		decision = CRY_succesful_Crystalling
+        		show_effect_tooltip = yes
+        		show_modifiers = yes
+    		}			
 			custom_override_tooltip = {
 			add_dynamic_modifier = {modifier = CRY_Crystalling_modifier}
 			}
@@ -1577,7 +2106,20 @@
 		x = 19
 		y = 2
 		completion_reward = {
+			add_to_variable = {
+				great_depression_var = -1
+				tooltip = CRY_depression_down_up_tt
+			}
+			custom_effect_tooltip = tab_tt
+			add_to_variable = {
+				CRY_crisis_level = -10
+				tooltip = CRY_crisis_level_down_tt
+			}
+			custom_effect_tooltip = tab_tt
 			add_political_power = 200
+			custom_effect_tooltip = tab_tt
+CRY_update_ui_effect =yes
+			CRY_great_depression_level_set_idea = yes
 		 }
 	}
 	focus = {
@@ -1590,7 +2132,11 @@
 		x = 17
 		y = 2
 		completion_reward = {
-			custom_effect_tooltip = The_Grand_Festival_tt
+		    unlock_decision_tooltip = {
+        		decision = CRY_Grand_festival
+        		show_effect_tooltip = yes
+        		show_modifiers = yes
+    		}	
 		 }
 	}
 	focus = {
@@ -1613,7 +2159,9 @@
 				target = ROOT
 				autonomy_state = autonomy_free
 			}
+			custom_effect_tooltip = tab_tt
 			remove_ideas = equestrian_overlord
+			custom_effect_tooltip = tab_tt
 			add_power_balance_value = {
 				id = CRY_balamce_of_power
 				value = -0.25
@@ -1686,6 +2234,7 @@
 				remove_idea = equestrian_overlord
 				add_idea = equestrian_overlord_2
 			}
+			custom_effect_tooltip = tab_tt
 			add_power_balance_value = {
 				id = CRY_balamce_of_power
 				value = 0.75
@@ -1720,18 +2269,22 @@
 		x = 18
 		y = 5
 		completion_reward = { 
-			custom_effect_tooltip = CRY_Reaching_Beyond_the_Empire_tt
 			if = {
 				limit = {
 					has_completed_focus = Subordination
 				}
 				remove_ideas = closed_market
+				custom_effect_tooltip = tab_tt
 				add_ideas = free_trade
 			}
 			else_if = {
 				limit = { has_completed_focus = Referendum }
 				remove_ideas = closed_market
+				custom_effect_tooltip = tab_tt
 				add_ideas = limited_exports
+			}
+			else = {
+			custom_effect_tooltip = CRY_Reaching_Beyond_the_Empire_tt
 			}
 		}
 	}
@@ -1748,11 +2301,15 @@
 		x = 22
 		y = 5
 		completion_reward = {
-			custom_effect_tooltip = Social_Welfare_tt
 			if = {
 				limit = {
 					has_completed_focus = Referendum
 				}
+				add_to_variable = {
+					industrial_surplus = 1
+					tooltip = industrial_surplus_up_tt
+				}
+				custom_effect_tooltip = tab_tt
 				145 = {
 					add_building_construction = {
 						type = arms_factory
@@ -1760,14 +2317,22 @@
 						instant_build = yes
 					}
 				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = CRY_five_year_plan_tt
 				add_to_variable = {
 					CRY_production_speed_arms_factory_factor_variable = -0.2
+					tooltip = CRY_production_speed_arms_factory_factor_variable_tt
 				}
 			}
 			else_if = {
 				limit = {
 					has_completed_focus = Subordination
 				}
+				add_to_variable = {
+					industrial_surplus = 1
+					tooltip = industrial_surplus_up_tt
+				}
+				custom_effect_tooltip = tab_tt
 				145 = {
 					add_building_construction = {
 						type = arms_factory
@@ -1775,9 +2340,17 @@
 						instant_build = yes
 					}
 				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = CRY_five_year_plan_tt
 				add_to_variable = {
 					CRY_production_speed_arms_factory_factor_variable = -0.2
+					tooltip = CRY_production_speed_arms_factory_factor_variable_tt
 				}
+			}
+			else = {
+			custom_effect_tooltip = industrial_surplus_up_tt
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = Social_Welfare_tt
 			}
 		 }
 	}
@@ -1794,11 +2367,15 @@
 		x = 24
 		y = 5
 		completion_reward = { 
-			custom_effect_tooltip = laissez_faire_tt
 			if  = {
 				limit = {
 					has_completed_focus = Referendum
 				}
+				add_to_variable = {
+					industrial_surplus = 1
+					tooltip = industrial_surplus_up_tt
+				}
+				custom_effect_tooltip = tab_tt
 				145 = { 
 					add_building_construction = {
 						type = industrial_complex
@@ -1806,14 +2383,22 @@
 						instant_build = yes
 					}
 				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = CRY_five_year_plan_tt
 				add_to_variable = {
 					CRY_production_speed_industrial_complex_factor_variable = -0.2
+					tooltip = CRY_production_speed_civ_factory_factor_variable_tt
 				}
 			}
 		else_if = {
 			limit = { 
 				has_completed_focus = Subordination
 				}
+				add_to_variable = {
+					industrial_surplus = 1
+					tooltip = industrial_surplus_up_tt
+				}
+				custom_effect_tooltip = tab_tt				
 			145 = {
 				add_building_construction = {
 					type = industrial_complex
@@ -1821,9 +2406,17 @@
 					instant_build = yes
 					}
 				}
+				custom_effect_tooltip = tab_tt
+				custom_effect_tooltip = CRY_five_year_plan_tt
 			add_to_variable = {
 				CRY_production_speed_industrial_complex_factor_variable = -0.2
+				tooltip =CRY_production_speed_civ_factory_factor_variable_tt
 				}
+			}
+			else = {
+			custom_effect_tooltip = industrial_surplus_up_tt
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = laissez_faire_tt
 			}
 		}
 	}
@@ -1882,7 +2475,7 @@
      		set_country_flag = CRY_sombra_purged
 			custom_effect_tooltip = CRY_Strike_at_Sombra_Supporters_tt
 			custom_override_tooltip = {
-			remove_ideas = Sombra_Scare 
+			remove_ideas = Sombra_Scare
 			remove_dynamic_modifier = { modifier = CRY_Sombra_Scarce_modifier }
 			}
 		}
@@ -2021,7 +2614,7 @@
 	## MIL ## 
 	focus = {
 		id = Modern_Battle_Doctrine
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Steel_and_Crystal
@@ -2032,7 +2625,7 @@
 	}
 	focus = {
 		id = Steel_and_Crystal
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Steel_Beneath_the_Snow
@@ -2047,7 +2640,7 @@
 	}
 	focus = {
 		id = Steel_Beneath_the_Snow
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = The_Empire's_Shield
@@ -2058,7 +2651,7 @@
 	}
 	focus = {
 		id = Military_Expansions
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		x = 65
 		y = 0
@@ -2066,7 +2659,7 @@
 	}
 	focus = {
 		id = The_Empire's_Shield
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Military_Expansions
@@ -2077,7 +2670,7 @@
 	}
 	focus = {
 		id = Crystal_Air_Force
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Military_Expansions
@@ -2088,7 +2681,7 @@
 	}
 	focus = {
 		id = Restore_the_Crystal_Legions
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = The_Empire's_Shield
@@ -2099,7 +2692,7 @@
 	}
 	focus = {
 		id = Legacy_of_King_Sombra
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = The_Empire's_Shield
@@ -2110,7 +2703,7 @@
 	}
 	focus = {
 		id = The_Imperial_Guard
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Restore_the_Crystal_Legions
@@ -2125,7 +2718,7 @@
 	}
 	focus = {
 		id = Arcane_Warfare_Department
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Legacy_of_King_Sombra
@@ -2140,7 +2733,7 @@
 	}
 	focus = {
 		id = Mechanize_the_Legions
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Steel_and_Crystal
@@ -2151,7 +2744,7 @@
 	}
 	focus = {
 		id = art_shell_technology
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {focus = The_Imperial_Guard}
 		cost = 5
 		x = 59
@@ -2160,7 +2753,7 @@
 	}
 	focus = {
 		id = tnk_doctrine
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {  focus = The_Imperial_Guard }
 		cost = 5
 		x = 61
@@ -2169,7 +2762,7 @@
 	}
 	focus = {
 		id = Enchanted_Artillery
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Arcane_Warfare_Department
@@ -2180,7 +2773,7 @@
 	}
 	focus = {
 		id = The_Heart's_Power
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Arcane_Warfare_Department
@@ -2191,7 +2784,7 @@
 	}
 	focus = {
 		id = Armored_Ascendancy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Mechanize_the_Legions
@@ -2205,7 +2798,7 @@
 	}
 	focus = {
 		id = art_coordinated_barrage
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {
 			focus = art_shell_technology
 		}
@@ -2216,7 +2809,7 @@
 	}
 	focus = {
 		id = tnk_crew_excellence
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {
 			focus = tnk_doctrine
 		}
@@ -2227,7 +2820,7 @@
 	}
 	focus = {
 		id = study_the_crystal_heart
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Enchanted_Artillery
@@ -2241,7 +2834,7 @@
 	}
 	focus = {
 		id = Weaponize_the_Crystal_Heart
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = The_Heart's_Power
@@ -2255,7 +2848,7 @@
 	}
 	focus = {
 		id = The_Iron_Heart
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Modern_Battle_Doctrine
@@ -2269,7 +2862,7 @@
 	}
 	focus = {
 		id = Crystal_Steel_Foundries
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = The_Iron_Heart
@@ -2281,7 +2874,7 @@
 	}
 	focus = {
 		id = Harness_Ancient_Magic
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Weaponize_the_Crystal_Heart
@@ -2293,7 +2886,7 @@
 	}
 	focus = {
 		id = tnk_combined_arms
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {
 			focus = art_coordinated_barrage
 		}
@@ -2307,7 +2900,7 @@
 	}
 	focus = {
 		id = tnk_breakthrough
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {
 			focus = tnk_combined_arms
 		}
@@ -2318,7 +2911,7 @@
 	}
 	focus = {
 		id = art_crystal_howitzers
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {
 			focus = Crystal_Steel_Foundries
 		}
@@ -2329,7 +2922,7 @@
 	}
 	focus = {
 		id = tnk_flanking_manoeuvre
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Harness_Ancient_Magic
@@ -2340,7 +2933,7 @@
 	}
 	focus = {
 		id = tnk_shock_division
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {
 			focus = tnk_breakthrough focus = tnk_flanking_manoeuvre
 		}
@@ -2351,7 +2944,7 @@
 	}
 	focus = {
 		id = art_suppression_fire
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {
 			focus = tnk_breakthrough focus = art_crystal_howitzers
 		}
@@ -2362,7 +2955,7 @@
 	}
 	focus = {
 		id = tnk_armoured_victory
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		prerequisite = {
 			focus = art_suppression_fire focus = tnk_shock_division
 		}
@@ -2373,7 +2966,7 @@
 	}
 	focus = {
 		id = Northern_Air_Command
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Crystal_Air_Force
@@ -2384,7 +2977,7 @@
 	}
 	focus = {
 		id = Crystal_Aviation_Initiative
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Crystal_Air_Force
@@ -2395,7 +2988,7 @@
 	}
 	focus = {
 		id = Wings_Over_the_Empire
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Crystal_Aviation_Initiative
@@ -2407,7 +3000,7 @@
 	}
 	focus = {
 		id = Pegasi_Strike_Wings
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Wings_Over_the_Empire
@@ -2422,7 +3015,7 @@
 	}
 	focus = {
 		id = Skyward_Supremacy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Wings_Over_the_Empire
@@ -2437,7 +3030,7 @@
 	}
 	focus = {
 		id = Guardians_of_the_Clouds
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Wings_Over_the_Empire
@@ -2452,7 +3045,7 @@
 	}
 	focus = {
 		id = The_Crystal_Air_Corps
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Guardians_of_the_Clouds
@@ -2464,7 +3057,7 @@
 	}
 	focus = {
 		id = cystal_cas_force
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = Pegasi_Strike_Wings
@@ -2476,7 +3069,7 @@
 	}
 	focus = {
 		id = mastery_of_rocketry
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = Placeholder
 		cost = 5
 		prerequisite = {
 			focus = cystal_cas_force

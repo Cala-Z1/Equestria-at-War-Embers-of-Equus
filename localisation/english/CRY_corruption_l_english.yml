@@ -5,6 +5,10 @@
  CRY_crisis_description_text:0 "[?CRY.CRY_new_deal_help|G0] Total Relief Efforts"
  CRY_crisis_management_system_cat:0 "Sombra's Influence"
  CRY_crisis_management_system_cat_desc:0 "The Crystal Heart's warmth does not reach every corner of the Empire on its own. We must actively carry its light outward — through public ceremonies, community gatherings, and the simple act of crystal ponies telling each other that the dark days are truly over. Hope is a weapon. We must use it."
+ CRY_Five_year_plan_cat:0 "The Five Year Plan"
+ CRY_Five_year_plan_cat_desc:0 "The Crystal Empire commits to a sweeping programme of civilian industrial expansion. Factories, workshops, and infrastructure projects are prioritised above all else — including military production. It will be years before the full benefits are felt, but the foundations being laid now will transform the Empire's economic capacity."
+ CRY_surplus_description_text:0 "Total Industrial Momentum: [?CRY.industrial_surplus|G0]"
+ CRY_surplus_title_text:0 ""
  # ── Corruption thresholds ────────────────────────────────────────────────────
  CRY_crisis_1_tt:0 "§GWhispers of the Shadow§!\nRumors of Sombra's return have begun to circulate among the Crystal Ponies. Most dismiss them as nothing more than old fears, but the memories of his reign still linger beneath the surface.\n§CThe Crystal Heart§! \nWar Support: §G+50%§!"
  CRY_crisis_2_tt:0 "§GUneasy Memories§!\nThe possibility of Sombra's return has become harder to ignore. Stories of his past atrocities have begun resurfacing, leaving many Crystal Ponies increasingly uneasy about what may lie ahead.\n§CThe Crystal Heart§! \nWar Support: §G+45%§!"

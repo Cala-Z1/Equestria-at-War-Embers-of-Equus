@@ -280,15 +280,10 @@ ideas = {
 	country = {
 		Sombra_Scare = {
 			allowed = {
-				always = no
-				NOT = {
-					has_completed_focus = Strike_at_Sombra_Supporters
-				}
+				allways = no 
 			}
 			available = {
-				NOT = {
-					has_completed_focus = Strike_at_Sombra_Supporters
-				}
+				allways = yes
 			}
 			removal_cost = -1
 			picture = EQS_harmonic_stagnation2
@@ -341,6 +336,68 @@ ideas = {
 			removal_cost = -1
 			picture = CRY_five_year_plan
 		}
+	}
+	country = {
+		Crystal_industral_Surplus_1 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_closed_market
+			modifier = {
+				industrial_capacity_factory = 0.10
+			}
+		}	
+	}
+	country = {
+		Crystal_industral_Surplus_2 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_closed_market
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = -0.025
+			}
+		}	
+	}
+	country = {
+		Crystal_industral_Surplus_3 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_closed_market
+			modifier = {
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = -0.15
+			}
+		}	
+	}
+	country = {
+		Crystal_industral_Surplus_4 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_closed_market
+			modifier = {
+				research_speed_factor = 0.20
+			}
+		}	
+	}
+	country = {
+		Crystal_industral_Surplus_8 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = CRY_closed_market
+			modifier = {
+				consumer_goods_expected_value = -0.075
+			}
+		}	
 	}
 	country = {
 		closed_market = {
