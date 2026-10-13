@@ -60,7 +60,7 @@ CRY_crisis_management_system_cat = {
 		timeout_effect = {}
 	}
 	CRY_crystal_faire_celebration = {
-		icon = GFX_CRY_Crystalling_on_map_icon
+		icon = GFX_decision_military_love_requisition
 		available = {has_completed_focus = The_Crystal_Fair}
 		state_target = yes
 		targets = {344}
@@ -95,7 +95,7 @@ CRY_crisis_management_system_cat = {
 		}
 	}
 	CRY_succesful_Crystalling = { 
-		icon = GFX_CRY_Crystalling_on_map_icon
+		icon = GFX_decision_spr_political_assassination
 		target_trigger = {
 			FROM = {
 				is_fully_controlled_by = ROOT
@@ -414,7 +414,7 @@ CRY_crisis_management_system_cat = {
 		}
 	}
 	CRY_Grand_festival = { 
-		icon = GFX_CRY_Grand_festival
+		icon = GFX_decision_military_love_requisition
 		target_trigger = {
 			FROM = {
 				is_fully_controlled_by = ROOT

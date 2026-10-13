@@ -200,7 +200,7 @@
  ind_right_sombra_tt:0 "§YCyrstal Ponies Depression Level§! is increased by §R1§!\n\n Modify §YFive Year Plan§! By:\n Civilian Factory Construction speed: §R-10%§!\n Military Factory Construction speed: §G+20%§!\n\n§YSombra Scare Gains§!:\n Stablity: §G+15%§!"
  mfac_crystal_armour_division_1_tt:0 "If §YCyrstal Ponies Depression Level§!: is greater than §Y2§! this focus will grant §G15%§! Communism support instead"
  mfac_crystal_armour_division_2_tt:0 "If §YCyrstal Ponies Depression Level§!: is less than §Y3§! this focus will grant §G10%§! democratic support instead"
- mfac_crystal_armour_division_tt:0 "Modify §YFive Year Plan§! By:\n Civilian Factory Construction speed: §R-20%§!\n Military Factory Construction speed: §G+20%§!"
+ mfac_crystal_armour_division_tt:0 "Modify §YFive Year Plan§! By:\nCivilian Factory Construction speed: §R-20%§!\nMilitary Factory Construction speed: §G+45%§!"
  mfac_refined_alloys_tt:0 "Modify §YFive Year Plan§! By:\n Resource Efficiency Gain: §G+10%§!"
  Empire_Reborn_variables_tt:0 "Modify §YSombra Scare§! By:\n Stablity: §G+5%§!\n Weekly Stablity: §G+0.05%§!\n Weekly Ponypower: §G+5000§!\n $tab_tt$"
  CRY_crystal_renewal_tt:0 "Every Week The §YCrystal Empire's Soul§! moves §Y$RIGHT|%$§! towards the side of §YShadow of Sombra§!"

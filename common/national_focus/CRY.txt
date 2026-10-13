@@ -1021,7 +1021,7 @@
 			}
 				custom_effect_tooltip = tab_tt
 				custom_effect_tooltip = mfac_crystal_armour_division_tt
-				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.2}
+				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.45}
 				add_to_variable = {CRY_production_speed_industrial_complex_factor_variable = -0.2}
 			}
 			else_if = {
@@ -1039,11 +1039,11 @@
 			}
 				custom_effect_tooltip = tab_tt
 				custom_effect_tooltip = mfac_crystal_armour_division_tt
-				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.2}
+				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.45}
 				add_to_variable = {CRY_production_speed_industrial_complex_factor_variable = -0.2}				
 			}
 			else = {
-				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.2}
+				add_to_variable = {CRY_production_speed_arms_factory_factor_variable = 0.45}
 				add_to_variable = {CRY_production_speed_industrial_complex_factor_variable = -0.2}
 			}
 			custom_effect_tooltip = tab_tt
@@ -1435,7 +1435,7 @@
 	}
 	focus = {
 		id = mfac_ammo_stockpile
-		icon = Placeholder
+		icon = GFX_focus_FAT_engineering_expertise
 		cost = 5
 		prerequisite = {
 			focus = mfac_siege_works
@@ -1566,7 +1566,7 @@
 	}
 	focus = {
 		id = mfac_engineering_corps
-		icon = Placeholder
+		icon = GFX_goal_generic_CAS
 		cost = 5
 		prerequisite = {
 			focus = mfac_research_development 
@@ -1593,13 +1593,13 @@
 			custom_effect_tooltip = tab_tt
 			add_ideas = partial_economic_mobilisation
 			custom_effect_tooltip = tab_tt
-CRY_update_ui_effect =yes
+			CRY_update_ui_effect =yes
 			CRY_great_depression_level_set_idea = yes
 		 }
 	}
 	focus = {
 		id = mfac_advanced_weapons
-		icon = Placeholder
+		icon = GFX_goal_generic_lightbulb
 		cost = 5
 		prerequisite = {
 			focus = mfac_engineering_corps
@@ -1707,7 +1707,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = mfac_war_economy
-		icon = Placeholder
+		icon = GFX_goal_JER_reward_the_ponies
 		cost = 5
 		prerequisite = {
 			focus = mfac_engineering_corps
@@ -1728,7 +1728,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = mfac_siege_corps
-		icon = Placeholder
+		icon = GFX_TBK_ales_goods
 		cost = 5
 		prerequisite = {
 			focus = mfac_advanced_weapons
@@ -1769,7 +1769,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = mfac_production_surge
-		icon = Placeholder
+		icon = GFX_goal_som_railway
 		cost = 5
 		prerequisite = {
 			focus = mfac_war_economy
@@ -1798,7 +1798,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = mfac_imperial_arsenal
-		icon = Placeholder
+		icon = GFX_goal_dark_heart
 		cost = 5
 		prerequisite = {
 			focus = mfac_advanced_weapons
@@ -1824,14 +1824,14 @@ CRY_update_ui_effect =yes
 				tooltip = CRY_five_year_growth_tt
 			}
 			add_to_variable = {
-				CRY_five_year_plan_resources_gain_efficiency_variable = -0.20
+				CRY_five_year_plan_resources_gain_efficiency_variable = -0.15
 				tooltip = CRY_five_year_resource_tt
 			}
 		}
 	}
 	focus = {
 		id = mfac_northern_arms
-		icon = Placeholder
+		icon = GFX_goal_cry_manehattan
 		prerequisite = {
 			focus = mfac_imperial_arsenal
 		}
@@ -1867,7 +1867,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = mfac_strike_force_equipment
-		icon = Placeholder
+		icon = GFX_focus_generic_steel_mill
 		cost = 5
 		mutually_exclusive = { focus = mfac_mass_enchantment }
 		prerequisite = {
@@ -1895,14 +1895,30 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = mfac_military_supremacy
-		icon = Placeholder 
+		icon = GFX_goal_EQS_TNO_crystal_integrated 
 		cost = 5
 		prerequisite = {
 			focus = mfac_northern_arms
 		}
 		x = 48
 		y = 11
-		completion_reward = { }
+		completion_reward = { 
+			add_to_variable = {
+				CRY_crisis_level = -15
+				tooltip = CRY_crisis_level_down_tt
+			}
+			custom_effect_tooltip = tab_tt
+			add_manpower = -150000
+			custom_effect_tooltip = tab_tt
+			custom_effect_tooltip = CRY_five_year_plan_tt
+			add_to_variable = {
+				CRY_five_year_plan_output_variable = 0.025
+				tooltip = CRY_five_year_output_tt
+			}
+			add_to_variable = {
+				CRY_five_year_plan_resources_gain_efficiency_variable = 0.10
+				tooltip = CRY_five_year_resource_tt
+			}		}
 	}
 	focus = {
 		id = mfac_fortress_network
@@ -1970,7 +1986,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = mfac_total_war
-		icon = Placeholder
+		icon = GFX_goal_cry_sol_cadence
 		cost = 5
 		prerequisite = {
 			focus = mfac_strike_force_equipment 
@@ -2651,7 +2667,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = Military_Expansions
-		icon = Placeholder
+		icon = GFX_viira_crystal
 		cost = 5
 		x = 65
 		y = 0
@@ -2670,7 +2686,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = Crystal_Air_Force
-		icon = Placeholder
+		icon = GFX_focus_generic_aircraft_production
 		cost = 5
 		prerequisite = {
 			focus = Military_Expansions
@@ -2718,7 +2734,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = Arcane_Warfare_Department
-		icon = Placeholder
+		icon = GFX_goal_sombra_magic
 		cost = 5
 		prerequisite = {
 			focus = Legacy_of_King_Sombra
@@ -2798,7 +2814,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = art_coordinated_barrage
-		icon = Placeholder
+		icon = GFX_goal_darkar
 		prerequisite = {
 			focus = art_shell_technology
 		}
@@ -2966,7 +2982,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = Northern_Air_Command
-		icon = Placeholder
+		icon = GFX_focus_BRA_air_force
 		cost = 5
 		prerequisite = {
 			focus = Crystal_Air_Force
@@ -2977,7 +2993,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = Crystal_Aviation_Initiative
-		icon = Placeholder
+		icon = GFX_focus_generic_air_research_boost
 		cost = 5
 		prerequisite = {
 			focus = Crystal_Air_Force
@@ -2988,7 +3004,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = Wings_Over_the_Empire
-		icon = Placeholder
+		icon = GFX_goal_EQS_TNO_crystal_empire
 		cost = 5
 		prerequisite = {
 			focus = Crystal_Aviation_Initiative
@@ -3000,7 +3016,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = Pegasi_Strike_Wings
-		icon = Placeholder
+		icon = GFX_goal_cry_rocketry
 		cost = 5
 		prerequisite = {
 			focus = Wings_Over_the_Empire
@@ -3015,7 +3031,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = Skyward_Supremacy
-		icon = Placeholder
+		icon = GFX_focus_generic_long_range_aircraft
 		cost = 5
 		prerequisite = {
 			focus = Wings_Over_the_Empire
@@ -3030,7 +3046,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = Guardians_of_the_Clouds
-		icon = Placeholder
+		icon = GFX_goal_somaviation
 		cost = 5
 		prerequisite = {
 			focus = Wings_Over_the_Empire
@@ -3045,7 +3061,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = The_Crystal_Air_Corps
-		icon = Placeholder
+		icon = GFX_goal_new_airforce
 		cost = 5
 		prerequisite = {
 			focus = Guardians_of_the_Clouds
@@ -3057,7 +3073,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = cystal_cas_force
-		icon = Placeholder
+		icon = GFX_focus_generic_cas_aircraft
 		cost = 5
 		prerequisite = {
 			focus = Pegasi_Strike_Wings
@@ -3069,7 +3085,7 @@ CRY_update_ui_effect =yes
 	}
 	focus = {
 		id = mastery_of_rocketry
-		icon = Placeholder
+		icon = GFX_goal_cry_aviation
 		cost = 5
 		prerequisite = {
 			focus = cystal_cas_force

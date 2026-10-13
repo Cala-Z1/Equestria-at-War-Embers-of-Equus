@@ -92,7 +92,7 @@ set_variable = { CRY_production_speed_arms_factory_factor_variable = -0.4 }
 set_variable = { CRY_research_speed_factor_variable = 0.1 }
 set_variable = { CRY_production_speed_industrial_complex_factor_variable = 0.1 }
 set_variable = { CRY_five_year_plan_consumer_goods_expected_value_variable = 0.02 }
-set_variable = { CRY_five_year_plan_resources_gain_efficiency_variable = -0.10 }
+set_variable = { CRY_five_year_plan_resources_gain_efficiency_variable = -0.15 }
 set_variable = { CRY_five_year_plan_cap_variable = 0 }
 set_variable = { CRY_five_year_plan_base_variable = 0 }
 set_variable = { CRY_five_year_plan_gain_variable = 0 }
