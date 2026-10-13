@@ -3,7 +3,7 @@ CRY_crisis_management_system_cat = {
 		days_remove = 1
 		available = {has_completed_focus = Find_The_Sombra_Supporters}
 		cancel_trigger = {has_war = yes}
-		icon = mission_icon
+		icon = GFX_decision_sombra_return
 		days_mission_timeout = 350
 		selectable_mission = no
 		fire_only_once = yes
@@ -25,7 +25,7 @@ CRY_crisis_management_system_cat = {
 		days_remove = 1
 		available = {has_completed_focus = Strike_at_Sombra_Supporters}
 		cancel_trigger = {has_war = yes}
-		icon = mission_icon
+		icon = GFX_decision_sombra_return
 		days_mission_timeout = 490
 		selectable_mission = no
 		fire_only_once = yes
@@ -47,7 +47,7 @@ CRY_crisis_management_system_cat = {
 		days_remove = 1
 		available = {has_completed_focus = operation_Break_Shadow}
 		cancel_trigger = {has_war = yes}
-		icon = mission_icon
+		icon = GFX_decision_sombra_return
 		days_mission_timeout = 420
 		selectable_mission = no
 		fire_only_once = yes
@@ -95,7 +95,7 @@ CRY_crisis_management_system_cat = {
 		}
 	}
 	CRY_succesful_Crystalling = { 
-		icon = GFX_decision_spr_political_assassination
+		icon = GFX_decision_megaphone
 		target_trigger = {
 			FROM = {
 				is_fully_controlled_by = ROOT
